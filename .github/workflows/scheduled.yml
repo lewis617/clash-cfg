@@ -3,9 +3,12 @@ name: Update Clash YAML
 on:
   # 每小时的第30分钟执行
   schedule:
-    - cron: "30 0 * * *"
+    - cron: "30 * * * *"
   # 手动触发
   workflow_dispatch:
+  # push 触发
+  push:
+    branches: [ main ]
 
 jobs:
   update-clash-yml:
