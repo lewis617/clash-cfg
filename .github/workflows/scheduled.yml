@@ -1,8 +1,12 @@
 name: Update Clash YAML
 
 on:
-  schedule:
-    - cron: '8 * * * *'  # 每小时的第0分钟执行
+  # schedule:
+  #   - cron: '8 * * * *'  # 每小时的第0分钟执行
+  # 每次推送触发
+  push:
+    branches:
+      - main
 
 jobs:
   update-clash-yml:
