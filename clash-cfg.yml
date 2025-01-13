@@ -121,7 +121,7 @@ proxy-providers:
     interval: 3600
     type: "http"
     path: "./clash-provider.yml"
-    url: "https://testingcf.jsdelivr.net/gh/lewis617/clash-cfg/clash-provider.yml"
+    url: "https://raw.githubusercontent.com/lewis617/clash-cfg/refs/heads/main/clash-provider.yml"
     health-check:
       enable: true
       interval: 1800
