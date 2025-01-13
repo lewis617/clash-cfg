@@ -18,14 +18,14 @@ jobs:
     - name: Download and process YAML
       run: |
         wget -O - "https://testingcf.jsdelivr.net/gh/aiboboxx/clashfree/clash.yml" | \
-        sed '/cipher: ss/d;/vless/d;s/<pre[^>]*>//g;s/<\/pre>//g' > clash.yml
+        sed '/cipher: ss/d;/vless/d;s/<pre[^>]*>//g;s/<\/pre>//g' > clash-provider.yml
 
     - name: Commit and push changes
       run: |
         git config --local user.name "GitHub Action"
         git config --local user.email "action@github.com"
-        git add clash.yml
-        git commit -m "Update clash.yml"
+        git add clash-provider.yml
+        git commit -m "Update clash-provider.yml"
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 使用 GitHub 提供的 token
