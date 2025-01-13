@@ -18,7 +18,7 @@ jobs:
     - name: Download and process YAML
       run: |
         wget -O - "https://testingcf.jsdelivr.net/gh/aiboboxx/clashfree/clash.yml" | \
-        sed '/cipher: ss/d;/vless/d;s/<pre[^>]*>//g;s/<\/pre>//g' > clash-provider.yml
+        sed '/cipher: ss/d;/vless/d;s/<pre[^>]*>//g;s/<\/pre>//g;/^proxy-groups:/,$d' > clash-provider.yml
 
     - name: Commit and push changes
       run: |
