@@ -1,116 +1,40 @@
-# 官方配置模板：https://github.com/Dreamacro/clash/wiki/Configuration
-# Meta配置模板：https://github.com/MetaCubeX/Clash.Meta/blob/Alpha/docs/config.yaml
-# 接管：部分参数不支持在此页面直接修改，请到全局设置页面进行修改
-# Port of HTTP(S) proxy server on the local end
 port: 7890
-# Port of SOCKS5 proxy server on the local end
 socks-port: 7891
-# Transparent proxy server port for Linux and macOS (Redirect TCP and TProxy UDP)
 redir-port: 7892
-# Transparent proxy server port for Linux (TProxy TCP and TProxy UDP)
 tproxy-port: 7893
-# HTTP(S) and SOCKS4(A)/SOCKS5 server on the same port
 mixed-port: 7893
-# authentication of local SOCKS5/HTTP(S) server
-# authentication:
-#  - "user1:pass1"
-#  - "user2:pass2"
-# Set to true to allow connections to the local-end server from
-# other LAN IP addresses
 allow-lan: true
-# This is only applicable when `allow-lan` is `true`
-# '*': bind all IP addresses
-# 192.168.122.11: bind a single IPv4 address
-# "[aaaa::a8aa:ff:fe09:57d8]": bind a single IPv6 address
 bind-address: '*'
-# Clash router working mode
-# rule: rule-based packet routing
-# global: all packets will be forwarded to a single endpoint
-# direct: directly forward the packets to the Internet
 mode: rule
-# Clash by default prints logs to STDOUT
-# info / warning / error / debug / silent
-# log-level: info
-# When set to false, resolver won't translate hostnames to IPv6 addresses
-# ipv6: false
-# RESTful web API listening address
 external-controller: 127.0.0.1:9090
-# A relative path to the configuration directory or an absolute path to a
-# directory in which you put some static web resource. Clash core will then
-# serve it at `http://{{external-controller}}/ui`.
-# external-ui: folder
-# Secret for the RESTful API (optional)
-# Authenticate by spedifying HTTP header `Authorization: Bearer ${secret}`
-# ALWAYS set a secret if RESTful API is listening on 0.0.0.0
-# secret: ""
-# Outbound interface name
-# interface-name: en0
-# fwmark on Linux only
-# routing-mark: 6666
-# Static hosts for DNS server and connection establishment (like /etc/hosts)
-#
-# Wildcard hostnames are supported (e.g. *.clash.dev, *.foo.*.example.com)
-# Non-wildcard domain names have a higher priority than wildcard domain names
-# e.g. foo.example.com > *.example.com > .example.com
-# P.S. +.foo.com equals to .foo.com and foo.com
 hosts: null
-# '*.clash.dev': 127.0.0.1
-# '.dev': 127.0.0.1
-# 'alpha.clash.dev': '::1'
 profile:
-  # Store the `select` results in $HOME/.config/clash/.cache
-  # set false If you don't want this behavior
-  # when two different configurations have groups with the same name, the selected values are shared
   store-selected: true
-  # persistence fakeip
   store-fake-ip: true
-# DNS server settings
-# This section is optional. When not present, the DNS server will be disabled.
 dns:
   enable: true
   listen: 0.0.0.0:53
-  # ipv6: false # when the false, response to AAAA questions will be empty
-
-  # These nameservers are used to resolve the DNS nameserver hostnames below.
-  # Specify IP addresses only
   default-nameserver:
     - 114.114.114.114
     - 223.5.5.5
-  enhanced-mode: fake-ip # or redir-host (not recommended)
-  fake-ip-range: 198.18.0.1/16 # Fake IP addresses pool CIDR
-  # use-hosts: true # lookup hosts and return IP record
-
-  # Hostnames in this list will not be resolved with fake IPs
-  # i.e. questions to these domain names will always be answered with their
-  # real IP addresses
-  # fake-ip-filter:
-  #   - '*.lan'
-  #   - localhost.ptlogin2.qq.com
-  # Supports UDP, TCP, DoT, DoH. You can specify the port to connect to.
-  # All DNS questions are sent directly to the nameserver, without proxies
-  # involved. Clash answers the DNS question with the first result gathered.
-  nameserver:
-    - system
-  follow-rule: null
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fallback:
+    - 8.8.8.8
+    - 8.8.4.4
+    - tls://1.0.0.1:853
+    - tls://dns.google:853
 proxies: []
 proxy-groups:
-  # url-test select which proxy will be used by benchmarking speed to a URL.
   - name: "auto"
     type: url-test
     use: [clashfree]
-    # tolerance: 150
-
-    # lazy: true
     url: https://www.youtube.com/
     interval: 1200
     proxies: null
     filter: null
-  # select is used for selecting proxy or proxy group
-  # you can use RESTful API to switch proxy is recommended for use in GUI.
   - name: PROXY
     type: select
-    # disable-udp: true
-
     use:
       - clashfree
     proxies:
@@ -128,14 +52,6 @@ proxy-providers:
       url: https://www.youtube.com/
     benchmark-url: https://www.youtube.com/
 tunnels:
-# one line config
-# - tcp/udp,127.0.0.1:6553,114.114.114.114:53,proxy
-# - tcp,127.0.0.1:6666,rds.mysql.com:3306,vpn
-# full yaml config
-# - network: [tcp, udp]
-#   address: 127.0.0.1:7777
-#   target: target.com
-#   proxy: proxy
 rule-providers:
   icloud:
     type: http
