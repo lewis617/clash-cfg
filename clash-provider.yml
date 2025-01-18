@@ -1,95 +1,103 @@
-port: 7890
-socks-port: 7891
-allow-lan: true
-mode: Rule
-log-level: info
-external-controller: :9090
-dns:
-  enabled: true
-  nameserver:
-    - 119.29.29.29
-    - 223.5.5.5
-  fallback:
-    - 8.8.8.8
-    - 8.8.4.4
-    - tls://1.0.0.1:853
-    - tls://dns.google:853
-proxies:
-  - {name: 🇬🇧 高性价比机场:https://kfyun.uk, server: 127.0.0.1, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: 6601fb90e9b3, tfo: false}
-  - {name: 0|--1, server: 38.114.114.69, port: 8091, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, tfo: false}
-  - {name: 0|--2, server: 38.114.114.69, port: 3306, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, tfo: false}
-  - {name: 0|--4, server: 38.114.114.69, port: 6379, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, tfo: false}
-  - {name: 0|--5, server: 38.114.114.69, port: 7002, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, tfo: false}
-  - {name: 0|--6, server: 38.114.114.69, port: 8009, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, tfo: false}
-  - {name: 0|--7, server: 38.114.114.69, port: 5601, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, tfo: false}
-  - {name: 0|--10, server: 68.183.227.45, port: 8080, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, tfo: false}
-  - {name: 0|--11, server: 121.170.203.147, port: 37041, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
-  - {name: 0|--12, server: 121.170.203.148, port: 4563, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
-  - {name: 0|--13, server: 38.114.114.69, port: 5500, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, tfo: false}
-  - {name: 0|--14, server: 38.114.114.69, port: 5001, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, tfo: false}
-  - {name: 0|--15, server: 38.114.114.69, port: 8882, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, tfo: false}
-  - {name: 0|--16, server: 38.114.114.69, port: 5004, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, tfo: false}
-  - {name: 0|--17, server: 38.114.114.69, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, tfo: false}
-  - {name: 0|--18, server: 38.114.114.69, port: 8008, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, tfo: false}
-  - {name: 0|--19, server: 38.114.114.69, port: 8000, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, tfo: false}
-  - {name: 0|--20, server: 38.114.114.69, port: 8090, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, tfo: false}
-  - {name: 0|--21, server: 38.114.114.69, port: 8118, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, tfo: false}
-  - {name: 0|--22, server: 38.114.114.69, port: 7306, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, tfo: false}
-  - {name: 0|--23, server: 107.151.182.253, port: 8080, client-fingerprint: chrome, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, tfo: false}
-  - {name: 0|--26, server: 54.179.76.173, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 0|--27, server: p196.panda001.net, port: 27973, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
-  - {name: 0|--28, server: 27.255.82.23, port: 5412, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
-  - {name: 0|--30, server: 51.13.182.231, port: 3089, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: J0lgxy4mb52CIJ8UUcEgts, tfo: false}
-  - {name: 0|--31, server: 51.13.182.236, port: 6870, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: M7x1mGNOwhPiRB9jSxZJNy, tfo: false}
-  - {name: 0|--32, server: 13.125.6.123, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 0|--35, server: 221.168.44.72, port: 27973, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
-  - {name: 0|--37, server: 38.114.114.69, port: 8080, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, tfo: false}
-  - {name: 0|--39, server: 218.237.185.230, port: 31066, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
-  - {name: 0|--40, server: 38.114.114.69, port: 6697, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, tfo: false}
-  - {name: 0|--41, server: 38.114.114.69, port: 9101, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, tfo: false}
-  - {name: 0|--42, server: 38.114.114.69, port: 6679, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, tfo: false}
-  - {name: 0|--45, server: 218.50.149.114, port: 34847, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
-  - {name: 0|--66, server: 00.likelike.us.kg, port: 443, client-fingerprint: chrome, type: vmess, uuid: 680e91d7-01ff-4082-b71a-472d5236adee, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: 00.likelike.us.kg, network: ws, ws-opts: {path: "/serv00?ed=2048", headers: {Host: 00.likelike.us.kg}}}
-  - {name: 0|--69, server: 212.192.12.70, port: 17926, client-fingerprint: chrome, type: vmess, uuid: dae301f8-eeda-473f-aa6c-306b5061c48d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 212.192.12.70}}}
-  - {name: 0|--70, server: 38.147.160.151, port: 54735, client-fingerprint: chrome, type: vmess, uuid: 0785c6af-4aac-49a0-9533-95d41d990384, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 0|--72, server: 142.4.108.141, port: 38007, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /path/1723457615032, headers: {Host: www.66827194.xyz}}}
-  - {name: "0,15|SG_speednode_0066", server: t38.emoyes.top, port: 258, client-fingerprint: chrome, type: trojan, password: c9d1e9e4-2812-4a50-a113-a6c914e9c832, sni: www.python.org, skip-cert-verify: false}
-  - {name: "0,15|US_speednode_0104", server: nearby-hedgehog.boa152.lol, port: 443, client-fingerprint: chrome, type: trojan, password: 3723507166611775488, sni: nearby-hedgehog.boa152.lol, skip-cert-verify: false}
-  - {name: "0,15|US_speednode_0099", server: t37.emoyes.top, port: 657, client-fingerprint: chrome, type: trojan, password: c9d1e9e4-2812-4a50-a113-a6c914e9c832, sni: www.python.org, skip-cert-verify: false}
-  - {name: "0,15|US_speednode_0102", server: 5.8.93.173, port: 443, client-fingerprint: chrome, type: trojan, password: 3723507166611775488, sni: nearby-hedgehog.boa152.lol, skip-cert-verify: false}
-  - {name: "0,15|US_speednode_0101", server: t36.emoyes.top, port: 257, client-fingerprint: chrome, type: trojan, password: c9d1e9e4-2812-4a50-a113-a6c914e9c832, sni: www.python.org, skip-cert-verify: false}
-  - {name: "13,14,15|CN_speednode_0019", server: 223.113.54.145, port: 36442, client-fingerprint: chrome, type: trojan, password: phXKwfrd, sni: 223.113.54.145, skip-cert-verify: false}
-  - {name: "🇭🇰 13,14|香港2|@ripaojiedian", server: 36.150.215.219, port: 42395, client-fingerprint: chrome, type: trojan, password: phXKwfrd, sni: 36.150.215.219, skip-cert-verify: false}
-  - {name: 🇭🇰 13|🇭🇰 香港3|@ripaojiedian, server: qh62onjn.slashdevslashnetslashtun.net, port: 15015, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: APEX7RPQ1FUAGNY7, tfo: false}
-  - {name: 🇭🇰 13|🇭🇰 香港4|@ripaojiedian, server: 183.236.51.23, port: 53002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇭🇰 13|🇭🇰 香港5|@ripaojiedian, server: 103.30.76.250, port: 16785, client-fingerprint: chrome, type: vmess, uuid: 086ce045-924d-4538-82ef-debb4ae9ccb5, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇭🇰 13|🇭🇰 香港7|@ripaojiedian, server: qh62onjn.slashdevslashnetslashtun.net, port: 15003, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 2MT8DJ2LPPCI5PH8, tfo: false}
-  - {name: 🇹🇼 13|🇹🇼 台湾|@ripaojiedian, server: fiwejniavzoj.xn--fiqs8sjz2bull.com, port: 62506, client-fingerprint: chrome, type: vmess, uuid: 5158e623-3763-41d0-96cf-08a9ab2b734c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇯🇵 13|🇯🇵 日本|@ripaojiedian, server: ywtwepcnwlou.xn--fiqs8sjz2bull.com, port: 63494, client-fingerprint: chrome, type: vmess, uuid: 5158e623-3763-41d0-96cf-08a9ab2b734c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇯🇵 13|🇯🇵 日本2|@ripaojiedian, server: 8tv68qhq.slashdevslashnetslashtun.net, port: 18013, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: HEFXL9QGFUT6ET4L, tfo: false}
-  - {name: 🇰🇷 13|🇰🇷 韩国|@ripaojiedian, server: p239.panda004.net, port: 15041, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, tfo: false}
-  - {name: 🇸🇬 13|🇸🇬 新加坡|@ripaojiedian, server: ctmm.gscloud.bond, port: 31620, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: f16d3752-7bae-474e-87dc-f892df2caeaf, tfo: false}
-  - {name: 🇸🇬 13|🇸🇬 新加坡2|@ripaojiedian, server: w72tapyb.slashdevslashnetslashtun.net, port: 16008, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 9O695G99XQ9IB757, tfo: false}
-  - {name: 🇸🇬 13|🇸🇬 新加坡4|@ripaojiedian, server: ti3hyra4.slashdevslashnetslashtun.net, port: 16014, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: H5IGGU6EPG7XR7X4, tfo: false}
-  - {name: 🇺🇸 13|🇺🇸 美国|@ripaojiedian, server: ti3hyra4.slashdevslashnetslashtun.net, port: 17006, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: HD2EP67ORMTTF1PW, tfo: false}
-  - {name: "🇺🇸 13,14|美国3|@ripaojiedian", server: tk.hzlt.tkddns.xyz, port: 22643, client-fingerprint: chrome, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: zxjp-c.tkong.cc, network: ws, ws-opts: {path: /, headers: {Host: zxjp-c.tkong.cc}}}
-  - {name: 🇯🇵 13|🇯🇵 日本特殊|@ripaojiedian, server: 3.34.189.113, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian, server: 54.199.222.156, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 🇰🇷 13|🇰🇷 韩国特殊|@ripaojiedian, server: 13.212.31.129, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 🇫🇷 13|🇫🇷 法国|@ripaojiedian, server: 185.234.64.35, port: 8388, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ZWRiM2Ix, tfo: false}
-  - {name: 🇬🇧 13|🇬🇧 英国|@ripaojiedian, server: 78.129.140.11, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 9VToB0AWmiQD10bUER9ShQ, tfo: false}
-  - {name: 🇭🇰 14|香港4|@ripaojiedian, server: 183.236.51.23, port: 53002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇭🇰 14|香港5|@ripaojiedian, server: 103.30.76.250, port: 16785, client-fingerprint: chrome, type: vmess, uuid: 086ce045-924d-4538-82ef-debb4ae9ccb5, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇹🇼 14|台湾|@ripaojiedian, server: fiwejniavzoj.xn--fiqs8sjz2bull.com, port: 62506, client-fingerprint: chrome, type: vmess, uuid: 5158e623-3763-41d0-96cf-08a9ab2b734c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇯🇵 14|日本|@ripaojiedian, server: ywtwepcnwlou.xn--fiqs8sjz2bull.com, port: 63494, client-fingerprint: chrome, type: vmess, uuid: 5158e623-3763-41d0-96cf-08a9ab2b734c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 15|CA_speednode_0001, server: t34.emoyes.top, port: 661, client-fingerprint: chrome, type: trojan, password: c9d1e9e4-2812-4a50-a113-a6c914e9c832, sni: www.python.org, skip-cert-verify: false}
-  - {name: 15|IN_speednode_0034, server: 5.8.35.208, port: 443, client-fingerprint: chrome, type: trojan, password: 3648425794742788096, sni: loving-boa.treefrog761.one, skip-cert-verify: false}
-  - {name: 15|NL_speednode_0048, server: 185.204.109.190, port: 8443, client-fingerprint: chrome, type: trojan, password: Aimer, sni: ameqo.esslh.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ameqo.esslh.filegear-sg.me}}}
-  - {name: 15|SC_speednode_0053, server: 154.197.64.189, port: 2087, client-fingerprint: chrome, type: trojan, password: Aimer, sni: ameqo.esslh.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ameqo.esslh.filegear-sg.me}}}
-  - {name: 15|SC_speednode_0054, server: 154.197.64.166, port: 2053, client-fingerprint: chrome, type: trojan, password: Aimer, sni: ameqo.esslh.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ameqo.esslh.filegear-sg.me}}}
-  - {name: 15|SC_speednode_0055, server: 154.197.64.67, port: 443, client-fingerprint: chrome, type: trojan, password: Aimer, sni: ameqo.esslh.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ameqo.esslh.filegear-sg.me}}}
-  - {name: 15|SG_speednode_0057, server: t39.emoyes.top, port: 657, client-fingerprint: chrome, type: trojan, password: c9d1e9e4-2812-4a50-a113-a6c914e9c832, sni: www.python.org, skip-cert-verify: false}
-  - {name: 15|SI_speednode_0068, server: 92.53.190.161, port: 2087, client-fingerprint: chrome, type: trojan, password: Aimer, sni: ameqo.esslh.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ameqo.esslh.filegear-sg.me}}}
-  - {name: 15|US_speednode_0095, server: organic-hare.boa152.lol, port: 443, client-fingerprint: chrome, type: trojan, password: 3723507166611775488, sni: organic-hare.boa152.lol, skip-cert-verify: false}
-  - {name: 15|US_speednode_0103, server: 166.1.227.184, port: 443, client-fingerprint: chrome, type: trojan, password: 3723507166611775488, sni: organic-hare.boa152.lol, skip-cert-verify: false}
-  - {name: 15|US_speednode_0105, server: 198.62.62.192, port: 2083, client-fingerprint: chrome, type: trojan, password: Aimer, sni: ameqo.esslh.filegear-sg.me, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ameqo.esslh.filegear-sg.me}}}
+
+<div id="cf-wrapper">
+    <div id="cf-error-details" class="p-0">
+        <header class="mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-8">
+            <h1 class="inline-block sm:block sm:mb-2 font-light text-60 lg:text-4xl text-black-dark leading-tight mr-2">
+              <span class="inline-block">Bad gateway</span>
+              <span class="code-label">Error code 502</span>
+            </h1>
+            <div>
+               Visit <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&amp;utm_campaign=api.v1.mk" target="_blank" rel="noopener noreferrer">cloudflare.com</a> for more information.
+            </div>
+            <div class="mt-3">2025-01-17 20:48:58 UTC</div>
+        </header>
+        <div class="my-8 bg-gradient-gray">
+            <div class="w-240 lg:w-full mx-auto">
+                <div class="clearfix md:px-8">
+                  
+<div id="cf-browser-status" class=" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center">
+  <div class="relative mb-10 md:m-0">
+    
+    <span class="cf-icon-browser block md:hidden h-20 bg-center bg-no-repeat"></span>
+    <span class="cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"></span>
+    
+  </div>
+  <span class="md:block w-full truncate">You</span>
+  <h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3">
+    
+    Browser
+    
+  </h3>
+  <span class="leading-1.3 text-2xl text-green-success">Working</span>
+</div>
+
+<div id="cf-cloudflare-status" class=" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center">
+  <div class="relative mb-10 md:m-0">
+    <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&amp;utm_campaign=api.v1.mk" target="_blank" rel="noopener noreferrer">
+    <span class="cf-icon-cloud block md:hidden h-20 bg-center bg-no-repeat"></span>
+    <span class="cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"></span>
+    </a>
+  </div>
+  <span class="md:block w-full truncate">Chicago</span>
+  <h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3">
+    <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&amp;utm_campaign=api.v1.mk" target="_blank" rel="noopener noreferrer">
+    Cloudflare
+    </a>
+  </h3>
+  <span class="leading-1.3 text-2xl text-green-success">Working</span>
+</div>
+
+<div id="cf-host-status" class="cf-error-source relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center">
+  <div class="relative mb-10 md:m-0">
+    
+    <span class="cf-icon-server block md:hidden h-20 bg-center bg-no-repeat"></span>
+    <span class="cf-icon-error w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"></span>
+    
+  </div>
+  <span class="md:block w-full truncate">api.v1.mk</span>
+  <h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3">
+    
+    Host
+    
+  </h3>
+  <span class="leading-1.3 text-2xl text-red-error">Error</span>
+</div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w-240 lg:w-full mx-auto mb-8 lg:px-8">
+            <div class="clearfix">
+                <div class="w-1/2 md:w-full float-left pr-6 md:pb-10 md:pr-0 leading-relaxed">
+                    <h2 class="text-3xl font-normal leading-1.3 mb-4">What happened?</h2>
+                    <p>The web server reported a bad gateway error.</p>
+                </div>
+                <div class="w-1/2 md:w-full float-left leading-relaxed">
+                    <h2 class="text-3xl font-normal leading-1.3 mb-4">What can I do?</h2>
+                    <p class="mb-6">Please try again in a few minutes.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+  <p class="text-13">
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">90393586f7ec72e5</strong></span>
+    <span class="cf-footer-separator sm:hidden">•</span>
+    <span id="cf-footer-item-ip" class="cf-footer-item sm:block sm:mb-1">
+      Your IP:
+      <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
+      <span class="hidden" id="cf-footer-ip">2a06:98c0:3600::103</span>
+      <span class="cf-footer-separator sm:hidden">•</span>
+    </span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&amp;utm_campaign=api.v1.mk" id="brand_link" target="_blank">Cloudflare</a></span>
+    
+  </p>
+  <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>
+</div><!-- /.error-footer -->
+
+
+    </div>
+</div>
+
+
