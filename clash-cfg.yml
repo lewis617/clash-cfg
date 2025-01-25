@@ -89,6 +89,7 @@ rule-providers:
     interval: 86400
     format: yaml
 rules:
+  - DOMAIN,raw.githubusercontent.com,DIRECT
   - DOMAIN,www.1lou.info,PROXY
   - DOMAIN-SUFFIX,phncdn.com,DIRECT
   - DOMAIN-KEYWORD,bing,DIRECT
