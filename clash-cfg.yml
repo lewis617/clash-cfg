@@ -4,21 +4,12 @@ redir-port: 7892
 tproxy-port: 7893
 mixed-port: 7893
 allow-lan: true
-bind-address: '*'
 mode: rule
-external-controller: 127.0.0.1:9090
-hosts: null
-profile:
-  store-selected: true
-  store-fake-ip: true
 dns:
-  enable: true
-  listen: 0.0.0.0:53
-  default-nameserver:
-    - 114.114.114.114
+  enabled: true
+  nameserver:
+    - 119.29.29.29
     - 223.5.5.5
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
   fallback:
     - 8.8.8.8
     - 8.8.4.4
