@@ -20,27 +20,8 @@ jobs:
 
     - name: Download and process YAML
       run: |
-        # 下载并处理文件,保存到临时文件
-        wget -O - "https://testingcf.jsdelivr.net/gh/aiboboxx/clashfree/clash.yml" | \
-            sed '
-                /cipher: ss/d
-                /vless/d
-                /g\.com/d
-                s/<pre[^>]*>//g
-                s/<\/pre>//g
-                /^proxy-groups:/,$d
-            ' > temp_clash.yml
-
-        # 检查临时文件是否包含 "proxies:" 关键字
-        if grep -q "proxies:" temp_clash.yml; then
-            # 如果包含,则更新 clash-provider.yml 文件
-            mv temp_clash.yml clash-provider.yml
-            echo "clash-provider.yml 已更新"
-        else
-            # 如果不包含,则不更新,并删除临时文件
-            rm temp_clash.yml
-            echo "下载的文件不包含 proxies 关键字,clash-provider.yml 未更新"
-        fi
+        npm install
+        npm run start
 
     - name: Commit and push changes
       run: |
