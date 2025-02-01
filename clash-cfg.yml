@@ -20,8 +20,8 @@ proxy-groups:
   - name: "auto"
     type: url-test
     use: [clashfree]
-    url: https://www.youtube.com/
-    interval: 1200
+    url: http://www.gstatic.com/generate_204
+    interval: 3600
     proxies: null
     filter: null
   - name: PROXY
@@ -36,12 +36,8 @@ proxy-providers:
     interval: 3600
     type: "http"
     path: "./clash-provider.yml"
-    url: "https://raw.githubusercontent.com/lewis617/clash-cfg/refs/heads/main/clash-provider.yml"
-    health-check:
-      enable: true
-      interval: 1800
-      url: https://www.youtube.com/
-    benchmark-url: https://www.youtube.com/
+    url: "https://testingcf.jsdelivr.net/gh/lewis617/clash-cfg@main/clash-provider.yml"
+
 tunnels:
 rule-providers:
   icloud:
