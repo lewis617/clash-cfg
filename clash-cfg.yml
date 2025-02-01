@@ -20,7 +20,7 @@ proxy-groups:
   - name: "auto"
     type: url-test
     use: [clashfree]
-    url: http://www.gstatic.com/generate_204
+    url: https://www.gstatic.com/generate_204
     interval: 3600
     proxies: null
     filter: null
