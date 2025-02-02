@@ -15,418 +15,37 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - name: 🇫🇷_FR_法国
+  - name: 🇨🇭_CH_瑞士->🇨🇳_CN_中国
     type: ss
-    server: 163.172.121.25
-    port: 12345
-    cipher: aes-256-gcm
-    password: dongtaiwang.com
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国
-    type: vmess
-    server: us1.awslcn.info
-    port: 25238
-    sni: ""
-    uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
-    cipher: auto
-    network: ws
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: us1.awslcn.info
-    alterId: 0
-  - name: 🇺🇸_US_美国->🇫🇷_FR_法国
-    type: trojan
-    server: 3.97.239.52
-    port: 22222
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-directvpn
-    network: tcp
-    alpn:
-      - http/1.1
-  - name: 🇺🇸_US_美国->🇨🇳_CN_中国
-    type: vmess
-    server: 137.175.20.81
-    port: 45017
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    cipher: auto
-    network: tcp
-    alterId: 64
-  - name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
-    type: trojan
-    server: ru01.trojanyyds.xyz
-    port: 443
-    sni: ru01.trojanyyds.xyz
-    password: 243eab52-9ac1-405c-887c-eb112c0985b8
-  - name: 未知
-    type: trojan
-    server: 46.229.253.79
-    port: 443
-    sni: right-goldfish.goat627.mom
-    password: "3763495894587285504"
-    network: tcp
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
-    type: vmess
-    server: cm1.awslcn.info
-    port: 25240
-    sni: ""
-    uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
-    cipher: auto
-    network: ws
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: cm1.awslcn.info
-    alterId: 0
-  - name: 🇺🇸_US_美国
-    type: trojan
-    server: busy-buffalo.treefrog761.one
-    port: 443
-    sni: busy-buffalo.treefrog761.one
-    password: "3723507166611775488"
-    skip-cert-verify: false
-  - name: 🇲🇩_MD_摩尔多瓦
-    type: ss
-    server: 91.132.94.200
+    server: 84.17.53.160
     port: 989
     cipher: aes-256-cfb
     password: f8f7aCzcPKbsF8p3
-  - name: 🇦🇹_AT_奥地利
+  - name: 🇦🇹_AT_奥地利->🇺🇸_US_美国
     type: ss
     server: 192.36.61.59
     port: 990
     cipher: chacha20-ietf-poly1305
     password: f8f7aCzcPKbsF8p3
-  - name: 🇺🇸_US_美国_1
-    type: trojan
-    server: 74.226.136.204
-    port: 443
-    sni: us01.trojanyyds.xyz
-    password: 243eab52-9ac1-405c-887c-eb112c0985b8
-  - name: 🇷🇴_RO_罗马尼亚
-    type: ss
-    server: 188.214.36.155
-    port: 989
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - name: 🇿🇦_ZA_南非
-    type: ss
-    server: 129.232.134.112
-    port: 990
-    cipher: chacha20-ietf-poly1305
-    password: f8f7aCzcPKbsF8p3
-  - name: 🇭🇺_HU_匈牙利
-    type: trojan
-    server: 109.61.16.83
-    port: 443
-    sni: sensible-crow.goat627.mom
-    password: "3763495982449565696"
+  - name: 🇺🇸_US_美国
+    type: vmess
+    server: 190.93.245.230
+    port: 2086
+    sni: ""
+    uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
+    cipher: auto
+    network: ws
     skip-cert-verify: true
-  - name: 🇩🇪_DE_德国->🇫🇷_FR_法国
-    type: trojan
-    server: 3.123.242.3
-    port: 22222
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-privatevpns
-    network: tcp
-    alpn:
-      - http/1.1
-  - name: 🇦🇷_AR_阿根廷
-    type: ss
-    server: 181.119.30.20
-    port: 990
-    cipher: chacha20-ietf-poly1305
-    password: f8f7aCzcPKbsF8p3
-  - name: 未知_1
-    type: trojan
-    server: right-goldfish.goat627.mom
-    port: 443
-    sni: right-goldfish.goat627.mom
-    password: "3763495894587285504"
-  - name: 🇩🇪_DE_德国->🇺🇸_US_美国
-    type: ss
-    server: 45.87.175.181
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: 4a2rfixophdjffa8KVA4Aa
-  - name: 🇷🇴_RO_罗马尼亚_1
-    type: trojan
-    server: 89.39.70.207
-    port: 443
-    sni: pet-bulldog.goat627.mom
-    password: "3763495894587285504"
-    skip-cert-verify: true
-  - name: 🇺🇸_US_美国_3
-    type: ss
-    server: 185.47.253.171
-    port: 989
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
-    type: ss
-    server: ti3hyra4.slashdevslashnetslashtun.net
-    port: 17004
-    cipher: aes-256-gcm
-    password: K0AA69ZLLFIBXP1Q
-  - name: 🇩🇰_DK_丹麦
-    type: ss
-    server: 185.186.79.53
-    port: 989
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - name: US美国(mibei77.com 米贝节点分享)
-    server: 154.17.227.138
-    port: 587
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 2
-    server: 188.164.159.214
-    port: 2083
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: KR韩国(mibei77.com 米贝节点分享)
-    server: 211.227.87.99
-    port: 50000
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 3
-    server: 173.245.59.213
-    port: 2053
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 4
-    server: kip.ns.cloudflare.com
-    port: 443
-    type: trojan
-    password: Aimer
-    sni: kip.ns.cloudflare.com
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 5
-    server: 199.34.228.164
-    port: 2087
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 6
-    server: 135.84.64.36
-    port: 2083
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 7
-    server: 173.245.59.202
-    port: 2083
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 8
-    server: 199.34.228.190
-    port: 2083
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 9
-    server: 188.164.159.185
-    port: 8443
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 10
-    server: 216.24.57.186
-    port: 443
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 11
-    server: 152.70.245.66
-    port: 12693
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: 亚美尼亚(mibei77.com 米贝节点分享)
-    server: 188.164.159.55
-    port: 2096
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: HK香港(mibei77.com 米贝节点分享)
-    server: 154.211.8.240
-    port: 443
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: SG新加坡(mibei77.com 米贝节点分享)
-    server: 27.50.49.166
-    port: 8443
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: 乌克兰(mibei77.com 米贝节点分享)
-    server: 45.67.215.250
-    port: 2096
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 12
-    server: 188.164.159.25
-    port: 2053
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 13
-    server: 3.64.205.189
-    port: 443
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 14
-    server: 108.165.152.29
-    port: 2096
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: GB英国(mibei77.com 米贝节点分享)
-    server: 194.164.32.27
-    port: 2053
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 15
-    server: 23.169.184.125
-    port: 25526
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: 亚美尼亚(mibei77.com 米贝节点分享) 2
-    server: 188.164.159.43
-    port: 2083
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 16
-    server: 216.198.53.212
-    port: 8443
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: DE德国(mibei77.com 米贝节点分享)
-    server: 3.122.86.99
-    port: 443
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
+    ws-opts:
+      path: /
+      headers:
+        host: shs.xiaoqi666.xyz
+    alterId: 0
   - name: RU俄罗斯(mibei77.com 米贝节点分享)
-    server: 45.67.214.140
-    port: 8443
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 17
-    server: 91.107.253.14
-    port: 8443
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 18
-    server: 92.53.190.161
-    port: 2087
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 19
-    server: 167.68.4.10
-    port: 2096
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: HK香港(mibei77.com 米贝节点分享) 2
-    server: sensible-crow.goat627.mom
-    port: 443
-    type: trojan
-    password: "3763495982449565696"
-    sni: sensible-crow.goat627.mom
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 20
-    server: 38.59.242.169
-    port: 27738
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: JP日本(mibei77.com 米贝节点分享)
-    server: speed.erfanraki.shop
-    port: 37198
+    server: 195.58.49.42
+    port: 17926
     type: vmess
-    uuid: 6f338926-e323-43bd-8dc8-b41f29c49798
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 罗马尼亚(mibei77.com 米贝节点分享) 2
-    server: pet-bulldog.goat627.mom
-    port: 443
-    type: trojan
-    password: "3763495894587285504"
-    sni: pet-bulldog.goat627.mom
-    skip-cert-verify: true
-    udp: true
-  - name: HK香港(mibei77.com 米贝节点分享) 3
-    server: 43.156.253.94
-    port: 443
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: HK香港(mibei77.com 米贝节点分享) 4
-    server: 87.107.163.4
-    port: 37198
-    type: vmess
-    uuid: 6f338926-e323-43bd-8dc8-b41f29c49798
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: HK香港(mibei77.com 米贝节点分享) 5
-    server: 183.236.51.60
-    port: 25230
-    type: vmess
-    uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+    uuid: ad2f4fa1-f290-456e-b66b-b8111dcea4f2
     alterId: 0
     cipher: auto
     tls: false
@@ -434,473 +53,107 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: 183.236.51.60
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 21
-    server: pranab.ns.cloudflare.com
-    port: 443
-    type: trojan
-    password: Aimer
-    sni: pranab.ns.cloudflare.com
-    skip-cert-verify: true
-    udp: true
-  - name: KR韩国(mibei77.com 米贝节点分享) 2
-    server: 119.196.155.50
-    port: 12159
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 22
-    server: 3.18.196.26
-    port: 443
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: SG新加坡(mibei77.com 米贝节点分享) 2
-    server: 13.229.218.95
-    port: 443
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 23
-    server: 52.32.90.142
-    port: 80
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 24
-    server: 104.19.4.237
-    port: 8443
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: DE德国(mibei77.com 米贝节点分享) 2
-    server: 51.116.121.75
-    port: 443
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 25
-    server: 54.67.51.212
-    port: 80
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: 意大利(mibei77.com 米贝节点分享)
-    server: 91.193.5.121
-    port: 8443
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: NL荷兰(mibei77.com 米贝节点分享)
-    server: 162.159.38.105
-    port: 2083
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: RU俄罗斯(mibei77.com 米贝节点分享) 2
-    server: 5.182.84.22
-    port: 2096
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: 土耳其(mibei77.com 米贝节点分享)
-    server: 185.188.147.79
-    port: 443
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 26
-    server: 104.19.60.99
-    port: 2087
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 28
-    server: 34.218.130.79
-    port: 443
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 29
-    server: 35.83.185.225
-    port: 443
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: NL荷兰(mibei77.com 米贝节点分享) 2
-    server: 46.32.184.187
-    port: 443
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
+      Host: 195.58.49.42
     udp: true
   - name: 俄罗斯(mibei77.com 米贝节点分享)
-    server: 213.241.198.189
-    port: 2053
-    type: trojan
-    password: Aimer
+    server: 195.58.49.86
+    port: 17926
+    type: vmess
+    uuid: 84551ec3-0575-4ea0-9db6-fae0f442c4fe
+    alterId: 0
+    cipher: auto
+    tls: false
     skip-cert-verify: true
+    network: ws
+    ws-path: /
+    ws-headers:
+      Host: 195.58.49.86
     udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 30
-    server: 54.213.215.13
-    port: 2053
-    type: trojan
-    password: Aimer
+  - name: RU俄罗斯(mibei77.com 米贝节点分享) 2
+    server: 194.87.69.52
+    port: 17926
+    type: vmess
+    uuid: 131d1070-3626-4978-93bd-0b3568bc6da0
+    alterId: 0
+    cipher: auto
+    tls: false
     skip-cert-verify: true
-    udp: true
-  - name: 俄罗斯(mibei77.com 米贝节点分享) 2
-    server: 46.254.93.52
-    port: 8443
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: SG新加坡(mibei77.com 米贝节点分享) 3
-    server: 27.50.49.37
-    port: 2053
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: HK香港(mibei77.com 米贝节点分享) 7
-    server: 154.211.8.150
-    port: 2096
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: SG新加坡(mibei77.com 米贝节点分享) 4
-    server: 27.50.49.188
-    port: 2096
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 31
-    server: 35.155.38.149
-    port: 443
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: 俄罗斯(mibei77.com 米贝节点分享) 3
-    server: 5.182.84.52
-    port: 2083
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 32
-    server: theo.ns.cloudflare.com
-    port: 443
-    type: trojan
-    password: Aimer
-    sni: theo.ns.cloudflare.com
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 33
-    server: 173.245.59.109
-    port: 2087
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 34
-    server: 44.224.24.91
-    port: 443
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
+    network: ws
+    ws-path: /
+    ws-headers:
+      Host: 194.87.69.52
     udp: true
   - name: RU俄罗斯(mibei77.com 米贝节点分享) 3
-    server: 77.238.236.134
-    port: 8443
-    type: trojan
-    password: Aimer
+    server: 194.87.69.50
+    port: 17926
+    type: vmess
+    uuid: 99edecdf-9ad1-47e7-a7bb-f35711de3622
+    alterId: 0
+    cipher: auto
+    tls: false
     skip-cert-verify: true
+    network: ws
+    ws-path: /
+    ws-headers:
+      Host: 194.87.69.50
     udp: true
-  - name: 俄罗斯(mibei77.com 米贝节点分享) 4
-    server: 46.254.92.142
-    port: 2087
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
+  - name: JP日本(mibei77.com 米贝节点分享)
+    server: 13.79.171.214
+    port: 25444
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: drqi55BCvwi3nOXulYjGLQ
     udp: true
   - name: JP日本(mibei77.com 米贝节点分享) 2
+    server: 94.182.150.231
+    port: 80
+    type: vmess
+    uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: US美国(mibei77.com 米贝节点分享)
+    server: s1.db-link01.top
+    port: 80
+    type: vmess
+    uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /dabai.in104.24.32.204
+    ws-headers:
+      Host: 100-97-115-235.s1.db-link01.top
+    udp: true
+  - name: JP日本(mibei77.com 米贝节点分享) 3
     server: arxfw2b78fi2q9hzylhn.freesocks.work
     port: 443
     type: ss
     cipher: chacha20-ietf-poly1305
     password: Nk9asglDzHzjktVzTkvhaA
     udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 35
-    server: sage.ns.cloudflare.com
-    port: 443
-    type: trojan
-    password: Aimer
-    sni: sage.ns.cloudflare.com
-    skip-cert-verify: true
-    udp: true
-  - name: 南非(mibei77.com 米贝节点分享)
-    server: 45.194.53.13
-    port: 2053
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: RU俄罗斯(mibei77.com 米贝节点分享) 4
-    server: 92.243.74.2
-    port: 8443
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: 亚美尼亚(mibei77.com 米贝节点分享) 3
-    server: 188.164.159.174
-    port: 2053
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 36
-    server: 108.165.152.239
-    port: 8443
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: 南非(mibei77.com 米贝节点分享) 2
-    server: 45.194.53.81
-    port: 2087
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 37
-    server: 108.165.152.202
-    port: 2083
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: 亚美尼亚(mibei77.com 米贝节点分享) 4
-    server: 213.109.205.45
-    port: 443
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: RU俄罗斯(mibei77.com 米贝节点分享) 5
-    server: 176.124.223.40
-    port: 2053
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 38
-    server: 154.219.5.255
-    port: 2087
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: HK香港(mibei77.com 米贝节点分享) 8
-    server: 156.225.72.199
-    port: 2096
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: NL荷兰(mibei77.com 米贝节点分享) 3
-    server: 162.159.44.78
-    port: 2096
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 39
-    server: 67.226.221.102
-    port: 80
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 40
-    server: 108.165.152.143
-    port: 2087
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: GB英国(mibei77.com 米贝节点分享) 2
-    server: 141.11.203.191
-    port: 8443
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 41
-    server: 206.238.236.221
-    port: 2083
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 42
-    server: 172.64.34.52
-    port: 2096
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: DE德国(mibei77.com 米贝节点分享) 3
-    server: 18.153.94.168
-    port: 443
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: RU俄罗斯(mibei77.com 米贝节点分享) 6
-    server: 176.124.223.50
-    port: 8443
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 43
-    server: 108.165.152.104
-    port: 2053
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: SG新加坡(mibei77.com 米贝节点分享) 5
-    server: 27.50.49.179
-    port: 2096
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 44
-    server: 108.165.152.76
-    port: 2096
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 45
-    server: damien.ns.cloudflare.com
-    port: 443
-    type: trojan
-    password: Aimer
-    sni: damien.ns.cloudflare.com
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 46
-    server: 45.153.7.216
-    port: 2053
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 47
-    server: 188.164.159.69
-    port: 2083
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 48
-    server: 198.62.62.192
-    port: 2083
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: JP日本(mibei77.com 米贝节点分享) 3
-    server: 103.116.7.189
-    port: 443
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: 俄罗斯(mibei77.com 米贝节点分享) 5
-    server: 5.182.85.189
-    port: 2096
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: KR韩国(mibei77.com 米贝节点分享) 3
-    server: 119.194.117.229
-    port: 50000
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: JP日本(mibei77.com 米贝节点分享) 4
-    server: 103.116.7.103
-    port: 2083
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: HK香港(mibei77.com 米贝节点分享) 9
-    server: 154.197.64.240
-    port: 8443
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: 俄罗斯(mibei77.com 米贝节点分享) 6
-    server: 46.254.92.201
-    port: 2053
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: JP日本(mibei77.com 米贝节点分享) 5
-    server: 47.91.18.127
-    port: 443
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: 亚美尼亚(mibei77.com 米贝节点分享) 5
-    server: 188.164.159.248
-    port: 2053
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 49
-    server: ignacio.ns.cloudflare.com
-    port: 443
-    type: trojan
-    password: Aimer
-    sni: ignacio.ns.cloudflare.com
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 50
-    server: hsj.lbxjc.online
-    port: 80
+  - name: US美国(mibei77.com 米贝节点分享) 2
+    server: s5.db-link01.top
+    port: 2052
     type: vmess
-    uuid: e6543319-0574-42ac-b778-1c4325d626f5
+    uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /dabai.in104.24.204.143
+    ws-headers:
+      Host: 100-62-189-118.s5.db-link01.top
+    udp: true
+  - name: US美国(mibei77.com 米贝节点分享) 3
+    server: shs.xiaoqi666.xyz
+    port: 2086
+    type: vmess
+    uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
     alterId: 0
     cipher: auto
     tls: false
@@ -908,65 +161,42 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: chunchuan.kejixiaoqi666.store
+      Host: shs.xiaoqi666.xyz
     udp: true
-  - name: SG新加坡(mibei77.com 米贝节点分享) 6
-    server: 27.50.48.154
-    port: 8443
-    type: trojan
-    password: Aimer
+  - name: GB英国(mibei77.com 米贝节点分享)
+    server: 5.39.254.196
+    port: 23985
+    type: vmess
+    uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
+    alterId: 0
+    cipher: auto
+    tls: false
     skip-cert-verify: true
+    network: ws
+    ws-path: /
+    ws-headers:
+      Host: 5.39.254.196
     udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 51
-    server: 108.165.152.130
-    port: 2083
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: HK香港(mibei77.com 米贝节点分享) 10
-    server: 154.197.64.173
-    port: 2053
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 53
-    server: 154.219.5.249
-    port: 8443
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 54
-    server: duke.ns.cloudflare.com
+  - name: NL荷兰(mibei77.com 米贝节点分享)
+    server: 5.8.35.208
     port: 443
     type: trojan
-    password: Aimer
-    sni: duke.ns.cloudflare.com
+    password: "3648425794742788096"
     skip-cert-verify: true
     udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 55
-    server: thaddeus.ns.cloudflare.com
+  - name: US美国(mibei77.com 米贝节点分享) 5
+    server: 104.21.81.115
     port: 443
-    type: trojan
-    password: Aimer
-    sni: thaddeus.ns.cloudflare.com
+    type: vmess
+    uuid: de04add9-5c68-8bab-950c-08cd5320df18
+    alterId: 0
+    cipher: auto
+    tls: true
     skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 56
-    server: 135.84.74.27
-    port: 8443
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 57
-    server: 135.84.76.152
-    port: 2087
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
+    network: ws
+    ws-path: /vmess
+    ws-headers:
+      Host: northflank.107421.xyz
     udp: true
   - name: 6元高速机场：cczzuu.top
     type: ss
@@ -974,15 +204,13 @@ proxies:
     port: 443
     password: 6601fb90e9b3
     ip-version: dual
-    udp: true
     cipher: aes-128-gcm
-  - name: 🇺🇸_US_美国_1
+  - name: 🇺🇸_US_美国_2
     type: ss
     server: 34.214.166.173
     port: 443
     password: amazonskr05
     ip-version: dual
-    udp: true
     cipher: aes-256-cfb
   - name: 🇬🇧_GB_英国
     type: ss
@@ -990,80 +218,105 @@ proxies:
     port: 443
     password: KuMFEVSJIgMhUW7K55V406
     ip-version: dual
-    udp: true
     cipher: chacha20-ietf-poly1305
   - name: 🇩🇪_DE_德国->🇺🇸_US_美国
     type: trojan
     server: 52.57.173.145
     port: 443
+    network: tcp
+    tls: true
     password: "3767107462583558144"
     sni: assuring-roughy.goat627.mom
+    skip-cert-verify: false
     ip-version: dual
-    udp: true
-  - name: 🇺🇸_US_美国_2
+  - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1
+    type: vmess
+    server: 183.236.51.60
+    port: 25230
+    uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+    network: ws
+    tls: false
+    servername: 183.236.51.60
+    ip-version: dual
+    cipher: auto
+  - name: 🇺🇸_US_美国_3
     type: ss
     server: 54.187.27.197
     port: 443
     password: amazonskr05
     ip-version: dual
-    udp: true
     cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_3
+  - name: 🇺🇸_US_美国_4
     type: ss
     server: 54.213.250.37
     port: 443
     password: amazonskr05
     ip-version: dual
-    udp: true
     cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_4
+  - name: 🇺🇸_US_美国_6
     type: ss
     server: 35.87.38.141
     port: 443
     password: amazonskr05
     ip-version: dual
-    udp: true
     cipher: aes-256-cfb
   - name: 🇺🇸_US_美国->🇨🇳_CN_中国
     type: trojan
     server: warm-rabbit.goat627.mom
     port: 443
+    network: tcp
+    tls: true
     password: "3767107462583558144"
     sni: warm-rabbit.goat627.mom
+    skip-cert-verify: false
     ip-version: dual
-    udp: true
-  - name: 🇺🇸_US_美国_5
+  - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
+    type: vmess
+    server: cm1.awslcn.info
+    port: 25230
+    uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+    network: ws
+    tls: false
+    servername: cm1.awslcn.info
+    ip-version: dual
+    cipher: auto
+  - name: 🇺🇸_US_美国_7
     type: trojan
     server: crucial-grackle.treefrog761.one
     port: 443
+    network: tcp
+    tls: true
     password: "3767107462583558144"
     sni: crucial-grackle.treefrog761.one
+    skip-cert-verify: false
     ip-version: dual
-    udp: true
-  - name: 🇺🇸_US_美国_6
+  - name: 🇺🇸_US_美国_9
     type: ss
     server: 35.94.24.233
     port: 443
     password: amazonskr05
     ip-version: dual
-    udp: true
     cipher: aes-256-cfb
   - name: 🇷🇺_RU_俄罗斯
     type: trojan
     server: major-ape.goat627.mom
     port: 443
+    network: tcp
+    tls: true
     password: "3767107462583558144"
     sni: major-ape.goat627.mom
+    skip-cert-verify: false
     ip-version: dual
-    udp: true
   - name: 🇷🇺_RU_俄罗斯->🇨🇳_CN_中国
     type: trojan
     server: kind-burro.goat627.mom
     port: 443
+    network: tcp
+    tls: true
     password: "3763495894587285504"
     sni: kind-burro.goat627.mom
+    skip-cert-verify: false
     ip-version: dual
-    udp: true
   - name: tg频道:@ripaojiedian
     type: http
     server: krecs.ftq.ink
