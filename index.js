@@ -3,6 +3,7 @@ import fs from 'fs/promises';
 
 async function fetchClashSubscriptionLinks() {
   const url = 'https://raw.githubusercontent.com/clashfree/clashfree.github.io/refs/heads/main/README.md';
+  const additionalLink = 'https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash';
   
   try {
     const response = await fetch(url);
@@ -11,25 +12,27 @@ async function fetchClashSubscriptionLinks() {
     const sectionRegex = /### Clash订阅链接[\s\S]*?(?=###|$)/;
     const section = text.match(sectionRegex);
     
+    let links = [];
+    
     if (section) {
       const linkRegex = /https?:\/\/[^\s)]+/g;
-      const links = section[0].match(linkRegex);
-      
-      if (links) {
-        console.log('找到的 Clash 订阅链接：');
-        links.forEach(link => console.log(link));
-        return links;
-      } else {
-        console.log('在 "Clash订阅链接" 部分没有找到 HTTP 链接。');
-        return [];
-      }
-    } else {
-      console.log('未找到 "### Clash订阅链接" 部分。');
-      return [];
+      links = section[0].match(linkRegex) || [];
     }
+    
+    // 添加新的订阅链接
+    links.push(additionalLink);
+    
+    if (links.length > 0) {
+      console.log('找到的 Clash 订阅链接：');
+      links.forEach(link => console.log(link));
+    } else {
+      console.log('没有找到任何 Clash 订阅链接。');
+    }
+    
+    return links;
   } catch (error) {
     console.error('获取或解析内容时出错：', error);
-    return [];
+    return [additionalLink]; // 即使出错，也至少返回新添加的链接
   }
 }
 
