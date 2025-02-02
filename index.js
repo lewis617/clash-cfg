@@ -19,7 +19,6 @@ async function fetchClashSubscriptionLinks() {
       links = section[0].match(linkRegex) || [];
     }
     
-    // 添加新的订阅链接
     links.push(additionalLink);
     
     if (links.length > 0) {
@@ -32,7 +31,7 @@ async function fetchClashSubscriptionLinks() {
     return links;
   } catch (error) {
     console.error('获取或解析内容时出错：', error);
-    return [additionalLink]; // 即使出错，也至少返回新添加的链接
+    return [additionalLink];
   }
 }
 
@@ -62,12 +61,24 @@ async function getAllProxies() {
   console.log(`总共获取到 ${allProxies.length} 个代理`);
 
   // 过滤代理
-  const filteredProxies = allProxies.filter(proxy => {
+  let filteredProxies = allProxies.filter(proxy => {
     return !(proxy.cipher === 'ss' || proxy.type === 'vless');
   });
 
   console.log(`过滤后剩余 ${filteredProxies.length} 个代理`);
-  return filteredProxies;
+
+  // 按 server 去重
+  const uniqueProxies = [];
+  const seenServers = new Set();
+  for (const proxy of filteredProxies) {
+    if (proxy.server && !seenServers.has(proxy.server)) {
+      uniqueProxies.push(proxy);
+      seenServers.add(proxy.server);
+    }
+  }
+
+  console.log(`去重后剩余 ${uniqueProxies.length} 个代理`);
+  return uniqueProxies;
 }
 
 async function updateClashProviderYml(proxies) {
@@ -91,7 +102,7 @@ async function updateClashProviderYml(proxies) {
 // 立即调用异步函数
 (async () => {
   const proxies = await getAllProxies();
-  console.log('过滤后的代理：', proxies);
+  console.log('过滤和去重后的代理：', proxies);
   
   // 更新 clash-provider.yml
   await updateClashProviderYml(proxies);
