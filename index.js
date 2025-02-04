@@ -62,7 +62,15 @@ async function getAllProxies() {
 
   // 过滤代理
   let filteredProxies = allProxies.filter(proxy => {
-    return !(proxy.cipher === 'ss' || proxy.type === 'vless');
+    // 过滤掉 cipher 为 'ss' 或 type 为 'vless' 的代理
+    if (proxy.cipher === 'ss' || proxy.type === 'vless') {
+      return false;
+    }
+    // 过滤掉 type 为 vmess 且没有 alterId 的节点
+    if (proxy.type === 'vmess' && (proxy.alterId === undefined || proxy.alterId === null)) {
+      return false;
+    }
+    return true;
   });
 
   console.log(`过滤后剩余 ${filteredProxies.length} 个代理`);

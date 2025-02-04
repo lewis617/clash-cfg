@@ -229,16 +229,6 @@ proxies:
     sni: assuring-roughy.goat627.mom
     skip-cert-verify: false
     ip-version: dual
-  - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1
-    type: vmess
-    server: 183.236.51.60
-    port: 25230
-    uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
-    network: ws
-    tls: false
-    servername: 183.236.51.60
-    ip-version: dual
-    cipher: auto
   - name: 🇺🇸_US_美国_3
     type: ss
     server: 54.187.27.197
@@ -270,16 +260,6 @@ proxies:
     sni: warm-rabbit.goat627.mom
     skip-cert-verify: false
     ip-version: dual
-  - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
-    type: vmess
-    server: cm1.awslcn.info
-    port: 25230
-    uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
-    network: ws
-    tls: false
-    servername: cm1.awslcn.info
-    ip-version: dual
-    cipher: auto
   - name: 🇺🇸_US_美国_7
     type: trojan
     server: crucial-grackle.treefrog761.one
@@ -317,6 +297,38 @@ proxies:
     sni: kind-burro.goat627.mom
     skip-cert-verify: false
     ip-version: dual
+  - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_1
+    type: vmess
+    server: 183.236.51.60
+    port: 25230
+    uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+    network: ws
+    sni: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: 183.236.51.60
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
+    type: vmess
+    server: cm1.awslcn.info
+    port: 25230
+    uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+    network: ws
+    sni: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: cm1.awslcn.info
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
   - name: tg频道:@ripaojiedian
     type: http
     server: krecs.ftq.ink
