@@ -76,13 +76,6 @@ rule-providers:
     interval: 86400
     format: yaml
 rules:
-  - DOMAIN,raw.githubusercontent.com,DIRECT
-  - DOMAIN,www.1lou.info,PROXY
-  - DOMAIN-SUFFIX,phncdn.com,DIRECT
-  - DOMAIN-KEYWORD,bing,DIRECT
-  - DOMAIN-KEYWORD,microsoft,DIRECT
-  - DOMAIN-KEYWORD,edge,DIRECT
-  - DOMAIN-KEYWORD,apple,DIRECT
   - RULE-SET,icloud,DIRECT
   - RULE-SET,apple,DIRECT
   - RULE-SET,direct,DIRECT
