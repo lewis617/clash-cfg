@@ -75,12 +75,6 @@ proxies:
     port: 989
     cipher: aes-256-cfb
     password: f8f7aCzcPKbsF8p3
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国
-    type: ss
-    server: 14.18.253.178
-    port: 8347
-    cipher: chacha20
-    password: q2kSGp4ayFKB
   - name: 🇫🇷_FR_法国
     type: trojan
     server: 52.47.201.224

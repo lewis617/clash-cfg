@@ -62,8 +62,8 @@ async function getAllProxies() {
 
   // 过滤代理
   let filteredProxies = allProxies.filter(proxy => {
-    // 过滤掉 cipher 为 'ss' 或 type 为 'vless' 的代理
-    if (proxy.cipher === 'ss' || proxy.type === 'vless') {
+    // 过滤掉 cipher 为 'ss' 'chacha20' 或 type 为 'vless' 的代理
+    if (['ss', 'chacha20'].includes(proxy.cipher) || proxy.type === 'vless') {
       return false;
     }
     // 过滤掉 type 为 vmess 且没有 alterId 的节点
