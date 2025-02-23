@@ -876,6 +876,40 @@ proxies:
     cipher: aes-256-gcm
     password: TCEL1H0XD7TWAKI0
     tfo: false
+  - name: 🇭🇰 香港8|@ripaojiedian
+    server: console.03.aliyun.aq.kunlunaqs.com
+    port: 45905
+    client-fingerprint: chrome
+    type: ss
+    cipher: aes-128-gcm
+    password: 777bc05be0dd624959fb
+    tfo: false
+    plugin: obfs
+    plugin-opts:
+      mode: http
+      host: 215996dd9f1c3db1e54b.microsoft.com
+  - name: 🇭🇰 香港9|@ripaojiedian
+    server: bgphk5.vip.primeconectin.pro
+    port: 578
+    client-fingerprint: chrome
+    type: ssr
+    cipher: chacha20-ietf
+    password: mtbv8n
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 93390:TDWk1JwybHq
+    obfs-param: c499e93390.wns.windows.com
+  - name: 🇹🇼 台湾5|@ripaojiedian
+    server: aiatw6.primeconectin.pro
+    port: 1206
+    client-fingerprint: chrome
+    type: ssr
+    cipher: chacha20-ietf
+    password: mtbv8n
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 93390:TDWk1JwybHq
+    obfs-param: c499e93390.wns.windows.com
   - name: 🇯🇵 日本4|@ripaojiedian
     server: wb.kaiqsz.com
     port: 28713
@@ -884,6 +918,17 @@ proxies:
     password: fc66e1cb-1fa3-412a-81f5-900e59e3837c
     sni: mmbiz1.redapricotcloud.com
     skip-cert-verify: false
+  - name: 🇯🇵 日本5|@ripaojiedian
+    server: relayjp4.vip.primeconectin.pro
+    port: 1454
+    client-fingerprint: chrome
+    type: ssr
+    cipher: chacha20-ietf
+    password: mtbv8n
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 93390:TDWk1JwybHq
+    obfs-param: c499e93390.wns.windows.com
   - name: 🇸🇬 新加坡2|@ripaojiedian
     server: 154.196.244.21
     port: 16011
