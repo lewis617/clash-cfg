@@ -877,92 +877,55 @@ proxies:
     password: TCEL1H0XD7TWAKI0
     tfo: false
   - name: 🇭🇰 香港8|@ripaojiedian
-    server: console.03.aliyun.aq.kunlunaqs.com
-    port: 45905
+    server: hk02.x.quickcht3.club
+    port: 52612
     client-fingerprint: chrome
     type: ss
-    cipher: aes-128-gcm
-    password: 777bc05be0dd624959fb
+    cipher: chacha20-ietf-poly1305
+    password: 2be0c954-4291-45ea-b47d-ca713180550b
     tfo: false
-    plugin: obfs
-    plugin-opts:
-      mode: http
-      host: 215996dd9f1c3db1e54b.microsoft.com
-  - name: 🇭🇰 香港9|@ripaojiedian
-    server: bgphk5.vip.primeconectin.pro
-    port: 578
+  - name: 🇰🇷 韩国|@ripaojiedian
+    server: free-kr.faforex.eu.org
+    port: 22223
     client-fingerprint: chrome
-    type: ssr
-    cipher: chacha20-ietf
-    password: mtbv8n
-    protocol: auth_aes128_md5
-    obfs: plain
-    protocol-param: 93390:TDWk1JwybHq
-    obfs-param: c499e93390.wns.windows.com
-  - name: 🇹🇼 台湾5|@ripaojiedian
-    server: aiatw6.primeconectin.pro
-    port: 1206
-    client-fingerprint: chrome
-    type: ssr
-    cipher: chacha20-ietf
-    password: mtbv8n
-    protocol: auth_aes128_md5
-    obfs: plain
-    protocol-param: 93390:TDWk1JwybHq
-    obfs-param: c499e93390.wns.windows.com
-  - name: 🇯🇵 日本4|@ripaojiedian
-    server: wb.kaiqsz.com
-    port: 28713
-    client-fingerprint: chrome
-    type: trojan
-    password: fc66e1cb-1fa3-412a-81f5-900e59e3837c
-    sni: mmbiz1.redapricotcloud.com
+    type: vmess
+    uuid: 34b92487-a7b5-400a-b42f-40f53377aaab
+    alterId: 0
+    cipher: auto
+    tls: false
+    tfo: false
     skip-cert-verify: false
-  - name: 🇯🇵 日本5|@ripaojiedian
-    server: relayjp4.vip.primeconectin.pro
-    port: 1454
-    client-fingerprint: chrome
-    type: ssr
-    cipher: chacha20-ietf
-    password: mtbv8n
-    protocol: auth_aes128_md5
-    obfs: plain
-    protocol-param: 93390:TDWk1JwybHq
-    obfs-param: c499e93390.wns.windows.com
-  - name: 🇸🇬 新加坡2|@ripaojiedian
-    server: 154.196.244.21
-    port: 16011
-    client-fingerprint: chrome
-    type: ss
-    cipher: aes-256-gcm
-    password: 8WDLSCVIFB4I26GB
-    tfo: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: tms.dingtalk.com
   - name: 🇸🇬 新加坡5|@ripaojiedian
-    server: 154.196.244.26
-    port: 16016
+    server: 103.36.90.195
+    port: 8388
     client-fingerprint: chrome
     type: ss
-    cipher: aes-256-gcm
-    password: YHK82TR73114VN9O
+    cipher: chacha20-ietf
+    password: asd123456
     tfo: false
   - name: 🇺🇸 美国|@ripaojiedian
-    server: polished-ox.treefrog761.one
-    port: 443
+    server: 23.154.136.148
+    port: 6679
     client-fingerprint: chrome
-    type: trojan
-    password: 3747000103274291000
-    sni: polished-ox.treefrog761.one
-    skip-cert-verify: false
+    type: ss
+    cipher: aes-256-gcm
+    password: TEzjfAYq2IjtuoS
+    tfo: false
   - name: 🇺🇸 美国2|@ripaojiedian
-    server: fluent-bat.treefrog761.one
-    port: 443
+    server: 23.154.136.106
+    port: 8888
     client-fingerprint: chrome
-    type: trojan
-    password: 3747000103274291000
-    sni: fluent-bat.treefrog761.one
-    skip-cert-verify: false
+    type: ss
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+    tfo: false
   - name: 🇰🇷 韩国特殊|@ripaojiedian
-    server: 18.143.149.127
+    server: 54.254.236.133
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -970,7 +933,7 @@ proxies:
     password: amazonskr05
     tfo: false
   - name: 🇯🇵 日本特殊|@ripaojiedian
-    server: 47.129.7.198
+    server: 13.212.32.201
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -978,7 +941,7 @@ proxies:
     password: amazonskr05
     tfo: false
   - name: 🇸🇬 狮城特殊|@ripaojiedian
-    server: 54.169.104.136
+    server: 13.229.82.37
     port: 443
     client-fingerprint: chrome
     type: ss
