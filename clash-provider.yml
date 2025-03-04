@@ -388,12 +388,23 @@ proxies:
     tls: false
     tfo: false
     skip-cert-verify: false
+  - name: 🇭🇰 香港10|@ripaojiedian
+    server: 2.hublink.pro
+    port: 40208
+    client-fingerprint: chrome
+    type: ssr
+    cipher: rc4-md5
+    password: ENZ52K
+    protocol: auth_aes128_md5
+    obfs: plain
+    protocol-param: 92902:pFWGOQ
+    obfs-param: cd2b692902.6602b8463464108506.microsoft.com
   - name: 🇯🇵 日本4|@ripaojiedian
-    server: 45.159.51.116
-    port: 48019
+    server: 120.198.71.214
+    port: 35565
     client-fingerprint: chrome
     type: vmess
-    uuid: c06797d5-fa41-4b48-b132-d268d2acb302
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 0
     cipher: auto
     tls: false
@@ -408,7 +419,7 @@ proxies:
     password: f8f7aCzcPKbsF8p3
     tfo: false
   - name: 🇰🇷 韩国特殊|@ripaojiedian
-    server: 47.129.168.96
+    server: 13.250.31.115
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -416,7 +427,7 @@ proxies:
     password: amazonskr05
     tfo: false
   - name: 🇯🇵 日本特殊|@ripaojiedian
-    server: 13.231.243.205
+    server: 54.151.184.124
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -424,10 +435,18 @@ proxies:
     password: amazonskr05
     tfo: false
   - name: 🇸🇬 狮城特殊|@ripaojiedian
-    server: 54.248.148.112
+    server: 18.143.186.182
     port: 443
     client-fingerprint: chrome
     type: ss
     cipher: aes-256-cfb
     password: amazonskr05
+    tfo: false
+  - name: 🇨🇦 加拿大|@ripaojiedian
+    server: ca1.ssocks.wiki
+    port: 8388
+    client-fingerprint: chrome
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: M2EzY
     tfo: false
