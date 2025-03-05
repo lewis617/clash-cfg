@@ -378,11 +378,11 @@ proxies:
     password: 2be0c954-4291-45ea-b47d-ca713180550b
     tfo: false
   - name: 🇭🇰 香港9|@ripaojiedian
-    server: 38.147.188.105
-    port: 37903
+    server: 38.147.189.130
+    port: 13264
     client-fingerprint: chrome
     type: vmess
-    uuid: 21e549ac-f8a0-4dfe-a626-fe1630c7b804
+    uuid: 8145db0b-c4d7-4389-be41-99f991a4b43f
     alterId: 0
     cipher: auto
     tls: false
@@ -399,17 +399,30 @@ proxies:
     obfs: plain
     protocol-param: 92902:pFWGOQ
     obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  - name: 🇯🇵 日本4|@ripaojiedian
-    server: 120.198.71.214
-    port: 35565
+  - name: 🇹🇼 台湾|@ripaojiedian
+    server: 221.215.48.118
+    port: 2377
     client-fingerprint: chrome
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
     tfo: false
-    skip-cert-verify: false
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: d6cb3d6.dl.microsoft.lt:47299
+  - name: 🇯🇵 日本4|@ripaojiedian
+    server: 52.199.164.162
+    port: 2377
+    client-fingerprint: chrome
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+    tfo: false
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: 8d21436:87091
   - name: 🇸🇬 新加坡4|@ripaojiedian
     server: 103.106.229.219
     port: 989
@@ -419,7 +432,7 @@ proxies:
     password: f8f7aCzcPKbsF8p3
     tfo: false
   - name: 🇰🇷 韩国特殊|@ripaojiedian
-    server: 13.250.31.115
+    server: 13.229.110.23
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -427,7 +440,7 @@ proxies:
     password: amazonskr05
     tfo: false
   - name: 🇯🇵 日本特殊|@ripaojiedian
-    server: 54.151.184.124
+    server: 54.179.221.27
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -435,18 +448,10 @@ proxies:
     password: amazonskr05
     tfo: false
   - name: 🇸🇬 狮城特殊|@ripaojiedian
-    server: 18.143.186.182
+    server: 54.255.179.37
     port: 443
     client-fingerprint: chrome
     type: ss
     cipher: aes-256-cfb
     password: amazonskr05
-    tfo: false
-  - name: 🇨🇦 加拿大|@ripaojiedian
-    server: ca1.ssocks.wiki
-    port: 8388
-    client-fingerprint: chrome
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: M2EzY
     tfo: false
