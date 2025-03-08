@@ -371,12 +371,20 @@ proxies:
     sni: hezijiasuqi.com
     skip-cert-verify: true
   - name: 🇭🇰 香港3|@ripaojiedian
-    server: 43.154.83.213
-    port: 443
+    server: 103.149.182.61
+    port: 8388
+    client-fingerprint: chrome
+    type: ss
+    cipher: chacha20-ietf
+    password: asd123456
+    tfo: false
+  - name: 🇭🇰 香港4|@ripaojiedian
+    server: naiu-hk.05vr9nyqg5.download
+    port: 13008
     client-fingerprint: chrome
     type: trojan
-    password: Vad3.123a)asd1234-asdasd.asdazzS.123
-    sni: xx.tc.hk.go.107421.xyz
+    password: bba1cfff-9e0b-4cb6-9df4-c741c75e59a8
+    sni: cloudflare.node-ssl.cdn-alibaba.com
     skip-cert-verify: false
   - name: 🇭🇰 香港5|@ripaojiedian
     server: w72tapyb.slashdevslashnetslashtun.net
@@ -394,47 +402,40 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: 2be0c954-4291-45ea-b47d-ca713180550b
     tfo: false
-  - name: 🇭🇰 香港9|@ripaojiedian
-    server: naiu-hk.05vr9nyqg5.download
-    port: 13008
+  - name: 🇹🇼 台湾|@ripaojiedian
+    server: dest01.to.userver01.cc
+    port: 10310
     client-fingerprint: chrome
     type: trojan
-    password: bba1cfff-9e0b-4cb6-9df4-c741c75e59a8
-    sni: cloudflare.node-ssl.cdn-alibaba.com
+    password: 9d5e41f7-3ae7-41d4-8560-6177f1c36b78
+    sni: www.tmall.com
     skip-cert-verify: false
-  - name: 🇹🇼 台湾|@ripaojiedian
-    server: 125.227.86.46
-    port: 2377
-    client-fingerprint: chrome
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-    tfo: false
-    plugin: obfs
-    plugin-opts:
-      mode: tls
-      host: a1e5cc7:108142
   - name: 🇯🇵 日本3|@ripaojiedian
-    server: 45.159.50.128
-    port: 52896
+    server: discrete-shrimp.shiner427.skin
+    port: 443
     client-fingerprint: chrome
-    type: vmess
-    uuid: d754d8d8-1e09-4ddc-a379-936fb4602634
-    alterId: 0
-    cipher: auto
-    tls: false
-    tfo: false
+    type: trojan
+    password: 74260716866785000
+    sni: discrete-shrimp.shiner427.skin
     skip-cert-verify: false
-  - name: 🇸🇬 新加坡4|@ripaojiedian
-    server: 103.106.229.219
-    port: 989
+  - name: 🇰🇷 韩国|@ripaojiedian
+    server: lm.kaiqsz.com
+    port: 51075
     client-fingerprint: chrome
-    type: ss
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-    tfo: false
+    type: trojan
+    password: 63083ab4-5ef8-46d7-a3a0-1588a2b01b0a
+    sni: mmbiz10.redapricotcloud.com
+    skip-cert-verify: false
+  - name: 🇰🇷 韩国2|@ripaojiedian
+    server: dest02.to.userver01.cc
+    port: 10510
+    client-fingerprint: chrome
+    type: trojan
+    password: 9d5e41f7-3ae7-41d4-8560-6177f1c36b78
+    sni: www.tmall.com
+    skip-cert-verify: false
   - name: 🇰🇷 韩国特殊|@ripaojiedian
-    server: 35.86.89.247
+    server: 54.199.255.69
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -442,7 +443,7 @@ proxies:
     password: amazonskr05
     tfo: false
   - name: 🇯🇵 日本特殊|@ripaojiedian
-    server: 54.169.244.24
+    server: 52.195.226.198
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -450,10 +451,26 @@ proxies:
     password: amazonskr05
     tfo: false
   - name: 🇸🇬 狮城特殊|@ripaojiedian
-    server: 18.236.83.127
+    server: 18.181.167.38
     port: 443
     client-fingerprint: chrome
     type: ss
     cipher: aes-256-cfb
     password: amazonskr05
     tfo: false
+  - name: 🇩🇪 德国|@ripaojiedian
+    server: zula.ir
+    port: 80
+    client-fingerprint: chrome
+    type: vmess
+    uuid: c1fd780a-3408-4f48-a932-5832a28ce9f6
+    alterId: 0
+    cipher: auto
+    tls: false
+    tfo: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /ausgt02.bestforxray.buzz/linkws
+      headers:
+        Host: dry-disk-dfc0.hq0sr5ebxpj60vbz.workers.dev
