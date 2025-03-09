@@ -417,15 +417,6 @@ proxies:
     ws-headers:
       Host: yellow-paper-029c.yvonna.workers.dev
     udp: true
-  - name: 6元高速机场：cczzuu.top
-    type: ss
-    server: 127.0.0.1
-    port: 443
-    tls: false
-    password: 6601fb90e9b3
-    ip-version: dual
-    udp: true
-    cipher: aes-128-gcm
   - name: 🇷🇺_RU_俄罗斯_1
     type: vmess
     server: 185.174.138.199
