@@ -371,13 +371,13 @@ proxies:
     sni: hezijiasuqi.com
     skip-cert-verify: true
   - name: 🇭🇰 香港3|@ripaojiedian
-    server: 103.149.182.61
-    port: 8388
+    server: sjy.biyu763.xyz
+    port: 52225
     client-fingerprint: chrome
-    type: ss
-    cipher: chacha20-ietf
-    password: asd123456
-    tfo: false
+    type: trojan
+    password: 9d1e4d09-35d2-3ff3-ae7c-91da66a4c60c
+    sni: sjy.biyu763.xyz
+    skip-cert-verify: false
   - name: 🇭🇰 香港4|@ripaojiedian
     server: naiu-hk.05vr9nyqg5.download
     port: 13008
@@ -403,39 +403,34 @@ proxies:
     password: 2be0c954-4291-45ea-b47d-ca713180550b
     tfo: false
   - name: 🇹🇼 台湾|@ripaojiedian
-    server: dest01.to.userver01.cc
-    port: 10310
+    server: cname02b-a56xgycr7j4km32e.bestgosht.com
+    port: 7051
+    client-fingerprint: chrome
+    type: ssr
+    cipher: chacha20-ietf
+    password: lbNVOz
+    protocol: auth_aes128_md5
+    obfs: http_simple
+    protocol-param: 202018:1FstQvihnBRscXZP
+    obfs-param: b4ff5202018.microsoft.com
+  - name: 🇯🇵 日本4|@ripaojiedian
+    server: wb.kaiqsz.com
+    port: 28713
     client-fingerprint: chrome
     type: trojan
-    password: 9d5e41f7-3ae7-41d4-8560-6177f1c36b78
-    sni: www.tmall.com
+    password: 64770f2e-b784-4331-938e-26cd54e3eff1
+    sni: mmbiz1.redapricotcloud.com
     skip-cert-verify: false
-  - name: 🇯🇵 日本3|@ripaojiedian
-    server: discrete-shrimp.shiner427.skin
+  - name: 🇸🇬 新加坡|@ripaojiedian
+    server: hardy-haddock.shiner427.skin
     port: 443
     client-fingerprint: chrome
     type: trojan
     password: 74260716866785000
-    sni: discrete-shrimp.shiner427.skin
-    skip-cert-verify: false
-  - name: 🇰🇷 韩国|@ripaojiedian
-    server: lm.kaiqsz.com
-    port: 51075
-    client-fingerprint: chrome
-    type: trojan
-    password: 63083ab4-5ef8-46d7-a3a0-1588a2b01b0a
-    sni: mmbiz10.redapricotcloud.com
-    skip-cert-verify: false
-  - name: 🇰🇷 韩国2|@ripaojiedian
-    server: dest02.to.userver01.cc
-    port: 10510
-    client-fingerprint: chrome
-    type: trojan
-    password: 9d5e41f7-3ae7-41d4-8560-6177f1c36b78
-    sni: www.tmall.com
+    sni: hardy-haddock.shiner427.skin
     skip-cert-verify: false
   - name: 🇰🇷 韩国特殊|@ripaojiedian
-    server: 54.199.255.69
+    server: 54.199.0.211
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -443,7 +438,7 @@ proxies:
     password: amazonskr05
     tfo: false
   - name: 🇯🇵 日本特殊|@ripaojiedian
-    server: 52.195.226.198
+    server: 54.250.26.118
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -451,26 +446,10 @@ proxies:
     password: amazonskr05
     tfo: false
   - name: 🇸🇬 狮城特殊|@ripaojiedian
-    server: 18.181.167.38
+    server: 57.180.243.140
     port: 443
     client-fingerprint: chrome
     type: ss
     cipher: aes-256-cfb
     password: amazonskr05
     tfo: false
-  - name: 🇩🇪 德国|@ripaojiedian
-    server: zula.ir
-    port: 80
-    client-fingerprint: chrome
-    type: vmess
-    uuid: c1fd780a-3408-4f48-a932-5832a28ce9f6
-    alterId: 0
-    cipher: auto
-    tls: false
-    tfo: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /ausgt02.bestforxray.buzz/linkws
-      headers:
-        Host: dry-disk-dfc0.hq0sr5ebxpj60vbz.workers.dev
