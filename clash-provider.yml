@@ -472,25 +472,14 @@ proxies:
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 202503131222137-DT5JTyaOLB.download.microsoft.com
-  - name: 🇭🇰 香港8|@ripaojiedian
-    server: 183.2.194.141
-    port: 34011
-    client-fingerprint: chrome
-    type: vmess
-    uuid: 59383c9f-700c-4767-9e5a-6c6e87669c3c
-    alterId: 0
-    cipher: auto
-    tls: false
-    tfo: false
-    skip-cert-verify: false
-  - name: 🇰🇷 韩国特殊|@ripaojiedian
-    server: 52.198.107.245
-    port: 443
+      host: 202503131222137-I1Qlb2V1Rh.download.microsoft.com
+  - name: 🇭🇰 香港9|@ripaojiedian
+    server: jg647hf446ghvw.eucs.cn
+    port: 11411
     client-fingerprint: chrome
     type: ss
-    cipher: aes-256-cfb
-    password: amazonskr05
+    cipher: chacha20-ietf-poly1305
+    password: e1cabcd18141de64ff45cb8297488de4
     tfo: false
   - name: 🇸🇬 狮城特殊|@ripaojiedian
     server: 54.169.255.43
@@ -501,7 +490,15 @@ proxies:
     password: amazonskr05
     tfo: false
   - name: 🇯🇵 日本特殊|@ripaojiedian
-    server: 13.231.233.44
+    server: 43.207.102.171
+    port: 443
+    client-fingerprint: chrome
+    type: ss
+    cipher: aes-256-cfb
+    password: amazonskr05
+    tfo: false
+  - name: 🇰🇷 韩国特殊|@ripaojiedian
+    server: 18.183.116.21
     port: 443
     client-fingerprint: chrome
     type: ss
