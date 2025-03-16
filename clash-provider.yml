@@ -422,23 +422,39 @@ proxies:
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 202503140983506-1tyf6s8TzW.download.microsoft.com
-  - name: 🇯🇵 日本3|@ripaojiedian
-    server: mdss-jp.04z3susick.download
-    port: 12016
+      host: 202503161140460-Ypmr7Skyy1.download.microsoft.com
+  - name: 🇭🇰 香港5|@ripaojiedian
+    server: cloudgd.coemn.com
+    port: 46003
     client-fingerprint: chrome
-    type: ss
-    cipher: aes-128-gcm
-    password: 2c8cfc48-c211-4973-bc95-9d532ac42c35
+    type: vmess
+    uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
+    alterId: 0
+    cipher: auto
+    tls: false
     tfo: false
-  - name: 🇸🇬 新加坡3|@ripaojiedian
-    server: mdss-sg.04z3susick.download
-    port: 12022
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /zh-cn
+      headers:
+        Host: cloudgd.coemn.com
+  - name: 🇹🇼 台湾2|@ripaojiedian
+    server: fadawtawd.zhangwei.li
+    port: 46005
     client-fingerprint: chrome
-    type: ss
-    cipher: aes-128-gcm
-    password: 2c8cfc48-c211-4973-bc95-9d532ac42c35
+    type: vmess
+    uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
+    alterId: 0
+    cipher: auto
+    tls: false
     tfo: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /zh-cn
+      headers:
+        Host: fadawtawd.zhangwei.li
   - name: 🇯🇵 日本特殊|@ripaojiedian
     server: 3.34.253.95
     port: 443
