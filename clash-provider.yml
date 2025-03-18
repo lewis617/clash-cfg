@@ -15,13 +15,154 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - name: US美国(mibei77.com 米贝节点分享)
+  - name: 🇺🇸_US_美国
+    type: ss
+    server: 35.86.111.233
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: 🇺🇸_US_美国_1
+    type: ss
     server: 23.162.56.206
     port: 11201
-    type: ss
     cipher: chacha20-ietf-poly1305
     password: 620c5b5108120a72
+  - name: 🇺🇸_US_美国_2
+    type: ss
+    server: 184.170.241.194
+    port: 443
+    cipher: aes-128-cfb
+    password: shadowsocks
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国
+    type: ss
+    server: ti3hyra4.slashdevslashnetslashtun.net
+    port: 17001
+    cipher: aes-256-gcm
+    password: 54SY1SP5HU73E00Z
+  - name: 🇧🇪_BE_比利时
+    type: ss
+    server: 57.128.190.214
+    port: 48977
+    cipher: chacha20-ietf-poly1305
+    password: 99eedf8e9170c8a4
+  - name: 🇺🇸_US_美国_3
+    type: ss
+    server: 34.210.253.95
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: 🇺🇸_US_美国_4
+    type: ss
+    server: 54.218.61.43
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: 🇺🇸_US_美国_5
+    type: ss
+    server: 100.42.182.73
+    port: 11738
+    cipher: chacha20-ietf-poly1305
+    password: 7cbfe78195fbf19c
+  - name: 🇩🇰_DK_丹麦
+    type: ss
+    server: 185.186.79.53
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: 🇺🇸_US_美国->🇨🇳_CN_中国
+    type: ss
+    server: 18.236.137.219
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: 🇨🇭_CH_瑞士->🇨🇳_CN_中国
+    type: ss
+    server: 84.17.53.160
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: 🇲🇩_MD_摩尔多瓦
+    type: ss
+    server: 91.132.94.200
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: 🇺🇸_US_美国_6
+    type: trojan
+    server: 192.3.130.103
+    port: 443
     udp: true
+    sni: us10-01zl.huangshang.filegear-sg.me
+    password: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
+    network: grpc
+    grpc-opts:
+      grpc-service-name: i8oL7PsxV002zYFTmiIeg
+  - name: 🇸🇰_SK_斯洛伐克
+    type: ss
+    server: 156.146.40.194
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: 🇰🇼_KW_科威特
+    type: ss
+    server: 163.171.181.49
+    port: 12317
+    cipher: chacha20-ietf-poly1305
+    password: 877c3b069c335ffc
+  - name: 🇮🇸_IS_冰岛
+    type: ss
+    server: 37.235.49.152
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: 🇧🇬_BG_保加利亚
+    type: ss
+    server: 149.34.244.80
+    port: 443
+    cipher: aes-128-gcm
+    password: shadowsocks
+  - name: 🇺🇸_US_美国_7
+    type: vmess
+    server: 207.90.238.136
+    port: 20010
+    sni: ""
+    uuid: 68ac3cd2-a15f-4518-9a59-b1d8f5649019
+    cipher: auto
+    network: ws
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+    alterId: 0
+  - name: 🇺🇸_US_美国_10
+    type: ss
+    server: 54.184.74.88
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: 🇺🇸_US_美国_11
+    type: ss
+    server: 34.221.169.63
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: 🇺🇸_US_美国_12
+    type: ss
+    server: 34.211.230.161
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: 🇺🇸_US_美国->🇯🇵_JP_日本
+    type: trojan
+    server: 104.21.34.159
+    port: 443
+    udp: true
+    sni: df6xxxx.2031.pp.ua
+    password: 85950277-f447-48f0-9ead-aaf6d5ff3cad
+    network: ws
+    ws-opts:
+      path: /I4L1BP2DQVYmx5NYQ76MGGq
+      headers:
+        host: df6xxxx.2031.pp.ua
   - name: US美国(mibei77.com 米贝节点分享) 2
     server: 38.28.198.151
     port: 443
@@ -59,13 +200,6 @@ proxies:
     type: trojan
     password: Aimer
     skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 6
-    server: ti3hyra4.slashdevslashnetslashtun.net
-    port: 15006
-    type: ss
-    cipher: aes-256-gcm
-    password: RBN1UNGVPF1BQXPK
     udp: true
   - name: US美国(mibei77.com 米贝节点分享) 7
     server: 38.28.197.130
@@ -129,13 +263,6 @@ proxies:
     tls: false
     skip-cert-verify: true
     udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 13
-    server: 100.42.182.73
-    port: 11738
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 7cbfe78195fbf19c
-    udp: true
   - name: 瑞典(mibei77.com 米贝节点分享) 2
     server: sto2.g.edgeservers.org
     port: 15128
@@ -150,25 +277,11 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: nxS1a7JNlIcbsN8Q4EKL5t
     udp: true
-  - name: 比利时(mibei77.com 米贝节点分享)
-    server: 57.128.190.214
-    port: 48977
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 99eedf8e9170c8a4
-    udp: true
   - name: KR韩国(mibei77.com 米贝节点分享)
     server: 118.42.188.118
     port: 37322
     type: trojan
     password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: JP日本(mibei77.com 米贝节点分享)
-    server: 104.21.34.159
-    port: 443
-    type: trojan
-    password: 85950277-f447-48f0-9ead-aaf6d5ff3cad
     skip-cert-verify: true
     udp: true
   - name: US美国(mibei77.com 米贝节点分享) 15
@@ -209,13 +322,6 @@ proxies:
     password: Aimer
     skip-cert-verify: true
     udp: true
-  - name: 保加利亚(mibei77.com 米贝节点分享)
-    server: 149.34.244.80
-    port: 443
-    type: ss
-    cipher: aes-128-gcm
-    password: shadowsocks
-    udp: true
   - name: US美国(mibei77.com 米贝节点分享) 19
     server: hk01.x.quickcht3.club
     port: 52611
@@ -232,145 +338,6 @@ proxies:
     ip-version: dual
     udp: true
     cipher: aes-128-gcm
-  - name: 🇺🇸_US_美国_1
-    type: ss
-    server: 35.86.111.233
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_3
-    type: ss
-    server: 184.170.241.194
-    port: 443
-    tls: false
-    password: shadowsocks
-    ip-version: dual
-    udp: true
-    cipher: aes-128-cfb
-  - name: 🇺🇸_US_美国_4
-    type: ss
-    server: 34.210.253.95
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_5
-    type: ss
-    server: 54.218.61.43
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 🇩🇰_DK_丹麦
-    type: ss
-    server: 185.186.79.53
-    port: 989
-    tls: false
-    password: f8f7aCzcPKbsF8p3
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国->🇨🇳_CN_中国
-    type: ss
-    server: 18.236.137.219
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 🇨🇭_CH_瑞士->🇨🇳_CN_中国
-    type: ss
-    server: 84.17.53.160
-    port: 989
-    tls: false
-    password: f8f7aCzcPKbsF8p3
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 🇲🇩_MD_摩尔多瓦
-    type: ss
-    server: 91.132.94.200
-    port: 989
-    tls: false
-    password: f8f7aCzcPKbsF8p3
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_7
-    type: trojan
-    server: 192.3.130.103
-    port: 443
-    network: grpc
-    tls: true
-    password: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
-    sni: us10-01zl.huangshang.filegear-sg.me
-    skip-cert-verify: false
-    grpc-opts:
-      grpc-service-name: i8oL7PsxV002zYFTmiIeg
-    ip-version: dual
-    udp: true
-  - name: 🇸🇰_SK_斯洛伐克
-    type: ss
-    server: 156.146.40.194
-    port: 989
-    tls: false
-    password: f8f7aCzcPKbsF8p3
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 🇰🇼_KW_科威特
-    type: ss
-    server: 163.171.181.49
-    port: 12317
-    tls: false
-    password: 877c3b069c335ffc
-    ip-version: dual
-    udp: true
-    cipher: chacha20-ietf-poly1305
-  - name: 🇮🇸_IS_冰岛
-    type: ss
-    server: 37.235.49.152
-    port: 989
-    tls: false
-    password: f8f7aCzcPKbsF8p3
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_11
-    type: ss
-    server: 54.184.74.88
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_12
-    type: ss
-    server: 34.221.169.63
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_13
-    type: ss
-    server: 34.211.230.161
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
   - name: 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
     type: vmess
     server: 185.174.138.209
@@ -383,18 +350,6 @@ proxies:
       path: /az05.beyondy.cfd/link?/TM
       headers:
         host: yellow-paper-029c.yvonna.workers.dev
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
-  - name: 🇺🇸_US_美国_1
-    type: vmess
-    server: 207.90.238.136
-    port: 20010
-    uuid: 34a7d0cd-b0ba-440d-ab78-804775303a11
-    network: ws
-    ws-opts:
-      path: /
     ip-version: dual
     udp: true
     alterId: 0
