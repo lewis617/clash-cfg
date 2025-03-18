@@ -441,7 +441,7 @@ proxies:
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 202503170996717-wD0t0Kc8NT.download.microsoft.com
+      host: 202503170996717-xh4inuCuH4.download.microsoft.com
   - name: 🇯🇵 日本5|@ripaojiedian
     server: gorgeous-bull.shiner427.skin
     port: 443
