@@ -476,7 +476,7 @@ proxies:
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 202503170996717-MVQjjXvt4R.download.microsoft.com
+      host: 202503170996717-X5D1wovzQJ.download.microsoft.com
   - name: 🇯🇵 日本3|@ripaojiedian
     server: 156.231.104.16
     port: 18006
