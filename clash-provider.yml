@@ -488,7 +488,7 @@ proxies:
     skip-cert-verify: true
     udp: true
   - name: tg频道:@ripaojiedian
-    server: 43.201.85.71
+    server: 13.212.61.224
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -496,13 +496,16 @@ proxies:
     password: amazonskr05
     tfo: false
   - name: 🇭🇰 香港|@ripaojiedian
-    server: 156.245.190.13
-    port: 15004
+    server: 38.147.188.94
+    port: 53199
     client-fingerprint: chrome
-    type: ss
-    cipher: aes-256-gcm
-    password: HM7BNW02BEB4N41T
+    type: vmess
+    uuid: 1bd1a355-cc70-47a4-b8ca-fb4e0a38fac6
+    alterId: 0
+    cipher: auto
+    tls: false
     tfo: false
+    skip-cert-verify: false
   - name: 🇭🇰 香港2|@ripaojiedian
     server: 183.232.229.164
     port: 11002
@@ -512,20 +515,28 @@ proxies:
     password: ee19fceb-cedc-4832-b460-fccf24fdc8be
     tfo: false
   - name: 🇭🇰 香港5|@ripaojiedian
-    server: 103.36.90.195
+    server: 103.149.183.61
     port: 8388
     client-fingerprint: chrome
     type: ss
     cipher: chacha20-ietf
     password: asd123456
     tfo: false
-  - name: 🇭🇰 香港6|@ripaojiedian
-    server: 103.149.182.191
-    port: 8388
+  - name: 🇭🇰 香港4|@ripaojiedian
+    server: w72tapyb.slashdevslashnetslashtun.net
+    port: 15016
     client-fingerprint: chrome
     type: ss
-    cipher: chacha20-ietf
-    password: asd123456
+    cipher: aes-256-gcm
+    password: RG7OQX7S5OIU3AL4
+    tfo: false
+  - name: 🇭🇰 香港6|@ripaojiedian
+    server: qh62onjn.slashdevslashnetslashtun.net
+    port: 15015
+    client-fingerprint: chrome
+    type: ss
+    cipher: aes-256-gcm
+    password: 6U7N3FEJT62R1YRH
     tfo: false
   - name: 🇹🇼 台湾|@ripaojiedian
     server: zf1.10101251.xyz
@@ -536,12 +547,20 @@ proxies:
     password: 4bccdfb7-f45b-44bb-9cd3-fb6f8fc8072f
     tfo: false
   - name: 🇹🇼 台湾2|@ripaojiedian
+    server: wb.kaiqsz.com
+    port: 42765
+    client-fingerprint: chrome
+    type: trojan
+    password: d7d8a8cd-239b-4b4e-93d9-dc3d89332ac9
+    sni: mmbiz1.redapricotcloud.com
+    skip-cert-verify: false
+  - name: 🇹🇼 台湾3|@ripaojiedian
     server: 150.116.11.9
     port: 21005
     client-fingerprint: chrome
     type: ss
     cipher: aes-256-gcm
-    password: YY1SVLAEC2CXXGRW
+    password: RLPW44KAFL6K2LNA
     tfo: false
   - name: 🇯🇵 日本|@ripaojiedian
     server: cn01.efan8867801.xyz
@@ -554,7 +573,7 @@ proxies:
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 202503170996717-B3WS06QTgX.download.microsoft.com
+      host: 202503170996717-V0ONnI0Viy.download.microsoft.com
   - name: 🇯🇵 日本3|@ripaojiedian
     server: 61.172.235.22
     port: 11001
@@ -569,43 +588,8 @@ proxies:
     client-fingerprint: chrome
     type: ss
     cipher: aes-256-gcm
-    password: SP1ITNU7HMEIXN5U
+    password: CQ6E6S8LBSRMG7AF
     tfo: false
-  - name: 🇯🇵 日本5|@ripaojiedian
-    server: 156.231.104.15
-    port: 18005
-    client-fingerprint: chrome
-    type: ss
-    cipher: aes-256-gcm
-    password: LEUK3TF3CLKRNJWF
-    tfo: false
-  - name: 🇯🇵 日本6|@ripaojiedian
-    server: grown-doberman.shiner427.skin
-    port: 443
-    client-fingerprint: chrome
-    type: trojan
-    password: 74260705449889500
-    sni: grown-doberman.shiner427.skin
-    skip-cert-verify: false
-  - name: 🇸🇬 新加坡|@ripaojiedian
-    server: 154.196.244.13
-    port: 16003
-    client-fingerprint: chrome
-    type: ss
-    cipher: aes-256-gcm
-    password: DHJHLK4FAV0ABTK6
-    tfo: false
-  - name: 🇸🇬 新加坡2|@ripaojiedian
-    server: 120.198.71.184
-    port: 10710
-    client-fingerprint: chrome
-    type: vmess
-    uuid: CE361194-7D70-614C-780B-D3BDB61D0257
-    alterId: 0
-    cipher: auto
-    tls: false
-    tfo: false
-    skip-cert-verify: false
   - name: 🇸🇬 新加坡3|@ripaojiedian
     server: 120.232.150.248
     port: 11008
@@ -614,29 +598,8 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: ee19fceb-cedc-4832-b460-fccf24fdc8be
     tfo: false
-  - name: 🇺🇸 美国3|@ripaojiedian
-    server: aws-us-dallas-1.f1cflined.com
-    port: 443
-    client-fingerprint: chrome
-    type: trojan
-    password: f2s539
-    sni: aws-us-dallas-1.f1cflined.com
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /f1rocket
-      headers:
-        Host: aws-us-dallas-1.f1cflined.com
-  - name: 🇺🇸 美国4|@ripaojiedian
-    server: 23.185.248.11
-    port: 17001
-    client-fingerprint: chrome
-    type: ss
-    cipher: aes-256-gcm
-    password: 0C8XQRGKD622MR0Y
-    tfo: false
   - name: 🇯🇵 日本特殊|@ripaojiedian
-    server: 13.229.99.127
+    server: 3.35.138.170
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -644,7 +607,7 @@ proxies:
     password: amazonskr05
     tfo: false
   - name: 🇰🇷 韩国特殊|@ripaojiedian
-    server: 52.195.175.110
+    server: 47.129.223.247
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -652,7 +615,7 @@ proxies:
     password: amazonskr05
     tfo: false
   - name: 🇸🇬 狮城特殊|@ripaojiedian
-    server: 3.112.18.99
+    server: 3.112.13.110
     port: 443
     client-fingerprint: chrome
     type: ss
