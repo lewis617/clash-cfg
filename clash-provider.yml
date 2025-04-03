@@ -16,89 +16,175 @@ dns:
     - tls://dns.google:853
 proxies:
   - name: 🇺🇸_US_美国
+    type: ss
+    server: 52.37.220.218
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: 🇷🇺_RU_俄罗斯->🇺🇸_US_美国_1
+    type: ss
+    server: 81.19.137.66
+    port: 44316
+    cipher: chacha20-ietf-poly1305
+    password: Qx22XZwNt4SCcnWNkypEAj
+  - name: 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
+    type: ss
+    server: 77.239.117.121
+    port: 28694
+    cipher: chacha20-ietf-poly1305
+    password: sojzFfZN5WMHqzvVJcDJJ9
+  - name: 🇺🇸_US_美国_2
+    type: ss
+    server: 34.208.203.47
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: 🇺🇸_US_美国_3
+    type: ss
+    server: 54.69.221.160
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: 🇺🇸_US_美国_4
+    type: trojan
+    server: 104.21.49.59
+    port: 443
+    udp: true
+    sni: Fgh9JkR5.890617.xYz
+    password: d67cfeaf-b277-44ac-ab99-9dd02a7c5299
+    network: ws
+    alpn:
+      - http/1.1
+    ws-opts:
+      path: /lWljHWvIMOj85lz42MdhsCLV
+      headers:
+        host: fgh9jkr5.890617.xyz
+  - name: 🇺🇸_US_美国_5
+    type: ss
+    server: 34.217.15.41
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: 🇸🇰_SK_斯洛伐克
+    type: ss
+    server: 156.146.40.194
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: 🇬🇧_GB_英国->🇺🇸_US_美国
+    type: trojan
+    server: 18.135.219.247
+    port: 22222
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+    network: tcp
+    alpn:
+      - http/1.1
+  - name: 🇺🇸_US_美国->🇸🇪_SE_瑞典
+    type: trojan
+    server: 18.159.217.6
+    port: 22222
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+    network: tcp
+    alpn:
+      - http/1.1
+  - name: 🇺🇸_US_美国_6
+    type: trojan
+    server: 13.60.128.60
+    port: 22222
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-directvpn
+    network: tcp
+    alpn:
+      - http/1.1
+  - name: 🇸🇬_SG_新加坡
+    type: ss
+    server: 54.179.52.175
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: 🇺🇸_US_美国_7
+    type: trojan
+    server: 52.28.5.172
+    port: 22222
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-directvpn
+    network: tcp
+    alpn:
+      - http/1.1
+  - name: 🇺🇸_US_美国_8
+    type: ss
+    server: 38.110.1.146
+    port: 7001
+    cipher: aes-256-gcm
+    password: RexnBgU7EV5ADxG
+  - name: 🇦🇺_AU_澳大利亚
+    type: trojan
+    server: 43.162.127.44
+    port: 443
+    sni: myvps.cfd
+    password: oIwjHDXpKePvYIg8
+  - name: 🇷🇺_RU_俄罗斯
     type: vmess
-    server: 134.195.211.116
-    port: 21022
-    uuid: f17c76c1-2c3b-4791-b2a7-15435b81ed3a
+    server: 195.133.5.127
+    port: 23039
+    uuid: 9a4707a1-afe6-41a7-b787-d56c3a7eb8f9
     cipher: auto
     network: ws
     ws-opts:
       path: /
     alterId: 0
-  - name: 🇬🇧_GB_英国->🇨🇳_CN_中国
+  - name: 🇺🇸_US_美国->🇪🇸_ES_西班牙
     type: trojan
-    server: 51.21.7.106
-    port: 22222
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-privatevpns
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国
-    type: trojan
-    server: 111.62.241.211
-    port: 20086
-    sni: 6.p5zqtpj2n7.xyz
-    password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
-    network: tcp
-    skip-cert-verify: true
-  - name: 🇮🇸_IS_冰岛
-    type: ss
-    server: 37.235.49.152
-    port: 989
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - name: 🇺🇸_US_美国_1
-    type: ss
-    server: 52.40.170.193
-    port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05
-  - name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
-    type: trojan
-    server: 20.2.156.186
-    port: 443
-    sni: ru.mjt000.com
-    password: 6557bf4a-852b-4a69-ad35-d53293386a13
+    server: 104.21.96.1
+    port: 2083
+    udp: true
+    sni: yjc.twn24.ir
+    password: SD85M89IdW67
+    network: ws
     skip-cert-verify: false
-  - name: 🇩🇪_DE_德国->🇺🇸_US_美国
-    type: ss
-    server: 45.87.175.188
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: 4a2rfixophdjffa8KVA4Aa
-  - name: 🇺🇸_US_美国_3
-    type: trojan
-    server: ru.mjt000.com
-    port: 443
-    sni: ru.mjt000.com
-    password: 6557bf4a-852b-4a69-ad35-d53293386a13
-    skip-cert-verify: false
-  - name: 🇺🇸_US_美国_4
+    ws-opts:
+      path: /🆔@M3HDIO1
+      headers:
+        host: yjc.twn24.ir
+  - name: 🇺🇸_US_美国->🇸🇬_SG_新加坡
     type: ss
     server: 34.209.118.169
     port: 443
     cipher: aes-256-cfb
     password: amazonskr05
-  - name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯_1
+  - name: 🇮🇪_IE_爱尔兰
     type: trojan
-    server: 20.2.156.105
-    port: 443
-    sni: ru.mjt000.com
-    password: 6557bf4a-852b-4a69-ad35-d53293386a13
+    server: 99.80.72.111
+    port: 22222
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+    network: tcp
+    alpn:
+      - http/1.1
+  - name: 🇫🇷_FR_法国
+    type: trojan
+    server: 52.47.183.83
+    port: 22222
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-directvpn
     skip-cert-verify: false
-  - name: 🇺🇸_US_美国_5
+  - name: 🇺🇸_US_美国_9
     type: ss
-    server: 34.219.71.252
+    server: 52.88.180.184
     port: 443
     cipher: aes-256-cfb
     password: amazonskr05
-  - name: 🇺🇸_US_美国_7
+  - name: 🇺🇸_US_美国_11
     type: ss
-    server: 35.93.21.189
+    server: 34.222.2.112
     port: 443
     cipher: aes-256-cfb
     password: amazonskr05
   - name: US美国(mibei77.com 米贝节点分享)
-    server: 120.232.153.40
-    port: 41002
+    server: 120.232.153.123
+    port: 41402
     type: vmess
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 0
@@ -107,29 +193,15 @@ proxies:
     skip-cert-verify: true
     udp: true
   - name: US美国(mibei77.com 米贝节点分享) 2
-    server: 23.150.248.235
-    port: 7306
+    server: 23.150.248.199
+    port: 7002
     type: ss
     cipher: aes-256-gcm
-    password: FoOiGlkAA9yPEGP
+    password: RexnBgU7EV5ADxG
     udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 7
-    server: s4.db-link01.top
-    port: 2052
-    type: vmess
-    uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-path: /dabai.in104.16.229.16
-    ws-headers:
-      Host: 100-2-96-202.s4.db-link01.top
-    udp: true
-  - name: HK香港(mibei77.com 米贝节点分享)
-    server: 120.198.71.216
-    port: 40059
+  - name: US美国(mibei77.com 米贝节点分享) 3
+    server: 120.234.102.229
+    port: 31998
     type: vmess
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 0
@@ -137,28 +209,7 @@ proxies:
     tls: false
     skip-cert-verify: true
     udp: true
-  - name: GB英国(mibei77.com 米贝节点分享)
-    server: 176.53.144.206
-    port: 8443
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: 俄罗斯(mibei77.com 米贝节点分享)
-    server: 5.182.84.22
-    port: 2096
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: NL荷兰(mibei77.com 米贝节点分享)
-    server: arxfw2b78fi2q9hzylhn.freesocks.work
-    port: 443
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: Nk9asglDzHzjktVzTkvhaA
-    udp: true
-  - name: HK香港(mibei77.com 米贝节点分享) 2
+  - name: HK香港(mibei77.com 米贝节点分享)
     server: 183.236.51.38
     port: 51039
     type: vmess
@@ -168,139 +219,76 @@ proxies:
     tls: false
     skip-cert-verify: true
     udp: true
-  - name: 亚美尼亚(mibei77.com 米贝节点分享)
-    server: 188.164.159.196
-    port: 2096
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: 俄罗斯(mibei77.com 米贝节点分享) 2
-    server: 45.67.214.41
-    port: 2083
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: HK香港(mibei77.com 米贝节点分享) 3
-    server: 120.232.153.123
-    port: 51052
+  - name: US美国(mibei77.com 米贝节点分享) 4
+    server: s4.db-link01.top
+    port: 2095
     type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
+    network: ws
+    ws-path: /dabai.in104.17.28.240
+    ws-headers:
+      Host: 100-114-107-221.s4.db-link01.top
     udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 8
-    server: 49.51.179.33
-    port: 443
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 9
-    server: 188.164.159.241
-    port: 2096
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 10
-    server: us10-04.852224.ggff.net
-    port: 443
+  - name: US美国(mibei77.com 米贝节点分享) 5
+    server: v40.heduian.link
+    port: 30840
     type: vmess
-    uuid: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
     network: ws
-    ws-path: /SNwNdunw28lVztopw90eoXel
+    ws-path: /index
     ws-headers:
-      Host: us10-04.852224.ggff.net
+      Host: api100-core-quic-lf.amemv.com
     udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 11
-    server: 183.240.255.75
-    port: 12364
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: ee19fceb-cedc-4832-b460-fccf24fdc8be
-    udp: true
-  - name: HK香港(mibei77.com 米贝节点分享) 4
-    server: 154.197.64.240
-    port: 8443
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: HK香港(mibei77.com 米贝节点分享) 5
-    server: 120.198.71.214
-    port: 34093
+  - name: 哥斯达黎加(mibei77.com 米贝节点分享)
+    server: 104.18.42.163
+    port: 80
     type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    uuid: 812eb086-8442-4799-9d92-112fd1a225af
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /s15.html
+    ws-headers:
+      Host: 568662652373822025032919124028951.s15.chibaba.filegear-sg.me
+    udp: true
+  - name: HK香港(mibei77.com 米贝节点分享) 2
+    server: gysz0000.dynu.net
+    port: 56277
+    type: ss
+    cipher: aes-128-gcm
+    password: VMhGp5wEIyCDf90T
+    udp: true
+  - name: HK香港(mibei77.com 米贝节点分享) 3
+    server: 875461ce-su9s00-tiao6e-cum1.c.volczijie.com
+    port: 4137
+    type: vmess
+    uuid: 03010754-faf0-11ef-a7c4-f23c9313b177
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
     udp: true
   - name: US美国(mibei77.com 米贝节点分享) 12
-    server: s4.db-link02.top
-    port: 80
+    server: 120.232.153.63
+    port: 40105
     type: vmess
-    uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    network: ws
-    ws-path: /dabai.in104.24.152.253
-    ws-headers:
-      Host: 100-21-178-246.s4.db-link02.top
     udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 13
-    server: esna.farsonline24.ir
-    port: 8443
-    type: vmess
-    uuid: a41f4152-eb42-4b56-a1a8-6bf0dba11ee8
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: /I4hsGQVV
-    ws-headers:
-      Host: esna.farsonline24.ir
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 17
-    server: s3.db-link01.top
-    port: 8880
-    type: vmess
-    uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-path: /dabai.in104.20.160.94
-    ws-headers:
-      Host: 100-171-48-108.s3.db-link01.top
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 19
-    server: 120.232.150.248
-    port: 12357
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: ee19fceb-cedc-4832-b460-fccf24fdc8be
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 20
-    server: hk01.x.quickcht3.club
-    port: 52611
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 2be0c954-4291-45ea-b47d-ca713180550b
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 23
+  - name: US美国(mibei77.com 米贝节点分享) 15
     server: s5.db-link01.top
     port: 2052
     type: vmess
@@ -314,7 +302,65 @@ proxies:
     ws-headers:
       Host: 100-62-189-118.s5.db-link01.top
     udp: true
-  - name: HK香港(mibei77.com 米贝节点分享) 6
+  - name: 🇺🇸_US_美国_4
+    type: ss
+    server: 52.40.170.193
+    port: 443
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+    type: ss
+    server: 54.202.0.97
+    port: 443
+    password: amazonskr05
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_8
+    type: ss
+    server: 137.175.113.215
+    port: 8388
+    password: asd123456
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf
+  - name: 🇹🇷_TR_土耳其
+    type: vmess
+    server: 193.31.116.198
+    port: 14034
+    uuid: e2dbd04f-63ff-4885-abdc-7b78e41a473d
+    network: tcp
+    ip-version: dual
+    udp: true
+    alterId: 0
+    cipher: auto
+  - name: 香港(yudou66.com 玉豆免费节点)
+    server: 120.232.153.40
+    port: 41002
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: 俄罗斯(yudou66.com 玉豆免费节点)
+    server: 185.174.138.196
+    port: 2082
+    type: vmess
+    uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /az05.beyondy.cfd/link?/TM@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1/?ed=2560
+    ws-headers:
+      Host: yellow-paper-029c.yvonna.workers.dev
+    udp: true
+  - name: 香港(yudou66.com 玉豆免费节点) 2
     server: 120.198.71.219
     port: 42055
     type: vmess
@@ -324,50 +370,23 @@ proxies:
     tls: false
     skip-cert-verify: true
     udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 24
-    server: hk.bazhuayujiasu.cc
-    port: 12356
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: ee19fceb-cedc-4832-b460-fccf24fdc8be
-    udp: true
-  - name: HK香港(mibei77.com 米贝节点分享) 7
-    server: 120.234.102.229
-    port: 31998
+  - name: 美国(yudou66.com 玉豆免费节点) 10
+    server: 104.18.21.69
+    port: 80
     type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    uuid: 27c85fdb-5e8f-43ea-bf43-4ed4d0a3b306
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
+    network: ws
+    ws-path: /s15.html?ed=2048
+    ws-headers:
+      Host: 463780114223862025033022090866087.s15.chibaba.filegear-sg.me
     udp: true
-  - name: 土耳其(mibei77.com 米贝节点分享)
-    server: 84.54.13.30
-    port: 52807
-    type: vmess
-    uuid: 559f2ab2-1b52-4f5b-9e45-7794e6f2648b
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 俄罗斯(mibei77.com 米贝节点分享) 3
-    server: 46.254.92.142
-    port: 2087
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: 俄罗斯(mibei77.com 米贝节点分享) 4
-    server: 45.67.214.3
-    port: 2096
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 26
-    server: s5.cn-db.top
-    port: 2095
+  - name: 美国(yudou66.com 玉豆免费节点) 12
+    server: s3.db-link01.top
+    port: 2082
     type: vmess
     uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
     alterId: 0
@@ -375,182 +394,23 @@ proxies:
     tls: false
     skip-cert-verify: true
     network: ws
-    ws-path: /dabai.in172.67.127.124
+    ws-path: /dabai.in104.25.204.117
     ws-headers:
-      Host: 100-27-240-19.s5.cn-db.top
+      Host: 100-6-204-129.s3.db-link01.top
     udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 28
-    server: 120.232.153.63
-    port: 40105
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 30
-    server: 183.232.229.164
-    port: 12355
+  - name: 日本(yudou66.com 玉豆免费节点)
+    server: arxfw2b78fi2q9hzylhn.freesocks.work
+    port: 443
     type: ss
     cipher: chacha20-ietf-poly1305
-    password: ee19fceb-cedc-4832-b460-fccf24fdc8be
+    password: Nk9asglDzHzjktVzTkvhaA
     udp: true
-  - name: 6元高速机场：cczzuu.top
-    type: ss
-    server: 127.0.0.1
+  - name: 美国(yudou66.com 玉豆免费节点) 19
+    server: 192.3.130.103
     port: 443
-    tls: false
-    password: 6601fb90e9b3
-    ip-version: dual
-    cipher: aes-128-gcm
-  - name: 🇺🇸_US_美国_2
-    type: ss
-    server: 54.185.253.219
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: 🇷🇺_RU_俄罗斯
-    type: ss
-    server: 185.231.233.112
-    port: 989
-    tls: false
-    password: f8f7aCzcPKbsF8p3
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_5
-    type: ss
-    server: 54.191.187.21
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国->🇮🇳_IN_印度
     type: trojan
-    server: 35ba5dc4c753892feb3270a8e745e72b.lianjianode.xyz
-    port: 42168
-    network: tcp
-    tls: true
-    password: c017fb27-a4b4-48f9-80f6-2bdb504adf75
-    sni: data.bilibili.com
+    password: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
     skip-cert-verify: true
-    ip-version: dual
-  - name: 🇺🇸_US_美国_8
-    type: ss
-    server: 54.71.217.123
-    port: 443
-    tls: false
-    password: amazonskr05
-    ip-version: dual
-    cipher: aes-256-cfb
-  - name: 🇩🇪_DE_德国->🇨🇳_CN_中国
-    type: vmess
-    server: 5.75.195.199
-    port: 4500
-    uuid: 89de804d-a4c4-4c00-c647-18c3af1c8c8c
-    network: tcp
-    sni: ""
-    fingerprint: ""
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
-  - name: 🇸🇬_SG_新加坡
-    type: ss
-    server: 18.140.70.168
-    port: 443
-    password: amazonskr05
-    ip-version: dual
-    udp: true
-    cipher: aes-256-cfb
-  - name: 🇳🇱_NL_荷兰
-    type: vmess
-    server: 45.142.120.190
-    port: 2082
-    uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
-    network: ws
-    sni: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /az05.beyondy.cfd/link#
-      headers:
-        host: yellow-paper-029c.yvonna.workers.dev
-    ip-version: dual
-    udp: true
-    alterId: 0
-    cipher: auto
-  - name: 美国(yudou66.com 玉豆免费节点) 2
-    server: cm1.awslcn.info
-    port: 25285
-    type: vmess
-    uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-path: /
-    ws-headers:
-      Host: cm1.awslcn.info
-    udp: true
-  - name: 美国(yudou66.com 玉豆免费节点) 13
-    server: cu.awslcn.info
-    port: 25284
-    type: vmess
-    uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-path: /
-    ws-headers:
-      Host: cu.awslcn.info
-    udp: true
-  - name: 美国(yudou66.com 玉豆免费节点) 17
-    server: cm.awslcn.info
-    port: 25241
-    type: vmess
-    uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-path: /
-    ws-headers:
-      Host: cm.awslcn.info
-    udp: true
-  - name: 美国(yudou66.com 玉豆免费节点) 21
-    server: hk2.awslcn.info
-    port: 25242
-    type: vmess
-    uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-path: /
-    ws-headers:
-      Host: hk2.awslcn.info
-    udp: true
-  - name: 美国(yudou66.com 玉豆免费节点) 23
-    server: hk1.awslcn.info
-    port: 25242
-    type: vmess
-    uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-path: /
-    ws-headers:
-      Host: hk1.awslcn.info
     udp: true
   - name: tg频道:@ripaojiedian
     server: 13.212.222.104
