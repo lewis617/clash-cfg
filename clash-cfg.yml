@@ -21,7 +21,7 @@ proxy-groups:
     type: url-test
     use: [clashfree]
     url: https://www.gstatic.com/generate_204
-    interval: 600
+    interval: 3600
     proxies: null
     filter: null
   - name: PROXY
