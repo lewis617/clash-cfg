@@ -1536,12 +1536,12 @@ proxies:
     skip-cert-verify: true
     udp: true
   - name: tg频道:@ripaojiedian
-    server: 13.229.208.218
-    port: 443
+    server: 52.33.3.233
+    port: 463
     client-fingerprint: chrome
     type: ss
     cipher: aes-256-cfb
-    password: amazonskr05
+    password: 463qwerty
     tfo: false
   - name: 🇭🇰 香港|@ripaojiedian
     server: hk02.x.quickcht3.club
@@ -1551,13 +1551,13 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: 2be0c954-4291-45ea-b47d-ca713180550b
     tfo: false
-  - name: 🇭🇰 香港3|@ripaojiedian
-    server: 111.29.57.125
-    port: 52612
+  - name: 🇭🇰 香港2|@ripaojiedian
+    server: 45.207.157.83
+    port: 30001
     client-fingerprint: chrome
     type: ss
     cipher: chacha20-ietf-poly1305
-    password: 2be0c954-4291-45ea-b47d-ca713180550b
+    password: c46ba905-31de-4090-8153-ec7d2e063079
     tfo: false
   - name: 🇭🇰 香港4|@ripaojiedian
     server: v9.heduian.link
@@ -1575,6 +1575,14 @@ proxies:
       path: /oooo
       headers:
         Host: baidu.com
+  - name: 🇭🇰 香港3|@ripaojiedian
+    server: 111.29.57.125
+    port: 52612
+    client-fingerprint: chrome
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 2be0c954-4291-45ea-b47d-ca713180550b
+    tfo: false
   - name: 🇭🇰 香港5|@ripaojiedian
     server: 3.link-hub.click
     port: 40239
@@ -1586,17 +1594,52 @@ proxies:
     obfs: plain
     protocol-param: 92902:pFWGOQ
     obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  - name: 🇹🇼 台湾|@ripaojiedian
-    server: 58acaca7-sumqo0-tbfl8f-xcf.b.fosant.com
-    port: 3690
+  - name: 🇭🇰 香港6|@ripaojiedian
+    server: 35.220.230.251
+    port: 30251
     client-fingerprint: chrome
     type: vmess
-    uuid: 3219f740-4024-11ef-bfd4-f23c93136cb3
+    uuid: 86c9c119-c46d-45a9-82a6-75a886e5e795
     alterId: 0
     cipher: auto
     tls: false
     tfo: false
     skip-cert-verify: false
+  - name: 🇭🇰 香港7|@ripaojiedian
+    server: 47.104.186.133
+    port: 50002
+    client-fingerprint: chrome
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    tfo: false
+    skip-cert-verify: false
+  - name: 🇹🇼 台湾|@ripaojiedian
+    server: iepl.ytxfx.xyz
+    port: 45632
+    client-fingerprint: chrome
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: a5633270-44fd-4071-90ef-c6d47d8e61a7
+    tfo: false
+  - name: 🇹🇼 台湾2|@ripaojiedian
+    server: m.cnmjin.net
+    port: 16616
+    client-fingerprint: chrome
+    type: vmess
+    uuid: 6400c720-13f6-45b0-81ea-419b89873cd2
+    alterId: 0
+    cipher: auto
+    tls: false
+    tfo: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 66d0c215104536850c337da2227b21cb.mobgslb.tbcache.com
   - name: 🇯🇵 日本|@ripaojiedian
     server: cn01.efan8867801.xyz
     port: 8766
@@ -1608,29 +1651,13 @@ proxies:
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 202504031266665-2FO2jW0pPK.download.microsoft.com
+      host: 202504031266665-L1JNrfsrAR.download.microsoft.com
   - name: 🇯🇵 日本2|@ripaojiedian
-    server: 156.231.104.22
-    port: 18012
-    client-fingerprint: chrome
-    type: ss
-    cipher: aes-256-gcm
-    password: TTY07WM37NEXCPQB
-    tfo: false
-  - name: 🇯🇵 日本3|@ripaojiedian
-    server: 156.231.104.15
-    port: 18005
-    client-fingerprint: chrome
-    type: ss
-    cipher: aes-256-gcm
-    password: V87NZNS8MU6PXNMO
-    tfo: false
-  - name: 🇯🇵 日本4|@ripaojiedian
-    server: 45.159.50.212
-    port: 31842
+    server: 45.159.50.12
+    port: 35575
     client-fingerprint: chrome
     type: vmess
-    uuid: 570e52c1-be15-4c79-a9e7-bab82555a034
+    uuid: 94a09477-7cdc-450d-aecd-c73ef596b5e9
     alterId: 0
     cipher: auto
     tls: false
@@ -1652,15 +1679,34 @@ proxies:
       path: /oooo
       headers:
         Host: ocbc.com
-  - name: 🇺🇸 美国2|@ripaojiedian
-    server: 156.229.162.50
-    port: 30003
+  - name: 🇸🇬 新加坡|@ripaojiedian
+    server: yes.mojcn.com
+    port: 16618
     client-fingerprint: chrome
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 8d4314cc-f326-4b49-9e3a-530a337eee31
+    type: vmess
+    uuid: 6400c720-13f6-45b0-81ea-419b89873cd2
+    alterId: 0
+    cipher: auto
+    tls: false
     tfo: false
-  - name: 🇺🇸 美国4|@ripaojiedian
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 66d0c215104536850c337da2227b21cb.mobgslb.tbcache.com
+  - name: 🇸🇬 新加坡2|@ripaojiedian
+    server: 41158001-suh6o0-sv6d5y-ddgs.c.volczijie.com
+    port: 4137
+    client-fingerprint: chrome
+    type: vmess
+    uuid: c870fe5a-0729-11f0-8cf9-f23c93136cb3
+    alterId: 0
+    cipher: auto
+    tls: false
+    tfo: false
+    skip-cert-verify: false
+  - name: 🇺🇸 美国3|@ripaojiedian
     server: dxv4.pai50288.uk
     port: 14100
     client-fingerprint: chrome
@@ -1671,6 +1717,22 @@ proxies:
     tls: false
     tfo: false
     skip-cert-verify: false
+  - name: 🇯🇵 日本特殊|@ripaojiedian
+    server: 18.183.101.244
+    port: 80
+    client-fingerprint: chrome
+    type: ss
+    cipher: aes-256-cfb
+    password: thisgou
+    tfo: false
+  - name: 🇯🇵 东京特殊|@ripaojiedian
+    server: 13.230.226.50
+    port: 80
+    client-fingerprint: chrome
+    type: ss
+    cipher: aes-256-cfb
+    password: thisgou
+    tfo: false
   - name: 🇰🇷 韩国特殊|@ripaojiedian
     server: 18.140.50.192
     port: 443
@@ -1679,19 +1741,19 @@ proxies:
     cipher: aes-256-cfb
     password: amazonskr05
     tfo: false
-  - name: 🇯🇵 日本特殊|@ripaojiedian
-    server: 35.72.13.55
-    port: 443
+  - name: 🇩🇪 德国|@ripaojiedian
+    server: 156.226.174.40
+    port: 30004
     client-fingerprint: chrome
     type: ss
-    cipher: aes-256-cfb
-    password: amazonskr05
+    cipher: chacha20-ietf-poly1305
+    password: 95821db5-66eb-4b5f-a854-f129093e6d47
     tfo: false
-  - name: 🇸🇬 狮城特殊|@ripaojiedian
-    server: 13.212.241.11
-    port: 443
+  - name: 🇬🇧 英国|@ripaojiedian
+    server: 206.245.211.26
+    port: 19016
     client-fingerprint: chrome
     type: ss
-    cipher: aes-256-cfb
-    password: amazonskr05
+    cipher: aes-256-gcm
+    password: MK8DFM50KMBSIWDX
     tfo: false
