@@ -499,7 +499,7 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: cdc48a7a-b618-45af-a831-5afbd686b02f
     tfo: false
-  - name: 🇹🇼 台湾3|@ripaojiedian
+  - name: 🇹🇼 台湾2|@ripaojiedian
     server: 154.223.20.79
     port: 989
     client-fingerprint: chrome
@@ -622,11 +622,27 @@ proxies:
     cipher: aes-256-cfb
     password: amazonskr05
     tfo: false
-  - name: 🇹🇭 泰国|@ripaojiedian
-    server: 43.128.212.180
-    port: 3306
+  - name: 🇭🇰 香港1|@ripaojiedian
+    server: gdyd.aicheetah.lol
+    port: 57314
     client-fingerprint: chrome
     type: ss
-    cipher: aes-256-cfb
-    password: 1601e3c29c8db1a88942cf0cad731bf3
+    cipher: chacha20-ietf-poly1305
+    password: d192a833-b118-4b46-8e54-12cf5025d4cd
+    tfo: false
+  - name: 🇹🇼 台湾3|@ripaojiedian
+    server: gsyd.aicheetah.lol
+    port: 33248
+    client-fingerprint: chrome
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: d192a833-b118-4b46-8e54-12cf5025d4cd
+    tfo: false
+  - name: 🇯🇵 日本1|@ripaojiedian
+    server: gdlt.aicheetah.lol
+    port: 27534
+    client-fingerprint: chrome
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: d192a833-b118-4b46-8e54-12cf5025d4cd
     tfo: false
