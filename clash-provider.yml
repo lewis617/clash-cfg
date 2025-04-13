@@ -542,7 +542,7 @@ proxies:
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 202504031266665-FaUpQWXZDf.download.microsoft.com
+      host: 202504131296640-OW0JYD5Wra.download.microsoft.com
   - name: 🇯🇵 日本2|@ripaojiedian
     server: gdlt.aicheetah.lol
     port: 27534
