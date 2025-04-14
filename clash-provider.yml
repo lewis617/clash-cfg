@@ -436,7 +436,7 @@ proxies:
     skip-cert-verify: true
     udp: true
   - name: tg频道:@ripaojiedian
-    server: 34.220.173.163
+    server: 13.212.175.136
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -542,7 +542,7 @@ proxies:
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 202504131296640-OW0JYD5Wra.download.microsoft.com
+      host: 202504140137024-Zlzv0ZMcwk.download.microsoft.com
   - name: 🇯🇵 日本2|@ripaojiedian
     server: gdlt.aicheetah.lol
     port: 27534
@@ -584,7 +584,7 @@ proxies:
       headers:
         Host: baidu.com
   - name: 🇯🇵 日本特殊|@ripaojiedian
-    server: 47.129.241.217
+    server: 54.191.46.142
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -592,7 +592,7 @@ proxies:
     password: amazonskr05
     tfo: false
   - name: 🇸🇬 狮城特殊|@ripaojiedian
-    server: 54.255.246.167
+    server: 13.209.80.28
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -600,7 +600,7 @@ proxies:
     password: amazonskr05
     tfo: false
   - name: 🇰🇷 韩国特殊|@ripaojiedian
-    server: 13.229.180.165
+    server: 18.179.20.184
     port: 443
     client-fingerprint: chrome
     type: ss
