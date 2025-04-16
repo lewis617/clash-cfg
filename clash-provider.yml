@@ -436,7 +436,7 @@ proxies:
     skip-cert-verify: true
     udp: true
   - name: tg频道:@ripaojiedian
-    server: 43.207.233.28
+    server: 18.246.215.6
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -542,7 +542,7 @@ proxies:
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 202503181464410-2u2bwvJ6Hf.download.microsoft.com
+      host: 202503181464410-9tCwc1fdZ3.download.microsoft.com
   - name: 🇯🇵 日本2|@ripaojiedian
     server: hzz9.fgmcx.top
     port: 23919
@@ -617,7 +617,7 @@ proxies:
     tfo: false
     skip-cert-verify: false
   - name: 🇰🇷 韩国特殊|@ripaojiedian
-    server: 54.249.151.205
+    server: 3.34.192.249
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -625,7 +625,7 @@ proxies:
     password: amazonskr05
     tfo: false
   - name: 🇸🇬 狮城特殊|@ripaojiedian
-    server: 57.180.253.62
+    server: 3.36.96.166
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -633,7 +633,7 @@ proxies:
     password: amazonskr05
     tfo: false
   - name: 🇯🇵 日本特殊|@ripaojiedian
-    server: 52.78.214.206
+    server: 18.179.174.138
     port: 443
     client-fingerprint: chrome
     type: ss
