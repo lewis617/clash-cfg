@@ -595,7 +595,7 @@ proxies:
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 202503181464410-9tCwc1fdZ3.download.microsoft.com
+      host: 202504161119105-MDldW0hCpy.download.microsoft.com
   - name: 🇯🇵 日本2|@ripaojiedian
     server: hzz9.fgmcx.top
     port: 23919
