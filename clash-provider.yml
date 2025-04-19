@@ -599,7 +599,7 @@ proxies:
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 202504182189466-Qjhm5ktgfl.download.microsoft.com
+      host: 202504182189466-KXW6ZXTh3H.download.microsoft.com
   - name: 🇯🇵 日本2|@ripaojiedian
     server: 59.42.247.189
     port: 8004
