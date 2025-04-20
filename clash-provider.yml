@@ -529,7 +529,7 @@ proxies:
     password: RexnBgU7EV5ADxG
     udp: true
   - name: tg频道:@ripaojiedian
-    server: 54.180.238.95
+    server: 47.128.150.221
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -537,22 +537,19 @@ proxies:
     password: amazonskr05
     tfo: false
   - name: 🇭🇰 香港2|@ripaojiedian
-    server: 2a646fc6-sv0xs0-tevzxo-3e5b.cm.plebai.net
-    port: 15228
+    server: sla.cn.964e995b760.gogodns.xin
+    port: 27102
     client-fingerprint: chrome
-    type: vmess
-    uuid: b70f5316-cc87-11ed-ab19-f23c91cfbbc9
-    alterId: 0
-    cipher: auto
-    tls: false
-    tfo: false
+    type: trojan
+    password: 22b34bca-5208-4eb1-94c8-53e77077a32e
+    sni: q08m.vgraxiw73s.hasyaf.cn
     skip-cert-verify: false
   - name: 🇭🇰 香港4|@ripaojiedian
-    server: 92d4ab34-sv0xs0-tcmtfl-1qudp.cm.plebai.net
+    server: eeb0da71-sv8cg0-t2l8w3-d32g.cm.plebai.net
     port: 15228
     client-fingerprint: chrome
     type: vmess
-    uuid: 99129cef-f705-11ee-ada6-f23c91cfbbc9
+    uuid: 72bda932-979f-a008-de58-0dcb3b424cfe
     alterId: 0
     cipher: auto
     tls: false
@@ -569,24 +566,13 @@ proxies:
     tls: false
     tfo: false
     skip-cert-verify: false
-  - name: 🇭🇰 香港8|@ripaojiedian
-    server: sla.cn.964e995b760.gogodns.xin
-    port: 27103
+  - name: 🇭🇰 香港9|@ripaojiedian
+    server: csuzhou01.1cooldns.com
+    port: 42303
     client-fingerprint: chrome
     type: trojan
-    password: f4c09d3e-1143-4b97-af3d-6b8220ed930a
-    sni: q08m.vgraxiw73s.hasyaf.cn
-    skip-cert-verify: false
-  - name: 🇹🇼 台湾|@ripaojiedian
-    server: haa.dashuai.cyou
-    port: 45078
-    client-fingerprint: chrome
-    type: vmess
-    uuid: ced0060e-ae26-4f08-a96d-a5edbce6dd16
-    alterId: 0
-    cipher: auto
-    tls: false
-    tfo: false
+    password: VMhGp5wEIyCDf90T
+    sni: hk06.run.place
     skip-cert-verify: false
   - name: 🇯🇵 日本|@ripaojiedian
     server: cn01.efan8867801.xyz
@@ -599,29 +585,29 @@ proxies:
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 202504182189466-KXW6ZXTh3H.download.microsoft.com
+      host: 202504182189466-8od2bG05Pm.download.microsoft.com
   - name: 🇯🇵 日本2|@ripaojiedian
-    server: 59.42.247.189
-    port: 8004
+    server: v6.heduian.link
+    port: 30806
     client-fingerprint: chrome
     type: vmess
-    uuid: ef19de03-2788-44ef-a0bd-d698657e0bb9
-    alterId: 0
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
     cipher: auto
     tls: false
     tfo: false
     skip-cert-verify: false
     network: ws
     ws-opts:
-      path: /nmkj
+      path: /oooo
       headers:
-        Host: www.bing.com
+        Host: ocbc.com
   - name: 🇰🇷 韩国|@ripaojiedian
-    server: 4924b4e1-sux8g0-sxlqgq-1spnr.cm5.p5pv.com
-    port: 17232
+    server: xdd.dashuai.cyou
+    port: 45075
     client-fingerprint: chrome
     type: vmess
-    uuid: 127e3f92-f714-11ef-bbb0-f23c91cfbbc9
+    uuid: e1936af5-c58e-4c19-a05e-7c264aee49f2
     alterId: 0
     cipher: auto
     tls: false
@@ -632,7 +618,7 @@ proxies:
     port: 8000
     client-fingerprint: chrome
     type: vmess
-    uuid: 865f0d89-ebf5-465b-ae3f-2bd2b7f56bfa
+    uuid: 4c7929b7-281f-4d86-ad24-d766904482e6
     alterId: 0
     cipher: auto
     tls: false
@@ -651,8 +637,19 @@ proxies:
     cipher: aes-256-gcm
     password: pKEW8JPByTVTLtM
     tfo: false
+  - name: 🇺🇸 美国4|@ripaojiedian
+    server: 8705693f-sv8cg0-t35mzx-1pp0x.cu.plebai.net
+    port: 5229
+    client-fingerprint: chrome
+    type: vmess
+    uuid: 7734370a-8480-11ee-ab76-f23c91cfbbc9
+    alterId: 0
+    cipher: auto
+    tls: false
+    tfo: false
+    skip-cert-verify: false
   - name: 🇰🇷 韩国特殊|@ripaojiedian
-    server: 54.202.113.64
+    server: 13.212.117.64
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -660,7 +657,7 @@ proxies:
     password: amazonskr05
     tfo: false
   - name: 🇸🇬 狮城特殊|@ripaojiedian
-    server: 3.38.94.160
+    server: 34.217.76.113
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -668,21 +665,10 @@ proxies:
     password: amazonskr05
     tfo: false
   - name: 🇯🇵 日本特殊|@ripaojiedian
-    server: 43.201.51.236
+    server: 13.124.153.152
     port: 443
     client-fingerprint: chrome
     type: ss
     cipher: aes-256-cfb
     password: amazonskr05
     tfo: false
-  - name: 🇮🇳 印度|@ripaojiedian
-    server: xdd.dashuai.cyou
-    port: 45073
-    client-fingerprint: chrome
-    type: vmess
-    uuid: 0e80c044-ccf7-42fd-8590-bc007f4cfb5f
-    alterId: 0
-    cipher: auto
-    tls: false
-    tfo: false
-    skip-cert-verify: false
