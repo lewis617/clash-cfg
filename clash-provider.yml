@@ -1790,7 +1790,7 @@ proxies:
     alterId: 0
     cipher: auto
   - name: tg频道:@ripaojiedian
-    server: 47.128.155.142
+    server: 47.128.230.36
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -1826,9 +1826,25 @@ proxies:
     password: 2c605663-b89a-5734-a9d6-97d4743d72cf
     sni: hk-13-568.flztjc.net
     skip-cert-verify: false
+  - name: 🇭🇰 香港9|@ripaojiedian
+    server: hkkh11v1.xpmc.cc
+    port: 31402
+    client-fingerprint: chrome
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 91a41f4e02dc
+    tfo: false
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: hkkh11v1.xpmc.cc
+      path: /utvbnrzejpmt
+      tls: true
+      mux: true
+      skip-cert-verify: false
   - name: 🇹🇼 台湾|@ripaojiedian
     server: sx.75886993.xyz
-    port: 15375
+    port: 41681
     client-fingerprint: chrome
     type: ss
     cipher: aes-128-gcm
@@ -1845,7 +1861,7 @@ proxies:
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 202504212352625-1jaHlWfGGj.download.microsoft.com
+      host: 202504212352625-mSKdydjLdf.download.microsoft.com
   - name: 🇯🇵 日本2|@ripaojiedian
     server: v6.heduian.link
     port: 30806
@@ -1901,7 +1917,7 @@ proxies:
       headers:
         Host: ocbc.com
   - name: 🇰🇷 韩国特殊|@ripaojiedian
-    server: 54.250.244.203
+    server: 43.203.202.53
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -1909,7 +1925,7 @@ proxies:
     password: amazonskr05
     tfo: false
   - name: 🇸🇬 狮城特殊|@ripaojiedian
-    server: 13.230.173.71
+    server: 47.129.221.216
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -1917,7 +1933,7 @@ proxies:
     password: amazonskr05
     tfo: false
   - name: 🇯🇵 日本特殊|@ripaojiedian
-    server: 34.222.45.211
+    server: 3.36.89.243
     port: 443
     client-fingerprint: chrome
     type: ss
