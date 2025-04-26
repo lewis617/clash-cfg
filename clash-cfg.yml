@@ -77,7 +77,6 @@ rule-providers:
     format: yaml
 rules:
   - DOMAIN-SUFFIX,phncdn.com,DIRECT
-  - DOMAIN,www.bing.com,DIRECT
   - RULE-SET,icloud,DIRECT
   - RULE-SET,apple,DIRECT
   - RULE-SET,direct,DIRECT
