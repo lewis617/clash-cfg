@@ -76,7 +76,6 @@ rule-providers:
     interval: 86400
     format: yaml
 rules:
-  - DOMAIN-SUFFIX,phncdn.com,DIRECT
   - RULE-SET,icloud,DIRECT
   - RULE-SET,apple,DIRECT
   - RULE-SET,direct,DIRECT
