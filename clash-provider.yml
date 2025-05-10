@@ -886,7 +886,7 @@ proxies:
     skip-cert-verify: true
     udp: true
   - name: tg频道:@ripaojiedian
-    server: 18.179.178.170
+    server: 18.236.149.239
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -907,21 +907,13 @@ proxies:
       headers:
         Host: vt-bana2-cn-11.ghpgwqswodgzv.com
   - name: 🇭🇰 香港4|@ripaojiedian
-    server: 43b5a616-sw04g0-swasv3-luwe.hgc1.tcpbbr.net
-    port: 8080
+    server: 103.149.182.191
+    port: 8388
     client-fingerprint: chrome
-    type: vmess
-    uuid: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
-    alterId: 0
-    cipher: auto
-    tls: false
+    type: ss
+    cipher: chacha20-ietf
+    password: asd123456
     tfo: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: broadcastlv.chat.bilibili.com
   - name: 🇭🇰 香港7|@ripaojiedian
     server: csuzhou01.1cooldns.com
     port: 42303
@@ -938,6 +930,14 @@ proxies:
     password: 6e1b9a65-884f-3aa9-9469-bf6ec0f08610
     sni: 45.32.28.232
     skip-cert-verify: false
+  - name: 🇹🇼 台湾2|@ripaojiedian
+    server: taifo01a.kbservice.club
+    port: 443
+    client-fingerprint: chrome
+    type: trojan
+    password: 6e1b9a65-884f-3aa9-9469-bf6ec0f08610
+    sni: 45.32.28.232
+    skip-cert-verify: false
   - name: 🇯🇵 日本|@ripaojiedian
     server: cn01.efan8867801.xyz
     port: 8766
@@ -949,20 +949,20 @@ proxies:
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 202505081193439-fXcPpumg6a.download.microsoft.com
+      host: 202505081193439-ADTUVtshPJ.download.microsoft.com
   - name: 🇯🇵 日本2|@ripaojiedian
     server: 103.140.136.242
-    port: 48512
+    port: 16622
     client-fingerprint: chrome
     type: ss
     cipher: chacha20-ietf-poly1305
-    password: ee003c5fb8d8
+    password: e03b35b40a25
     tfo: false
     plugin: v2ray-plugin
     plugin-opts:
       mode: websocket
       host: jp06v1.3ci.xyz
-      path: /ywkyahjulb
+      path: /ymfvpytvkdp
       tls: true
       mux: true
       skip-cert-verify: false
@@ -1010,7 +1010,7 @@ proxies:
     password: cdBIDV42DCwnfIN
     tfo: false
   - name: 🇯🇵 日本特殊|@ripaojiedian
-    server: 43.206.214.213
+    server: 52.199.191.145
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -1018,7 +1018,7 @@ proxies:
     password: awsps0501
     tfo: false
   - name: 🇸🇬 狮城特殊|@ripaojiedian
-    server: 52.27.142.2
+    server: 3.35.231.158
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -1026,7 +1026,7 @@ proxies:
     password: awsps0501
     tfo: false
   - name: 🇰🇷 韩国特殊|@ripaojiedian
-    server: 13.212.202.199
+    server: 52.197.184.25
     port: 443
     client-fingerprint: chrome
     type: ss
