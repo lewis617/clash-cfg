@@ -683,7 +683,7 @@ proxies:
     skip-cert-verify: true
     udp: true
   - name: tg频道:@ripaojiedian
-    server: 35.91.97.85
+    server: 54.168.242.214
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -691,17 +691,17 @@ proxies:
     password: awsps0501
     tfo: false
   - name: 🇭🇰 香港4|@ripaojiedian
-    server: 103.30.76.66
-    port: 13651
+    server: 103.224.80.111
+    port: 57922
     client-fingerprint: chrome
     type: vmess
-    uuid: 6831c9ce-4ca8-42c0-8181-fb1055710ccc
+    uuid: 92d204d0-5808-4f68-963d-4aa3b425f8aa
     alterId: 0
     cipher: auto
     tls: false
     tfo: false
     skip-cert-verify: false
-  - name: 🇭🇰 香港7|@ripaojiedian
+  - name: 🇭🇰 香港6|@ripaojiedian
     server: v9.heduian.link
     port: 30809
     client-fingerprint: chrome
@@ -717,25 +717,39 @@ proxies:
       path: /oooo
       headers:
         Host: baidu.com
-  - name: 🇭🇰 香港8|@ripaojiedian
-    server: 45.196.234.135
-    port: 29714
+  - name: 🇯🇵 日本7|@ripaojiedian
+    server: 58.246.138.244
+    port: 1443
     client-fingerprint: chrome
     type: vmess
-    uuid: 26312aa7-13a8-40c9-9c37-da0cdfc2d225
-    alterId: 0
+    uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782
+    alterId: 64
     cipher: auto
-    tls: false
+    tls: true
     tfo: false
     skip-cert-verify: false
-  - name: 🇸🇬 新加坡3|@ripaojiedian
-    server: 120.232.220.45
-    port: 42881
+    servername: centos7
+    network: ws
+    ws-opts:
+      path: /634c5c4f9782
+      headers:
+        Host: centos7
+  - name: 🇯🇵 日本6|@ripaojiedian
+    server: ti3hyra4.slashdevslashnetslashtun.net
+    port: 18012
     client-fingerprint: chrome
-    type: trojan
-    password: ffea316f-7e81-4f8c-b122-1673abe353ed
-    sni: q08m.vgraxiw73s.hasyaf.cn
-    skip-cert-verify: false
+    type: ss
+    cipher: aes-256-gcm
+    password: N23FDU65EGHFL6OY
+    tfo: false
+  - name: 🇸🇬 新加坡3|@ripaojiedian
+    server: 54.251.238.225
+    port: 6666
+    client-fingerprint: chrome
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+    tfo: false
   - name: 🇰🇷 韩国2|@ripaojiedian
     server: p141.panda001.net
     port: 4652
@@ -743,4 +757,20 @@ proxies:
     type: ss
     cipher: aes-256-cfb
     password: qwerREWQ@@
+    tfo: false
+  - name: 🇷🇺 俄罗斯|@ripaojiedian
+    server: 176.32.35.68
+    port: 4018
+    client-fingerprint: chrome
+    type: ss
+    cipher: aes-256-gcm
+    password: 4194ce5b1f36f660
+    tfo: false
+  - name: 🇻🇳 越南|@ripaojiedian
+    server: 103.186.154.33
+    port: 38388
+    client-fingerprint: chrome
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     tfo: false
