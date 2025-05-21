@@ -683,19 +683,19 @@ proxies:
     skip-cert-verify: true
     udp: true
   - name: tg频道:@ripaojiedian
-    server: 54.168.242.214
+    server: 13.250.27.89
     port: 443
     client-fingerprint: chrome
     type: ss
     cipher: aes-256-cfb
-    password: awsps0501
+    password: qawszxc123
     tfo: false
   - name: 🇭🇰 香港4|@ripaojiedian
-    server: 103.224.80.111
-    port: 57922
+    server: 43.247.135.192
+    port: 19504
     client-fingerprint: chrome
     type: vmess
-    uuid: 92d204d0-5808-4f68-963d-4aa3b425f8aa
+    uuid: 1322968d-536f-4dd4-8cea-fee6c04e2d97
     alterId: 0
     cipher: auto
     tls: false
@@ -717,54 +717,13 @@ proxies:
       path: /oooo
       headers:
         Host: baidu.com
-  - name: 🇯🇵 日本7|@ripaojiedian
-    server: 58.246.138.244
-    port: 1443
-    client-fingerprint: chrome
-    type: vmess
-    uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782
-    alterId: 64
-    cipher: auto
-    tls: true
-    tfo: false
-    skip-cert-verify: false
-    servername: centos7
-    network: ws
-    ws-opts:
-      path: /634c5c4f9782
-      headers:
-        Host: centos7
-  - name: 🇯🇵 日本6|@ripaojiedian
-    server: ti3hyra4.slashdevslashnetslashtun.net
-    port: 18012
+  - name: 🇭🇰 香港8|@ripaojiedian
+    server: 103.149.182.61
+    port: 8388
     client-fingerprint: chrome
     type: ss
-    cipher: aes-256-gcm
-    password: N23FDU65EGHFL6OY
-    tfo: false
-  - name: 🇸🇬 新加坡3|@ripaojiedian
-    server: 54.251.238.225
-    port: 6666
-    client-fingerprint: chrome
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-    tfo: false
-  - name: 🇰🇷 韩国2|@ripaojiedian
-    server: p141.panda001.net
-    port: 4652
-    client-fingerprint: chrome
-    type: ss
-    cipher: aes-256-cfb
-    password: qwerREWQ@@
-    tfo: false
-  - name: 🇷🇺 俄罗斯|@ripaojiedian
-    server: 176.32.35.68
-    port: 4018
-    client-fingerprint: chrome
-    type: ss
-    cipher: aes-256-gcm
-    password: 4194ce5b1f36f660
+    cipher: chacha20-ietf
+    password: asd123456
     tfo: false
   - name: 🇻🇳 越南|@ripaojiedian
     server: 103.186.154.33
