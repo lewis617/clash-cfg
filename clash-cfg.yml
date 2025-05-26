@@ -75,10 +75,26 @@ rule-providers:
     path: ./ruleset/gfw.yaml
     interval: 86400
     format: yaml
+  proxy-rules:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/lewis617/clash-cfg/refs/heads/main/proxy-rules.yml"
+    path: ./ruleset/proxy-rules.yaml
+    interval: 86400
+    format: yaml
+  direct-rules:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/lewis617/clash-cfg/refs/heads/main/direct-rules.yml"
+    path: ./ruleset/direct-rules.yaml
+    interval: 86400
+    format: yaml
 rules:
   - RULE-SET,icloud,DIRECT
   - RULE-SET,apple,DIRECT
   - RULE-SET,direct,DIRECT
+  - RULE-SET,proxy-rules,PROXY
+  - RULE-SET,direct-rules,DIRECT
   - RULE-SET,proxy,PROXY
   - RULE-SET,gfw,PROXY
   - SRC-IP-CIDR,192.168.1.201/32,DIRECT
