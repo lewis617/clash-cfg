@@ -679,73 +679,12 @@ proxies:
     password: Nk9asglDzHzjktVzTkvhaA
     udp: true
   - name: tg频道:@ripaojiedian
-    server: 34.215.48.231
+    server: 54.248.176.238
     port: 443
     client-fingerprint: chrome
     type: ss
     cipher: aes-256-cfb
     password: awsps0501
-    tfo: false
-  - name: 🇭🇰 香港5|@ripaojiedian
-    server: 43.199.24.247
-    port: 3000
-    client-fingerprint: chrome
-    type: vmess
-    uuid: cc101ff1-3452-41c3-89fe-c2a5a20dc6dc
-    alterId: 0
-    cipher: auto
-    tls: false
-    tfo: false
-    skip-cert-verify: false
-  - name: 🇭🇰 香港8|@ripaojiedian
-    server: xz.fanhua.art
-    port: 49868
-    client-fingerprint: chrome
-    type: ss
-    cipher: aes-128-gcm
-    password: 43972f42-db63-4694-bb72-c480b5c905b7
-    tfo: false
-  - name: 🇭🇰 香港9|@ripaojiedian
-    server: n1735606087.ryjml.cn
-    port: 443
-    client-fingerprint: chrome
-    type: vmess
-    uuid: f047f92c-cb20-4ccb-872f-bc484d848448
-    alterId: 0
-    cipher: auto
-    tls: true
-    tfo: false
-    skip-cert-verify: false
-    servername: n1735606087.ryjml.cn
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: n1735606087.ryjml.cn
-  - name: 🇭🇰 香港10|@ripaojiedian
-    server: n1735783644.ryjml.cn
-    port: 443
-    client-fingerprint: chrome
-    type: vmess
-    uuid: 015e56c9-36d7-4f9a-9162-d8b1b7fa6f7a
-    alterId: 0
-    cipher: auto
-    tls: true
-    tfo: false
-    skip-cert-verify: false
-    servername: n1735783644.ryjml.cn
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: n1735783644.ryjml.cn
-  - name: 🇯🇵 日本2|@ripaojiedian
-    server: ti3hyra4.slashdevslashnetslashtun.net
-    port: 18016
-    client-fingerprint: chrome
-    type: ss
-    cipher: aes-256-gcm
-    password: CYYGNOZ0U11H5D2J
     tfo: false
   - name: 🇰🇷 韩国|@ripaojiedian
     server: p231.panda004.net
@@ -754,6 +693,30 @@ proxies:
     type: ss
     cipher: aes-256-cfb
     password: qwerREWQ@@
+    tfo: false
+  - name: 🇸🇬 新加坡3|@ripaojiedian
+    server: ti3hyra4.slashdevslashnetslashtun.net
+    port: 16002
+    client-fingerprint: chrome
+    type: ss
+    cipher: aes-256-gcm
+    password: 0JR5J197C0KDI6O5
+    tfo: false
+  - name: 🇸🇬 新加坡4|@ripaojiedian
+    server: 18.140.199.169
+    port: 9898
+    client-fingerprint: chrome
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+    tfo: false
+  - name: 🇺🇸 美国3|@ripaojiedian
+    server: 120.233.147.197
+    port: 23340
+    client-fingerprint: chrome
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 0fbed6c9-0fb4-4ec3-8582-f569f8d773d5
     tfo: false
   - name: 🇻🇳 越南|@ripaojiedian
     server: 103.186.154.38
