@@ -78,14 +78,14 @@ rule-providers:
   proxy-rules:
     type: http
     behavior: domain
-    url: "https://testingcf.jsdelivr.net/gh/lewis617/clash-cfg/proxy-rules.yml"
+    url: "https://testingcf.jsdelivr.net/gh/lewis617/clash-cfg@main/proxy-rules.yml"
     path: ./ruleset/proxy-rules.yaml
     interval: 86400
     format: yaml
   direct-rules:
     type: http
     behavior: domain
-    url: "https://testingcf.jsdelivr.net/gh/lewis617/clash-cfg/direct-rules.yml"
+    url: "https://testingcf.jsdelivr.net/gh/lewis617/clash-cfg@main/direct-rules.yml"
     path: ./ruleset/direct-rules.yaml
     interval: 86400
     format: yaml
