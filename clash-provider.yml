@@ -877,7 +877,7 @@ proxies:
     skip-cert-verify: true
     udp: true
   - name: tg频道:@ripaojiedian
-    server: 35.165.193.21
+    server: 44.243.102.33
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -885,21 +885,13 @@ proxies:
     password: awsps0501
     tfo: false
   - name: 🇭🇰 香港4|@ripaojiedian
-    server: 03566c42-swzb40-sznzxg-1jfvb.hgc1.tcpbbr.net
-    port: 8080
+    server: usla.mjt000.com
+    port: 443
     client-fingerprint: chrome
-    type: vmess
-    uuid: 06b2ac52-fcc6-11ec-bb74-f23c9164ca5d
-    alterId: 0
-    cipher: auto
-    tls: false
-    tfo: false
+    type: trojan
+    password: e4af2638-bb12-4e4a-84f1-a032e23ca63f
+    sni: usla.mjt000.com
     skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: broadcastlv.chat.bilibili.com
   - name: 🇭🇰 香港8|@ripaojiedian
     server: 43.247.134.85
     port: 47010
@@ -911,18 +903,31 @@ proxies:
     tls: false
     tfo: false
     skip-cert-verify: false
-  - name: 🇺🇸 美国4|@ripaojiedian
-    server: 120.232.153.41
-    port: 41597
+  - name: 🇯🇵 日本2|@ripaojiedian
+    server: 43.226.17.8
+    port: 21755
     client-fingerprint: chrome
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 60a930c17ff0
     tfo: false
-    skip-cert-verify: false
-  - name: 🇺🇸 美国5|@ripaojiedian
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: kr6v1.xpmc.cc
+      path: /matwnpkhug
+      tls: true
+      mux: true
+      skip-cert-verify: false
+  - name: 🇰🇷 韩国|@ripaojiedian
+    server: 3.39.247.174
+    port: 9898
+    client-fingerprint: chrome
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+    tfo: false
+  - name: 🇺🇸 美国3|@ripaojiedian
     server: 111.26.109.79
     port: 30828
     client-fingerprint: chrome
@@ -938,6 +943,17 @@ proxies:
       path: /oooo
       headers:
         Host: ocbc.com
+  - name: 🇺🇸 美国4|@ripaojiedian
+    server: 120.232.153.41
+    port: 41597
+    client-fingerprint: chrome
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: false
+    tfo: false
+    skip-cert-verify: false
   - name: 🇻🇳 越南|@ripaojiedian
     server: 103.186.155.20
     port: 38388
