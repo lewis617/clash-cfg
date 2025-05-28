@@ -36,7 +36,7 @@ proxy-providers:
     interval: 3600
     type: "http"
     path: "./clash-provider.yml"
-    url: "https://raw.githubusercontent.com/lewis617/clash-cfg/refs/heads/main/clash-provider.yml"
+    url: "https://raw.githubusercontent.com/lewis617/clash-cfg/main/clash-provider.yml"
 
 tunnels:
 rule-providers:
@@ -78,14 +78,14 @@ rule-providers:
   proxy-rules:
     type: http
     behavior: domain
-    url: "https://raw.githubusercontent.com/lewis617/clash-cfg/refs/heads/main/proxy-rules.yml"
+    url: "https://raw.githubusercontent.com/lewis617/clash-cfg/main/proxy-rules.yml"
     path: ./ruleset/proxy-rules.yaml
     interval: 86400
     format: yaml
   direct-rules:
     type: http
     behavior: domain
-    url: "https://raw.githubusercontent.com/lewis617/clash-cfg/refs/heads/main/direct-rules.yml"
+    url: "https://raw.githubusercontent.com/lewis617/clash-cfg/main/direct-rules.yml"
     path: ./ruleset/direct-rules.yaml
     interval: 86400
     format: yaml
