@@ -877,7 +877,7 @@ proxies:
     skip-cert-verify: true
     udp: true
   - name: tg频道:@ripaojiedian
-    server: 44.243.102.33
+    server: 18.246.228.5
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -905,7 +905,7 @@ proxies:
     skip-cert-verify: false
   - name: 🇯🇵 日本2|@ripaojiedian
     server: 43.226.17.8
-    port: 21755
+    port: 20091
     client-fingerprint: chrome
     type: ss
     cipher: chacha20-ietf-poly1305
@@ -919,14 +919,17 @@ proxies:
       tls: true
       mux: true
       skip-cert-verify: false
-  - name: 🇰🇷 韩国|@ripaojiedian
-    server: 3.39.247.174
-    port: 9898
+  - name: 🇺🇸 美国4|@ripaojiedian
+    server: 120.232.153.41
+    port: 41597
     client-fingerprint: chrome
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: false
     tfo: false
+    skip-cert-verify: false
   - name: 🇺🇸 美国3|@ripaojiedian
     server: 111.26.109.79
     port: 30828
@@ -943,22 +946,3 @@ proxies:
       path: /oooo
       headers:
         Host: ocbc.com
-  - name: 🇺🇸 美国4|@ripaojiedian
-    server: 120.232.153.41
-    port: 41597
-    client-fingerprint: chrome
-    type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    tfo: false
-    skip-cert-verify: false
-  - name: 🇻🇳 越南|@ripaojiedian
-    server: 103.186.155.20
-    port: 38388
-    client-fingerprint: chrome
-    type: ss
-    cipher: aes-256-cfb
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    tfo: false
