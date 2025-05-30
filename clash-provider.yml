@@ -877,7 +877,7 @@ proxies:
     skip-cert-verify: true
     udp: true
   - name: tg频道:@ripaojiedian
-    server: 18.246.228.5
+    server: 34.212.26.32
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -892,33 +892,46 @@ proxies:
     password: e4af2638-bb12-4e4a-84f1-a032e23ca63f
     sni: usla.mjt000.com
     skip-cert-verify: false
-  - name: 🇭🇰 香港8|@ripaojiedian
-    server: 43.247.134.85
-    port: 47010
-    client-fingerprint: chrome
-    type: vmess
-    uuid: cbffb825-93d5-4a19-aed0-0936a48c84d3
-    alterId: 0
-    cipher: auto
-    tls: false
-    tfo: false
-    skip-cert-verify: false
   - name: 🇯🇵 日本2|@ripaojiedian
-    server: 43.226.17.8
-    port: 20091
+    server: 43.226.17.17
+    port: 14312
     client-fingerprint: chrome
     type: ss
     cipher: chacha20-ietf-poly1305
-    password: 60a930c17ff0
+    password: 2e96aa2f3054
     tfo: false
     plugin: v2ray-plugin
     plugin-opts:
       mode: websocket
-      host: kr6v1.xpmc.cc
-      path: /matwnpkhug
+      host: kr7v1.pmxiaonan.xyz
+      path: /lornlqecrjwe
       tls: true
       mux: true
       skip-cert-verify: false
+  - name: 🇯🇵 日本3|@ripaojiedian
+    server: 52.195.15.105
+    port: 9898
+    client-fingerprint: chrome
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+    tfo: false
+  - name: 🇰🇷 韩国|@ripaojiedian
+    server: 125.141.26.12
+    port: 4857
+    client-fingerprint: chrome
+    type: ss
+    cipher: aes-256-cfb
+    password: qwerREWQ@@
+    tfo: false
+  - name: 🇰🇷 韩国2|@ripaojiedian
+    server: 3.38.139.172
+    port: 9898
+    client-fingerprint: chrome
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+    tfo: false
   - name: 🇺🇸 美国4|@ripaojiedian
     server: 120.232.153.41
     port: 41597
