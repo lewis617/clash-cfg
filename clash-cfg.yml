@@ -5,6 +5,8 @@ tproxy-port: 7895
 mixed-port: 7893
 allow-lan: true
 mode: rule
+external-controller: '0.0.0.0:9090'
+external-ui: './ui'
 dns:
   enabled: true
   nameserver:
