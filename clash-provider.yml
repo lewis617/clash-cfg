@@ -711,45 +711,34 @@ proxies:
     skip-cert-verify: true
     udp: true
   - name: tg频道:@ripaojiedian
-    server: 43.203.240.196
+    server: 3.35.54.68
     port: 443
     client-fingerprint: chrome
     type: ss
     cipher: aes-256-cfb
     password: yijian0503
     tfo: false
-  - name: 🇯🇵 日本3|@ripaojiedian
-    server: f67f4b28-suvds0-t1k53r-1jm8i.cm5.p5pv.com
-    port: 17233
-    client-fingerprint: chrome
-    type: vmess
-    uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
-    alterId: 0
-    cipher: auto
-    tls: false
-    tfo: false
-    skip-cert-verify: false
-  - name: 🇯🇵 日本4|@ripaojiedian
+  - name: 🇭🇰 香港10|@ripaojiedian
     server: jg647hf446ghvw.gym0boy.com
-    port: 32875
+    port: 16100
     client-fingerprint: chrome
     type: ss
     cipher: chacha20-ietf-poly1305
     password: a9d1c7f7-a1bc-47d8-b320-9b79cdf8cd00
     tfo: false
-  - name: 🇺🇸 美国4|@ripaojiedian
-    server: cm55-zz.moonwang.xyz
-    port: 54322
+  - name: 🇸🇬 新加坡4|@ripaojiedian
+    server: sg1.qqingca.cc
+    port: 20347
     client-fingerprint: chrome
     type: ss
     cipher: chacha20-ietf-poly1305
-    password: 26270a5c-cc66-4bb5-b058-c75d09d615e5
+    password: 5a0b2638-8416-42c1-b87e-99864b3d3ef2
     tfo: false
-  - name: 🇻🇳 越南|@ripaojiedian
-    server: 103.186.154.29
-    port: 38388
+  - name: 🇰🇷 韩国2|@ripaojiedian
+    server: p080.panda001.net
+    port: 36379
     client-fingerprint: chrome
     type: ss
     cipher: aes-256-cfb
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    password: qwerREWQ@@
     tfo: false
