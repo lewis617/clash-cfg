@@ -1,0 +1,5 @@
+payload:
+  - "+.openai.com"
+  - "+.chat.openai.com"
+  - "+.api.openai.com"
+  - "+.auth0.com"

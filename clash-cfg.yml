@@ -23,6 +23,53 @@ dns:
     - tls://dns.google:853
 proxies: []
 proxy-groups:
+  - filter: "澳门|🇲🇴|港|🇭🇰|HK|(?i)Hong"
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Hong_Kong.png
+    include-all: true
+    interval: 120
+    lazy: true
+    name: HK 香港
+    tolerance: 50
+    type: url-test
+  - filter: "台|🇹🇼|湾|TW|(?i)Taiwan"
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Taiwan.png
+    include-all: true
+    interval: 120
+    lazy: true
+    name: TW 台湾
+    tolerance: 50
+    type: url-test
+  - filter: "新加坡|坡|狮城|🇸🇬|SG|(?i)Singapore"
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Singapore.png
+    include-all: true
+    interval: 120
+    lazy: true
+    name: SG 新加坡
+    tolerance: 50
+    type: url-test
+  - filter: "日|🇯🇵|东京|JP|(?i)Japan"
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Japan.png
+    include-all: true
+    interval: 120
+    lazy: true
+    name: JP 日本
+    tolerance: 50
+    type: url-test
+  - filter: "美|🇺🇲|US|(?i)States|America"
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/United_States.png
+    include-all: true
+    interval: 120
+    lazy: true
+    name: US 美国
+    tolerance: 50
+    type: url-test
+  - icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Auto.png
+    include-all: true
+    interval: 120
+    lazy: true
+    name: 自动选择
+    tolerance: 50
+    type: url-test
   - name: "auto"
     type: url-test
     use: [clashfree]
@@ -36,6 +83,11 @@ proxy-groups:
       - clashfree
     proxies:
       - auto
+      - HK 香港
+      - TW 台湾
+      - SG 新加坡
+      - JP 日本
+      - US 美国
 proxy-providers:
   clashfree:
     filter: null
@@ -95,12 +147,20 @@ rule-providers:
     path: ./ruleset/direct-rules.yaml
     interval: 86400
     format: yaml
+  openai:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/lewis617/clash-cfg/main/openai.yml"
+    path: ./ruleset/openai.yaml
+    interval: 86400
+    format: yaml
 rules:
+  - RULE-SET,proxy-rules,PROXY
+  - RULE-SET,direct-rules,DIRECT
+  - RULE-SET,openai,US-PROXY
   - RULE-SET,icloud,DIRECT
   - RULE-SET,apple,DIRECT
   - RULE-SET,direct,DIRECT
-  - RULE-SET,proxy-rules,PROXY
-  - RULE-SET,direct-rules,DIRECT
   - RULE-SET,proxy,PROXY
   - RULE-SET,gfw,PROXY
   - SRC-IP-CIDR,192.168.1.201/32,DIRECT
