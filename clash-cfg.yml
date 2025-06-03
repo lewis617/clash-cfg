@@ -157,7 +157,7 @@ rule-providers:
 rules:
   - RULE-SET,proxy-rules,PROXY
   - RULE-SET,direct-rules,DIRECT
-  - RULE-SET,openai,US-PROXY
+  - RULE-SET,openai,US 美国
   - RULE-SET,icloud,DIRECT
   - RULE-SET,apple,DIRECT
   - RULE-SET,direct,DIRECT
