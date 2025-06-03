@@ -79,8 +79,6 @@ proxy-groups:
     filter: null
   - name: PROXY
     type: select
-    use:
-      - clashfree
     proxies:
       - auto
       - HK 香港
