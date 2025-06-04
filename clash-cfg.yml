@@ -28,7 +28,7 @@ proxy-groups:
     include-all: true
     interval: 120
     lazy: true
-    name: HK 香港
+    name: HK
     tolerance: 50
     type: url-test
   - filter: "台|🇹🇼|湾|TW|(?i)Taiwan"
@@ -36,7 +36,15 @@ proxy-groups:
     include-all: true
     interval: 120
     lazy: true
-    name: TW 台湾
+    name: TW
+    tolerance: 50
+    type: url-test
+  - filter: "韩|🇰🇷|国|KR|(?i)Korea"
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Korea.png
+    include-all: true
+    interval: 120
+    lazy: true
+    name: KR
     tolerance: 50
     type: url-test
   - filter: "新加坡|坡|狮城|🇸🇬|SG|(?i)Singapore"
@@ -44,7 +52,7 @@ proxy-groups:
     include-all: true
     interval: 120
     lazy: true
-    name: SG 新加坡
+    name: SG
     tolerance: 50
     type: url-test
   - filter: "日|🇯🇵|东京|JP|(?i)Japan"
@@ -52,7 +60,7 @@ proxy-groups:
     include-all: true
     interval: 120
     lazy: true
-    name: JP 日本
+    name: JP
     tolerance: 50
     type: url-test
   - filter: "美|🇺🇲|US|(?i)States|America"
@@ -60,7 +68,7 @@ proxy-groups:
     include-all: true
     interval: 120
     lazy: true
-    name: US 美国
+    name: US
     tolerance: 50
     type: url-test
   - icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Auto.png
@@ -81,11 +89,12 @@ proxy-groups:
     type: select
     proxies:
       - auto
-      - HK 香港
-      - TW 台湾
-      - SG 新加坡
-      - JP 日本
-      - US 美国
+      - HK
+      - TW
+      - KR
+      - SG
+      - JP
+      - US
 proxy-providers:
   clashfree:
     filter: null
@@ -155,7 +164,7 @@ rule-providers:
 rules:
   - RULE-SET,proxy-rules,PROXY
   - RULE-SET,direct-rules,DIRECT
-  - RULE-SET,openai,US 美国
+  - RULE-SET,openai,US
   - RULE-SET,icloud,DIRECT
   - RULE-SET,apple,DIRECT
   - RULE-SET,direct,DIRECT
