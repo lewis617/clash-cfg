@@ -31,14 +31,6 @@ proxy-groups:
     name: HK
     tolerance: 50
     type: url-test
-  - filter: "台|🇹🇼|湾|TW|(?i)Taiwan"
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Taiwan.png
-    include-all: true
-    interval: 120
-    lazy: true
-    name: TW
-    tolerance: 50
-    type: url-test
   - filter: "韩|🇰🇷|国|KR|(?i)Korea"
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Korea.png
     include-all: true
