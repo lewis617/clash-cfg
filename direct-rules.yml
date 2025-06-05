@@ -1,3 +1,4 @@
 payload:
   - 'fastly.jsdelivr.net'
   - '+.phncdn.com'
+  - '+.bing.com'
