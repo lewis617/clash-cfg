@@ -96,14 +96,14 @@ proxy-providers:
 
 tunnels:
 rule-providers:
-  proxy-rules:
+  custom-proxy:
     type: http
     behavior: domain
     url: "https://raw.githubusercontent.com/lewis617/clash-cfg/main/ruleset/custom-proxy.yml"
     path: ./ruleset/custom-proxy.yml
     interval: 86400
     format: yaml
-  direct-rules:
+  custom-direct:
     type: http
     behavior: domain
     url: "https://raw.githubusercontent.com/lewis617/clash-cfg/main/ruleset/custom-direct.yml"
@@ -111,8 +111,8 @@ rule-providers:
     interval: 86400
     format: yaml
 rules:
-  - RULE-SET,proxy-rules,PROXY
-  - RULE-SET,direct-rules,DIRECT
+  - RULE-SET,custom-proxy,PROXY
+  - RULE-SET,custom-direct,DIRECT
 
   - GEOSITE,openai,US
   - GEOSITE,category-ads-all,REJECT
