@@ -12,15 +12,21 @@ dns:
   enable: true
   listen: 0.0.0.0:53
   enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
   nameserver:
-    - 119.29.29.29
+    - 8.8.8.8
     - 223.5.5.5
   fallback:
     - 8.8.8.8
     - 8.8.4.4
-    - tls://1.0.0.1:853
-    - tls://dns.google:853
+  nameserver-policy:
+    'geosite:geolocation-!cn': 8.8.8.8
+    'geosite:cn': 223.5.5.5
+    'geosite:category-ads-all': 127.0.0.1
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    geosite:
+      - gfw
 proxies: []
 proxy-groups:
   - filter: "澳门|🇲🇴|港|🇭🇰|HK|(?i)Hong"
