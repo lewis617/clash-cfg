@@ -96,71 +96,28 @@ proxy-providers:
 
 tunnels:
 rule-providers:
-  icloud:
-    type: http
-    behavior: domain
-    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/icloud.txt"
-    path: ./ruleset/icloud.yaml
-    interval: 86400
-    format: yaml
-  apple:
-    type: http
-    behavior: domain
-    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/apple.txt"
-    path: ./ruleset/apple.yaml
-    interval: 86400
-    format: yaml
-  proxy:
-    type: http
-    behavior: domain
-    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt"
-    path: ./ruleset/proxy.yaml
-    interval: 86400
-    format: yaml
-  direct:
-    type: http
-    behavior: domain
-    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/direct.txt"
-    path: ./ruleset/direct.yaml
-    interval: 86400
-    format: yaml
-  gfw:
-    type: http
-    behavior: domain
-    url: "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/gfw.txt"
-    path: ./ruleset/gfw.yaml
-    interval: 86400
-    format: yaml
   proxy-rules:
     type: http
     behavior: domain
-    url: "https://raw.githubusercontent.com/lewis617/clash-cfg/main/proxy-rules.yml"
-    path: ./ruleset/proxy-rules.yaml
+    url: "https://raw.githubusercontent.com/lewis617/clash-cfg/main/ruleset/custom-proxy.yml"
+    path: ./ruleset/custom-proxy.yml
     interval: 86400
     format: yaml
   direct-rules:
     type: http
     behavior: domain
-    url: "https://raw.githubusercontent.com/lewis617/clash-cfg/main/direct-rules.yml"
-    path: ./ruleset/direct-rules.yaml
-    interval: 86400
-    format: yaml
-  openai:
-    type: http
-    behavior: domain
-    url: "https://raw.githubusercontent.com/lewis617/clash-cfg/main/openai.yml"
-    path: ./ruleset/openai.yaml
+    url: "https://raw.githubusercontent.com/lewis617/clash-cfg/main/ruleset/custom-direct.yml"
+    path: ./ruleset/custom-direct.yml
     interval: 86400
     format: yaml
 rules:
   - RULE-SET,proxy-rules,PROXY
   - RULE-SET,direct-rules,DIRECT
-  - RULE-SET,openai,US
-  - RULE-SET,icloud,DIRECT
-  - RULE-SET,apple,DIRECT
-  - RULE-SET,direct,DIRECT
-  - RULE-SET,proxy,PROXY
-  - RULE-SET,gfw,PROXY
+
+  - GEOSITE,openai,US
+  - GEOSITE,category-ads-all,REJECT
+  - GEOSITE,gfw,PROXY
+
   - SRC-IP-CIDR,192.168.1.201/32,DIRECT
   - IP-CIDR,127.0.0.0/8,DIRECT
   - GEOIP,CN,DIRECT
