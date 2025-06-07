@@ -912,16 +912,16 @@ proxies:
     skip-cert-verify: true
     udp: true
   - name: tg频道:@ripaojiedian
-    server: 57.180.28.64
+    server: 43.203.225.190
     port: 443
     client-fingerprint: chrome
     type: ss
     cipher: aes-256-cfb
-    password: awsps0501
+    password: yijian0503
     tfo: false
   - name: 🇭🇰 香港2|@ripaojiedian
     server: 121.127.231.217
-    port: 11400
+    port: 37689
     client-fingerprint: chrome
     type: ss
     cipher: chacha20-ietf-poly1305
@@ -935,13 +935,21 @@ proxies:
       tls: true
       mux: true
       skip-cert-verify: false
-  - name: 🇹🇼 台湾|@ripaojiedian
-    server: js-12f83a8c.kaiqsz.com
-    port: 42765
+  - name: 🇭🇰 香港7|@ripaojiedian
+    server: 113.99.140.184
+    port: 39001
     client-fingerprint: chrome
     type: trojan
-    password: b483bf41-79d4-48df-bec6-30a756a3bd6b
-    sni: mmbiz1.redapricotcloud.com
+    password: 85f133142f04dbf6547da33895cfabb3
+    sni: www.yrtok.com
+    skip-cert-verify: true
+  - name: 🇹🇼 台湾|@ripaojiedian
+    server: hinet.mjt000.com
+    port: 443
+    client-fingerprint: chrome
+    type: trojan
+    password: 92435aa8-f3b6-466a-ad58-c55cbb6d2acf
+    sni: hinet.mjt000.com
     skip-cert-verify: false
   - name: 🇯🇵 日本3|@ripaojiedian
     server: h.cm2.xiaomi-api.xyz
@@ -959,14 +967,22 @@ proxies:
     password: 1469e09e-027c-11ec-a0fc-f23c913c8d2b
     sni: 204bdce4-sxaf40-t5bgb3-l4nv.cm5.cnkuaishou.com
     skip-cert-verify: false
-  - name: 🇺🇸 美国6|@ripaojiedian
-    server: 35.89.114.253
-    port: 9898
+  - name: 🇺🇸 美国3|@ripaojiedian
+    server: v24.heduian.link
+    port: 30824
     client-fingerprint: chrome
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
     tfo: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /oooo
+      headers:
+        Host: v24.heduian.link
   - name: 🇻🇳 越南|@ripaojiedian
     server: 103.186.154.25
     port: 38388
