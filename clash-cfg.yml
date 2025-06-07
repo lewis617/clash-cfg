@@ -82,7 +82,6 @@ proxy-groups:
     proxies:
       - auto
       - HK
-      - TW
       - KR
       - SG
       - JP
