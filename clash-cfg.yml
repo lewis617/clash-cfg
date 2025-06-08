@@ -27,6 +27,8 @@ dns:
     geoip-code: CN
     geosite:
       - gfw
+    rule-set:
+      - custom-proxy
 proxies: []
 proxy-groups:
   - filter: "美|🇺🇲|US|(?i)States|America"
