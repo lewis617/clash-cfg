@@ -29,51 +29,12 @@ dns:
       - gfw
 proxies: []
 proxy-groups:
-  - filter: "澳门|🇲🇴|港|🇭🇰|HK|(?i)Hong"
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Hong_Kong.png
-    include-all: true
-    interval: 120
-    lazy: true
-    name: HK
-    tolerance: 50
-    type: url-test
-  - filter: "韩|🇰🇷|国|KR|(?i)Korea"
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Korea.png
-    include-all: true
-    interval: 120
-    lazy: true
-    name: KR
-    tolerance: 50
-    type: url-test
-  - filter: "新加坡|坡|狮城|🇸🇬|SG|(?i)Singapore"
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Singapore.png
-    include-all: true
-    interval: 120
-    lazy: true
-    name: SG
-    tolerance: 50
-    type: url-test
-  - filter: "日|🇯🇵|东京|JP|(?i)Japan"
-    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Japan.png
-    include-all: true
-    interval: 120
-    lazy: true
-    name: JP
-    tolerance: 50
-    type: url-test
   - filter: "美|🇺🇲|US|(?i)States|America"
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/United_States.png
     include-all: true
-    interval: 120
+    interval: 600
     lazy: true
     name: US
-    tolerance: 50
-    type: url-test
-  - icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Auto.png
-    include-all: true
-    interval: 120
-    lazy: true
-    name: 自动选择
     tolerance: 50
     type: url-test
   - name: "auto"
@@ -87,10 +48,6 @@ proxy-groups:
     type: select
     proxies:
       - auto
-      - HK
-      - KR
-      - SG
-      - JP
       - US
 proxy-providers:
   clashfree:
