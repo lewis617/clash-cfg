@@ -31,6 +31,14 @@ dns:
       - custom-proxy
 proxies: []
 proxy-groups:
+  - filter: "澳门|🇲🇴|港|🇭🇰|HK|(?i)Hong"
+    icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Hong_Kong.png
+    include-all: true
+    interval: 600
+    lazy: true
+    name: HK
+    tolerance: 50
+    type: url-test
   - filter: "美|🇺🇲|US|(?i)States|America"
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/United_States.png
     include-all: true
@@ -39,17 +47,18 @@ proxy-groups:
     name: US
     tolerance: 50
     type: url-test
-  - name: "auto"
-    type: url-test
-    use: [clashfree]
-    url: https://www.gstatic.com/generate_204
+  - icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Auto.png
+    include-all: true
     interval: 600
-    proxies: null
-    filter: null
+    lazy: true
+    name: auto
+    tolerance: 50
+    type: url-test
   - name: PROXY
     type: select
     proxies:
       - auto
+      - HK
       - US
 proxy-providers:
   clashfree:
