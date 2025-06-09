@@ -67,6 +67,13 @@ proxy-providers:
     type: "http"
     path: "./clash-provider.yml"
     url: "https://raw.githubusercontent.com/lewis617/clash-cfg/main/clash-provider.yml"
+    health-check:
+      enable: true
+      url: https://www.gstatic.com/generate_204
+      interval: 300
+      timeout: 5000
+      lazy: true
+      expected-status: 204
 
 tunnels:
 rule-providers:
