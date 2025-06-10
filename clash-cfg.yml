@@ -91,13 +91,27 @@ rule-providers:
     path: ./ruleset/custom-direct.yml
     interval: 86400
     format: yaml
+  gfw:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt"
+    path: ./ruleset/gfw.yaml
+    interval: 86400
+  reject:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
+    path: ./ruleset/reject.yaml
+    interval: 86400
 rules:
   - RULE-SET,custom-proxy,PROXY
   - RULE-SET,custom-direct,DIRECT
 
   - GEOSITE,openai,US
   - GEOSITE,category-ads-all,REJECT
-  - GEOSITE,gfw,PROXY
+
+  - RULE-SET,reject,REJECT
+  - RULE-SET,gfw,PROXY
 
   - SRC-IP-CIDR,192.168.28.2/32,DIRECT
   - IP-CIDR,127.0.0.0/8,DIRECT
