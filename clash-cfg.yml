@@ -31,28 +31,37 @@ dns:
       - custom-proxy
 proxies: []
 proxy-groups:
+  - icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/AI.png
+    include-all: true
+    interval: 300
+    lazy: true
+    name: OPENAI
+    tolerance: 150
+    type: url-test
+    url: "https://api.openai.com/v1/models"
+    expected-status: 401
   - filter: "澳门|🇲🇴|港|🇭🇰|HK|(?i)Hong"
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Hong_Kong.png
     include-all: true
-    interval: 600
+    interval: 300
     lazy: true
     name: HK
-    tolerance: 50
+    tolerance: 150
     type: url-test
   - filter: "美|🇺🇲|US|(?i)States|America"
     icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/United_States.png
     include-all: true
-    interval: 600
+    interval: 300
     lazy: true
     name: US
-    tolerance: 50
+    tolerance: 150
     type: url-test
   - icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Auto.png
     include-all: true
-    interval: 600
+    interval: 300
     lazy: true
     name: AUTO
-    tolerance: 50
+    tolerance: 150
     type: url-test
   - name: PROXY
     type: select
@@ -71,7 +80,7 @@ proxy-providers:
     health-check:
       enable: true
       url: https://www.gstatic.com/generate_204
-      interval: 300
+      interval: 1800
       timeout: 5000
       lazy: true
       expected-status: 204
@@ -97,6 +106,7 @@ rules:
   - RULE-SET,custom-proxy,PROXY
   - RULE-SET,custom-direct,DIRECT
 
+  - GEOSITE,openai,OPENAI
   - GEOSITE,category-ads-all,REJECT
   - GEOSITE,gfw,PROXY
 
