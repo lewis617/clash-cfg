@@ -25,10 +25,9 @@ dns:
   fallback-filter:
     geoip: true
     geoip-code: CN
-    geosite:
-      - gfw
     rule-set:
       - custom-proxy
+      - gfw
 proxies: []
 proxy-groups:
   - filter: "澳门|🇲🇴|港|🇭🇰|HK|(?i)Hong"
