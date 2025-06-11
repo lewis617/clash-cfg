@@ -727,12 +727,12 @@ proxies:
     skip-cert-verify: true
     udp: true
   - name: tg频道:@ripaojiedian
-    server: 18.183.219.5
+    server: 54.180.148.149
     port: 443
     client-fingerprint: chrome
     type: ss
     cipher: aes-256-cfb
-    password: awsps0501
+    password: yijian0503
     tfo: false
   - name: 🇭🇰 香港|@ripaojiedian
     server: 120.233.128.68
@@ -750,23 +750,23 @@ proxies:
     password: 85f133142f04dbf6547da33895cfabb3
     sni: www.yrtok.com
     skip-cert-verify: true
-  - name: 🇭🇰 香港7@ripaojiedian
-    server: 103.224.80.111
-    port: 29992
+  - name: 🇭🇰 香港7|@ripaojiedian
+    server: 103.224.80.89
+    port: 38993
     client-fingerprint: chrome
     type: vmess
-    uuid: c3659582-a6e0-45c2-92ec-3b4d8b240e07
+    uuid: 6f8c6f30-c726-4916-8f72-04f020c5c12d
     alterId: 0
     cipher: auto
     tls: false
     tfo: false
     skip-cert-verify: false
-  - name: 🇭🇰 香港8|@ripaojiedian
-    server: 9b53711d-sxlj40-szcxa1-dmd8.hkt.east.wctype.com
-    port: 460
+  - name: 🇯🇵 日本3|@ripaojiedian
+    server: v6.heduian.link
+    port: 30806
     client-fingerprint: chrome
     type: vmess
-    uuid: 2058bdd6-1505-11f0-a035-f23c95b6f51d
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     alterId: 2
     cipher: auto
     tls: false
@@ -774,6 +774,6 @@ proxies:
     skip-cert-verify: false
     network: ws
     ws-opts:
-      path: /
+      path: /oooo
       headers:
-        Host: a605477178.m.ctrip.com
+        Host: ocbc.com
