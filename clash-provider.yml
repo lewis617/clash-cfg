@@ -727,7 +727,7 @@ proxies:
     skip-cert-verify: true
     udp: true
   - name: tg频道:@ripaojiedian
-    server: 54.180.148.149
+    server: 52.79.86.24
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -742,6 +742,22 @@ proxies:
     password: 85f133142f04dbf6547da33895cfabb3
     sni: 120.233.128.68
     skip-cert-verify: true
+  - name: 🇭🇰 香港2|@ripaojiedian
+    server: 156.251.179.79
+    port: 41174
+    client-fingerprint: chrome
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 08293b204707
+    tfo: false
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: hk6v1.pmxiaonan.xyz
+      path: /sclbvcgkp
+      tls: true
+      mux: true
+      skip-cert-verify: false
   - name: 🇭🇰 香港3|@ripaojiedian
     server: 125.94.40.221
     port: 39001
@@ -751,16 +767,24 @@ proxies:
     sni: www.yrtok.com
     skip-cert-verify: true
   - name: 🇭🇰 香港7|@ripaojiedian
-    server: 103.224.80.89
-    port: 38993
+    server: 43.247.135.2
+    port: 20332
     client-fingerprint: chrome
     type: vmess
-    uuid: 6f8c6f30-c726-4916-8f72-04f020c5c12d
+    uuid: 8037ce00-c860-4213-b888-be5c7ed6ea48
     alterId: 0
     cipher: auto
     tls: false
     tfo: false
     skip-cert-verify: false
+  - name: 🇭🇰 香港9|@ripaojiedian
+    server: 156.225.22.213
+    port: 552
+    client-fingerprint: chrome
+    type: ss
+    cipher: aes-128-gcm
+    password: rGDbiF7gtx5TWt4r4VjneQ==
+    tfo: false
   - name: 🇯🇵 日本3|@ripaojiedian
     server: v6.heduian.link
     port: 30806
@@ -777,3 +801,19 @@ proxies:
       path: /oooo
       headers:
         Host: ocbc.com
+  - name: 🇯🇵 日本4|@ripaojiedian
+    server: c82845c8-sxsxs0-t22tug-1q91p.cm5.cnkuaishou.com
+    port: 27233
+    client-fingerprint: chrome
+    type: trojan
+    password: c11ff50c-f582-11ee-94df-f23c9164ca5d
+    sni: c82845c8-sxsxs0-t22tug-1q91p.cm5.cnkuaishou.com
+    skip-cert-verify: false
+  - name: 🇯🇵 日本5|@ripaojiedian
+    server: 43.207.233.41
+    port: 9898
+    client-fingerprint: chrome
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+    tfo: false
