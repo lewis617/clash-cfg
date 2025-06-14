@@ -12,12 +12,15 @@ dns:
   enable: true
   listen: 0.0.0.0:53
   enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
   nameserver:
-    - 8.8.8.8
+    - 119.29.29.29
     - 223.5.5.5
-  nameserver-policy:
-    'geosite:geolocation-!cn': 8.8.8.8
-    'geosite:cn': 223.5.5.5
+  fallback:
+    - 8.8.8.8
+    - 8.8.4.4
+    - tls://1.0.0.1:853
+    - tls://dns.google:853
 proxies: []
 proxy-groups:
   - icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/AI.png
