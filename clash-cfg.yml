@@ -55,7 +55,8 @@ proxy-groups:
     name: AUTO
     tolerance: 150
     type: url-test
-  - name: PROXY
+  - icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Proxy.png
+    name: PROXY
     type: select
     include-all: true
     proxies:
