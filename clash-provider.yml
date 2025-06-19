@@ -637,7 +637,7 @@ proxies:
     skip-cert-verify: true
     udp: true
   - name: tg频道:@ripaojiedian
-    server: 47.129.223.224
+    server: 54.169.30.154
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -645,11 +645,11 @@ proxies:
     password: qawszxc123
     tfo: false
   - name: 🇭🇰 香港|@ripaojiedian
-    server: 38.147.188.74
-    port: 22359
+    server: 103.224.80.32
+    port: 22052
     client-fingerprint: chrome
     type: vmess
-    uuid: 36797754-bb59-4741-b085-86feb2ec547c
+    uuid: 8fb24cb8-7d4e-4108-87cc-579b31d5ffa6
     alterId: 0
     cipher: auto
     tls: false
@@ -657,7 +657,7 @@ proxies:
     skip-cert-verify: false
   - name: 🇭🇰 香港2|@ripaojiedian
     server: kh36v1.pmxiaonan.xyz
-    port: 14556
+    port: 26902
     client-fingerprint: chrome
     type: ss
     cipher: chacha20-ietf-poly1305
@@ -720,12 +720,12 @@ proxies:
     password: dwz1GtF7
     tfo: false
   - name: 🇰🇷 韩国3|@ripaojiedian
-    server: 3.36.114.140
-    port: 9898
+    server: 125.141.26.14
+    port: 5344
     client-fingerprint: chrome
     type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+    cipher: aes-256-cfb
+    password: qwerREWQ@@
     tfo: false
   - name: 🇺🇸 美国|@ripaojiedian
     server: v28.heduian.link
@@ -751,38 +751,22 @@ proxies:
     password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
     sni: 35eb0e91-sy0cg0-t7fz1r-8rja.cu.plebai.net
     skip-cert-verify: false
-  - name: 🇺🇸 美国5|@ripaojiedian
-    server: OOoOOOooOp.222769.XYZ
-    port: 80
+  - name: 🇺🇸 美国4|@ripaojiedian
+    server: 111.26.109.79
+    port: 30828
     client-fingerprint: chrome
     type: vmess
-    uuid: ce921385-2b31-45fe-84c5-1843e8ae845b
-    alterId: 0
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
     cipher: auto
     tls: false
     tfo: false
     skip-cert-verify: false
     network: ws
     ws-opts:
-      path: /VaaSEfNLHdW3I98dxLkez
+      path: /oooo
       headers:
-        Host: ooooooooop.222769.xyz
-  - name: 🇺🇸 美国6|@ripaojiedian
-    server: LllLLLllllLKJh.222560.xyZ
-    port: 80
-    client-fingerprint: chrome
-    type: vmess
-    uuid: ce921385-2b31-45fe-84c5-1843e8ae845b
-    alterId: 0
-    cipher: auto
-    tls: false
-    tfo: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /VaaSEfNLHdW3I98dxLkez
-      headers:
-        Host: lllllllllllkjh.222560.xyz
+        Host: ocbc.com
   - name: 🇻🇳 越南|@ripaojiedian
     server: 103.186.155.25
     port: 38388
