@@ -650,19 +650,35 @@ proxies:
     udp: true
     cipher: aes-256-gcm
   - name: tg频道:@ripaojiedian
-    server: 54.169.30.154
+    server: 18.183.222.24
     port: 443
     client-fingerprint: chrome
     type: ss
     cipher: aes-256-cfb
-    password: qawszxc123
+    password: awsps0501
     tfo: false
-  - name: 🇭🇰 香港|@ripaojiedian
-    server: 103.224.80.32
-    port: 22052
+  - name: 🇯🇵 日本2|@ripaojiedian
+    server: kr9v1.3ci.xyz
+    port: 34808
+    client-fingerprint: chrome
+    type: ss
+    cipher: aes-256-gcm
+    password: 264727317ef6
+    tfo: false
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: kr9v1.3ci.xyz
+      path: /ylikhqxcjfeb
+      tls: true
+      mux: true
+      skip-cert-verify: false
+  - name: 🇯🇵 日本3|@ripaojiedian
+    server: 45.159.50.131
+    port: 10331
     client-fingerprint: chrome
     type: vmess
-    uuid: 8fb24cb8-7d4e-4108-87cc-579b31d5ffa6
+    uuid: 0a75ed35-1138-4991-88a0-9b2a59702fce
     alterId: 0
     cipher: auto
     tls: false
@@ -676,19 +692,35 @@ proxies:
     cipher: aes-256-cfb
     password: qwerREWQ@@
     tfo: false
-  - name: 🇺🇸 美国4|@ripaojiedian
-    server: 111.26.109.79
-    port: 30828
+  - name: 🇺🇸 美国|@ripaojiedian
+    server: SssssssW.222560.XYz
+    port: 80
     client-fingerprint: chrome
     type: vmess
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
+    uuid: 393b1061-d615-459a-8616-3f9447bdff5a
+    alterId: 0
     cipher: auto
     tls: false
     tfo: false
     skip-cert-verify: false
     network: ws
     ws-opts:
-      path: /oooo
+      path: /iXfi0mMmPYp9UA6Y34zWUk6JUQ
       headers:
-        Host: ocbc.com
+        Host: sssssssw.222560.xyz
+  - name: 🇺🇸 美国3|@ripaojiedian
+    server: iIiiI8.222560.xYZ
+    port: 80
+    client-fingerprint: chrome
+    type: vmess
+    uuid: 393b1061-d615-459a-8616-3f9447bdff5a
+    alterId: 0
+    cipher: auto
+    tls: false
+    tfo: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /iXfi0mMmPYp9UA6Y34zWUk6JUQ
+      headers:
+        Host: iiiii8.222560.xyz
