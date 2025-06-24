@@ -616,7 +616,7 @@ proxies:
       Host: usshs.atlen.dpdns.org
     udp: true
   - name: tg频道:@ripaojiedian
-    server: 43.207.110.197
+    server: 18.181.201.66
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -625,17 +625,17 @@ proxies:
     tfo: false
   - name: 🇭🇰 香港2|@ripaojiedian
     server: 156.251.179.238
-    port: 48159
+    port: 443
     client-fingerprint: chrome
     type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 08293b204707
+    cipher: aes-256-gcm
+    password: 25ec467c78cb
     tfo: false
     plugin: v2ray-plugin
     plugin-opts:
       mode: websocket
-      host: hk6v1.pmxiaonan.xyz
-      path: /sclbvcgkp
+      host: hk6v1.dsjsapp.com
+      path: /iqgfyizn
       tls: true
       mux: true
       skip-cert-verify: false
@@ -671,7 +671,7 @@ proxies:
     skip-cert-verify: false
   - name: 🇭🇰 香港6|@ripaojiedian
     server: 111.45.33.5
-    port: 30017
+    port: 30002
     client-fingerprint: chrome
     type: ss
     cipher: aes-256-gcm
@@ -686,40 +686,40 @@ proxies:
     password: dwz1GtF7
     tfo: false
   - name: 🇹🇼 台湾2|@ripaojiedian
-    server: 185.189.160.98
-    port: 64759
-    client-fingerprint: chrome
-    type: ss
-    cipher: aes-256-cfb
-    password: qwerREWQ@@
-    tfo: false
-  - name: 🇯🇵 日本2|@ripaojiedian
-    server: jplistv1-2.dsjsapi.com
-    port: 443
-    client-fingerprint: chrome
-    type: ss
-    cipher: aes-256-gcm
-    password: 5fcbe76df42e
-    tfo: false
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: jplistv1-2.dsjsapi.com
-      path: /ogwsdhnxjs
-      tls: true
-      mux: true
-      skip-cert-verify: false
-  - name: 🇰🇷 韩国|@ripaojiedian
-    server: 112.54.161.141
-    port: 20406
+    server: 120.232.206.57
+    port: 30018
     client-fingerprint: chrome
     type: ss
     cipher: aes-256-gcm
     password: dwz1GtF7
     tfo: false
-  - name: 🇸🇬 新加坡|@ripaojiedian
-    server: pop.air.3278.0tk8a3a1q4t94dler.com
-    port: 3052
+  - name: 🇯🇵 日本2|@ripaojiedian
+    server: 163.61.207.182
+    port: 443
+    client-fingerprint: chrome
+    type: ss
+    cipher: aes-256-gcm
+    password: 97a221a3333a
+    tfo: false
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: jplistv1-2.dsjsapi.com
+      path: /dobrirfl
+      tls: true
+      mux: true
+      skip-cert-verify: false
+  - name: 🇯🇵 日本3|@ripaojiedian
+    server: 120.232.206.14
+    port: 30032
+    client-fingerprint: chrome
+    type: ss
+    cipher: aes-256-gcm
+    password: dwz1GtF7
+    tfo: false
+  - name: 🇯🇵 日本4|@ripaojiedian
+    server: pop.air.6432.0tk8a3a1q4t94dler.com
+    port: 4052
     client-fingerprint: chrome
     type: ss
     cipher: aes-128-gcm
@@ -728,4 +728,23 @@ proxies:
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 182039459a34f64238143cd31ddebbc914362.taobao.com
+      host: 0445dfbd1887ef01316815802200b51e70987.taobao.com
+  - name: 🇰🇷 韩国|@ripaojiedian
+    server: 45.141.136.234
+    port: 49815
+    client-fingerprint: chrome
+    type: vmess
+    uuid: 105af49c-e4ee-4294-b7cc-abfe6a651cf5
+    alterId: 0
+    cipher: auto
+    tls: false
+    tfo: false
+    skip-cert-verify: false
+  - name: 🇻🇳 越南|@ripaojiedian
+    server: 103.163.218.2
+    port: 989
+    client-fingerprint: chrome
+    type: ss
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+    tfo: false
