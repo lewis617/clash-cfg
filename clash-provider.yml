@@ -616,26 +616,26 @@ proxies:
       Host: usshs.atlen.dpdns.org
     udp: true
   - name: tg频道:@ripaojiedian
-    server: 13.250.125.114
+    server: 54.168.216.169
     port: 443
     client-fingerprint: chrome
     type: ss
     cipher: aes-256-cfb
-    password: qawszxc123
+    password: awsps0501
     tfo: false
   - name: 🇭🇰 香港2|@ripaojiedian
-    server: 156.251.179.238
+    server: 121.127.231.200
     port: 443
     client-fingerprint: chrome
     type: ss
     cipher: aes-256-gcm
-    password: 25ec467c78cb
+    password: ae29f32aa471
     tfo: false
     plugin: v2ray-plugin
     plugin-opts:
       mode: websocket
-      host: hk6v1.dsjsapp.com
-      path: /iqgfyizn
+      host: hkxwv1-5.dsjsapi.com
+      path: /evoeqcpitmgg
       tls: true
       mux: true
       skip-cert-verify: false
@@ -694,35 +694,29 @@ proxies:
       mux: true
       skip-cert-verify: false
   - name: 🇯🇵 日本3|@ripaojiedian
-    server: 52.195.2.22
+    server: v6.heduian.link
+    port: 30806
+    client-fingerprint: chrome
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    tfo: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /oooo
+      headers:
+        Host: ocbc.com
+  - name: 🇰🇷 韩国|@ripaojiedian
+    server: 52.78.60.36
     port: 9898
     client-fingerprint: chrome
     type: ss
     cipher: chacha20-ietf-poly1305
     password: 1a17b19d-4896-4531-af79-6e91d8ef8228
     tfo: false
-  - name: 🇯🇵 日本4|@ripaojiedian
-    server: a29b45ed-submo0-syap8d-dbk8.d.volczijie.com
-    port: 3684
-    client-fingerprint: chrome
-    type: vmess
-    uuid: 45845d5e-0605-11f0-8cf9-f23c93136cb3
-    alterId: 0
-    cipher: auto
-    tls: false
-    tfo: false
-    skip-cert-verify: false
-  - name: 🇰🇷 韩国|@ripaojiedian
-    server: 45.141.136.234
-    port: 49815
-    client-fingerprint: chrome
-    type: vmess
-    uuid: 105af49c-e4ee-4294-b7cc-abfe6a651cf5
-    alterId: 0
-    cipher: auto
-    tls: false
-    tfo: false
-    skip-cert-verify: false
   - name: 🇻🇳 越南|@ripaojiedian
     server: 103.163.218.2
     port: 989
