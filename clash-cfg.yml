@@ -50,7 +50,7 @@ proxy-groups:
     type: url-test
   - icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Auto.png
     include-all: true
-    interval: 150
+    interval: 300
     lazy: true
     name: AUTO
     tolerance: 150
@@ -72,8 +72,8 @@ proxy-providers:
     url: "https://raw.githubusercontent.com/lewis617/clash-cfg/main/clash-provider.yml"
     health-check:
       enable: true
-      url: https://www.google.com/generate_204
-      interval: 1800
+      url: https://www.gstatic.com/generate_204
+      interval: 600
       timeout: 5000
       lazy: true
       expected-status: 204
