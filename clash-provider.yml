@@ -1052,8 +1052,8 @@ proxies:
     tfo: false
     skip-cert-verify: false
   - name: 🇭🇰 香港4|@ripaojiedian
-    server: 36.151.192.61
-    port: 444
+    server: 36.151.192.10
+    port: 9141
     client-fingerprint: chrome
     type: trojan
     password: d0d08cddacc3190ea81b1b792e1b5fde
@@ -1062,6 +1062,14 @@ proxies:
   - name: 🇭🇰 香港5|@ripaojiedian
     server: 36.151.192.58
     port: 51083
+    client-fingerprint: chrome
+    type: trojan
+    password: d0d08cddacc3190ea81b1b792e1b5fde
+    sni: www.baidu.com
+    skip-cert-verify: true
+  - name: 🇯🇵 日本3|@ripaojiedian
+    server: 36.151.192.61
+    port: 4445
     client-fingerprint: chrome
     type: trojan
     password: d0d08cddacc3190ea81b1b792e1b5fde
