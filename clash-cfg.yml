@@ -50,7 +50,7 @@ proxy-groups:
     type: url-test
   - icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Auto.png
     include-all: true
-    interval: 300
+    interval: 150
     lazy: true
     name: AUTO
     tolerance: 150
