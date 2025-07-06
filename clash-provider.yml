@@ -947,3 +947,10 @@ proxies:
     cipher: aes-256-cfb
     password: f8f7aCzcPKbsF8p3
     tfo: false
+  - name: 🇸🇬 新加坡5|@ripaojiedian
+    server: 103.248.229.29
+    port: 1531
+    client-fingerprint: chrome
+    type: trojan
+    password: a0f7a422-7867-469c-946b-190d8fbc2a5d
+    skip-cert-verify: false
