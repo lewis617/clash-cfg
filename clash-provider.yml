@@ -953,4 +953,4 @@ proxies:
     client-fingerprint: chrome
     type: trojan
     password: a0f7a422-7867-469c-946b-190d8fbc2a5d
-    skip-cert-verify: false
+    skip-cert-verify: true
