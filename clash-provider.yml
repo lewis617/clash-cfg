@@ -912,12 +912,11 @@ proxies:
       headers:
         Host: broadcastlv.chat.bilibili.com
   - name: 🇭🇰 香港6|@ripaojiedian
-    server: q2.46322416.xyz
-    port: 20220
+    server: 155.117.228.70
+    port: 26193
     client-fingerprint: chrome
     type: trojan
-    password: 0b9c9261-7209-4dcc-b268-2fa74f6cd536
-    sni: cdn.alibaba.com
+    password: 7367d04e-4c59-4dff-a50e-12e730a09891
     skip-cert-verify: true
   - name: 🇹🇼 台湾|@ripaojiedian
     server: gz-43e866.kaiqsz.com
