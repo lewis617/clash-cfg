@@ -864,24 +864,21 @@ proxies:
       headers:
         host: epmk.ambercc.filegear-sg.me
   - name: tg频道:@ripaojiedian
-    server: 43.201.46.211
+    server: 13.212.187.83
     port: 443
     client-fingerprint: chrome
     type: ss
     cipher: aes-256-cfb
-    password: yijian0503
+    password: qawszxc123
     tfo: false
   - name: 🇭🇰 香港|@ripaojiedian
-    server: 38.147.188.234
-    port: 50170
+    server: ti3hyra4.slashdevslashnetslashtun.net
+    port: 15006
     client-fingerprint: chrome
-    type: vmess
-    uuid: 37b58e86-83ef-4ff8-b5dd-4bde36921f2b
-    alterId: 0
-    cipher: auto
-    tls: false
+    type: ss
+    cipher: aes-256-gcm
+    password: ELNP3E9X426OSUVK
     tfo: false
-    skip-cert-verify: false
   - name: 🇭🇰 香港2|@ripaojiedian
     server: 103.103.245.158
     port: 636
@@ -898,6 +895,17 @@ proxies:
       tls: true
       mux: true
       skip-cert-verify: false
+  - name: 🇭🇰 香港3|@ripaojiedian
+    server: 103.224.80.103
+    port: 33291
+    client-fingerprint: chrome
+    type: vmess
+    uuid: e6925cbe-51b9-40e9-b57e-85b6f026499b
+    alterId: 0
+    cipher: auto
+    tls: false
+    tfo: false
+    skip-cert-verify: false
   - name: 🇭🇰 香港4|@ripaojiedian
     server: 36.151.192.27
     port: 51083
@@ -913,13 +921,13 @@ proxies:
     type: trojan
     password: 7367d04e-4c59-4dff-a50e-12e730a09891
     skip-cert-verify: true
-  - name: 🇹🇼 台湾|@ripaojiedian
-    server: 185.189.160.98
-    port: 64759
+  - name: 🇭🇰 香港7|@ripaojiedian
+    server: qh62onjn.slashdevslashnetslashtun.net
+    port: 15015
     client-fingerprint: chrome
     type: ss
-    cipher: aes-256-cfb
-    password: qwerREWQ@@
+    cipher: aes-256-gcm
+    password: ZX9F8KK21O60YK9T
     tfo: false
   - name: 🇸🇬 新加坡2|@ripaojiedian
     server: 36.156.102.123
@@ -929,19 +937,16 @@ proxies:
     password: d0d08cddacc3190ea81b1b792e1b5fde
     sni: www.baidu.com
     skip-cert-verify: true
-  - name: 🇸🇬 新加坡3|@ripaojiedian
-    server: 18.142.245.222
-    port: 9898
+  - name: 🇺🇸 美国5|@ripaojiedian
+    server: 194.53.53.249
+    port: 2083
     client-fingerprint: chrome
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-    tfo: false
-  - name: 🇻🇳 越南|@ripaojiedian
-    server: 103.186.155.22
-    port: 38388
-    client-fingerprint: chrome
-    type: ss
-    cipher: aes-256-cfb
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    tfo: false
+    type: trojan
+    password: d6b8011a-c725-435a-9fec-bf6d3530392c
+    sni: vle.amclubdns.dpdns.org
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /?ed=2560&PROT_TYPE=trojan
+      headers:
+        Host: vle.amclubdns.dpdns.org
