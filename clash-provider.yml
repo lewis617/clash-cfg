@@ -15,18 +15,89 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - name: 🇩🇪_DE_德国
-    type: ss
-    server: 45.87.175.58
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-  - name: US美国(mibei77.com 米贝节点分享)
-    server: 45.80.209.25
-    port: 81
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国
+    type: vmess
+    server: v29.heduian.link
+    port: 30829
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /oooo
+      headers:
+        host: ocbc.com
+    alterId: 2
+  - name: 🇺🇸_US_美国
     type: trojan
-    password: Aimer
+    server: 104.21.6.179
+    port: 443
+    udp: true
+    sni: ZZzzzZZ.890601.XYZ
+    password: 6757b7d6-fa32-4708-b5d1-30e3cf928b51
+    network: ws
+    ws-opts:
+      path: /l96MZ8se5Kl2p8BiMhP42l
+  - name: 🇰🇷_KR_韩国->🇧🇪_BE_比利时
+    type: ss
+    server: p222.panda001.net
+    port: 15098
+    cipher: aes-256-cfb
+    password: qwerREWQ@@
+  - name: 🇺🇸_US_美国_1
+    type: vmess
+    server: aAZXsdE.003330333.xYZ
+    port: 80
+    uuid: 10b1e371-d734-4306-b67f-0fc1f95c2485
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /SXjq8YlnGNBlbnEsM
+      headers:
+        host: aazxsde.003330333.xyz
+    alterId: 0
+  - name: 🇳🇱_NL_荷兰
+    type: ss
+    server: 45.153.124.90
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: 🇺🇸_US_美国_2
+    type: ss
+    server: 104.192.226.106
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: 🇬🇧_GB_英国->🇰🇷_KR_韩国
+    type: ss
+    server: 85.210.120.237
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: Bog0ELmMM9DSxDdQ
+  - name: 🇲🇩_MD_摩尔多瓦
+    type: ss
+    server: 91.132.94.200
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: 🇯🇴_JO_约旦
+    type: ss
+    server: 109.107.159.246
+    port: 17228
+    cipher: aes-256-gcm
+    password: psamSbJq
+  - name: US美国(mibei77.com 米贝节点分享)
+    server: FFfffffFffFFkkKkkKL.4444926.xYZ
+    port: 80
+    type: vmess
+    uuid: dc50eb1d-244d-4711-b168-a101a5e6fb1b
+    alterId: 0
+    cipher: auto
+    tls: false
     skip-cert-verify: true
+    network: ws
+    ws-path: /awmqq79B17rfnpXiNaWb
+    ws-headers:
+      Host: ffffffffffffkkkkkkl.4444926.xyz
     udp: true
   - name: US美国(mibei77.com 米贝节点分享) 2
     server: dddvvbn.931.pp.ua
@@ -43,74 +114,8 @@ proxies:
       Host: dddvvbn.931.pp.ua
     udp: true
   - name: US美国(mibei77.com 米贝节点分享) 3
-    server: cloudgetservice2.mcloudservice.site
-    port: 443
-    type: vmess
-    uuid: c208e0ae-6f6d-4745-99da-44a44744c530
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: /linkwsrt
-    ws-headers:
-      Host: blazE-GEr-248.blAZeClOuDmaiN.sitE
-    udp: true
-  - name: JP日本(mibei77.com 米贝节点分享)
-    server: v12.heduian.link
-    port: 30812
-    type: vmess
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-path: /oooo
-    ws-headers:
-      Host: ocbc.com
-    udp: true
-  - name: JP日本(mibei77.com 米贝节点分享) 2
-    server: 111.26.109.79
-    port: 30807
-    type: vmess
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-path: /oooo
-    ws-headers:
-      Host: ocbc.com
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 4
-    server: 15002.kuaiyin02.top
-    port: 15002
-    type: vmess
-    uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 6
-    server: time.is
-    port: 443
-    type: vmess
-    uuid: 1a255612-9932-454c-9941-4a9d1103da1b
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: /vmess-argo?ed=2560
-    ws-headers:
-      Host: francisco-added-fe-significance.trycloudflare.com
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 7
-    server: 120.232.153.40
-    port: 32209
+    server: 120.237.79.157
+    port: 41174
     type: vmess
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 0
@@ -118,56 +123,7 @@ proxies:
     tls: false
     skip-cert-verify: true
     udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 8
-    server: 45.134.21.8
-    port: 2053
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 9
-    server: 45.67.215.217
-    port: 2087
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 10
-    server: 2603:c024:4509:ac3a:782f:c1d7:44de:4d0e
-    port: 80
-    type: vmess
-    uuid: 0c4c1a89-5645-4fc2-9e3b-ab09aa44e933
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-path: /cn
-    ws-headers:
-      Host: aws.amazon.com
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 11
-    server: 192.200.160.169
-    port: 2096
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 12
-    server: aazxsdE.003330333.XYz
-    port: 443
-    type: vmess
-    uuid: 10b1e371-d734-4306-b67f-0fc1f95c2485
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: /SXjq8YlnGNBlbnEsM
-    ws-headers:
-      Host: aazxsde.003330333.xyz
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 14
+  - name: US美国(mibei77.com 米贝节点分享) 4
     server: sssssssxxxx.2032.pp.ua
     port: 443
     type: vmess
@@ -181,44 +137,23 @@ proxies:
     ws-headers:
       Host: sssssssxxxx.2032.pp.ua
     udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 15
-    server: 103.116.7.133
-    port: 2083
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 16
-    server: 108.165.152.55
-    port: 2096
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 17
-    server: ssssssssssssfffffffgh.2032.pp.ua
+  - name: US美国(mibei77.com 米贝节点分享) 5
+    server: sSsdCVfBGNjkI.931.PP.Ua
     port: 443
     type: vmess
-    uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
+    uuid: a4e8ec0a-75d0-4fc5-837a-4973ed3a9d3e
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
     network: ws
-    ws-path: /6We3U9Df1WGxgFnoFPw1
+    ws-path: /14Fziqw1hYgCXNutkS5H
     ws-headers:
-      Host: ssssssssssssfffffffgh.2032.pp.ua
+      Host: sSsdCVfBGNjkI.931.PP.Ua
     udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 19
-    server: 45.67.214.3
-    port: 2096
-    type: trojan
-    password: Aimer
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 20
-    server: 120.232.153.63
-    port: 37755
+  - name: US美国(mibei77.com 米贝节点分享) 7
+    server: 120.232.153.121
+    port: 59222
     type: vmess
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 0
@@ -226,78 +161,277 @@ proxies:
     tls: false
     skip-cert-verify: true
     udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 21
-    server: 31.43.179.27
+  - name: US美国(mibei77.com 米贝节点分享) 8
+    server: SSsXXXCvBnmjKi.931.Pp.uA
+    port: 443
+    type: vmess
+    uuid: da128246-33b0-4c88-a44e-d91e9e0a1e05
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /0FhUkqQUdxOhMB9JsgTazwz9
+    ws-headers:
+      Host: sssxxxcvbnmjki.931.pp.ua
+    udp: true
+  - name: US美国(mibei77.com 米贝节点分享) 9
+    server: "[2606:4700:3036:6ed4:ffdf:f2ba:820b:ed5c]"
     port: 443
     type: trojan
-    password: Aimer
+    password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+    sni: "[2606:4700:3036:6ed4:ffdf:f2ba:820b:ed5c]"
     skip-cert-verify: true
+    udp: true
+  - name: US美国(mibei77.com 米贝节点分享) 11
+    server: 120.232.153.40
+    port: 32209
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: US美国(mibei77.com 米贝节点分享) 12
+    server: FFFggGhYUi.666461.xYZ
+    port: 80
+    type: vmess
+    uuid: dc50eb1d-244d-4711-b168-a101a5e6fb1b
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /awmqq79B17rfnpXiNaWb
+    ws-headers:
+      Host: fffggghyui.666461.xyz
+    udp: true
+  - name: US美国(mibei77.com 米贝节点分享) 13
+    server: SSSxXcvFtY.444752.Xyz
+    port: 80
+    type: vmess
+    uuid: 512d9674-db12-44ca-a1b5-654244549b65
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /uiAxvH6OkVk0VCfa7dX3JIrYk7zm
+    ws-headers:
+      Host: sssxxcvfty.444752.xyz
+    udp: true
+  - name: US美国(mibei77.com 米贝节点分享) 14
+    server: eEEeeeeEeEEDFFghy.444752.xYZ
+    port: 80
+    type: vmess
+    uuid: 7701ddf5-6a48-401b-a3ec-8af52b6deb48
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /mlyR5tmcKx3hweBopuhWEbIX
+    ws-headers:
+      Host: eeeeeeeeeeedffghy.444752.xyz
+    udp: true
+  - name: US美国(mibei77.com 米贝节点分享) 18
+    server: 138.2.95.61
+    port: 1111
+    type: trojan
+    password: ttfang
+    skip-cert-verify: true
+    udp: true
+  - name: US美国(mibei77.com 米贝节点分享) 20
+    server: orvps2.horsenma.net
+    port: 8443
+    type: vmess
+    uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /horsen
+    ws-headers:
+      Host: orvps2.horsenma.net
+    udp: true
+  - name: US美国(mibei77.com 米贝节点分享) 21
+    server: dDdDdDdddDDDDyUUUIO.4444926.XyZ
+    port: 80
+    type: vmess
+    uuid: dc50eb1d-244d-4711-b168-a101a5e6fb1b
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /awmqq79B17rfnpXiNaWb
+    ws-headers:
+      Host: dddddddddddddyuuuio.4444926.xyz
     udp: true
   - name: US美国(mibei77.com 米贝节点分享) 22
-    server: 188.164.159.18
-    port: 443
-    type: trojan
-    password: Aimer
+    server: ssss3.11890604.xyz
+    port: 80
+    type: vmess
+    uuid: f898ffcb-6417-4373-9640-0b66091e8206
+    alterId: 0
+    cipher: auto
+    tls: false
     skip-cert-verify: true
+    network: ws
+    ws-path: /GnJ3bBxV91uFkYtuzXyJ5XNeH1R1
+    ws-headers:
+      Host: ssss3.11890604.xyz
     udp: true
   - name: US美国(mibei77.com 米贝节点分享) 23
-    server: 46.254.92.142
-    port: 2087
+    server: TtgGGHyUI.666461.Xyz
+    port: 80
+    type: vmess
+    uuid: dc50eb1d-244d-4711-b168-a101a5e6fb1b
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /awmqq79B17rfnpXiNaWb
+    ws-headers:
+      Host: ttggghyui.666461.xyz
+    udp: true
+  - name: JP日本(mibei77.com 米贝节点分享)
+    server: arxfw2b78fi2q9hzylhn.freesocks.work
+    port: 443
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: Nk9asglDzHzjktVzTkvhaA
+    udp: true
+  - name: US美国(mibei77.com 米贝节点分享) 24
+    server: 34r5.11890604.xyz
+    port: 80
+    type: vmess
+    uuid: f898ffcb-6417-4373-9640-0b66091e8206
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /GnJ3bBxV91uFkYtuzXyJ5XNeH1R1
+    ws-headers:
+      Host: 34r5.11890604.xyz
+    udp: true
+  - name: US美国(mibei77.com 米贝节点分享) 25
+    server: 11Q.003330333.Xyz
+    port: 443
+    type: vmess
+    uuid: 6e5925c0-f39e-4449-93e9-2e2e9772b17b
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /AI48RxpSOQ5YVJVp4fx59ry
+    ws-headers:
+      Host: 11q.003330333.xyz
+    udp: true
+  - name: HK香港(mibei77.com 米贝节点分享)
+    server: dozo01.flztjc.top
+    port: 8313
     type: trojan
-    password: Aimer
+    password: 2c605663-b89a-5734-a9d6-97d4743d72cf
+    sni: dozo01.flztjc.top
     skip-cert-verify: true
     udp: true
+  - name: US美国(mibei77.com 米贝节点分享) 26
+    server: 3333r567.11890604.xyz
+    port: 80
+    type: vmess
+    uuid: f898ffcb-6417-4373-9640-0b66091e8206
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /GnJ3bBxV91uFkYtuzXyJ5XNeH1R1
+    ws-headers:
+      Host: 3333r567.11890604.xyz
+    udp: true
+  - name: US美国(mibei77.com 米贝节点分享) 28
+    server: 2603:c024:4509:ac3a:782f:c1d7:44de:4d0e
+    port: 80
+    type: vmess
+    uuid: 0c4c1a89-5645-4fc2-9e3b-ab09aa44e933
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /cn
+    ws-headers:
+      Host: aws.amazon.com
+    udp: true
+  - name: US美国(mibei77.com 米贝节点分享) 29
+    server: ip.sb
+    port: 443
+    type: vmess
+    uuid: c9ddb489-7b5e-49ed-8b21-749f4a0ed56d
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /c9ddb489-7b5e-49ed-8b21-749f4a0ed56d-vmess
+    ws-headers:
+      Host: usshs.atlen.dpdns.org
+    udp: true
   - name: 6元高速机场：cczzuu.top
-    server: 52.195.220.57
+    server: 54.168.210.205
     port: 443
     client-fingerprint: chrome
     type: ss
     cipher: aes-256-cfb
     password: awsps0501
     tfo: false
+  - name: 🇭🇰 香港|@stairnode
+    server: 103.224.80.92
+    port: 58236
+    client-fingerprint: chrome
+    type: vmess
+    uuid: 829218e3-9f74-4303-88da-a9d84f0c7852
+    alterId: 0
+    cipher: auto
+    tls: false
+    tfo: false
+    skip-cert-verify: false
   - name: 🇭🇰 香港2|@stairnode
-    server: 134.122.155.213
-    port: 10349
+    server: 103.103.245.158
+    port: 636
     client-fingerprint: chrome
     type: ss
     cipher: aes-256-gcm
-    password: fd86b4005afd
+    password: 9bfdde71b4c0
     tfo: false
     plugin: v2ray-plugin
     plugin-opts:
       mode: websocket
-      host: hkxwv1-5.dsjsapi.com
-      path: /bxpuuxbqsxeb
+      host: newroot2v1.dsjsapp.com
+      path: /cauejypbltqt
       tls: true
       mux: true
       skip-cert-verify: false
-  - name: 🇭🇰 香港3|@stairnode
-    server: 3ce8ee8.hb.gladns.com
-    port: 2377
-    client-fingerprint: chrome
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-    tfo: false
-    plugin: obfs
-    plugin-opts:
-      mode: tls
-      host: (TG @WangCai2)c47ab06:133288
   - name: 🇭🇰 香港4|@stairnode
-    server: 36.151.192.10
+    server: 36.151.192.59
     port: 9141
     client-fingerprint: chrome
     type: trojan
     password: d0d08cddacc3190ea81b1b792e1b5fde
     sni: www.baidu.com
     skip-cert-verify: true
-  - name: 🇭🇰 香港5|@stairnode
-    server: 36.151.251.24
-    port: 50723
+  - name: 🇭🇰 香港6|@stairnode
+    server: 155.117.228.70
+    port: 26193
     client-fingerprint: chrome
     type: trojan
-    password: d0d08cddacc3190ea81b1b792e1b5fde
-    sni: www.baidu.com
+    password: 7367d04e-4c59-4dff-a50e-12e730a09891
     skip-cert-verify: true
   - name: 🇯🇵 日本|@stairnode
     server: cn01.efan8867801.xyz
@@ -310,7 +444,7 @@ proxies:
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 202507031938065-GRRLQrsxj2.download.microsoft.com
+      host: 202507031938065-e8zxTxmqk7.download.microsoft.com
   - name: 🇯🇵 日本2|@stairnode
     server: 137.220.191.40
     port: 636
@@ -328,541 +462,103 @@ proxies:
       mux: true
       skip-cert-verify: false
   - name: 🇯🇵 日本3|@stairnode
-    server: 36.151.251.58
-    port: 21829
-    client-fingerprint: chrome
-    type: trojan
-    password: d0d08cddacc3190ea81b1b792e1b5fde
-    sni: www.baidu.com
-    skip-cert-verify: true
-  - name: 🇯🇵 日本4|@stairnode
-    server: 36.151.251.29
-    port: 53067
+    server: 36.151.192.26
+    port: 41225
     client-fingerprint: chrome
     type: trojan
     password: d0d08cddacc3190ea81b1b792e1b5fde
     sni: www.baidu.com
     skip-cert-verify: true
   - name: 🇰🇷 韩国|@stairnode
-    server: p222.panda001.net
-    port: 15098
+    server: 154.90.63.177
+    port: 989
     client-fingerprint: chrome
     type: ss
     cipher: aes-256-cfb
-    password: qwerREWQ@@
+    password: f8f7aCzcPKbsF8p3
     tfo: false
   - name: 🇰🇷 韩国2|@stairnode
-    server: h.cm2.xiaomi-api.xyz
-    port: 19852
-    client-fingerprint: chrome
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
-    tfo: false
-  - name: 🇰🇷 韩国4|@stairnode
-    server: 36.151.251.61
-    port: 45203
-    client-fingerprint: chrome
-    type: trojan
-    password: d0d08cddacc3190ea81b1b792e1b5fde
-    sni: www.baidu.com
-    skip-cert-verify: true
-  - name: 🇸🇬 新加坡3|@stairnode
-    server: sg.opensocks.site
-    port: 8388
-    client-fingerprint: chrome
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: YjFmZ
-    tfo: false
-  - name: 🇸🇬 新加坡4|@stairnode
-    server: 13.215.50.90
+    server: 3.34.143.101
     port: 6668
     client-fingerprint: chrome
     type: trojan
     password: 1a17b19d-4896-4531-af79-6e91d8ef8228
     sni: baidu.com
     skip-cert-verify: false
-  - name: 🇺🇸 美国3|@stairnode
-    server: 36.151.251.36
-    port: 30534
-    client-fingerprint: chrome
+  - name: 🇺🇸_US_美国_1
     type: trojan
-    password: d0d08cddacc3190ea81b1b792e1b5fde
-    sni: www.baidu.com
-    skip-cert-verify: true
-  - name: 🇺🇸 美国4|@stairnode
-    server: 36.151.251.60
-    port: 30495
-    client-fingerprint: chrome
-    type: trojan
-    password: d0d08cddacc3190ea81b1b792e1b5fde
-    sni: www.baidu.com
-    skip-cert-verify: true
-  - name: 🇻🇳 越南|@stairnode
-    server: 103.163.218.2
-    port: 989
-    client-fingerprint: chrome
-    type: ss
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-    tfo: false
-  - name: 🇰🇷_KR_韩国
-    type: ss
-    server: 125.141.31.72
-    port: 15098
-    password: qwerREWQ@@
+    server: 172.67.220.32
+    port: 443
+    network: ws
+    password: ffcf7ec1-3e09-4821-b3d9-b426a107b73b
+    sni: eEEfGty6.999836.XYz
+    ws-opts:
+      path: /XmTzATQPJv9RO3xr1D40NK
     ip-version: dual
     udp: true
-    cipher: aes-256-cfb
   - name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
     type: trojan
-    server: lm.kaiqsz.com
-    port: 55799
-    password: 55f2afab-bc41-4231-b725-76bef15c3cf7
-    sni: mmbiz10.redapricotcloud.com
-    ip-version: dual
-    udp: true
-  - name: 🇨🇳_CN_中国->🇫🇷_FR_法国_1
-    type: trojan
-    server: 916030df-sytz40-t16ejh-1rdqg.cm5.cnkuaishou.com
-    port: 27235
-    network: tcp
-    password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
-    ip-version: dual
-    udp: true
-  - name: 🇨🇳_CN_中国->🇫🇷_FR_法国_2
-    type: trojan
-    server: ef9fae4e-sytz40-tgzvop-hns7.cm5.cnkuaishou.com
-    port: 27235
-    password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
-    sni: ef9fae4e-sytz40-tgzvop-hns7.cm5.cnkuaishou.com
-    skip-cert-verify: false
-    ip-version: dual
-    udp: true
-  - name: 🇨🇳_CN_中国->🇫🇷_FR_法国_3
-    type: trojan
-    server: 4edfad82-sytz40-tcmken-19les.cm5.cnkuaishou.com
-    port: 27235
-    password: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
-    ip-version: dual
-    udp: true
-  - name: 🇨🇳_CN_中国->🇫🇷_FR_法国_4
-    type: trojan
-    server: 274ba953-sytz40-t09za6-1m0fq.cm5.cnkuaishou.com
-    port: 27235
-    network: tcp
-    password: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
-    ip-version: dual
-    udp: true
-  - name: 🇮🇷_IR_伊朗
-    type: vmess
-    server: 37.152.173.192
-    port: 5008
-    uuid: 81647712-fcd8-4da9-8f80-bc7a149354f8
-    network: tcp
-    sni: ""
+    server: 36.151.192.27
+    port: 4447
+    password: d0d08cddacc3190ea81b1b792e1b5fde
+    sni: www.baidu.com
     skip-cert-verify: true
-    fingerprint: ""
     ip-version: dual
     udp: true
-    alterId: 0
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
+    type: vmess
+    server: v25.heduian.link
+    port: 30825
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    network: ws
+    ws-opts:
+      path: /oooo
+      headers:
+        host: v25.heduian.link
+    ip-version: dual
+    udp: true
+    alterId: 2
     cipher: auto
-  - name: 🇲🇩_MD_摩尔多瓦->🇯🇵_JP_日本
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_3
+    type: trojan
+    server: 36.156.102.123
+    port: 8657
+    password: d0d08cddacc3190ea81b1b792e1b5fde
+    sni: www.baidu.com
+    skip-cert-verify: true
+    ip-version: dual
+    udp: true
+  - name: 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
     type: ss
-    server: 185.153.197.5
+    server: 156.146.40.194
     port: 989
     password: f8f7aCzcPKbsF8p3
     ip-version: dual
     udp: true
     cipher: aes-256-cfb
-  - name: 🇨🇳_CN_中国->🇫🇷_FR_法国_5
+  - name: 🇺🇸_US_美国_5
     type: trojan
-    server: 1dde7ddd-sytz40-tbpu76-1thmd.cm5.cnkuaishou.com
-    port: 27235
-    network: tcp
-    password: 2d8c38cc-fc12-11ef-94aa-f23c913c8d2b
+    server: 104.21.77.79
+    port: 443
+    network: ws
+    password: 288124da-0d68-42f4-9f48-70dc4dcc55a6
+    sni: SsXCDfR5.986986.shoP
+    ws-opts:
+      path: /raChT39pjLFYRA5HdHEIupMZeK
     ip-version: dual
     udp: true
-  - name: 🇨🇳_CN_中国->🇫🇷_FR_法国_6
-    type: trojan
-    server: c3fe9cc6-sytz40-thv9l4-1jbj0.cm5.cnkuaishou.com
-    port: 27235
-    password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
+  - name: 🇨🇳_CN_中国
+    type: vmess
+    server: 111.26.109.79
+    port: 30829
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    network: ws
+    ws-opts:
+      path: /oooo
     ip-version: dual
     udp: true
-  - type: vmess
-    name: "|2.46Mb"
-    server: 120.210.205.59
-    port: "50002"
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: "64"
+    alterId: 2
     cipher: auto
-    network: tcp
-  - type: trojan
-    name: SJC_1
-    server: 5.182.84.244
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epmk.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epmk.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_2
-    server: 188.164.159.214
-    port: 2083
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epml.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epml.ambercc.filegear-sg.me
-  - type: trojan
-    name: ICN_1
-    server: 121.167.230.98
-    port: 50000
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epmk.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epmk.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_5
-    server: 154.219.5.44
-    port: 2053
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epmk.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epmk.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_9
-    server: 46.254.93.243
-    port: 8443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epml.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epml.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_10
-    server: 167.68.4.223
-    port: 2096
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epml.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epml.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_11
-    server: 135.84.74.254
-    port: 2083
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epmk.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epmk.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_12
-    server: 213.241.198.189
-    port: 2053
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epmk.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epmk.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_15
-    server: 199.34.228.178
-    port: 8443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epmk.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epmk.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_16
-    server: 188.164.159.74
-    port: 8443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epml.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epml.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_17
-    server: 103.116.7.220
-    port: 2096
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epmk.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epmk.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_19
-    server: 45.150.115.195
-    port: 2087
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epml.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epml.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_20
-    server: 188.164.159.234
-    port: 2083
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epml.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epml.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_27
-    server: 188.164.159.185
-    port: 8443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epml.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epml.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_28
-    server: 154.197.64.206
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epml.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epml.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_30
-    server: 5.182.85.255
-    port: 2096
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epml.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epml.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_31
-    server: 188.164.159.98
-    port: 2083
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epmk.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epmk.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_34
-    server: 167.68.4.10
-    port: 2096
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epmk.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epmk.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_36
-    server: 103.116.7.100
-    port: 2087
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epmk.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epmk.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_37
-    server: 209.94.90.87
-    port: 2087
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epml.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epml.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_38
-    server: 141.11.203.191
-    port: 8443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epml.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epml.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_39
-    server: 108.165.152.14
-    port: 2096
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epml.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epml.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_45
-    server: 167.68.4.58
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epmk.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epmk.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_46
-    server: 199.34.228.50
-    port: 2053
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epml.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epml.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_48
-    server: 103.116.7.103
-    port: 2083
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epmk.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epmk.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_54
-    server: 176.53.144.206
-    port: 8443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epmk.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epmk.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_56
-    server: 31.43.179.60
-    port: 2053
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epml.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epml.ambercc.filegear-sg.me
-  - type: trojan
-    name: AMS_3
-    server: 5.35.68.249
-    port: 2053
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epmk.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epmk.ambercc.filegear-sg.me
   - name: tg频道:@ripaojiedian
     server: 3.39.249.233
     port: 443
@@ -887,22 +583,6 @@ proxies:
       path: /oooo
       headers:
         Host: baidu.com
-  - name: 🇭🇰 香港2|@ripaojiedian
-    server: 103.103.245.158
-    port: 636
-    client-fingerprint: chrome
-    type: ss
-    cipher: aes-256-gcm
-    password: 9bfdde71b4c0
-    tfo: false
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: newroot2v1.dsjsapp.com
-      path: /cauejypbltqt
-      tls: true
-      mux: true
-      skip-cert-verify: false
   - name: 🇭🇰 香港3|@ripaojiedian
     server: 38.147.189.233
     port: 31076
@@ -914,29 +594,6 @@ proxies:
     tls: false
     tfo: false
     skip-cert-verify: false
-  - name: 🇭🇰 香港4|@ripaojiedian
-    server: 36.151.192.59
-    port: 9141
-    client-fingerprint: chrome
-    type: trojan
-    password: d0d08cddacc3190ea81b1b792e1b5fde
-    sni: www.baidu.com
-    skip-cert-verify: true
-  - name: 🇭🇰 香港6|@ripaojiedian
-    server: 155.117.228.70
-    port: 26193
-    client-fingerprint: chrome
-    type: trojan
-    password: 7367d04e-4c59-4dff-a50e-12e730a09891
-    skip-cert-verify: true
-  - name: 🇯🇵 日本3|@ripaojiedian
-    server: 36.151.192.26
-    port: 41225
-    client-fingerprint: chrome
-    type: trojan
-    password: d0d08cddacc3190ea81b1b792e1b5fde
-    sni: www.baidu.com
-    skip-cert-verify: true
   - name: 🇯🇵 日本5|@ripaojiedian
     server: 13.231.80.233
     port: 9898
