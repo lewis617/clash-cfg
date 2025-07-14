@@ -560,7 +560,7 @@ proxies:
     alterId: 2
     cipher: auto
   - name: tg频道:@ripaojiedian
-    server: 13.212.185.27
+    server: 13.250.5.111
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -584,54 +584,40 @@ proxies:
       headers:
         Host: baidu.com
   - name: 🇭🇰 香港3|@ripaojiedian
-    server: 38.147.188.235
-    port: 30929
+    server: ghikkdg2.mi0001.xyz
+    port: 31019
     client-fingerprint: chrome
     type: vmess
-    uuid: 9094033c-c9ef-453e-bf72-cd067ca1821a
+    uuid: 2e0d1409-81fc-42bd-b37f-bd1910869e13
     alterId: 0
     cipher: auto
     tls: false
     tfo: false
     skip-cert-verify: false
-  - name: 🇹🇼 台湾|@ripaojiedian
-    server: 154.223.20.79
-    port: 989
+  - name: 🇭🇰 香港7|@ripaojiedian
+    server: 43.247.134.145
+    port: 25740
+    client-fingerprint: chrome
+    type: vmess
+    uuid: d70ca72a-2b50-4536-8abc-da48995dd902
+    alterId: 0
+    cipher: auto
+    tls: false
+    tfo: false
+    skip-cert-verify: false
+  - name: 🇰🇷 韩国2|@ripaojiedian
+    server: 3.34.189.118
+    port: 6668
+    client-fingerprint: chrome
+    type: trojan
+    password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+    sni: baidu.com
+    skip-cert-verify: false
+  - name: 🇻🇳 越南|@ripaojiedian
+    server: 103.186.154.35
+    port: 38388
     client-fingerprint: chrome
     type: ss
     cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     tfo: false
-  - name: 🇯🇵 日本5|@ripaojiedian
-    server: 57.180.63.92
-    port: 9898
-    client-fingerprint: chrome
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-    tfo: false
-  - name: 🇸🇬 新加坡3|@ripaojiedian
-    server: 128.199.236.104
-    port: 57384
-    client-fingerprint: chrome
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: wcI8DZe0eXSS3upop1QjVB
-    tfo: false
-  - name: 🇺🇸 美国|@ripaojiedian
-    server: 1750158741.tencentapp.cn
-    port: 443
-    client-fingerprint: chrome
-    type: vmess
-    uuid: 08735399-0b8f-40c4-934f-f84ab52e26d0
-    alterId: 0
-    cipher: auto
-    tls: true
-    tfo: false
-    skip-cert-verify: false
-    servername: free1.chiikawanetworkcfjiasucdn.us.kg
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: free1.chiikawanetworkcfjiasucdn.us.kg
