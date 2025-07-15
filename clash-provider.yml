@@ -584,12 +584,12 @@ proxies:
       headers:
         Host: baidu.com
   - name: 🇭🇰 香港3|@ripaojiedian
-    server: ghikkdg2.mi0001.xyz
-    port: 31019
+    server: 183.236.97.101
+    port: 44404
     client-fingerprint: chrome
     type: vmess
-    uuid: 2e0d1409-81fc-42bd-b37f-bd1910869e13
-    alterId: 0
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
     cipher: auto
     tls: false
     tfo: false
@@ -605,16 +605,8 @@ proxies:
     tls: false
     tfo: false
     skip-cert-verify: false
-  - name: 🇰🇷 韩国2|@ripaojiedian
-    server: 3.34.189.118
-    port: 6668
-    client-fingerprint: chrome
-    type: trojan
-    password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-    sni: baidu.com
-    skip-cert-verify: false
   - name: 🇻🇳 越南|@ripaojiedian
-    server: 103.186.154.35
+    server: 103.186.154.37
     port: 38388
     client-fingerprint: chrome
     type: ss
