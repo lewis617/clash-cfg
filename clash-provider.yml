@@ -570,6 +570,14 @@ proxies:
     cipher: aes-256-cfb
     password: awsps0501
     tfo: false
+  - name: 🇭🇰 香港4|@ripaojiedian
+    server: 36.151.251.7
+    port: 8001
+    client-fingerprint: chrome
+    type: trojan
+    password: d0d08cddacc3190ea81b1b792e1b5fde
+    sni: www.baidu.com
+    skip-cert-verify: true
   - name: 🇭🇰 香港3|@ripaojiedian
     server: js-12f83a8c.kaiqsz.com
     port: 12221
@@ -578,6 +586,14 @@ proxies:
     password: da631e61-bead-4c9c-8bd7-7bea82f736ae
     sni: nkrpjj.cn
     skip-cert-verify: false
+  - name: 🇭🇰 香港5|@ripaojiedian
+    server: 36.151.192.62
+    port: 20783
+    client-fingerprint: chrome
+    type: trojan
+    password: d0d08cddacc3190ea81b1b792e1b5fde
+    sni: www.baidu.com
+    skip-cert-verify: true
   - name: 🇹🇼 台湾|@ripaojiedian
     server: 8077092c-sznls0-t0wpqd-4cwg.77.iwskwai.com
     port: 3687
@@ -589,6 +605,14 @@ proxies:
     tls: false
     tfo: false
     skip-cert-verify: false
+  - name: 🇯🇵 日本3|@ripaojiedian
+    server: 36.151.192.239
+    port: 41225
+    client-fingerprint: chrome
+    type: trojan
+    password: d0d08cddacc3190ea81b1b792e1b5fde
+    sni: www.baidu.com
+    skip-cert-verify: true
   - name: 🇦🇹 奥地利|@ripaojiedian
     server: 152.53.2.128
     port: 34045
