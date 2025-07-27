@@ -1726,7 +1726,7 @@ proxies:
       headers:
         host: epmn.ambercc.filegear-sg.me
   - name: tg频道:@ripaojiedian
-    server: 3.38.186.95
+    server: 15.165.12.14
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -1734,11 +1734,22 @@ proxies:
     password: amazonskr05
     tfo: false
   - name: 🇭🇰 香港3|@ripaojiedian
-    server: b5ca534f-t02f40-t1iztx-1ryup.hk.p5pv.com
+    server: 38.147.188.87
+    port: 12425
+    client-fingerprint: chrome
+    type: vmess
+    uuid: 2f927b33-021b-4d45-9d4e-9a3592aef502
+    alterId: 0
+    cipher: auto
+    tls: false
+    tfo: false
+    skip-cert-verify: false
+  - name: 🇭🇰 香港6|@ripaojiedian
+    server: 14269f63-t049s0-t1kmeg-mv7m.hk3.p5pv.com
     port: 80
     client-fingerprint: chrome
     type: vmess
-    uuid: 3ee091ca-ab9c-11ef-a791-f23c9164ca5d
+    uuid: 94d40708-8273-11ea-8fc9-f23c913c8d2b
     alterId: 2
     cipher: auto
     tls: false
@@ -1779,7 +1790,7 @@ proxies:
       headers:
         Host: wahaha.yingyangkuaixian.dpdns.org
   - name: 🇻🇳 越南|@ripaojiedian
-    server: 103.186.154.19
+    server: 103.186.154.26
     port: 38388
     client-fingerprint: chrome
     type: ss
