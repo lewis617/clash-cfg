@@ -1744,6 +1744,14 @@ proxies:
     tls: false
     tfo: false
     skip-cert-verify: false
+  - name: 🇭🇰 香港4|@ripaojiedian
+    server: 36.151.192.243
+    port: 3221
+    client-fingerprint: chrome
+    type: trojan
+    password: d0d08cddacc3190ea81b1b792e1b5fde
+    sni: www.baidu.com
+    skip-cert-verify: true
   - name: 🇭🇰 香港6|@ripaojiedian
     server: 103.181.165.26
     port: 49597
@@ -1755,6 +1763,22 @@ proxies:
     tls: false
     tfo: false
     skip-cert-verify: false
+  - name: 🇯🇵 日本3|@ripaojiedian
+    server: 172.238.14.135
+    port: 443
+    client-fingerprint: chrome
+    type: trojan
+    password: d0d08cddacc3190ea81b1b792e1b5fde
+    sni: www.baidu.com
+    skip-cert-verify: true
+  - name: 🇯🇵 日本4|@ripaojiedian
+    server: 172.234.90.253
+    port: 41225
+    client-fingerprint: chrome
+    type: trojan
+    password: d0d08cddacc3190ea81b1b792e1b5fde
+    sni: www.baidu.com
+    skip-cert-verify: true
   - name: 🇯🇵 日本5|@ripaojiedian
     server: 47.79.94.25
     port: 8080
@@ -1769,6 +1793,14 @@ proxies:
     network: ws
     ws-opts:
       path: /
+  - name: 🇰🇷 韩国|@ripaojiedian
+    server: 36.151.195.111
+    port: 16003
+    client-fingerprint: chrome
+    type: trojan
+    password: d0d08cddacc3190ea81b1b792e1b5fde
+    sni: www.baidu.com
+    skip-cert-verify: true
   - name: 🇸🇬 新加坡3|@ripaojiedian
     server: sg.mjt000.com
     port: 443
