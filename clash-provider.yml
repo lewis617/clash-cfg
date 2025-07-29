@@ -1753,15 +1753,7 @@ proxies:
     sni: www.baidu.com
     skip-cert-verify: true
   - name: 🇯🇵 日本3|@ripaojiedian
-    server: 172.238.14.135
-    port: 443
-    client-fingerprint: chrome
-    type: trojan
-    password: d0d08cddacc3190ea81b1b792e1b5fde
-    sni: www.baidu.com
-    skip-cert-verify: true
-  - name: 🇯🇵 日本4|@ripaojiedian
-    server: 172.237.27.220
+    server: 172.104.114.51
     port: 443
     client-fingerprint: chrome
     type: trojan
