@@ -15,6 +15,30 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
+  - name: 🇨🇦_CA_加拿大->🇺🇸_US_美国
+    type: vmess
+    server: 205.233.181.241
+    port: 8880
+    uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /dabai.in
+      headers:
+        host: TG.WangCai2.s2.db-link02.top
+    alterId: 0
+  - name: 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
+    type: vmess
+    server: 77.105.163.25
+    port: 8880
+    uuid: 3e1e3e7f-2683-3f36-83b1-1850790295df
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /dabai&Telegram🇨🇳 @WangCai2 /?ed=2560
+      headers:
+        host: TG.WangCai2.s2.cn-db.top
+    alterId: 0
   - name: 🇺🇸_US_美国
     type: vmess
     server: 108.165.216.241
@@ -23,11 +47,185 @@ proxies:
     uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
     cipher: auto
     network: ws
-    skip-cert-verify: true
     ws-opts:
       path: /dabai.in
       headers:
         host: TG.WangCai2.s2.db-link02.top
+    alterId: 0
+  - name: 🇺🇸_US_美国_1
+    type: vmess
+    server: 66.235.200.25
+    port: 8880
+    uuid: 3e1e3e7f-2683-3f36-83b1-1850790295df
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /dabai&Telegram🇨🇳 @WangCai2 /?ed=2560
+      headers:
+        host: TG.WangCai2.s2.cn-db.top
+    alterId: 0
+  - name: 未知
+    type: vmess
+    server: 103.160.204.241
+    port: 8880
+    uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /dabai.in
+      headers:
+        host: TG.WangCai2.s2.db-link02.top
+    alterId: 0
+  - name: 🇳🇱_NL_荷兰->🇺🇸_US_美国
+    type: vmess
+    server: 45.149.12.25
+    port: 8880
+    uuid: 3e1e3e7f-2683-3f36-83b1-1850790295df
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /dabai&Telegram🇨🇳 @WangCai2 /?ed=2560
+      headers:
+        host: TG.WangCai2.s2.cn-db.top
+    alterId: 0
+  - name: 🇺🇸_US_美国_2
+    type: vmess
+    server: 170.114.46.172
+    port: 8880
+    uuid: 70df7c1e-12c8-325f-a12a-34aa46949e60
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /dabai&Telegram🇨🇳 @WangCai2 /?ed=2560
+      headers:
+        host: TG.WangCai2.s4.cn-db.top
+    alterId: 0
+  - name: 🇺🇸_US_美国->🇨🇳_CN_中国
+    type: ss
+    server: 54.189.166.94
+    port: 443
+    cipher: aes-256-cfb
+    password: amazonskr05
+  - name: 🇯🇵_JP_日本->🇺🇸_US_美国
+    type: vmess
+    server: 103.116.7.241
+    port: 8880
+    uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /dabai.in
+      headers:
+        host: TG.WangCai2.s2.db-link02.top
+    alterId: 0
+  - name: 🇮🇳_IN_印度->🇺🇸_US_美国
+    type: vmess
+    server: 14.102.228.172
+    port: 8880
+    uuid: 70df7c1e-12c8-325f-a12a-34aa46949e60
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /dabai&Telegram🇨🇳 @WangCai2 /?ed=2560
+      headers:
+        host: TG.WangCai2.s4.cn-db.top
+    alterId: 0
+  - name: 🇩🇰_DK_丹麦->🇺🇸_US_美国
+    type: vmess
+    server: 195.85.59.241
+    port: 8880
+    uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /dabai.in
+      headers:
+        host: TG.WangCai2.s2.db-link02.top
+    alterId: 0
+  - name: 🇷🇺_RU_俄罗斯
+    type: ss
+    server: 91.219.23.165
+    port: 12445
+    cipher: chacha20-ietf-poly1305
+    password: Wxnt17A2bShe9u2pI2o62K
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国
+    type: vmess
+    server: v33.heduian.link
+    port: 30833
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /oooo
+      headers:
+        host: v33.heduian.link
+    alterId: 2
+  - name: 🇩🇰_DK_丹麦->🇺🇸_US_美国_1
+    type: vmess
+    server: csgo.com
+    port: 80
+    uuid: 95c27cc4-82b5-45da-962e-ba675642fc3d
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /profile/telegram@ssrsub
+      headers:
+        host: cdn-node-oss-99.paofu.de
+    alterId: 0
+  - name: 🇷🇺_RU_俄罗斯->🇺🇸_US_美国_1
+    type: vmess
+    server: 77.232.140.25
+    port: 8880
+    sni: ""
+    uuid: 3e1e3e7f-2683-3f36-83b1-1850790295df
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /dabai&Telegram🇨🇳 @WangCai2 /?ed=2560
+      headers:
+        host: TG.WangCai2.s2.cn-db.top
+    alterId: 0
+  - name: 未知_1
+    type: vmess
+    server: 103.169.142.241
+    port: 8880
+    uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /dabai.in
+      headers:
+        host: TG.WangCai2.s2.db-link02.top
+    alterId: 0
+  - name: 🇺🇸_US_美国_3
+    type: ss
+    server: 38.54.57.90
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: 🇬🇧_GB_英国->🇺🇸_US_美国
+    type: vmess
+    server: 80.93.202.25
+    port: 8880
+    uuid: 3e1e3e7f-2683-3f36-83b1-1850790295df
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /dabai&Telegram🇨🇳 @WangCai2 /?ed=2560
+      headers:
+        host: TG.WangCai2.s2.cn-db.top
+    alterId: 0
+  - name: 🇮🇳_IN_印度->🇺🇸_US_美国_1
+    type: vmess
+    server: 14.102.229.172
+    port: 8880
+    uuid: 70df7c1e-12c8-325f-a12a-34aa46949e60
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /dabai&Telegram🇨🇳 @WangCai2 /?ed=2560
+      headers:
+        host: TG.WangCai2.s4.cn-db.top
     alterId: 0
   - name: 🇲🇩_MD_摩尔多瓦
     type: ss
@@ -35,75 +233,31 @@ proxies:
     port: 989
     cipher: aes-256-cfb
     password: f8f7aCzcPKbsF8p3
-  - name: 🇲🇩_MD_摩尔多瓦_1
+  - name: 🇷🇺_RU_俄罗斯_1
     type: ss
-    server: 91.132.94.200
+    server: 185.231.233.112
     port: 989
     cipher: aes-256-cfb
     password: f8f7aCzcPKbsF8p3
-  - name: 🇯🇵_JP_日本->🇺🇸_US_美国
+  - name: 🇳🇱_NL_荷兰->🇺🇸_US_美国_1
     type: vmess
-    server: 103.116.7.241
+    server: 45.159.217.25
     port: 8880
-    sni: ""
-    uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
+    uuid: 3e1e3e7f-2683-3f36-83b1-1850790295df
     cipher: auto
     network: ws
-    skip-cert-verify: true
     ws-opts:
-      path: /dabai.in
+      path: /dabai&Telegram🇨🇳 @WangCai2 /?ed=2560
       headers:
-        host: TG.WangCai2.s2.db-link02.top
+        host: TG.WangCai2.s2.cn-db.top
     alterId: 0
-  - name: 🇺🇦_UA_乌克兰
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
     type: ss
-    server: switcher-nick-croquet.freesocks.work
-    port: 443
+    server: pr.fastsoonlink.com
+    port: 40030
     cipher: chacha20-ietf-poly1305
-    password: 9tqhMdIrTkgQ46PvhyAtMH
+    password: ae6e933b-8874-4bf4-a384-0de216ef2bf4
   - name: US美国(mibei77.com 米贝节点分享)
-    server: JJJjjjjjmMMmM.4444926.XYZ
-    port: 443
-    type: vmess
-    uuid: dc50eb1d-244d-4711-b168-a101a5e6fb1b
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: /awmqq79B17rfnpXiNaWb
-    ws-headers:
-      Host: JJJjjjjjmMMmM.4444926.XYZ
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 2
-    server: ddDFvg.859885.XYZ
-    port: 443
-    type: vmess
-    uuid: f69b7304-9bea-4740-a555-797514012a53
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: /9AYJ8jsARg3AJC29auSeckWI9
-    ws-headers:
-      Host: dddfvg.859885.xyz
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 3
-    server: 11Q.003330333.Xyz
-    port: 443
-    type: vmess
-    uuid: 6e5925c0-f39e-4449-93e9-2e2e9772b17b
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: /AI48RxpSOQ5YVJVp4fx59ry
-    ws-headers:
-      Host: 11q.003330333.xyz
-    udp: true
-  - name: RU俄罗斯(mibei77.com 米贝节点分享)
     server: 2606:4700:3030::6815:6001
     port: 443
     type: vmess
@@ -117,11 +271,11 @@ proxies:
     ws-headers:
       Host: eeddfrty.999820.xyz
     udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 4
-    server: cc2dash.89060004.xyz
-    port: 2083
+  - name: US美国(mibei77.com 米贝节点分享) 2
+    server: www.visa.com.sg
+    port: 8443
     type: vmess
-    uuid: 2fc37713-3017-497e-ff2d-965f826a19a3
+    uuid: 62a00edc-9867-4c66-82ee-d57c19facad3
     alterId: 0
     cipher: auto
     tls: true
@@ -129,21 +283,35 @@ proxies:
     network: ws
     ws-path: /
     ws-headers:
-      Host: cc2d3.89060004.xyz
+      Host: nurse-boston-queen-romantic.trycloudflare.com
     udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 5
-    server: dddfvg.859885.xyz
-    port: 443
+  - name: US美国(mibei77.com 米贝节点分享) 3
+    server: 45.153.7.25
+    port: 8880
     type: vmess
-    uuid: f69b7304-9bea-4740-a555-797514012a53
+    uuid: 3e1e3e7f-2683-3f36-83b1-1850790295df
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
     network: ws
-    ws-path: /9AYJ8jsARg3AJC29auSeckWI9
+    ws-path: /dabai&Telegram🇨🇳@WangCai2/?ed=2560
     ws-headers:
-      Host: dddfvg.859885.xyz
+      Host: TG.WangCai2.s2.cn-db.top
+    udp: true
+  - name: US美国(mibei77.com 米贝节点分享) 6
+    server: 185.251.81.17
+    port: 8880
+    type: vmess
+    uuid: 82cfee4e-e05a-3866-af4d-d09a90506148
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /dabai&Telegram🇨🇳@WangCai2/?ed=2560
+    ws-headers:
+      Host: TG.WangCai2.s2.cn-db.top
     udp: true
   - name: US美国(mibei77.com 米贝节点分享) 7
     server: sSsdCVfBGNjkI.931.PP.Ua
@@ -157,152 +325,240 @@ proxies:
     network: ws
     ws-path: /14Fziqw1hYgCXNutkS5H
     ws-headers:
-      Host: sssdcvfbgnjki.931.pp.ua
+      Host: sSsdCVfBGNjkI.931.PP.Ua
     udp: true
   - name: US美国(mibei77.com 米贝节点分享) 8
-    server: ssssssssssssfffffffgh.2032.pp.ua
-    port: 443
+    server: 103.185.249.183
+    port: 18479
     type: vmess
-    uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: /6We3U9Df1WGxgFnoFPw1
-    ws-headers:
-      Host: ssssssssssssfffffffgh.2032.pp.ua
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 9
-    server: wWWwwWWw2.444652.XYz
-    port: 443
-    type: vmess
-    uuid: cdec9d57-661d-456a-bbf2-b4c38e9c6711
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-path: /9dZlJLjHHrL0VwSolbqFpg
-    ws-headers:
-      Host: wWWwwWWw2.444652.XYz
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 10
-    server: 103.169.142.241
-    port: 8880
-    type: vmess
-    uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
+    uuid: 1479ce84-0de2-477b-ecf7-89b4fbfe8e3f
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    network: ws
-    ws-path: /dabai.in
-    ws-headers:
-      Host: TG.WangCai2.s2.db-link02.top
     udp: true
   - name: US美国(mibei77.com 米贝节点分享) 11
-    server: aio.zipzap.biz.id
-    port: 443
-    type: trojan
-    password: f282b878-8711-45a1-8c69-5564172123c1
-    sni: aio.zipzap.biz.id
-    skip-cert-verify: true
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 12
-    server: TtgGGHyUI.666461.Xyz
-    port: 80
-    type: vmess
-    uuid: dc50eb1d-244d-4711-b168-a101a5e6fb1b
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-path: /awmqq79B17rfnpXiNaWb
-    ws-headers:
-      Host: ttggghyui.666461.xyz
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 13
-    server: 103.160.204.241
-    port: 8880
-    type: vmess
-    uuid: 248be52b-35d9-34cb-9b73-e12b78bc1301
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-path: /dabai.in
-    ws-headers:
-      Host: TG.WangCai2.s2.db-link02.top
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 17
-    server: dddddddddddddyuuuio.4444926.xyz
-    port: 80
-    type: vmess
-    uuid: dc50eb1d-244d-4711-b168-a101a5e6fb1b
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-path: /awmqq79B17rfnpXiNaWb
-    ws-headers:
-      Host: dddddddddddddyuuuio.4444926.xyz
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 18
-    server: dDdDdDdddDDDDyUUUIO.4444926.XyZ
-    port: 80
-    type: vmess
-    uuid: dc50eb1d-244d-4711-b168-a101a5e6fb1b
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-path: /awmqq79B17rfnpXiNaWb
-    ws-headers:
-      Host: dddddddddddddyuuuio.4444926.xyz
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 19
-    server: FFfffffFffFFkkKkkKL.4444926.xYZ
-    port: 80
-    type: vmess
-    uuid: dc50eb1d-244d-4711-b168-a101a5e6fb1b
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
-    ws-path: /awmqq79B17rfnpXiNaWb
-    ws-headers:
-      Host: ffffffffffffkkkkkkl.4444926.xyz
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 20
-    server: dddvvbn.931.pp.ua
+    server: tTtTttTttGgGGHHhnMk.iraN2035.DPDNS.ORG
     port: 443
     type: vmess
-    uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
+    uuid: a94fafdb-10d6-46c2-be8a-5c2e8358fbb0
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
     network: ws
-    ws-path: /6We3U9Df1WGxgFnoFPw1
+    ws-path: /CjJ9A46ZRHvgWvVcmjyiKVby2Lp
     ws-headers:
-      Host: dddvvbn.931.pp.ua
+      Host: tttttttttgggghhhnmk.iran2035.dpdns.org
     udp: true
-  - name: DE德国(mibei77.com 米贝节点分享)
-    server: fastcup.net
-    port: 8443
+  - name: US美国(mibei77.com 米贝节点分享) 12
+    server: 159.242.242.9
+    port: 8880
+    type: vmess
+    uuid: 70df7c1e-12c8-325f-a12a-34aa46949e60
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /dabai&Telegram🇨🇳@WangCai2/?ed=2560
+    ws-headers:
+      Host: TG.WangCai2.s4.cn-db.top
+    udp: true
+  - name: US美国(mibei77.com 米贝节点分享) 13
+    server: 104.21.63.135
+    port: 443
     type: trojan
-    password: 1688c7ee-35b3-4bfb-ab88-f8ce846daeb6
-    sni: fastcup.net
+    password: fa050497-fc2a-45ee-89c0-96670c4ecb65
     skip-cert-verify: true
     udp: true
+  - name: US美国(mibei77.com 米贝节点分享) 14
+    server: 63.141.128.25
+    port: 8880
+    type: vmess
+    uuid: 3e1e3e7f-2683-3f36-83b1-1850790295df
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /dabai&Telegram🇨🇳@WangCai2/?ed=2560
+    ws-headers:
+      Host: TG.WangCai2.s2.cn-db.top
+    udp: true
+  - name: US美国(mibei77.com 米贝节点分享) 15
+    server: 185.251.83.9
+    port: 8880
+    type: vmess
+    uuid: 70df7c1e-12c8-325f-a12a-34aa46949e60
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /dabai&Telegram🇨🇳@WangCai2/?ed=2560
+    ws-headers:
+      Host: TG.WangCai2.s4.cn-db.top
+    udp: true
+  - name: US美国(mibei77.com 米贝节点分享) 16
+    server: 5.182.84.172
+    port: 8880
+    type: vmess
+    uuid: 70df7c1e-12c8-325f-a12a-34aa46949e60
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /dabai&Telegram🇨🇳@WangCai2/?ed=2560
+    ws-headers:
+      Host: TG.WangCai2.s4.cn-db.top
+    udp: true
+  - name: US美国(mibei77.com 米贝节点分享) 17
+    server: 172.67.170.147
+    port: 443
+    type: vmess
+    uuid: ffcf7ec1-3e09-4821-b3d9-b426a107b73b
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /4Bp70NdrJV3xr1D40NK
+    ws-headers:
+      Host: xcvfgt6.999854.xyz
+    udp: true
+  - name: US美国(mibei77.com 米贝节点分享) 18
+    server: 172.67.220.32
+    port: 443
+    type: trojan
+    password: ffcf7ec1-3e09-4821-b3d9-b426a107b73b
+    skip-cert-verify: true
+    udp: true
+  - name: GB英国(mibei77.com 米贝节点分享)
+    server: 45.85.119.190
+    port: 443
+    type: vmess
+    uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /us.kkp.me.eu.org/aa
+    ws-headers:
+      Host: farid.1.berozha.ir
+    udp: true
+  - name: US美国(mibei77.com 米贝节点分享) 20
+    server: JJJjjjjjmMMmM.4444926.XYZ
+    port: 443
+    type: vmess
+    uuid: dc50eb1d-244d-4711-b168-a101a5e6fb1b
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /awmqq79B17rfnpXiNaWb
+    ws-headers:
+      Host: JJJjjjjjmMMmM.4444926.XYZ
+    udp: true
+  - name: US美国(mibei77.com 米贝节点分享) 23
+    server: 89.116.250.7
+    port: 8880
+    type: vmess
+    uuid: 2d86bf09-0810-3c29-a74c-ba7150848cff
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /dabai&Telegram🇨🇳@WangCai2/?ed=2560
+    ws-headers:
+      Host: TG.WangCai2.s4.cn-db.top
+    udp: true
+  - name: US美国(mibei77.com 米贝节点分享) 24
+    server: 141.11.203.26
+    port: 8880
+    type: vmess
+    uuid: 1fcb582e-7ffb-3708-8a0f-96c2a070e40d
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /dabai&Telegram🇨🇳@WangCai2/?ed=2560
+    ws-headers:
+      Host: TG.WangCai2.s2.cn-db.top
+    udp: true
+  - name: US美国(mibei77.com 米贝节点分享) 25
+    server: 188.164.248.7
+    port: 8880
+    type: vmess
+    uuid: 2d86bf09-0810-3c29-a74c-ba7150848cff
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /dabai&Telegram🇨🇳@WangCai2/?ed=2560
+    ws-headers:
+      Host: TG.WangCai2.s4.cn-db.top
+    udp: true
+  - name: 乌克兰(mibei77.com 米贝节点分享)
+    server: 46.202.30.25
+    port: 8880
+    type: vmess
+    uuid: 3e1e3e7f-2683-3f36-83b1-1850790295df
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /dabai&Telegram🇨🇳@WangCai2/?ed=2560
+    ws-headers:
+      Host: TG.WangCai2.s2.cn-db.top
+    udp: true
+  - name: US美国(mibei77.com 米贝节点分享) 27
+    server: dddfffvvbnhju.931.pp.ua
+    port: 443
+    type: vmess
+    uuid: a4e8ec0a-75d0-4fc5-837a-4973ed3a9d3e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-path: /14Fziqw1hYgCXNutkS5H
+    ws-headers:
+      Host: dddfffvvbnhju.931.pp.ua
+    udp: true
+  - name: HK香港(mibei77.com 米贝节点分享) 2
+    server: 183.240.179.91
+    port: 48833
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: JP日本(mibei77.com 米贝节点分享)
+    server: 156.238.19.9
+    port: 8880
+    type: vmess
+    uuid: 70df7c1e-12c8-325f-a12a-34aa46949e60
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-path: /dabai&Telegram🇨🇳@WangCai2/?ed=2560
+    ws-headers:
+      Host: TG.WangCai2.s4.cn-db.top
+    udp: true
   - name: 6元高速机场：cczzuu.top
-    server: 43.203.107.212
+    server: 3.110.161.102
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -342,24 +598,57 @@ proxies:
       mux: true
       skip-cert-verify: false
   - name: 🇭🇰 香港3|@stairnode
-    server: 38.147.188.250
-    port: 11745
+    server: hkt.gotochinatown.net
+    port: 80
     client-fingerprint: chrome
     type: vmess
-    uuid: aee65b36-ac1a-428b-8da3-dae88195e47f
-    alterId: 0
+    uuid: 715a2574-9c25-11eb-8673-f23c9164ca5d
+    alterId: 2
     cipher: auto
     tls: false
     tfo: false
     skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: broadcastlv.chat.bilibili.com
   - name: 🇭🇰 香港4|@stairnode
-    server: 36.151.192.243
-    port: 3221
+    server: 58.152.30.37
+    port: 443
     client-fingerprint: chrome
     type: trojan
     password: d0d08cddacc3190ea81b1b792e1b5fde
     sni: www.baidu.com
     skip-cert-verify: true
+  - name: 🇭🇰 香港6|@stairnode
+    server: 36.156.102.125
+    port: 444
+    client-fingerprint: chrome
+    type: trojan
+    password: d0d08cddacc3190ea81b1b792e1b5fde
+    sni: www.ithome.com
+    skip-cert-verify: true
+  - name: 🇹🇼 台湾|@stairnode
+    password: test.+
+    port: 30443
+    server: cmhkb.ssv.vc
+    skip-cert-verify: false
+    tls: true
+    type: http
+    username: test
+    sni: cmhkb.ssv.vc
+  - name: 🇹🇼 台湾2|@stairnode
+    server: 615c0f38-t0h8g0-tgxeiy-3kis.77.iwskwai.com
+    port: 3687
+    client-fingerprint: chrome
+    type: vmess
+    uuid: 117fc3d8-fd04-11ed-b345-f23c93136cb3
+    alterId: 0
+    cipher: auto
+    tls: false
+    tfo: false
+    skip-cert-verify: false
   - name: 🇯🇵 日本|@stairnode
     server: cn01.efan8867801.xyz
     port: 8766
@@ -371,7 +660,7 @@ proxies:
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 202507282137611-JtmNFkb3wi.download.microsoft.com
+      host: 202507282137611-Ykh074r9Rq.download.microsoft.com
   - name: 🇯🇵 日本2|@stairnode
     server: 137.220.191.40
     port: 636
@@ -388,45 +677,16 @@ proxies:
       tls: true
       mux: true
       skip-cert-verify: false
-  - name: 🇯🇵 日本3|@stairnode
-    server: 172.238.14.135
-    port: 443
-    client-fingerprint: chrome
-    type: trojan
-    password: d0d08cddacc3190ea81b1b792e1b5fde
-    sni: www.baidu.com
-    skip-cert-verify: true
-  - name: 🇯🇵 日本4|@stairnode
-    server: 172.237.27.220
-    port: 443
-    client-fingerprint: chrome
-    type: trojan
-    password: d0d08cddacc3190ea81b1b792e1b5fde
-    sni: www.baidu.com
-    skip-cert-verify: true
-  - name: 🇯🇵 日本5|@stairnode
-    server: jp006.421421.xyz
-    port: 20230
-    client-fingerprint: chrome
-    type: trojan
-    password: 2ba7e4d0-f2f9-456e-a43e-f5a724d7e367
-    sni: www.alibaba.com
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: www.alibaba.com
   - name: 🇰🇷 韩国|@stairnode
-    server: 36.151.195.111
-    port: 16003
+    server: 34.64.53.92
+    port: 443
     client-fingerprint: chrome
     type: trojan
     password: d0d08cddacc3190ea81b1b792e1b5fde
     sni: www.baidu.com
     skip-cert-verify: true
-  - name: 🇸🇬 新加坡2|@stairnode
-    server: 178.128.106.216
+  - name: 🇸🇬 新加坡|@stairnode
+    server: 157.230.32.243
     port: 443
     client-fingerprint: chrome
     type: trojan
@@ -454,86 +714,7 @@ proxies:
       path: /ctdmgeIg3NII3ibrzzKXJGy3S1
       headers:
         Host: xXcdvFgt.191268.XYz
-  - name: 🇺🇸 美国4|@stairnode
-    server: 174.138.85.53
-    port: 443
-    client-fingerprint: chrome
-    type: trojan
-    password: d0d08cddacc3190ea81b1b792e1b5fde
-    sni: www.baidu.com
-    skip-cert-verify: true
-  - name: 🇺🇸_US_美国->🇦🇺_AU_澳大利亚
-    type: vmess
-    server: 104.24.66.175
-    port: 8080
-    sni: ""
-    uuid: 31209e40-be60-4d60-ad48-9765a0c5d087
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /ws2/nextlife
-      headers:
-        host: cfphdde1.reachheadphones.com
-    alterId: 0
-  - name: 🇨🇳_CN_中国->🇩🇪_DE_德国
-    type: vmess
-    server: v33.heduian.link
-    port: 30833
-    sni: ""
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    cipher: auto
-    network: ws
-    skip-cert-verify: true
-    ws-opts:
-      path: /oooo
-      headers:
-        host: v33.heduian.link
-    alterId: 2
-  - name: 🇨🇦_CA_加拿大_1
-    type: ss
-    server: 167.17.190.41
-    port: 63089
-    cipher: chacha20-ietf-poly1305
-    password: 8WE1wtdKhEnE9X92kqh6Ut
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
-    type: vmess
-    server: v4.heduian.link
-    port: 30804
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /oooo
-      headers:
-        host: v4.heduian.link
-    alterId: 2
-  - name: 🇨🇦_CA_加拿大_2
-    type: trojan
-    server: x6-canada-amazon-v2-bzsn4.devefun.org
-    port: 1935
-    password: 0hHw5Sa8Ui
-    network: tcp
-  - name: 🇨🇳_CN_中国->🇨🇦_CA_加拿大
-    type: vmess
-    server: v8.heduian.link
-    port: 30808
-    sni: ""
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: /oooo
-      headers:
-        host: v8.heduian.link
-    alterId: 2
-  - name: 🇬🇧_GB_英国->🇮🇳_IN_印度
-    type: trojan
-    server: tuntro013.instconn.com
-    port: 443
-    sni: Mumbairm1.686911.xyz
-    password: edf13267-a7ab-4ef8-a2ea-a567bfcc1a9f
-    network: tcp
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
+  - name: 🇨🇳_CN_中国_1
     type: vmess
     server: v5.heduian.link
     port: 30805
@@ -545,1951 +726,20 @@ proxies:
       headers:
         host: v5.heduian.link
     alterId: 2
-  - type: trojan
-    name: HKG_1
-    server: 47.238.89.163
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: HKG_2
-    server: 46.232.109.84
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: HKG_3
-    server: 47.239.117.205
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: HKG_4
-    server: 47.239.125.132
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: HKG_5
-    server: 103.234.53.238
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: HKG_6
-    server: 47.238.71.46
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: HKG_7
-    server: 43.100.70.146
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: HKG_8
-    server: 149.104.30.232
-    port: 2086
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: HKG_9
-    server: 47.239.64.163
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: NRT_1
-    server: 149.62.44.86
-    port: 2083
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: NRT_2
-    server: 8.209.224.148
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: NRT_3
-    server: 103.76.85.91
-    port: 30003
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: NRT_4
-    server: 8.216.81.187
-    port: 30001
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SIN_1
-    server: 43.134.167.135
-    port: 9950
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: NRT_5
-    server: 47.243.230.113
-    port: 58443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: vmess
-    name: "|2.46Mb"
-    server: 120.210.205.59
-    port: "50002"
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: "64"
+  - name: 🇨🇳_CN_中国_2
+    type: vmess
+    server: v8.heduian.link
+    port: 30808
+    sni: ""
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
     cipher: auto
-    network: tcp
-  - type: trojan
-    name: TPE_1
-    server: 34.81.185.105
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: FUK_1
-    server: 59.19.192.51
-    port: 10080
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: LHR
-    server: 38.59.228.10
-    port: 18102
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: ICN_1
-    server: 125.133.28.143
-    port: 12165
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: FUK_2
-    server: 222.120.90.151
-    port: 10480
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: ICN_2
-    server: 59.11.33.164
-    port: 12469
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: LAX_1
-    server: 154.17.26.83
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: ICN_3
-    server: 119.197.245.118
-    port: 50001
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: ICN_4
-    server: 175.214.157.85
-    port: 50000
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: ICN_5
-    server: 211.107.44.18
-    port: 28015
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: ICN_6
-    server: 119.202.158.65
-    port: 10001
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: FUK_3
-    server: 222.113.136.246
-    port: 12352
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: ICN_7
-    server: 221.166.156.189
-    port: 50000
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: FUK_4
-    server: 222.104.2.192
-    port: 18110
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: ICN_8
-    server: 220.120.139.237
-    port: 12436
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: ICN_9
-    server: 222.109.40.96
-    port: 12134
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: ICN_10
-    server: 119.203.219.248
-    port: 50000
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: FUK_5
-    server: 222.103.112.243
-    port: 12391
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: FUK_6
-    server: 211.33.238.198
-    port: 12330
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: ICN_11
-    server: 211.105.175.213
-    port: 12245
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: ICN_12
-    server: 59.4.68.10
-    port: 18200
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_1
-    server: 188.164.159.175
-    port: 8443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_2
-    server: 63.141.128.66
-    port: 2087
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_3
-    server: 45.67.215.250
-    port: 2096
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_4
-    server: 188.164.159.43
-    port: 2083
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_5
-    server: 108.165.152.239
-    port: 8443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: NRT_6
-    server: 47.79.32.90
-    port: 12299
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_6
-    server: 209.208.227.79
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: 官方优选_3
-    server: sage.ns.cloudflare.com
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_7
-    server: 5.182.85.28
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_8
-    server: 199.34.228.50
-    port: 2053
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_9
-    server: 108.165.152.252
-    port: 2096
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_10
-    server: 154.197.64.67
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_11
-    server: 188.164.159.45
-    port: 8443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_12
-    server: 188.164.159.69
-    port: 2083
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_13
-    server: 154.211.8.12
-    port: 2096
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: 官方优选_5
-    server: arvind.ns.cloudflare.com
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_14
-    server: 188.164.159.18
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_15
-    server: 45.67.215.217
-    port: 2087
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_16
-    server: 188.164.159.138
-    port: 2083
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_17
-    server: 188.164.159.214
-    port: 2083
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: 官方优选_7
-    server: theo.ns.cloudflare.com
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_18
-    server: 167.68.4.10
-    port: 2096
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: 官方优选_8
-    server: damien.ns.cloudflare.com
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: 官方优选_9
-    server: kip.ns.cloudflare.com
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_19
-    server: 27.50.49.154
-    port: 2083
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_20
-    server: 192.200.160.15
-    port: 8443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_21
-    server: 5.182.85.189
-    port: 2096
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_22
-    server: 154.197.64.189
-    port: 2087
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_23
-    server: 199.34.228.164
-    port: 2087
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_24
-    server: 209.94.90.64
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_25
-    server: 103.116.7.100
-    port: 2087
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_26
-    server: 92.243.74.2
-    port: 8443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: 官方优选_10
-    server: thaddeus.ns.cloudflare.com
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_27
-    server: 192.200.160.35
-    port: 2083
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_28
-    server: 213.241.198.56
-    port: 2083
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_29
-    server: 108.165.152.204
-    port: 2096
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: 官方优选_12
-    server: duke.ns.cloudflare.com
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_30
-    server: 27.50.48.186
-    port: 2083
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_31
-    server: 108.165.152.76
-    port: 2096
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_32
-    server: 92.243.74.23
-    port: 2096
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_33
-    server: 27.50.49.74
-    port: 2087
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_34
-    server: 103.116.7.220
-    port: 2096
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: 电信🌐优选🌐群组™️™️™️：t.me/amber6hua_2
-    server: bestcf.030101.xyz
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_35
-    server: 188.164.159.246
-    port: 2096
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_36
-    server: 108.165.152.175
-    port: 2096
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_37
-    server: 27.50.49.177
-    port: 8443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_38
-    server: 167.68.5.85
-    port: 2053
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_39
-    server: 5.182.84.9
-    port: 2087
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_40
-    server: 154.219.5.87
-    port: 2087
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_41
-    server: 46.254.93.52
-    port: 8443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_42
-    server: 77.232.140.101
-    port: 2053
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_43
-    server: 103.116.7.248
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_44
-    server: 199.231.45.35
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_45
-    server: 92.243.74.3
-    port: 8443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_46
-    server: 108.165.152.93
-    port: 2083
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_47
-    server: 135.84.74.254
-    port: 2083
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: 官方优选_15
-    server: ignacio.ns.cloudflare.com
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_48
-    server: 103.116.7.235
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_49
-    server: 108.165.152.163
-    port: 2087
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_50
-    server: 154.197.64.27
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_51
-    server: 46.254.92.142
-    port: 2087
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_52
-    server: 216.24.57.1
-    port: 2053
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: 官方优选_16
-    server: pranab.ns.cloudflare.com
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_53
-    server: 108.165.152.67
-    port: 2053
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_54
-    server: 108.165.152.66
-    port: 2083
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: 官方优选_17
-    server: lynn.ns.cloudflare.com
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_55
-    server: 104.234.239.235
-    port: 2087
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_56
-    server: 154.197.64.196
-    port: 2087
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: LAX_2
-    server: 91.149.239.64
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_57
-    server: 103.116.7.152
-    port: 2096
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_58
-    server: 141.11.203.168
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_59
-    server: 27.50.49.208
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_60
-    server: 92.243.74.239
-    port: 8443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_61
-    server: 188.164.159.185
-    port: 8443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_62
-    server: 27.50.49.209
-    port: 2087
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_63
-    server: 167.68.5.248
-    port: 2087
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_64
-    server: 77.232.140.7
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_65
-    server: 154.197.64.206
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_66
-    server: 5.182.84.22
-    port: 2096
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_67
-    server: 188.164.159.91
-    port: 2083
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_68
-    server: 108.165.152.65
-    port: 8443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_69
-    server: 108.165.152.58
-    port: 2087
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_70
-    server: 66.81.247.230
-    port: 2096
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_71
-    server: 216.24.57.186
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_72
-    server: 199.34.228.178
-    port: 8443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_73
-    server: 162.120.94.23
-    port: 2087
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_74
-    server: 108.165.152.55
-    port: 2096
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_75
-    server: 27.50.49.61
-    port: 2096
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: TPE_2
-    server: 45.207.158.29
-    port: 8443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_76
-    server: 108.165.152.202
-    port: 2083
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_77
-    server: 108.165.152.29
-    port: 2096
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_78
-    server: 159.54.175.77
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_79
-    server: 167.68.4.199
-    port: 2053
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_80
-    server: 154.197.64.173
-    port: 2053
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: AMS
-    server: 89.110.86.132
-    port: 2053
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: ORD
-    server: 172.235.32.226
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_81
-    server: 199.34.228.187
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_82
-    server: 104.129.166.131
-    port: 8443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: LAX_3
-    server: 107.174.198.228
-    port: 8443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_83
-    server: 27.50.49.230
-    port: 8443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_84
-    server: 108.165.152.104
-    port: 2053
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: VNO
-    server: 37.128.205.186
-    port: 8443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SJC_85
-    server: 209.94.90.87
-    port: 2087
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SEA
-    server: 47.79.86.103
-    port: 587
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: NRT_7
-    server: 34.84.32.128
-    port: 12491
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SIN_2
-    server: 5.253.36.226
-    port: 39231
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: HKG_10
-    server: 52.175.20.222
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SIN_3
-    server: 46.232.106.207
-    port: 2053
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SIN_4
-    server: 47.236.71.6
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: SIN_5
-    server: 52.187.64.229
-    port: 443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: NRT_8
-    server: 23.147.232.65
-    port: 8443
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: ICN_13
-    server: 115.94.98.93
-    port: 50000
-    password: Aimer
-    udp: true
-    skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
     network: ws
-    ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
-      headers:
-        host: epgi.ambercc.filegear-sg.me
-  - type: trojan
-    name: NRT_9
-    server: 152.70.101.24
-    port: 16993
-    password: Aimer
-    udp: true
     skip-cert-verify: true
-    sni: epgi.ambercc.filegear-sg.me
-    network: ws
     ws-opts:
-      path: /?ed=2560&proxyip=ts.hpc.tw
+      path: /oooo
       headers:
-        host: epgi.ambercc.filegear-sg.me
+        host: v8.heduian.link
+    alterId: 2
   - name: tg频道:@ripaojiedian
     server: 13.234.32.160
     port: 443
@@ -2498,38 +748,6 @@ proxies:
     cipher: aes-256-cfb
     password: amazonskr05
     tfo: false
-  - name: 🇭🇰 香港3|@ripaojiedian
-    server: hkt.gotochinatown.net
-    port: 80
-    client-fingerprint: chrome
-    type: vmess
-    uuid: 715a2574-9c25-11eb-8673-f23c9164ca5d
-    alterId: 2
-    cipher: auto
-    tls: false
-    tfo: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: broadcastlv.chat.bilibili.com
-  - name: 🇭🇰 香港4|@ripaojiedian
-    server: 58.152.30.37
-    port: 443
-    client-fingerprint: chrome
-    type: trojan
-    password: d0d08cddacc3190ea81b1b792e1b5fde
-    sni: www.baidu.com
-    skip-cert-verify: true
-  - name: 🇭🇰 香港6|@ripaojiedian
-    server: 36.156.102.125
-    port: 444
-    client-fingerprint: chrome
-    type: trojan
-    password: d0d08cddacc3190ea81b1b792e1b5fde
-    sni: www.ithome.com
-    skip-cert-verify: true
   - name: 🇭🇰 香港7|@ripaojiedian
     server: 103.149.183.154
     port: 8388
@@ -2538,15 +756,6 @@ proxies:
     cipher: chacha20-ietf
     password: asd123456
     tfo: false
-  - name: 🇹🇼 台湾|@ripaojiedian
-    password: test.+
-    port: 30443
-    server: cmhkb.ssv.vc
-    skip-cert-verify: false
-    tls: true
-    type: http
-    username: test
-    sni: cmhkb.ssv.vc
   - name: 🇺🇸 美国4|@ripaojiedian
     server: 143.110.155.169
     port: 443
