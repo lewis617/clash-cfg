@@ -741,26 +741,26 @@ proxies:
         host: v8.heduian.link
     alterId: 2
   - name: tg频道:@ripaojiedian
-    server: 13.234.32.160
+    server: 13.127.216.146
     port: 443
     client-fingerprint: chrome
     type: ss
     cipher: aes-256-cfb
     password: amazonskr05
     tfo: false
-  - name: 🇭🇰 香港7|@ripaojiedian
-    server: 103.149.183.154
-    port: 8388
-    client-fingerprint: chrome
-    type: ss
-    cipher: chacha20-ietf
-    password: asd123456
-    tfo: false
-  - name: 🇺🇸 美国4|@ripaojiedian
-    server: 143.110.155.169
-    port: 443
+  - name: 🇭🇰 香港5|@ripaojiedian
+    server: gz-43e866.kaiqsz.com
+    port: 12221
     client-fingerprint: chrome
     type: trojan
-    password: d0d08cddacc3190ea81b1b792e1b5fde
-    sni: www.baidu.com
-    skip-cert-verify: true
+    password: dfd4867b-26c6-4e49-9b96-ef4dbbb3f31f
+    sni: mmbiz.redapricotcloud.com
+    skip-cert-verify: false
+  - name: 🇻🇳 越南|@ripaojiedian
+    server: 103.186.155.20
+    port: 38388
+    client-fingerprint: chrome
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    tfo: false
