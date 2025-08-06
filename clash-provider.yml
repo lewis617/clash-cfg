@@ -759,11 +759,3 @@ proxies:
     tls: false
     tfo: false
     skip-cert-verify: false
-  - name: 🇭🇰 香港5|@ripaojiedian
-    server: okanc.iepl.cac.cab
-    port: 23003
-    client-fingerprint: chrome
-    type: trojan
-    password: 02491ccf-e969-4200-9ebd-5e0da4eff308
-    sni: www.bilibili.com
-    skip-cert-verify: false
