@@ -741,21 +741,18 @@ proxies:
         host: v8.heduian.link
     alterId: 2
   - name: tg频道:@ripaojiedian
-    server: 65.0.98.253
+    server: 18.130.58.99
     port: 443
     client-fingerprint: chrome
     type: ss
     cipher: aes-256-cfb
     password: amazonskr05
     tfo: false
-  - name: 🇭🇰 香港3|@ripaojiedian
-    server: 38.147.188.109
-    port: 51527
+  - name: 🇯🇵 日本3|@ripaojiedian
+    server: okanc.iepl.cac.cab
+    port: 23008
     client-fingerprint: chrome
-    type: vmess
-    uuid: 861a3fbe-e925-4163-9c28-2413abd580af
-    alterId: 0
-    cipher: auto
-    tls: false
-    tfo: false
+    type: trojan
+    password: 6b5b43c9-05bd-471e-b502-d52c0dbd55fd
+    sni: www.bilibili.com
     skip-cert-verify: false
