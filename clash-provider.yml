@@ -584,44 +584,85 @@ proxies:
         host: TG.WangCai2.s2.cn-db.top
     alterId: 0
   - name: tg频道:@ripaojiedian
-    server: 34.203.13.163
+    server: 13.38.30.95
     port: 443
-    client-fingerprint: chrome
     type: ss
     cipher: aes-256-cfb
     password: amazonskr05
-    tfo: false
+  - name: 🇭🇰 香港3|@ripaojiedian
+    server: hkt.gotochinatown.net
+    port: 80
+    type: vmess
+    uuid: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
+    alterId: 2
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: hkt.gotochinatown.net
   - name: 🇭🇰 香港5|@ripaojiedian
     server: 106.53.211.194
     port: 36026
-    client-fingerprint: chrome
     type: trojan
     password: c7a5a064-ac05-44ea-a449-0c0c7cae19f7
     skip-cert-verify: true
-  - name: 🇭🇰 香港7|@ripaojiedian
-    server: 120.240.118.186
-    port: 9233
-    client-fingerprint: chrome
+  - name: 🇭🇰 香港8|@ripaojiedian
+    server: 120.240.118.142
+    port: 9231
+    type: trojan
+    password: f60cd513-7b83-4b64-936c-f7e88e95dacd
+    sni: origin-a.akamaihd.net
+    skip-cert-verify: false
+  - name: 🇯🇵 日本3|@ripaojiedian
+    server: 36.156.102.78
+    port: 193
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: www.baidu.com
+    skip-cert-verify: true
+  - name: 🇯🇵 日本6|@ripaojiedian
+    server: v6.heduian.link
+    port: 30806
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /oooo
+      headers:
+        Host: ocbc.com
+  - name: 🇰🇷 韩国|@ripaojiedian
+    server: mm.huawei-api.top
+    port: 19852
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
+  - name: 🇸🇬 新加坡3|@ripaojiedian
+    server: 120.240.118.187
+    port: 8233
     type: trojan
     password: f60cd513-7b83-4b64-936c-f7e88e95dacd
     sni: steamcdn-a.akamaihd.net
     skip-cert-verify: false
-  - name: 🇸🇬 新加坡3|@ripaojiedian
-    server: 120.240.118.215
-    port: 9231
-    client-fingerprint: chrome
-    type: trojan
-    password: f60cd513-7b83-4b64-936c-f7e88e95dacd
-    sni: steampipe.akamaized.net
-    skip-cert-verify: false
   - name: 🇺🇸 美国4|@ripaojiedian
-    server: 23.236.68.99
-    port: 33720
-    client-fingerprint: chrome
+    server: 36.156.102.67
+    port: 22006
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: www.baidu.com
+    skip-cert-verify: true
+  - name: 🇲🇾 马来西亚|@ripaojiedian
+    server: manager.gghbjnjbff.shop
+    port: 10004
     type: vmess
-    uuid: 0409e328-19f9-4305-9962-2f9f3ce9df1a
+    uuid: d54e3755-daf5-4aa0-b423-c62bde1a67ae
     alterId: 0
     cipher: auto
     tls: false
-    tfo: false
     skip-cert-verify: false
