@@ -2195,7 +2195,7 @@ proxies:
       headers:
         host: epgc.aimercc.dpdns.org
   - name: tg频道:@ripaojiedian
-    server: 18.184.59.16
+    server: 34.242.33.79
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -2203,19 +2203,22 @@ proxies:
     password: amazonskr05
     tfo: false
   - name: 🇭🇰 香港3|@ripaojiedian
-    server: 103.252.116.138
-    port: 443
+    server: 43.247.134.190
+    port: 21186
     client-fingerprint: chrome
-    type: trojan
-    password: 2ee85121-31de-4581-a492-eb00f606e392
-    sni: hk.freeguard.org
+    type: vmess
+    uuid: bc6f4625-0ce3-4dca-b441-22c34808e6f2
+    alterId: 0
+    cipher: auto
+    tls: false
+    tfo: false
     skip-cert-verify: false
-  - name: 🇭🇰 香港7|@ripaojiedian
-    server: f0364aea-t13gg0-t1rksu-1ssud.hk3.p5pv.com
+  - name: 🇭🇰 香港5|@ripaojiedian
+    server: 5bf9e2f8-t15b40-t6eg6k-1pckg.hk3.p5pv.com
     port: 80
     client-fingerprint: chrome
     type: vmess
-    uuid: e6aa39b6-f0b5-11ef-bca1-f23c91cfbbc9
+    uuid: 526a1128-7487-11ee-9bca-f23c913c8d2b
     alterId: 2
     cipher: auto
     tls: false
@@ -2226,11 +2229,30 @@ proxies:
       path: /
       headers:
         Host: broadcastlv.chat.bilibili.com
-  - name: 🇰🇷 韩国2|@ripaojiedian
-    server: 154.90.63.177
-    port: 989
+  - name: 🇭🇰 香港7|@ripaojiedian
+    server: 183.240.245.239
+    port: 42272
+    client-fingerprint: chrome
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    tfo: false
+    skip-cert-verify: false
+  - name: 🇯🇵 日本5|@ripaojiedian
+    server: 52.194.230.74
+    port: 6668
+    client-fingerprint: chrome
+    type: trojan
+    password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+    sni: baidu.com
+    skip-cert-verify: false
+  - name: 🇻🇳 越南|@ripaojiedian
+    server: 103.186.154.24
+    port: 38388
     client-fingerprint: chrome
     type: ss
     cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     tfo: false
