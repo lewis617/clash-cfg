@@ -728,7 +728,7 @@ proxies:
     cipher: auto
     network: ws
   - name: tg频道:@ripaojiedian
-    server: 54.229.66.224
+    server: 15.237.179.114
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -736,11 +736,11 @@ proxies:
     password: amazonskr05
     tfo: false
   - name: 🇭🇰 香港3|@ripaojiedian
-    server: 103.224.80.125
-    port: 56119
+    server: 38.147.189.44
+    port: 54653
     client-fingerprint: chrome
     type: vmess
-    uuid: dc8db598-0430-4194-b930-445f70875163
+    uuid: 0ec9f34a-c975-459b-8974-da4891bc5097
     alterId: 0
     cipher: auto
     tls: false
@@ -754,14 +754,14 @@ proxies:
     cipher: aes-128-gcm
     password: 01721e43-5389-4f97-b21c-900abb2bda9e
     tfo: false
-  - name: 🇸🇬 新加坡3|@ripaojiedian
-    server: 128.199.164.171
-    port: 56668
+  - name: 🇯🇵 日本3|@ripaojiedian
+    server: 36.150.215.141
+    port: 3171
     client-fingerprint: chrome
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: wHEcezPWLS3XPDat8UKkYY
-    tfo: false
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: v1-dy.ixigua.com
+    skip-cert-verify: true
   - name: 🇺🇸 美国|@ripaojiedian
     server: imap.roomyinmita.name
     port: 40565
@@ -770,9 +770,9 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: MnEw5zo2ZhdS8Gy9fAMPfbhoguuv8biNYpoyHoNQLH2oZXWA4U4y6iNTYMexjaiBvQWv2N4b43gp9SVEG3nYvMf75p46K3He
     tfo: false
-  - name: 🇲🇾 马来西亚|@ripaojiedian
-    server: malaixiya.tmdns-sing.top
-    port: 13887
+  - name: 🇻🇳 越南|@ripaojiedian
+    server: yuenan02.tmdns-sing.top
+    port: 13878
     client-fingerprint: chrome
     type: ss
     cipher: aes-128-gcm
