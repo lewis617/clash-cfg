@@ -16,7 +16,7 @@ dns:
     - tls://dns.google:853
 proxies:
   - name: tg频道:@ripaojiedian
-    server: 108.129.163.206
+    server: 18.195.55.29
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -56,12 +56,12 @@ proxies:
       mux: true
       skip-cert-verify: false
   - name: 🇭🇰 香港3|@ripaojiedian
-    server: 183.240.245.250
-    port: 47272
+    server: 103.224.80.26
+    port: 27549
     client-fingerprint: chrome
     type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
+    uuid: 907a372b-b6b8-41df-9d56-a244b4e1a320
+    alterId: 0
     cipher: auto
     tls: false
     tfo: false
@@ -83,20 +83,20 @@ proxies:
     sni: www.baidu.com
     skip-cert-verify: true
   - name: 🇹🇼 台湾|@ripaojiedian
-    server: 36.232.74.25
-    port: 10148
+    server: 1.170.17.164
+    port: 10152
     client-fingerprint: chrome
     type: ss
     cipher: chacha20-ietf-poly1305
-    password: 87db2955-048b-4ac9-bf8d-fb1bfe760e71
+    password: c9fd29d2-3c04-42cf-b60b-bbf3115a4e7c
     tfo: false
   - name: 🇹🇼 台湾2|@ripaojiedian
-    server: 36.232.100.114
-    port: 10141
+    server: 36.232.72.237
+    port: 10130
     client-fingerprint: chrome
     type: ss
     cipher: chacha20-ietf-poly1305
-    password: 0a28538e-d7a3-4185-928a-c8bd49bb9c6b
+    password: 7fcfaa5c-5ce1-422a-bcb6-b96284aada90
     tfo: false
   - name: 🇯🇵 日本|@ripaojiedian
     server: cn01.efan8867801.xyz
@@ -109,7 +109,7 @@ proxies:
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 202508150964186-5vnd5Hsmlh.download.microsoft.com
+      host: 202508150964186-UsfARRoWJx.download.microsoft.com
   - name: 🇯🇵 日本2|@ripaojiedian
     server: 137.220.191.40
     port: 636
@@ -134,11 +134,19 @@ proxies:
     password: 253bc477d4e43c209f2d427272968280
     sni: www.baidu.com
     skip-cert-verify: true
-  - name: 🇺🇸 美国|@ripaojiedian
-    server: awes35lesl.blhao0o.dpdns.org
-    port: 12023
+  - name: 🇸🇬 新加坡3|@ripaojiedian
+    server: v39.heduian.link
+    port: 30839
     client-fingerprint: chrome
-    type: ss
-    cipher: aes-128-gcm
-    password: 01721e43-5389-4f97-b21c-900abb2bda9e
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
     tfo: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /oooo
+      headers:
+        Host: baidu.com
