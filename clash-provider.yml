@@ -56,11 +56,11 @@ proxies:
       mux: true
       skip-cert-verify: false
   - name: 🇭🇰 香港3|@ripaojiedian
-    server: 38.147.188.96
-    port: 51571
+    server: 38.147.188.160
+    port: 25013
     client-fingerprint: chrome
     type: vmess
-    uuid: 740ec514-d2bd-45bb-b410-7ea5a05cdd87
+    uuid: e90bfc71-1a0a-43e8-9272-6be036e9d88e
     alterId: 0
     cipher: auto
     tls: false
@@ -74,6 +74,17 @@ proxies:
     password: 253bc477d4e43c209f2d427272968280
     sni: www.baidu.com
     skip-cert-verify: true
+  - name: 🇭🇰 香港5|@ripaojiedian
+    server: 183.240.245.250
+    port: 47272
+    client-fingerprint: chrome
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    tfo: false
+    skip-cert-verify: false
   - name: 🇭🇰 香港6|@ripaojiedian
     server: 36.150.215.188
     port: 1546
@@ -83,20 +94,20 @@ proxies:
     sni: www.baidu.com
     skip-cert-verify: true
   - name: 🇹🇼 台湾|@ripaojiedian
-    server: 114.35.114.182
-    port: 10129
+    server: 118.170.208.178
+    port: 10061
     client-fingerprint: chrome
     type: ss
     cipher: chacha20-ietf-poly1305
-    password: 182a640c-ca1a-425e-8398-d5ac86bfb096
+    password: 34393fa0-a7d3-4c4a-bd18-c70764f73a6d
     tfo: false
   - name: 🇹🇼 台湾2|@ripaojiedian
-    server: 125.228.31.10
-    port: 10113
+    server: 125.228.31.117
+    port: 10097
     client-fingerprint: chrome
     type: ss
     cipher: chacha20-ietf-poly1305
-    password: ce7149cd-ea77-4e46-af7d-d4f6930ea541
+    password: 5063e044-694e-400c-8db7-76223e86b6fb
     tfo: false
   - name: 🇯🇵 日本|@ripaojiedian
     server: cn01.efan8867801.xyz
@@ -109,7 +120,15 @@ proxies:
     plugin: obfs
     plugin-opts:
       mode: http
-      host: 202508150964186-UsfARRoWJx.download.microsoft.com
+      host: 202508150964186-OTqy9HvgIK.download.microsoft.com
+  - name: 🇯🇵 日本3|@ripaojiedian
+    server: 36.150.215.203
+    port: 3270
+    client-fingerprint: chrome
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: www.baidu.com
+    skip-cert-verify: true
   - name: 🇯🇵 日本2|@ripaojiedian
     server: 137.220.142.150
     port: 443
@@ -126,22 +145,6 @@ proxies:
       tls: true
       mux: false
       skip-cert-verify: false
-  - name: 🇯🇵 日本3|@ripaojiedian
-    server: 36.150.215.203
-    port: 3270
-    client-fingerprint: chrome
-    type: trojan
-    password: 253bc477d4e43c209f2d427272968280
-    sni: www.baidu.com
-    skip-cert-verify: true
-  - name: 🇯🇵 日本5|@ripaojiedian
-    server: bl.sytes.net
-    port: 50414
-    client-fingerprint: chrome
-    type: ss
-    cipher: aes-128-gcm
-    password: 940031a6-fd32-4d6b-901d-77b7f943698e
-    tfo: false
   - name: 🇸🇬 新加坡3|@ripaojiedian
     server: v39.heduian.link
     port: 30839
@@ -165,23 +168,4 @@ proxies:
     type: ss
     cipher: aes-128-gcm
     password: 01721e43-5389-4f97-b21c-900abb2bda9e
-    tfo: false
-  - name: 🇺🇸 美国|@ripaojiedian
-    server: 165.140.216.141
-    port: 443
-    client-fingerprint: chrome
-    type: vmess
-    uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-    alterId: 0
-    cipher: auto
-    tls: false
-    tfo: false
-    skip-cert-verify: false
-  - name: 🇮🇳 印度|@ripaojiedian
-    server: 134.209.147.198
-    port: 989
-    client-fingerprint: chrome
-    type: ss
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
     tfo: false
