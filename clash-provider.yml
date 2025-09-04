@@ -1273,19 +1273,8 @@ proxies:
       path: /Telegram🇨🇳
       headers:
         Host: ocost-dy.wmlefl.cc
-  - name: 🇭🇰 香港3|@ripaojiedian
-    server: 38.147.188.96
-    port: 47405
-    client-fingerprint: chrome
-    type: vmess
-    uuid: 84513b8e-2aad-4151-956e-09593c5f107c
-    alterId: 0
-    cipher: auto
-    tls: false
-    tfo: false
-    skip-cert-verify: false
   - name: 🇭🇰 香港4|@ripaojiedian
-    server: 219.77.131.1
+    server: 42.2.17.49
     port: 443
     client-fingerprint: chrome
     type: trojan
@@ -1293,13 +1282,45 @@ proxies:
     sni: 23.45.86.28
     skip-cert-verify: true
   - name: 🇭🇰 香港6|@ripaojiedian
-    server: 1.65.215.113
+    server: 42.2.197.54
     port: 443
     client-fingerprint: chrome
     type: trojan
     password: 253bc477d4e43c209f2d427272968280
-    sni: fe2.update.microsoft.com
+    sni: 23.45.86.28
     skip-cert-verify: true
+  - name: 🇹🇼 台湾|@ripaojiedian
+    server: 36.232.83.103
+    port: 10146
+    client-fingerprint: chrome
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 61405455-91a2-49d5-b72e-814d304f877d
+    tfo: false
+  - name: 🇹🇼 台湾3|@ripaojiedian
+    server: 36.232.127.240
+    port: 10132
+    client-fingerprint: chrome
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: fb941bcb-a777-47c9-958d-f01178bef303
+    tfo: false
+  - name: 🇹🇼 台湾4|@ripaojiedian
+    server: 118.170.203.159
+    port: 10009
+    client-fingerprint: chrome
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: ec9f74bf-0d19-4a1a-99d3-a6fd1fe68b4e
+    tfo: false
+  - name: 🇹🇼 台湾5|@ripaojiedian
+    server: 36.234.94.41
+    port: 10042
+    client-fingerprint: chrome
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 308344fb-a0fe-42fc-bcf7-de7863647248
+    tfo: false
   - name: 🇯🇵 日本3|@ripaojiedian
     server: xingxing.jiasu123.org
     port: 4613
