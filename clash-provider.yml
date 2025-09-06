@@ -1290,8 +1290,8 @@ proxies:
       headers:
         Host: hkt.gotochinatown.net
   - name: 🇭🇰 香港4|@ripaojiedian
-    server: 18.162.156.99
-    port: 441
+    server: 219.77.97.194
+    port: 443
     client-fingerprint: chrome
     type: trojan
     password: 253bc477d4e43c209f2d427272968280
@@ -1309,7 +1309,7 @@ proxies:
     tfo: false
     skip-cert-verify: false
   - name: 🇭🇰 香港6|@ripaojiedian
-    server: 18.162.147.157
+    server: 219.73.55.195
     port: 443
     client-fingerprint: chrome
     type: trojan
