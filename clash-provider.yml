@@ -836,15 +836,15 @@ proxies:
     tfo: false
     skip-cert-verify: false
   - name: 🇭🇰 香港4|@ripaojiedian
-    server: 36.156.102.121
-    port: 392
+    server: 203.218.158.199
+    port: 443
     client-fingerprint: chrome
     type: trojan
     password: 253bc477d4e43c209f2d427272968280
-    sni: www.baidu.com
+    sni: fe2.update.microsoft.com
     skip-cert-verify: true
   - name: 🇭🇰 香港5|@ripaojiedian
-    server: 54.46.92.199
+    server: 18.163.190.75
     port: 16888
     client-fingerprint: chrome
     type: ss
@@ -852,7 +852,7 @@ proxies:
     password: amazongreatvpn
     tfo: false
   - name: 🇭🇰 香港6|@ripaojiedian
-    server: 36.150.215.200
+    server: 36.151.251.6
     port: 4451
     client-fingerprint: chrome
     type: trojan
@@ -895,26 +895,23 @@ proxies:
     sni: 23.45.86.28
     skip-cert-verify: true
   - name: 🇯🇵 日本5|@ripaojiedian
-    server: 18.178.135.125
+    server: 13.230.37.83
     port: 16888
     client-fingerprint: chrome
     type: ss
     cipher: aes-256-gcm
     password: amazongreatvpn
     tfo: false
-  - name: 🇺🇸 美国|@ripaojiedian
-    server: 193.124.24.247
-    port: 6506
+  - name: 🇺🇸 美国3|@ripaojiedian
+    server: 153.121.73.102
+    port: 3294
     client-fingerprint: chrome
-    type: vmess
-    uuid: c53d41d1-7d56-43ce-9994-408780c6476a
-    alterId: 0
-    cipher: auto
-    tls: false
-    tfo: false
-    skip-cert-verify: false
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: www.nintendogames.net
+    skip-cert-verify: true
   - name: 🇻🇳 越南|@ripaojiedian
-    server: 103.186.155.116
+    server: 103.186.155.28
     port: 38388
     client-fingerprint: chrome
     type: ss
