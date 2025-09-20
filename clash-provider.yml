@@ -824,6 +824,14 @@ proxies:
       path: /TelegramU0001F1E8U0001F1F3
       headers:
         Host: ocost-dy.wmlefl.cc
+  - name: tg频道:@ripaojiedian
+    server: 13.61.188.86
+    port: 443
+    client-fingerprint: chrome
+    type: ss
+    cipher: aes-256-cfb
+    password: amazonskr05
+    tfo: false
   - name: 🇭🇰 香港3|@ripaojiedian
     server: 149.104.15.178
     port: 21201
@@ -836,13 +844,13 @@ proxies:
     tfo: false
     skip-cert-verify: false
   - name: 🇭🇰 香港4|@ripaojiedian
-    server: 112.118.248.22
+    server: 1.64.115.53
     port: 443
     client-fingerprint: chrome
     type: trojan
     password: 253bc477d4e43c209f2d427272968280
-    sni: www.nintendogames.net
-    skip-cert-verify: false
+    sni: www.baidu.com
+    skip-cert-verify: true
   - name: 🇭🇰 香港5|@ripaojiedian
     server: 54.46.38.22
     port: 16888
@@ -852,23 +860,36 @@ proxies:
     password: amazongreatvpn
     tfo: false
   - name: 🇭🇰 香港6|@ripaojiedian
-    server: 160.16.63.16
+    server: 160.16.70.180
     port: 447
     client-fingerprint: chrome
     type: trojan
     password: 253bc477d4e43c209f2d427272968280
-    sni: www.baidu.com
-    skip-cert-verify: true
+    sni: www.nintendogames.net
+    skip-cert-verify: false
   - name: 🇭🇰 香港7|@ripaojiedian
-    server: 183.240.180.47
-    port: 52512
+    server: 697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com
+    port: 80
     client-fingerprint: chrome
     type: vmess
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 64
+    uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+    alterId: 2
     cipher: auto
     tls: false
     tfo: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: broadcastlv.chat.bilibili.com
+  - name: 🇯🇵 日本3|@ripaojiedian
+    server: 153.121.45.139
+    port: 327
+    client-fingerprint: chrome
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇯🇵 日本2|@ripaojiedian
     server: 137.220.142.139
@@ -886,17 +907,9 @@ proxies:
       tls: true
       mux: false
       skip-cert-verify: false
-  - name: 🇯🇵 日本3|@ripaojiedian
-    server: 153.121.45.139
-    port: 327
-    client-fingerprint: chrome
-    type: trojan
-    password: 253bc477d4e43c209f2d427272968280
-    sni: www.nintendogames.net
-    skip-cert-verify: false
   - name: 🇯🇵 日本4|@ripaojiedian
-    server: 36.151.251.6
-    port: 1806
+    server: 160.16.72.33
+    port: 1924
     client-fingerprint: chrome
     type: trojan
     password: 253bc477d4e43c209f2d427272968280
@@ -910,6 +923,22 @@ proxies:
     cipher: aes-256-gcm
     password: amazongreatvpn
     tfo: false
+  - name: 🇸🇬 新加坡|@ripaojiedian
+    server: 160.16.130.66
+    port: 2045
+    client-fingerprint: chrome
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+  - name: 🇸🇬 新加坡2|@ripaojiedian
+    server: 160.16.117.182
+    port: 4397
+    client-fingerprint: chrome
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: www.nintendogames.net
+    skip-cert-verify: false
   - name: 🇺🇸 美国3|@ripaojiedian
     server: 153.121.73.102
     port: 3294
