@@ -591,6 +591,14 @@ proxies:
     tls: false
     tfo: false
     skip-cert-verify: false
+  - name: 🇭🇰 香港4|@ripaojiedian
+    server: 202.181.103.246
+    port: 443
+    client-fingerprint: chrome
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: www.nintendogames.net
+    skip-cert-verify: false
   - name: 🇭🇰 香港5|@ripaojiedian
     server: hk.fastsoonlink.com
     port: 40000
@@ -599,35 +607,38 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: 9177de1a-aeff-43f1-93a6-7dd08a2fdc41
     tfo: false
+  - name: 🇭🇰 香港6|@ripaojiedian
+    server: 160.16.236.32
+    port: 443
+    client-fingerprint: chrome
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: www.nintendogames.net
+    skip-cert-verify: false
   - name: 🇭🇰 香港7|@ripaojiedian
-    server: 103.224.80.96
-    port: 13193
-    client-fingerprint: chrome
-    type: vmess
-    uuid: 080d4d5d-6dbd-4d75-9927-aa3902c150a5
-    alterId: 0
-    cipher: auto
-    tls: false
-    udp: true
-    network: http
-    tfo: false
-    skip-cert-verify: false
-  - name: 🇯🇵 日本5|@ripaojiedian
-    server: nnertn.vxzjv.xyz
-    port: 37925
-    client-fingerprint: chrome
-    type: vmess
-    uuid: ffaf7559-d3a9-37fd-8e5b-a3abeb53d924
-    alterId: 0
-    cipher: auto
-    tls: false
-    tfo: false
-    skip-cert-verify: false
-  - name: 🇰🇷 韩国|@ripaojiedian
-    server: p141.panda001.net
-    port: 4652
+    server: gw.liangyuandianwan.com
+    port: 35602
     client-fingerprint: chrome
     type: ss
-    cipher: aes-256-cfb
-    password: qwerREWQ@@
+    cipher: chacha20-ietf-poly1305
+    password: e4469310-00fc-4527-8afa-71788b3bcef7
     tfo: false
+  - name: 🇹🇼 台湾|@ripaojiedian
+    server: 103.236.227.7
+    port: 49795
+    client-fingerprint: chrome
+    type: vmess
+    uuid: a9024f1d-77a1-4c56-87c7-eeee5398667e
+    alterId: 0
+    cipher: auto
+    tls: false
+    tfo: false
+    skip-cert-verify: false
+  - name: 🇯🇵 日本3|@ripaojiedian
+    server: 160.16.196.59
+    port: 1802
+    client-fingerprint: chrome
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: www.nintendogames.net
+    skip-cert-verify: false
