@@ -557,6 +557,22 @@ proxies:
     cipher: aes-256-cfb
     password: amazonskr05
     tfo: false
+  - name: 🇭🇰 香港2|@ripaojiedian
+    server: 103.103.245.158
+    port: 443
+    client-fingerprint: chrome
+    type: ss
+    cipher: aes-256-gcm
+    password: ccf426f1fe78
+    tfo: false
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: newroot2v1.dsjsapp.com
+      path: /zksuapgx
+      tls: true
+      mux: true
+      skip-cert-verify: false
   - name: 🇭🇰 香港3|@ripaojiedian
     server: 43.247.135.86
     port: 44601
@@ -567,4 +583,12 @@ proxies:
     cipher: auto
     tls: false
     tfo: false
+    skip-cert-verify: false
+  - name: 🇺🇸 美国|@ripaojiedian
+    server: 160.16.87.174
+    port: 1700
+    client-fingerprint: chrome
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: www.nintendogames.net
     skip-cert-verify: false
