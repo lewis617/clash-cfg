@@ -550,7 +550,7 @@ proxies:
     tls: false
     skip-cert-verify: false
   - name: tg频道:@ripaojiedian
-    server: 54.72.237.123
+    server: 3.250.25.159
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -583,6 +583,30 @@ proxies:
     cipher: auto
     tls: false
     tfo: false
+    skip-cert-verify: false
+  - name: 🇭🇰 香港4|@ripaojiedian
+    server: 203.198.123.86
+    port: 443
+    client-fingerprint: chrome
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: fe2.update.microsoft.com
+    skip-cert-verify: true
+  - name: 🇭🇰 香港6|@ripaojiedian
+    server: 221.128.195.239
+    port: 443
+    client-fingerprint: chrome
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+  - name: 🇯🇵 日本2|@ripaojiedian
+    server: 153.121.39.240
+    port: 1331
+    client-fingerprint: chrome
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇺🇸 美国|@ripaojiedian
     server: 160.16.87.174
