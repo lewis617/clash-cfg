@@ -7,7 +7,6 @@ allow-lan: true
 mode: rule
 external-controller: '0.0.0.0:9090'
 external-ui: './ui'
- 
 dns:
   enable: true
   cache-algorithm: arc
@@ -26,28 +25,18 @@ dns:
     - '*.lan'
   nameserver-policy:
     '+.arpa': '10.0.0.1'
-    'rule-set:cn':
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
   fallback:
-    - tls://8.8.4.4
-    - tls://1.1.1.1
+    - https://dns.alidns.com/dns-query
   proxy-server-nameserver:
     - https://doh.pub/dns-query
   fallback-filter:
     geoip: true
     geoip-code: CN
-    geosite:
-      - gfw
     ipcidr:
       - 240.0.0.0/4
-    domain:
-      - '+.google.com'
-      - '+.facebook.com'
-      - '+.youtube.com'
 proxies: []
 proxy-groups:
   - icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/AI.png
