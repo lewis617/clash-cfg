@@ -10,7 +10,13 @@ external-ui: './ui'
  
 dns:
   enable: true
+  cache-algorithm: arc
+  prefer-h3: false
+  use-hosts: true
+  use-system-hosts: true
+  respect-rules: false
   listen: 0.0.0.0:53
+  ipv6: false
   default-nameserver:
     - 223.5.5.5
   enhanced-mode: fake-ip
@@ -18,6 +24,11 @@ dns:
   fake-ip-filter-mode: blacklist
   fake-ip-filter:
     - '*.lan'
+  nameserver-policy:
+    '+.arpa': '10.0.0.1'
+    'rule-set:cn':
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
@@ -26,6 +37,17 @@ dns:
     - tls://1.1.1.1
   proxy-server-nameserver:
     - https://doh.pub/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    geosite:
+      - gfw
+    ipcidr:
+      - 240.0.0.0/4
+    domain:
+      - '+.google.com'
+      - '+.facebook.com'
+      - '+.youtube.com'
 proxies: []
 proxy-groups:
   - icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/AI.png
