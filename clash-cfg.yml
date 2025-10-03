@@ -9,34 +9,22 @@ external-controller: '0.0.0.0:9090'
 external-ui: './ui'
 dns:
   enable: true
-  cache-algorithm: arc
-  prefer-h3: false
-  use-hosts: true
-  use-system-hosts: true
-  respect-rules: false
   listen: 0.0.0.0:53
-  ipv6: false
-  default-nameserver:
-    - 223.5.5.5
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter-mode: blacklist
   fake-ip-filter:
     - '*.lan'
-  nameserver-policy:
-    '+.arpa': '10.0.0.1'
   nameserver:
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
+    - 223.5.5.5   # 国内 DNS
+    - 119.29.29.29
   fallback:
-    - https://dns.alidns.com/dns-query
+    - 8.8.8.8
+    - 1.1.1.1
   proxy-server-nameserver:
-    - https://doh.pub/dns-query
-  fallback-filter:
-    geoip: true
-    geoip-code: CN
-    ipcidr:
-      - 240.0.0.0/4
+    - 8.8.8.8    # 节点域名走海外 DNS
+  direct-nameserver:
+    - 223.5.5.5  # 直连域名走国内 DNS
 proxies: []
 proxy-groups:
   - icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/AI.png
