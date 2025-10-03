@@ -16,7 +16,7 @@ dns:
     - tls://dns.google:853
 proxies:
   - name: tg频道:@ripaojiedian
-    server: 3.107.151.161
+    server: 34.245.185.129
     port: 443
     client-fingerprint: chrome
     type: ss
@@ -55,6 +55,17 @@ proxies:
       tls: true
       mux: true
       skip-cert-verify: false
+  - name: 🇭🇰 香港3|@ripaojiedian
+    server: 103.224.80.49
+    port: 12114
+    client-fingerprint: chrome
+    type: vmess
+    uuid: aa92855a-9932-4e87-b5c2-4aed159c7c78
+    alterId: 0
+    cipher: auto
+    tls: false
+    tfo: false
+    skip-cert-verify: false
   - name: 🇭🇰 香港4|@ripaojiedian
     server: 221.128.195.217
     port: 444
