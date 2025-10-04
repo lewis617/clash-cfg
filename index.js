@@ -3,13 +3,16 @@ import fs from 'fs/promises';
 
 async function fetchClashSubscriptionLinks() {
   const url = 'https://raw.githubusercontent.com/clashfree/clashfree.github.io/refs/heads/main/README.md';
-  const additionalLink = 'https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash';
+  const additionalLinks = [
+    'https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash',
+    'https://raw.githubusercontent.com/free-nodes/clashfree/refs/heads/main/clash.yml',
+  ];
   
   try {
     const response = await fetch(url);
     const text = await response.text();
     
-    const sectionRegex = /### Clash订阅链接[\s\S]*?(?=###|$)/;
+    const sectionRegex = /### .+Clash.+订阅链接[\s\S]*?(?=###|$)/;
     const section = text.match(sectionRegex);
     
     let links = [];
@@ -19,7 +22,7 @@ async function fetchClashSubscriptionLinks() {
       links = section[0].match(linkRegex) || [];
     }
     
-    links.push(additionalLink);
+    links.push(...additionalLinks);
     
     if (links.length > 0) {
       console.log('找到的 Clash 订阅链接：');
@@ -31,7 +34,7 @@ async function fetchClashSubscriptionLinks() {
     return links;
   } catch (error) {
     console.error('获取或解析内容时出错：', error);
-    return [additionalLink];
+    return [...additionalLinks];
   }
 }
 
