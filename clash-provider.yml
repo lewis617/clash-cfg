@@ -56,11 +56,11 @@ proxies:
       mux: true
       skip-cert-verify: false
   - name: 🇭🇰 香港3|@ripaojiedian
-    server: 103.224.80.49
-    port: 12114
+    server: 43.247.134.213
+    port: 18366
     client-fingerprint: chrome
     type: vmess
-    uuid: aa92855a-9932-4e87-b5c2-4aed159c7c78
+    uuid: ccc37b1b-4ef0-430c-b1e1-20bf96fcff8c
     alterId: 0
     cipher: auto
     tls: false
@@ -68,39 +68,63 @@ proxies:
     skip-cert-verify: false
   - name: 🇭🇰 香港4|@ripaojiedian
     server: 221.128.195.217
-    port: 444
-    client-fingerprint: chrome
-    type: trojan
-    password: 253bc477d4e43c209f2d427272968280
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: 🇭🇰 香港6|@ripaojiedian
-    server: 58.152.25.156
     port: 443
     client-fingerprint: chrome
     type: trojan
     password: 253bc477d4e43c209f2d427272968280
     sni: www.nintendogames.net
     skip-cert-verify: false
+  - name: 🇭🇰 香港6|@ripaojiedian
+    server: 160.16.63.16
+    port: 443
+    client-fingerprint: chrome
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+  - name: 🇭🇰 香港5|@ripaojiedian
+    server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
+    port: 80
+    client-fingerprint: chrome
+    type: vmess
+    uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+    alterId: 2
+    cipher: auto
+    tls: false
+    tfo: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: broadcastlv.chat.bilibili.com
   - name: 🇯🇵 日本2|@ripaojiedian
-    server: 36.156.102.88
-    port: 1806
+    server: 160.16.124.55
+    port: 1331
     client-fingerprint: chrome
     type: trojan
     password: 253bc477d4e43c209f2d427272968280
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇯🇵 日本3|@ripaojiedian
-    server: 160.16.124.55
-    port: 3160
+    server: 36.156.102.88
+    port: 1924
+    client-fingerprint: chrome
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+  - name: 🇸🇬 新加坡|@ripaojiedian
+    server: 160.16.138.24
+    port: 2283
     client-fingerprint: chrome
     type: trojan
     password: 253bc477d4e43c209f2d427272968280
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇸🇬 新加坡2|@ripaojiedian
-    server: 160.16.72.33
-    port: 2173
+    server: 36.156.102.86
+    port: 22000
     client-fingerprint: chrome
     type: trojan
     password: 253bc477d4e43c209f2d427272968280
