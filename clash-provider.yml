@@ -567,6 +567,30 @@ proxies:
     password: 253bc477d4e43c209f2d427272968280
     sni: www.nintendogames.net
     skip-cert-verify: false
+  - name: 🇭🇰 香港7|@ripaojiedian
+    server: www.speedtest.net
+    port: 8080
+    client-fingerprint: chrome
+    type: vmess
+    uuid: 3675ed61-e3fb-4306-8e06-8474b461cd29
+    alterId: 0
+    cipher: auto
+    tls: false
+    tfo: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: 3675ed61-e3fb-4306-8e06-8474b461cd29-vm
+      headers:
+        Host: stakeholders-weekend-cable-module.trycloudflare.com
+  - name: 🇯🇵 日本|@ripaojiedian
+    server: 670ead.gkzltp.xyz
+    port: 28303
+    client-fingerprint: chrome
+    type: ss
+    cipher: aes-128-gcm
+    password: be0a39a72e
+    tfo: false
   - name: 🇯🇵 日本2|@ripaojiedian
     server: 160.16.124.55
     port: 1331
@@ -599,8 +623,19 @@ proxies:
     password: 253bc477d4e43c209f2d427272968280
     sni: www.nintendogames.net
     skip-cert-verify: false
+  - name: 🇸🇬 新加坡3|@ripaojiedian
+    server: laeg.hsymanuscript.top
+    port: 49513
+    client-fingerprint: chrome
+    type: vmess
+    uuid: 55a374b6-3108-4b65-a987-a0926ddbfba6
+    alterId: 0
+    cipher: auto
+    tls: false
+    tfo: false
+    skip-cert-verify: false
   - name: 🇻🇳 越南|@ripaojiedian
-    server: 103.186.154.198
+    server: 103.186.154.15
     port: 38388
     client-fingerprint: chrome
     type: ss
@@ -625,3 +660,9 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: khameniiko@smad@ret
+  - name: "[SS] 🇻🇳 越南|@ripaojiedian"
+    server: 103.186.154.198
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
