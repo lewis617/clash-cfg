@@ -559,65 +559,49 @@ proxies:
     tls: false
     tfo: false
     skip-cert-verify: false
-  - name: 🇭🇰 香港6|@ripaojiedian
-    server: 160.16.63.16
+  - name: 🇭🇰 香港4|@ripaojiedian
+    server: 58.152.25.23
     port: 443
     client-fingerprint: chrome
     type: trojan
     password: 253bc477d4e43c209f2d427272968280
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: 🇭🇰 香港7|@ripaojiedian
-    server: www.speedtest.net
-    port: 8080
+  - name: 🇭🇰 香港6|@ripaojiedian
+    server: 221.128.195.218
+    port: 4431
     client-fingerprint: chrome
-    type: vmess
-    uuid: 3675ed61-e3fb-4306-8e06-8474b461cd29
-    alterId: 0
-    cipher: auto
-    tls: false
-    tfo: false
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: www.nintendogames.net
     skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: 3675ed61-e3fb-4306-8e06-8474b461cd29-vm
-      headers:
-        Host: stakeholders-weekend-cable-module.trycloudflare.com
-  - name: 🇯🇵 日本|@ripaojiedian
-    server: 670ead.gkzltp.xyz
-    port: 28303
-    client-fingerprint: chrome
-    type: ss
-    cipher: aes-128-gcm
-    password: be0a39a72e
-    tfo: false
   - name: 🇯🇵 日本2|@ripaojiedian
-    server: 160.16.124.55
-    port: 1331
+    server: 36.156.102.88
+    port: 3271
     client-fingerprint: chrome
     type: trojan
     password: 253bc477d4e43c209f2d427272968280
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇯🇵 日本3|@ripaojiedian
-    server: 36.156.102.88
-    port: 1924
+    server: 160.16.144.208
+    port: 1331
     client-fingerprint: chrome
     type: trojan
     password: 253bc477d4e43c209f2d427272968280
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇸🇬 新加坡|@ripaojiedian
-    server: 160.16.138.24
-    port: 2283
+    server: 36.156.102.86
+    port: 26295
     client-fingerprint: chrome
     type: trojan
     password: 253bc477d4e43c209f2d427272968280
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇸🇬 新加坡2|@ripaojiedian
-    server: 36.156.102.86
-    port: 22000
+    server: 182.237.0.26
+    port: 2200
     client-fingerprint: chrome
     type: trojan
     password: 253bc477d4e43c209f2d427272968280
@@ -634,8 +618,16 @@ proxies:
     tls: false
     tfo: false
     skip-cert-verify: false
+  - name: 🇺🇸 美国|@ripaojiedian
+    server: 153.121.39.240
+    port: 4234
+    client-fingerprint: chrome
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: www.nintendogames.net
+    skip-cert-verify: false
   - name: 🇻🇳 越南|@ripaojiedian
-    server: 103.186.154.15
+    server: 103.186.154.51
     port: 38388
     client-fingerprint: chrome
     type: ss
@@ -691,3 +683,50 @@ proxies:
     auth: miaoge110
     sni: www.bing.com
     skip-cert-verify: false
+  - name: "[Trojan] 🇭🇰 香港6|@ripaojiedian"
+    server: 160.16.63.16
+    port: 443
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+  - name: "[VMess] 🇭🇰 香港7|@ripaojiedian"
+    server: www.speedtest.net
+    port: 8080
+    type: vmess
+    uuid: 3675ed61-e3fb-4306-8e06-8474b461cd29
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: 3675ed61-e3fb-4306-8e06-8474b461cd29-vm
+      headers:
+        Host: stakeholders-weekend-cable-module.trycloudflare.com
+  - name: "[SS] 🇯🇵 日本|@ripaojiedian"
+    server: 670ead.gkzltp.xyz
+    port: 28303
+    type: ss
+    cipher: aes-128-gcm
+    password: be0a39a72e
+  - name: "[Trojan] 🇯🇵 日本2|@ripaojiedian"
+    server: 160.16.124.55
+    port: 1331
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+  - name: "[Trojan] 🇸🇬 新加坡|@ripaojiedian"
+    server: 160.16.138.24
+    port: 2283
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+  - name: "[SS] 🇻🇳 越南|@ripaojiedian"
+    server: 103.186.154.15
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
