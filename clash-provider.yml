@@ -567,6 +567,14 @@ proxies:
     password: 253bc477d4e43c209f2d427272968280
     sni: www.nintendogames.net
     skip-cert-verify: false
+  - name: 🇭🇰 香港5|@ripaojiedian
+    server: lazy.rsqpq.cn
+    port: 30002
+    client-fingerprint: chrome
+    type: trojan
+    password: 2338a604-dc6a-4470-bc7d-947e462a3cfd
+    sni: lazy.rsqpq.cn
+    skip-cert-verify: true
   - name: 🇭🇰 香港6|@ripaojiedian
     server: 221.128.195.218
     port: 4431
@@ -575,6 +583,22 @@ proxies:
     password: 253bc477d4e43c209f2d427272968280
     sni: www.nintendogames.net
     skip-cert-verify: false
+  - name: 🇯🇵 日本|@ripaojiedian
+    server: v6.heduian.link
+    port: 30806
+    client-fingerprint: chrome
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    tfo: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /oooo
+      headers:
+        Host: ocbc.com
   - name: 🇯🇵 日本2|@ripaojiedian
     server: 36.156.102.88
     port: 3271
@@ -627,7 +651,7 @@ proxies:
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇻🇳 越南|@ripaojiedian
-    server: 103.186.154.51
+    server: 103.186.155.233
     port: 38388
     client-fingerprint: chrome
     type: ss
@@ -683,3 +707,9 @@ proxies:
     auth: miaoge110
     sni: www.bing.com
     skip-cert-verify: false
+  - name: "[SS] 🇻🇳 越南|@ripaojiedian"
+    server: 103.186.154.51
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
