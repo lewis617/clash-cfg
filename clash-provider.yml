@@ -675,3 +675,15 @@ proxies:
     auth: miaoge110
     sni: www.bing.com
     skip-cert-verify: false
+  - name: "[Trojan] SG_speednode_0023"
+    server: 92.243.75.49
+    port: 2087
+    type: trojan
+    password: wb6368
+    sni: hsdgbuys.pages.dev
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: hsdgbuys.pages.dev
