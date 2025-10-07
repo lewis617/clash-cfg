@@ -492,6 +492,22 @@ proxies:
     auth: 4e231218-04c8-44ce-b72d-5c1bbcfc3a94
     sni: bing.com
     skip-cert-verify: false
+  - name: "[Hysteria2] @FreakConfig #1"
+    server: hshl.huasuan666.top
+    port: 22157
+    type: hysteria2
+    password: 571ec94e-613c-430a-93de-397d3d237475
+    auth: 571ec94e-613c-430a-93de-397d3d237475
+    sni: hshl.huasuan666.top
+    skip-cert-verify: false
+  - name: "[Hysteria2] @Daily_Configs #1"
+    server: banmabanmabanmabanmabanmabanma2.wanlidag.top
+    port: 54265
+    type: hysteria2
+    password: 5f4ba37a-bb3c-4f8e-962e-850f624ad131
+    auth: 5f4ba37a-bb3c-4f8e-962e-850f624ad131
+    sni: banmabanmabanmabanmabanmabanma2.wanlidag.top
+    skip-cert-verify: false
   - name: "[Hysteria2] WI-FI--@IRAN_V2RAY1"
     server: hl.dport.top
     port: 33659
@@ -547,7 +563,7 @@ proxies:
     auth: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
     sni: xjp2.mangshe.xyz
     skip-cert-verify: false
-  - name: "[Hysteria2] @Daily_Configs #1"
+  - name: "[Hysteria2] @Daily_Configs #2"
     server: xjp1.xiaohuolongjc.top
     port: 37771
     type: hysteria2
@@ -633,7 +649,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: khameniiko@smad@ret
-  - name: "[Hysteria2] @Daily_Configs #5"
+  - name: "[Hysteria2] @Daily_Configs #6"
     server: 103.249.133.79
     port: 443
     type: hysteria2
@@ -667,7 +683,7 @@ proxies:
     auth: dongtaiwang.com
     sni: www.bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] @Daily_Configs #14"
+  - name: "[Hysteria2] @Daily_Configs #15"
     server: 45.58.38.153
     port: 40112
     type: hysteria2
