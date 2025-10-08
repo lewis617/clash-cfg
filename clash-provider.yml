@@ -530,15 +530,7 @@ proxies:
     auth: 45b46edb-679b-4ea5-befd-88c05bb94f80
     sni: de.eyucdn.xyz
     skip-cert-verify: false
-  - name: "[Hysteria2] @FreakConfig"
-    server: nl1.oomz.ru
-    port: 30000
-    type: hysteria2
-    password: 4e231218-04c8-44ce-b72d-5c1bbcfc3a94
-    auth: 4e231218-04c8-44ce-b72d-5c1bbcfc3a94
-    sni: bing.com
-    skip-cert-verify: false
-  - name: "[Hysteria2] @FreakConfig #1"
+  - name: "[Hysteria2] @V2rayNGVPN <- کانفیگ رایگان"
     server: hshl.huasuan666.top
     port: 22157
     type: hysteria2
@@ -665,7 +657,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: qBbeISsJ8AK48fZW
-  - name: "[Hysteria2] @FreakConfig #3"
+  - name: "[Hysteria2] WI-FI--@IRAN_V2RAY1 #1"
     server: gavazn.lnmarketplace.net
     port: 45000
     type: hysteria2
@@ -685,7 +677,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Yet-Another-Public-Config-1
-  - name: "[Hysteria2] @FreakConfig 2"
+  - name: "[Hysteria2] MCI-@IRAN_V2RAY1"
     server: 81.168.83.89
     port: 2083
     type: hysteria2
