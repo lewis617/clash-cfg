@@ -737,14 +737,7 @@ proxies:
     auth: miaoge110
     sni: www.bing.com
     skip-cert-verify: false
-  - name: "[Trojan] 🇭🇰 香港5|@ripaojiedian"
-    server: lazy.rsqpq.cn
-    port: 30002
-    type: trojan
-    password: 2338a604-dc6a-4470-bc7d-947e462a3cfd
-    sni: lazy.rsqpq.cn
-    skip-cert-verify: false
-  - name: "[Trojan] SG_speednode_0023"
+  - name: "[Trojan] SG_speednode_0050"
     server: 92.243.75.49
     port: 2087
     type: trojan
