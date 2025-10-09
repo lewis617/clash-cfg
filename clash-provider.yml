@@ -512,14 +512,6 @@ proxies:
     cipher: aes-256-cfb
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     tfo: false
-  - name: "[Hysteria2] @sunflowerplato🌻"
-    server: de1.jueduibupao.top
-    port: 43836
-    type: hysteria2
-    password: 1a8588b6-9700-4ff6-80e6-64e18f2e5336
-    auth: 1a8588b6-9700-4ff6-80e6-64e18f2e5336
-    sni: de1.jueduibupao.top
-    skip-cert-verify: false
   - name: "[Hysteria2] @IRAN_V2RAY1"
     server: 40.233.82.111
     port: 30300
@@ -559,6 +551,14 @@ proxies:
     password: 4e231218-04c8-44ce-b72d-5c1bbcfc3a94
     auth: 4e231218-04c8-44ce-b72d-5c1bbcfc3a94
     sni: bing.com
+    skip-cert-verify: false
+  - name: "[Hysteria2] @FreakConfig 2"
+    server: hsdg.huasuan666.top
+    port: 22155
+    type: hysteria2
+    password: 571ec94e-613c-430a-93de-397d3d237475
+    auth: 571ec94e-613c-430a-93de-397d3d237475
+    sni: hsdg.huasuan666.top
     skip-cert-verify: false
   - name: "[Hysteria2] @FreakConfig #1"
     server: hshl.huasuan666.top
@@ -667,16 +667,6 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: U1wBrYQyFm
-  - name: "[Hysteria2] @sunflowerplato🌻 #1"
-    server: 185.92.220.240
-    port: 30205
-    type: hysteria2
-    password: 8864aa9f-7517-4fd5-aef1-32050eb3095d
-    auth: 8864aa9f-7517-4fd5-aef1-32050eb3095d
-    sni: net2025.afsharidempire.uk
-    skip-cert-verify: false
-    obfs: salamander
-    obfs-password: GdQ4bgvT8RFwuWi2
   - name: "[Hysteria2] All-@IRAN_V2RAY1 #1"
     server: de.youyacloud.me
     port: 443
@@ -687,7 +677,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: qBbeISsJ8AK48fZW
-  - name: "[Hysteria2] @FreakConfig #3"
+  - name: "[Hysteria2] @FreakConfig #2"
     server: gavazn.lnmarketplace.net
     port: 45000
     type: hysteria2
@@ -727,7 +717,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS
-  - name: "[Hysteria2] @FreakConfig 2"
+  - name: "[Hysteria2] @FreakConfig 3"
     server: 108.165.213.197
     port: 23891
     type: hysteria2
@@ -735,12 +725,20 @@ proxies:
     auth: c232f411-96b5-4b07-b2f7-66a434725ffb
     sni: fus01.mistea.top
     skip-cert-verify: false
-  - name: "[Hysteria2] @sunflowerplato🌻 #2"
+  - name: "[Hysteria2] @sunflowerplato🌻"
     server: qing-kz.mxtn.net
     port: 443
     type: hysteria2
     password: c3054d61-c708-4594-9797-f50acd24de2a
     auth: c3054d61-c708-4594-9797-f50acd24de2a
+    skip-cert-verify: false
+  - name: "[Hysteria2] @FreakConfig #1 2"
+    server: 192.3.60.176
+    port: 41951
+    type: hysteria2
+    password: c6bccea3-2f03-4f3e-80f4-d6757f1f3f46
+    auth: c6bccea3-2f03-4f3e-80f4-d6757f1f3f46
+    sni: www.bing.com
     skip-cert-verify: false
   - name: "[Hysteria2] @sunflowerplato"
     server: 185.184.68.7.sslip.io
