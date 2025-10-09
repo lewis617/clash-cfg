@@ -512,16 +512,6 @@ proxies:
     cipher: aes-256-cfb
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     tfo: false
-  - name: "[Hysteria2] Channel id: @ShadowProxy66🇬🇧"
-    server: adas-polo-ba-mahi.kotlet.org
-    port: 2083
-    type: hysteria2
-    password: siEk2SjZFG
-    auth: siEk2SjZFG
-    sni: ghasem.kotlet.org
-    skip-cert-verify: false
-    obfs: salamander
-    obfs-password: ki(rtoko(s-maret-khamneii
   - name: "[Hysteria2] @sunflowerplato🌻"
     server: de1.jueduibupao.top
     port: 43836
