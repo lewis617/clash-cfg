@@ -517,6 +517,13 @@ proxies:
     cipher: aes-256-cfb
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     tfo: false
+  - name: "[Hysteria2] @FreakConfig"
+    server: 46.203.248.72
+    port: 50443
+    type: hysteria2
+    password: 09fceaf1-5813-4745-b8ad-725fc5a8c426
+    auth: 09fceaf1-5813-4745-b8ad-725fc5a8c426
+    skip-cert-verify: false
   - name: "[Hysteria2] @IRAN_V2RAY1"
     server: 40.233.82.111
     port: 30300
@@ -533,14 +540,6 @@ proxies:
     auth: 2b67ONZROv%2BfRVMxB94BSw%3D%3D
     sni: bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] @EXPRESSVPN_420 -> همه اپرات..."
-    server: android.yas-nowin.ir
-    port: 443
-    type: hysteria2
-    password: 3QlSMKyqLp
-    auth: 3QlSMKyqLp
-    sni: android.yas-nowin.ir
-    skip-cert-verify: false
   - name: "[Hysteria2] All--@IRAN_V2RAY1"
     server: de.eyucdn.xyz
     port: 2056
@@ -549,7 +548,7 @@ proxies:
     auth: 45b46edb-679b-4ea5-befd-88c05bb94f80
     sni: de.eyucdn.xyz
     skip-cert-verify: false
-  - name: "[Hysteria2] @FreakConfig"
+  - name: "[Hysteria2] @FreakConfig 2"
     server: nl1.oomz.ru
     port: 30000
     type: hysteria2
@@ -557,7 +556,7 @@ proxies:
     auth: 4e231218-04c8-44ce-b72d-5c1bbcfc3a94
     sni: bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] @FreakConfig 2"
+  - name: "[Hysteria2] @FreakConfig 3"
     server: hsdg.huasuan666.top
     port: 22155
     type: hysteria2
@@ -682,7 +681,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: qBbeISsJ8AK48fZW
-  - name: "[Hysteria2] @FreakConfig #2"
+  - name: "[Hysteria2] @FreakConfig #3"
     server: gavazn.lnmarketplace.net
     port: 45000
     type: hysteria2
@@ -722,7 +721,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS
-  - name: "[Hysteria2] @FreakConfig 3"
+  - name: "[Hysteria2] @FreakConfig 4"
     server: 108.165.213.197
     port: 23891
     type: hysteria2
@@ -754,6 +753,14 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: JBPVtqk1kMBGleBcLZ
+  - name: "[Hysteria2] @FreakConfig #2"
+    server: 208.87.243.187
+    port: 22222
+    type: hysteria2
+    password: dongtaiwang.com
+    auth: dongtaiwang.com
+    sni: www.bing.com
+    skip-cert-verify: false
   - name: "[Hysteria2] WI-FI--@IRAN_V2RAY1 #2"
     server: 51.159.111.32
     port: 5355
@@ -770,28 +777,7 @@ proxies:
     auth: miaoge110
     sni: www.bing.com
     skip-cert-verify: false
-  - name: "[Trojan] JP_speednode_0032"
-    server: 60.83.190.248
-    port: 443
-    type: trojan
-    password: 253bc477d4e43c209f2d427272968280
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: "[Trojan] JP_speednode_0034"
-    server: 160.16.136.130
-    port: 4451
-    type: trojan
-    password: 253bc477d4e43c209f2d427272968280
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: "[Trojan] NL_speednode_0047"
-    server: 38.180.249.152
-    port: 443
-    type: trojan
-    password: 253bc477d4e43c209f2d427272968280
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: "[Trojan] SG_speednode_0050"
+  - name: "[Trojan] SG_speednode_0068"
     server: 92.243.75.49
     port: 2087
     type: trojan
