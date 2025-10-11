@@ -825,28 +825,7 @@ proxies:
     auth: miaoge110
     sni: www.bing.com
     skip-cert-verify: false
-  - name: "[Trojan] CN_speednode_0024"
-    server: 36.156.102.84
-    port: 6752
-    type: trojan
-    password: 253bc477d4e43c209f2d427272968280
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: "[Trojan] JP_speednode_0051"
-    server: 160.16.117.182
-    port: 5328
-    type: trojan
-    password: 253bc477d4e43c209f2d427272968280
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: "[Trojan] JP_speednode_0052"
-    server: 153.121.51.29
-    port: 5041
-    type: trojan
-    password: 253bc477d4e43c209f2d427272968280
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: "[Trojan] SG_speednode_0068"
+  - name: "[Trojan] SG_speednode_0018"
     server: 92.243.75.49
     port: 2087
     type: trojan
@@ -858,10 +837,9 @@ proxies:
       path: /
       headers:
         Host: hsdgbuys.pages.dev
-  - name: "[Trojan] US_speednode_0080"
-    server: 23.227.194.19
-    port: 443
+  - name: "[Trojan] SG_speednode_0020"
+    server: 38.180.106.124
+    port: 8443
     type: trojan
-    password: 253bc477d4e43c209f2d427272968280
-    sni: www.nintendogames.net
+    password: installshield
     skip-cert-verify: false
