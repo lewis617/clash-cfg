@@ -553,14 +553,6 @@ proxies:
     auth: 571ec94e-613c-430a-93de-397d3d237475
     sni: hsdg.huasuan666.top
     skip-cert-verify: false
-  - name: "[Hysteria2] @FreakConfig 3"
-    server: hshl.huasuan666.top
-    port: 22157
-    type: hysteria2
-    password: 571ec94e-613c-430a-93de-397d3d237475
-    auth: 571ec94e-613c-430a-93de-397d3d237475
-    sni: hshl.huasuan666.top
-    skip-cert-verify: false
   - name: "[Hysteria2] @Daily_Configs #1"
     server: banmabanmabanmabanmabanmabanma2.wanlidag.top
     port: 54265
@@ -569,7 +561,7 @@ proxies:
     auth: 5f4ba37a-bb3c-4f8e-962e-850f624ad131
     sni: banmabanmabanmabanmabanmabanma2.wanlidag.top
     skip-cert-verify: false
-  - name: "[Hysteria2] @FreakConfig #1"
+  - name: "[Hysteria2] @FreakConfig 3"
     server: 206.71.158.41
     port: 35000
     type: hysteria2
@@ -579,7 +571,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
-  - name: "[Hysteria2] @Daily_Configs #3"
+  - name: "[Hysteria2] @FreakConfig #1"
     server: 77.90.41.197
     port: 35000
     type: hysteria2
@@ -589,7 +581,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
-  - name: "[Hysteria2] @FreakConfig #4"
+  - name: "[Hysteria2] @FreakConfig #3"
     server: dir.cybsecguru.com
     port: 35000
     type: hysteria2
@@ -716,17 +708,7 @@ proxies:
     auth: 9772ecf2-6732-4bfb-a8b1-f48af577c76c
     sni: www.bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه..."
-    server: 209.250.254.12
-    port: 443
-    type: hysteria2
-    password: 9M8uE6ks0h
-    auth: 9M8uE6ks0h
-    sni: www.oxfamintermon.org
-    skip-cert-verify: false
-    obfs: salamander
-    obfs-password: V2RayyNGvpnuushdhMiracle
-  - name: "[Hysteria2] @FreakConfig #5"
+  - name: "[Hysteria2] @FreakConfig #4"
     server: 206.71.158.23
     port: 45000
     type: hysteria2
@@ -736,7 +718,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Telegram-->@Ln2Ray
-  - name: "[Hysteria2] @FreakConfig #7"
+  - name: "[Hysteria2] @FreakConfig #6"
     server: gavazn.lnmarketplace.net
     port: 45000
     type: hysteria2
@@ -756,7 +738,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Yet-Another-Public-Config-1
-  - name: "[Hysteria2] @FreakConfig #8"
+  - name: "[Hysteria2] @FreakConfig #7"
     server: yapc-1.adamhayward.co.uk
     port: 35000
     type: hysteria2
@@ -842,7 +824,7 @@ proxies:
     auth: dongtaiwang.com
     sni: www.bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] @Daily_Configs #18"
+  - name: "[Hysteria2] @Daily_Configs #17"
     server: 45.58.38.153
     port: 40112
     type: hysteria2
