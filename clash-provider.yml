@@ -403,45 +403,32 @@ proxies:
       headers:
         host: nodes.830901.xyz
   - name: 🇭🇰 香港3|@ripaojiedian
-    server: kf5uhgscrdl73kmihv8c.appsworld.shop
-    port: 21791
+    server: 103.224.80.67
+    port: 30485
     client-fingerprint: chrome
     type: vmess
-    uuid: 3b14ba6e-786f-3b86-8bce-2803ea19b8cc
+    uuid: a9ba904e-2d8b-401e-9226-b5114c049f05
     alterId: 0
     cipher: auto
     tls: false
     tfo: false
     skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /cbf7f6acabd0dde4bef067580c126fed77a00de7
-      headers:
-        Host: www.baidu.com
   - name: 🇭🇰 香港4|@ripaojiedian
-    server: 203.198.123.190
-    port: 443
+    server: 221.128.195.221
+    port: 4419
     client-fingerprint: chrome
     type: trojan
     password: 253bc477d4e43c209f2d427272968280
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇭🇰 香港6|@ripaojiedian
-    server: 221.128.195.220
-    port: 4400
+    server: 126.47.92.160
+    port: 443
     client-fingerprint: chrome
     type: trojan
     password: 253bc477d4e43c209f2d427272968280
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: 🇹🇼 台湾|@ripaojiedian
-    server: 36.234.105.191
-    port: 10043
-    client-fingerprint: chrome
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4
-    tfo: false
+    sni: fe2.update.microsoft.com
+    skip-cert-verify: true
   - name: 🇯🇵 日本|@ripaojiedian
     server: v6.heduian.link
     port: 30806
@@ -459,56 +446,40 @@ proxies:
       headers:
         Host: ocbc.com
   - name: 🇯🇵 日本2|@ripaojiedian
-    server: 160.16.68.250
-    port: 4451
+    server: 36.156.102.84
+    port: 1806
     client-fingerprint: chrome
     type: trojan
     password: 253bc477d4e43c209f2d427272968280
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: 🇯🇵 日本3|@ripaojiedian
-    server: 160.16.116.227
-    port: 1331
-    client-fingerprint: chrome
-    type: trojan
-    password: 253bc477d4e43c209f2d427272968280
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: 🇯🇵 日本4|@ripaojiedian
-    server: 202.182.98.223
-    port: 9443
+  - name: 🇸🇬 新加坡3|@ripaojiedian
+    server: 5.44.249.43
+    port: 2377
     client-fingerprint: chrome
     type: ss
-    cipher: aes-128-gcm
-    password: lINaALnHIiH4cSj8pJn6TQ==
+    cipher: chacha20-ietf-poly1305
+    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
     tfo: false
-  - name: 🇸🇬 新加坡3|@ripaojiedian
-    server: node4.rtxconfigz.com
-    port: 443
-    client-fingerprint: chrome
-    type: vmess
-    uuid: 44e57485-eccc-46ef-808f-cd17ac810018
-    alterId: 0
-    cipher: auto
-    tls: true
-    tfo: false
-    skip-cert-verify: false
-    servername: node4.rtxconfigz.com
-    network: ws
-    ws-opts:
-      path: /@Malinda6104
-      headers:
-        Host: node4.rtxconfigz.com
-  - name: 🇺🇸 美国2|@ripaojiedian
-    server: 160.16.196.59
-    port: 1572
+    plugin: obfs
+    plugin-opts:
+      mode: tls
+      host: (TG @ripaojiedian)32cf132:178330
+  - name: 🇺🇸 美国3|@ripaojiedian
+    server: 92.243.75.49
+    port: 2087
     client-fingerprint: chrome
     type: trojan
-    password: 253bc477d4e43c209f2d427272968280
-    sni: www.nintendogames.net
+    password: wb6368
+    sni: hsdgbuys.pages.dev
     skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: hsdgbuys.pages.dev
   - name: 🇻🇳 越南|@ripaojiedian
-    server: 103.186.154.217
+    server: 103.186.155.136
     port: 38388
     client-fingerprint: chrome
     type: ss
@@ -855,18 +826,88 @@ proxies:
     auth: miaoge110
     sni: www.bing.com
     skip-cert-verify: false
-  - name: "[Trojan] SG_speednode_0018"
-    server: 92.243.75.49
-    port: 2087
-    type: trojan
-    password: wb6368
-    sni: hsdgbuys.pages.dev
+  - name: "[VMess] 🇭🇰 香港5|@ripaojiedian"
+    server: kf5uhgscrdl73kmihv8c.appsworld.shop
+    port: 21791
+    type: vmess
+    uuid: 3b14ba6e-786f-3b86-8bce-2803ea19b8cc
+    alterId: 0
+    cipher: auto
+    tls: false
     skip-cert-verify: false
     network: ws
     ws-opts:
-      path: /
+      path: /cbf7f6acabd0dde4bef067580c126fed77a00de7
       headers:
-        Host: hsdgbuys.pages.dev
+        Host: www.baidu.com
+  - name: "[Trojan] 🇭🇰 香港4|@ripaojiedian"
+    server: 203.198.123.190
+    port: 443
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+  - name: "[Trojan] 🇭🇰 香港6|@ripaojiedian"
+    server: 221.128.195.220
+    port: 4400
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+  - name: "[SS] 🇨🇳 台湾|@ripaojiedian"
+    server: 36.234.105.191
+    port: 10043
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 3d26cd68-5d4e-44eb-a0d3-04b8276beda4
+  - name: "[Trojan] 🇯🇵 日本2|@ripaojiedian"
+    server: 160.16.68.250
+    port: 4451
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+  - name: "[Trojan] 🇯🇵 日本3|@ripaojiedian"
+    server: 160.16.116.227
+    port: 1331
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+  - name: "[SS] 🇯🇵 日本4|@ripaojiedian"
+    server: 202.182.98.223
+    port: 9443
+    type: ss
+    cipher: aes-128-gcm
+    password: lINaALnHIiH4cSj8pJn6TQ==
+  - name: "[VMess] 🇸🇬 新加坡3|@ripaojiedian"
+    server: node4.rtxconfigz.com
+    port: 443
+    type: vmess
+    uuid: 44e57485-eccc-46ef-808f-cd17ac810018
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: node4.rtxconfigz.com
+    network: ws
+    ws-opts:
+      path: /@Malinda6104
+      headers:
+        Host: node4.rtxconfigz.com
+  - name: "[Trojan] 🇺🇸 美国2|@ripaojiedian"
+    server: 160.16.196.59
+    port: 1572
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+  - name: "[SS] 🇻🇳 越南|@ripaojiedian"
+    server: 103.186.154.217
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   - name: "[Trojan] SG_speednode_0020"
     server: 38.180.106.124
     port: 8443
