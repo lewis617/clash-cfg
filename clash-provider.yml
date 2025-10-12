@@ -670,7 +670,7 @@ proxies:
     auth: 79c4fe11-9787-406b-bf94-c1c1dbf59e28
     sni: www.bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] @IRAN_V2RAY1 #2"
+  - name: "[Hysteria2] @AblNet7 🇸🇪 机场推荐"
     server: 70.34.215.221
     port: 20335
     type: hysteria2
@@ -690,6 +690,14 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: U1wBrYQyFm
+  - name: "[Hysteria2] @AblNet7 🇺🇸 机场推荐"
+    server: 836902-20.9966661.xyz
+    port: 3000
+    type: hysteria2
+    password: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6
+    auth: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6
+    sni: 836902-20.9966661.xyz
+    skip-cert-verify: false
   - name: "[Hysteria2] All-@IRAN_V2RAY1 #1"
     server: de.youyacloud.me
     port: 443
@@ -700,6 +708,14 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: qBbeISsJ8AK48fZW
+  - name: "[Hysteria2] @AblNet7 🇺🇸 机场推荐 #1"
+    server: 113.192.61.19
+    port: 63979
+    type: hysteria2
+    password: 9772ecf2-6732-4bfb-a8b1-f48af577c76c
+    auth: 9772ecf2-6732-4bfb-a8b1-f48af577c76c
+    sni: www.bing.com
+    skip-cert-verify: false
   - name: "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه..."
     server: 209.250.254.12
     port: 443
@@ -770,7 +786,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: LzmYaFxALuuWNIu3zSeRJeV4z21RU1oS
-  - name: "[Hysteria2] @FreakConfig 4"
+  - name: "[Hysteria2] @AblNet7 🇺🇸 机场推荐 #2"
     server: 108.165.213.197
     port: 23891
     type: hysteria2
@@ -791,6 +807,14 @@ proxies:
     type: hysteria2
     password: c6bccea3-2f03-4f3e-80f4-d6757f1f3f46
     auth: c6bccea3-2f03-4f3e-80f4-d6757f1f3f46
+    sni: www.bing.com
+    skip-cert-verify: false
+  - name: "[Hysteria2] @AblNet7 🇨🇦 机场推荐"
+    server: 150.230.28.100
+    port: 45979
+    type: hysteria2
+    password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
+    auth: cfe032e4-1bc3-454f-9d09-301b0aea08ff
     sni: www.bing.com
     skip-cert-verify: false
   - name: "[Hysteria2] @sunflowerplato"
@@ -826,6 +850,16 @@ proxies:
     auth: miaoge110
     sni: www.bing.com
     skip-cert-verify: false
+  - name: "[Hysteria2] Tel:@Daily_Configs"
+    server: 80.85.241.237
+    port: 443
+    type: hysteria2
+    password: perspoliszibatarineshghjahan
+    auth: perspoliszibatarineshghjahan
+    sni: stackoverflow.com
+    skip-cert-verify: false
+    obfs: salamander
+    obfs-password: fQ0ZDCeRt1SyOHAUx2TToTBPkMfEXuTf
   - name: "[Trojan] SG_speednode_0020"
     server: 38.180.106.124
     port: 8443
