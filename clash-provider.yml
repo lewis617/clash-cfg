@@ -549,6 +549,16 @@ proxies:
     auth: 5f4ba37a-bb3c-4f8e-962e-850f624ad131
     sni: banmabanmabanmabanmabanmabanma2.wanlidag.top
     skip-cert-verify: false
+  - name: "[Hysteria2] rt"
+    server: 206.71.158.40
+    port: 35000
+    type: hysteria2
+    password: 5f89ac2a-b6d6-4c66-98d8-39c4d552138c
+    auth: 5f89ac2a-b6d6-4c66-98d8-39c4d552138c
+    sni: jnir.pichondan.com
+    skip-cert-verify: false
+    obfs: salamander
+    obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
   - name: "[Hysteria2] @FreakConfig 3"
     server: 206.71.158.41
     port: 35000
@@ -746,7 +756,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: khameniiko@smad@ret
-  - name: "[Hysteria2] @Daily_Configs #9"
+  - name: "[Hysteria2] @Daily_Configs #10"
     server: 103.249.133.79
     port: 443
     type: hysteria2
@@ -812,7 +822,7 @@ proxies:
     auth: dongtaiwang.com
     sni: www.bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] @Daily_Configs #17"
+  - name: "[Hysteria2] @Daily_Configs #18"
     server: 45.58.38.153
     port: 40112
     type: hysteria2
