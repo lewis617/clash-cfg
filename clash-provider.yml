@@ -814,7 +814,7 @@ proxies:
     auth: dongtaiwang.com
     sni: www.bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] WI-FI--@IRAN_V2RAY1 #2"
+  - name: "[Hysteria2] Join -> Telegram: @V2Gatee"
     server: 51.159.111.32
     port: 5355
     type: hysteria2
