@@ -497,16 +497,6 @@ proxies:
     password: 09fceaf1-5813-4745-b8ad-725fc5a8c426
     auth: 09fceaf1-5813-4745-b8ad-725fc5a8c426
     skip-cert-verify: false
-  - name: "[Hysteria2] @V2RayyNGvpn🇩🇪همه اوپراتور ه..."
-    server: 91.107.150.208
-    port: 443
-    type: hysteria2
-    password: 0cHs5waV2g
-    auth: 0cHs5waV2g
-    sni: hacks.mozilla.org
-    skip-cert-verify: false
-    obfs: salamander
-    obfs-password: V2RayyNGvpnjdbdbMiracle
   - name: "[Hysteria2] @IRAN_V2RAY1"
     server: 40.233.82.111
     port: 30300
@@ -539,16 +529,6 @@ proxies:
     auth: 45b46edb-679b-4ea5-befd-88c05bb94f80
     sni: de.eyucdn.xyz
     skip-cert-verify: false
-  - name: "[Hysteria2] @V2RayyNGvpn🇱🇷همه اوپراتور ه..."
-    server: 138.124.60.198
-    port: 443
-    type: hysteria2
-    password: 4JgTriaO4B
-    auth: 4JgTriaO4B
-    sni: cdnjs.cloudflare.com
-    skip-cert-verify: false
-    obfs: salamander
-    obfs-password: MiraCLeOPV2RayyNGvpntheBest
   - name: "[Hysteria2] @FreakConfig 2"
     server: hsdg.huasuan666.top
     port: 22155
