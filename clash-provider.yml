@@ -856,10 +856,3 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: fQ0ZDCeRt1SyOHAUx2TToTBPkMfEXuTf
-  - name: "[Trojan] 🇭🇰 香港4|@ripaojiedian"
-    server: 126.66.52.118
-    port: 443
-    type: trojan
-    password: 253bc477d4e43c209f2d427272968280
-    sni: www.nintendogames.net
-    skip-cert-verify: false
