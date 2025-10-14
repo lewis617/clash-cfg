@@ -431,6 +431,14 @@ proxies:
     skip-cert-verify: true
     sni: 38.180.106.124
     network: tcp
+  - name: tg频道:@ripaojiedian
+    server: 13.39.112.103
+    port: 443
+    client-fingerprint: chrome
+    type: ss
+    cipher: aes-256-cfb
+    password: amazonskr05
+    tfo: false
   - name: 🇭🇰 香港3|@ripaojiedian
     server: 43.247.135.17
     port: 41522
@@ -443,11 +451,11 @@ proxies:
     tfo: false
     skip-cert-verify: false
   - name: 🇭🇰 香港4|@ripaojiedian
-    server: 126.66.52.118
-    port: 443
+    server: 221.128.195.222
+    port: 4400
     client-fingerprint: chrome
     type: trojan
-    password: 253bc477d4e43c209f2d427272968280
+    password: e9368912c4ed6046dca6949229cbff02
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇭🇰 香港6|@ripaojiedian
@@ -455,9 +463,17 @@ proxies:
     port: 443
     client-fingerprint: chrome
     type: trojan
-    password: 253bc477d4e43c209f2d427272968280
+    password: e9368912c4ed6046dca6949229cbff02
     sni: fe2.update.microsoft.com
     skip-cert-verify: true
+  - name: 🇯🇵 日本4|@ripaojiedian
+    server: 194.68.27.76
+    port: 989
+    client-fingerprint: chrome
+    type: ss
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+    tfo: false
   - name: 🇰🇷 韩国|@ripaojiedian
     server: 154.90.63.177
     port: 989
@@ -840,3 +856,10 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: fQ0ZDCeRt1SyOHAUx2TToTBPkMfEXuTf
+  - name: "[Trojan] 🇭🇰 香港4|@ripaojiedian"
+    server: 126.66.52.118
+    port: 443
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: www.nintendogames.net
+    skip-cert-verify: false
