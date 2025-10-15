@@ -831,28 +831,3 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: fQ0ZDCeRt1SyOHAUx2TToTBPkMfEXuTf
-  - name: "[Trojan] 🇭🇰 香港4|@ripaojiedian"
-    server: 221.128.195.222
-    port: 4400
-    type: trojan
-    password: e9368912c4ed6046dca6949229cbff02
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: "[SS] 🇯🇵 日本4|@ripaojiedian"
-    server: 194.68.27.76
-    port: 989
-    type: ss
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - name: "[SS] 🇰🇷 韩国|@ripaojiedian"
-    server: 154.90.63.177
-    port: 989
-    type: ss
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-  - name: "[SS] 🇻🇳 越南|@ripaojiedian"
-    server: 103.186.154.27
-    port: 38388
-    type: ss
-    cipher: aes-256-cfb
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
