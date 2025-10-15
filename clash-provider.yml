@@ -451,11 +451,11 @@ proxies:
     tfo: false
     skip-cert-verify: false
   - name: 🇭🇰 香港4|@ripaojiedian
-    server: 221.128.195.222
-    port: 4400
+    server: 60.82.70.104
+    port: 443
     client-fingerprint: chrome
     type: trojan
-    password: e9368912c4ed6046dca6949229cbff02
+    password: c53647f3153f784b3c695ffbe5fb43c0
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇭🇰 香港6|@ripaojiedian
@@ -463,27 +463,22 @@ proxies:
     port: 443
     client-fingerprint: chrome
     type: trojan
-    password: e9368912c4ed6046dca6949229cbff02
+    password: c53647f3153f784b3c695ffbe5fb43c0
     sni: fe2.update.microsoft.com
     skip-cert-verify: true
-  - name: 🇯🇵 日本4|@ripaojiedian
-    server: 194.68.27.76
-    port: 989
+  - name: 🇸🇬 新加坡4|@ripaojiedian
+    server: 47.245.106.193
+    port: 22433
     client-fingerprint: chrome
-    type: ss
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
+    type: vmess
+    uuid: bfcb103f-2133-4965-8684-6b4c8ef7a774
+    alterId: 0
+    cipher: auto
+    tls: false
     tfo: false
-  - name: 🇰🇷 韩国|@ripaojiedian
-    server: 154.90.63.177
-    port: 989
-    client-fingerprint: chrome
-    type: ss
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-    tfo: false
+    skip-cert-verify: false
   - name: 🇻🇳 越南|@ripaojiedian
-    server: 103.186.154.27
+    server: 103.186.154.237
     port: 38388
     client-fingerprint: chrome
     type: ss
@@ -836,3 +831,28 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: fQ0ZDCeRt1SyOHAUx2TToTBPkMfEXuTf
+  - name: "[Trojan] 🇭🇰 香港4|@ripaojiedian"
+    server: 221.128.195.222
+    port: 4400
+    type: trojan
+    password: e9368912c4ed6046dca6949229cbff02
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+  - name: "[SS] 🇯🇵 日本4|@ripaojiedian"
+    server: 194.68.27.76
+    port: 989
+    type: ss
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: "[SS] 🇰🇷 韩国|@ripaojiedian"
+    server: 154.90.63.177
+    port: 989
+    type: ss
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+  - name: "[SS] 🇻🇳 越南|@ripaojiedian"
+    server: 103.186.154.27
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
