@@ -522,13 +522,6 @@ proxies:
     cipher: chacha20-ietf-poly1305
     password: k1v5g9FefdoO
     tfo: false
-  - name: "[Hysteria2] @FreakConfig"
-    server: 46.203.248.72
-    port: 50443
-    type: hysteria2
-    password: 09fceaf1-5813-4745-b8ad-725fc5a8c426
-    auth: 09fceaf1-5813-4745-b8ad-725fc5a8c426
-    skip-cert-verify: false
   - name: "[Hysteria2] @IRAN_V2RAY1"
     server: 40.233.82.111
     port: 30300
@@ -544,6 +537,22 @@ proxies:
     password: 2b67ONZROv%2BfRVMxB94BSw%3D%3D
     auth: 2b67ONZROv%2BfRVMxB94BSw%3D%3D
     sni: bing.com
+    skip-cert-verify: false
+  - name: "[Hysteria2] @FreakConfig"
+    server: 31.57.241.25
+    port: 7009
+    type: hysteria2
+    password: 30c075af-9555-4671-b70e-43e3cfb2e707
+    auth: 30c075af-9555-4671-b70e-43e3cfb2e707
+    sni: d.eans.top
+    skip-cert-verify: false
+  - name: "[Hysteria2] @FreakConfig #1"
+    server: d.eans.top
+    port: 7009
+    type: hysteria2
+    password: 30c075af-9555-4671-b70e-43e3cfb2e707
+    auth: 30c075af-9555-4671-b70e-43e3cfb2e707
+    sni: d.eans.top
     skip-cert-verify: false
   - name: "[Hysteria2] @EXPRESSVPN_420 -> همه اپرات..."
     server: android.yas-nowin.ir
@@ -579,7 +588,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
-  - name: "[Hysteria2] @FreakConfig #1"
+  - name: "[Hysteria2] @FreakConfig #1 2"
     server: 206.71.158.41
     port: 35000
     type: hysteria2
@@ -589,7 +598,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
-  - name: "[Hysteria2] @FreakConfig 3"
+  - name: "[Hysteria2] @FreakConfig #2"
     server: 77.90.41.197
     port: 35000
     type: hysteria2
@@ -746,7 +755,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Telegram-->@Ln2Ray
-  - name: "[Hysteria2] @FreakConfig #7"
+  - name: "[Hysteria2] @FreakConfig #6"
     server: gavazn.lnmarketplace.net
     port: 45000
     type: hysteria2
@@ -756,7 +765,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Telegram-->@Ln2Ray
-  - name: "[Hysteria2] @Daily_Configs #6"
+  - name: "[Hysteria2] @FreakConfig #7"
     server: 206.71.158.37
     port: 35000
     type: hysteria2
@@ -828,14 +837,6 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: JBPVtqk1kMBGleBcLZ
-  - name: "[Hysteria2] @FreakConfig #1 2"
-    server: 208.87.243.187
-    port: 22222
-    type: hysteria2
-    password: dongtaiwang.com
-    auth: dongtaiwang.com
-    sni: www.bing.com
-    skip-cert-verify: false
   - name: "[Hysteria2] WI-FI--@IRAN_V2RAY1 #2"
     server: 51.159.111.32
     port: 5355
@@ -844,7 +845,7 @@ proxies:
     auth: dongtaiwang.com
     sni: www.bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] @Daily_Configs #14"
+  - name: "[Hysteria2] @Daily_Configs #13"
     server: 45.58.38.153
     port: 40112
     type: hysteria2
@@ -862,10 +863,3 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: fQ0ZDCeRt1SyOHAUx2TToTBPkMfEXuTf
-  - name: "[Trojan] CN_speednode_0002"
-    server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
-    port: 26004
-    type: trojan
-    password: e531d1bc-a56f-4e1a-a295-1442369a19c1
-    sni: www.bilibili.com
-    skip-cert-verify: false
