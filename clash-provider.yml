@@ -700,6 +700,16 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: U1wBrYQyFm
+  - name: "[Hysteria2] limo"
+    server: 185.92.220.240
+    port: 30205
+    type: hysteria2
+    password: 8864aa9f-7517-4fd5-aef1-32050eb3095d
+    auth: 8864aa9f-7517-4fd5-aef1-32050eb3095d
+    sni: net2025.afsharidempire.uk
+    skip-cert-verify: false
+    obfs: salamander
+    obfs-password: GdQ4bgvT8RFwuWi2
   - name: "[Hysteria2] @AblNet7 🇺🇸 机场推荐"
     server: 836902-20.9966661.xyz
     port: 3000
@@ -800,14 +810,6 @@ proxies:
     type: hysteria2
     password: c3054d61-c708-4594-9797-f50acd24de2a
     auth: c3054d61-c708-4594-9797-f50acd24de2a
-    skip-cert-verify: false
-  - name: "[Hysteria2] @FreakConfig 4"
-    server: 192.3.60.176
-    port: 41951
-    type: hysteria2
-    password: c6bccea3-2f03-4f3e-80f4-d6757f1f3f46
-    auth: c6bccea3-2f03-4f3e-80f4-d6757f1f3f46
-    sni: www.bing.com
     skip-cert-verify: false
   - name: "[Hysteria2] @AblNet7 🇨🇦 机场推荐"
     server: 150.230.28.100
