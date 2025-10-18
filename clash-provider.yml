@@ -540,6 +540,30 @@ proxies:
     auth: 45b46edb-679b-4ea5-befd-88c05bb94f80
     sni: de.eyucdn.xyz
     skip-cert-verify: false
+  - name: "[Hysteria2] @meli_proxyy"
+    server: 213.108.198.123
+    port: 22155
+    type: hysteria2
+    password: 571ec94e-613c-430a-93de-397d3d237475
+    auth: 571ec94e-613c-430a-93de-397d3d237475
+    sni: hsdg.huasuan666.top
+    skip-cert-verify: false
+  - name: "[Hysteria2] @meli_proxyy #1"
+    server: hsdg.huasuan666.top
+    port: 22155
+    type: hysteria2
+    password: 571ec94e-613c-430a-93de-397d3d237475
+    auth: 571ec94e-613c-430a-93de-397d3d237475
+    sni: hsdg.huasuan666.top
+    skip-cert-verify: false
+  - name: "[Hysteria2] @meli_proxyy #2"
+    server: hshl.huasuan666.top
+    port: 22157
+    type: hysteria2
+    password: 571ec94e-613c-430a-93de-397d3d237475
+    auth: 571ec94e-613c-430a-93de-397d3d237475
+    sni: hshl.huasuan666.top
+    skip-cert-verify: false
   - name: "[Hysteria2] @Daily_Configs #2"
     server: banmabanmabanmabanmabanmabanma2.wanlidag.top
     port: 54265
@@ -735,7 +759,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Telegram-->@Ln2Ray
-  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #3"
+  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #2"
     server: 206.71.158.37
     port: 35000
     type: hysteria2
@@ -745,7 +769,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Yet-Another-Public-Config-1
-  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #8"
+  - name: "[Hysteria2] @FreakConfig #5"
     server: yapc-1.adamhayward.co.uk
     port: 35000
     type: hysteria2
@@ -765,6 +789,38 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: khameniiko@smad@ret
+  - name: "[Hysteria2] @FreakConfig #3"
+    server: de2.oomz.ru
+    port: 30000
+    type: hysteria2
+    password: ada5516d-f772-414f-b11c-2faec29b5424
+    auth: ada5516d-f772-414f-b11c-2faec29b5424
+    sni: bing.com
+    skip-cert-verify: false
+  - name: "[Hysteria2] @FreakConfig #4 2"
+    server: de3.oomz.ru
+    port: 30000
+    type: hysteria2
+    password: ada5516d-f772-414f-b11c-2faec29b5424
+    auth: ada5516d-f772-414f-b11c-2faec29b5424
+    sni: bing.com
+    skip-cert-verify: false
+  - name: "[Hysteria2] @FreakConfig #6"
+    server: nl1.oomz.ru
+    port: 30000
+    type: hysteria2
+    password: ada5516d-f772-414f-b11c-2faec29b5424
+    auth: ada5516d-f772-414f-b11c-2faec29b5424
+    sni: bing.com
+    skip-cert-verify: false
+  - name: "[Hysteria2] @FreakConfig #7"
+    server: nl2.oomz.ru
+    port: 30000
+    type: hysteria2
+    password: ada5516d-f772-414f-b11c-2faec29b5424
+    auth: ada5516d-f772-414f-b11c-2faec29b5424
+    sni: bing.com
+    skip-cert-verify: false
   - name: "[Hysteria2] @AblNet7 🇺🇸 机场推荐 #2"
     server: 108.165.213.197
     port: 23891
