@@ -823,15 +823,22 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: fQ0ZDCeRt1SyOHAUx2TToTBPkMfEXuTf
-  - name: "[Trojan] US_speednode_0054"
-    server: 172.67.192.215
-    port: 443
+  - name: "[Trojan] TW_speednode_0091"
+    server: cdnfire.xiaomispeed.com
+    port: 25502
     type: trojan
-    password: d0728e94-82c2-456b-b5d4-eeab540599df
-    sni: joss.krikkrik.xyz
+    password: 890c928b-9ceb-4048-aff2-944461463ee8
+    sni: cdnfire.xiaomispeed.com
+    skip-cert-verify: false
+  - name: "[Trojan] US_speednode_0100"
+    server: www.visa.com.sg
+    port: 8443
+    type: trojan
+    password: trojan
+    sni: azadnet-f03.pages.dev
     skip-cert-verify: false
     network: ws
     ws-opts:
-      path: /Free-VPN-CF-Geo-Project/AE5
+      path: /?ed=2560
       headers:
-        Host: joss.krikkrik.xyz
+        Host: azadnet-f03.pages.dev
