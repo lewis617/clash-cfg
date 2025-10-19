@@ -898,30 +898,3 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: fQ0ZDCeRt1SyOHAUx2TToTBPkMfEXuTf
-  - name: "[SS] tg频道:@ripaojiedian"
-    server: 16.176.178.192
-    port: 443
-    type: ss
-    cipher: aes-256-cfb
-    password: amazonskr05
-  - name: "[Trojan] 🇭🇰 香港4|@ripaojiedian"
-    server: 58.152.30.92
-    port: 443
-    type: trojan
-    password: c53647f3153f784b3c695ffbe5fb43c0
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: "[Trojan] 🇯🇵 日本2|@ripaojiedian"
-    server: 160.16.131.243
-    port: 1331
-    type: trojan
-    password: c53647f3153f784b3c695ffbe5fb43c0
-    sni: www.baidu.com
-    skip-cert-verify: false
-  - name: "[Trojan] 🇸🇬 新加坡|@ripaojiedian"
-    server: 153.121.41.97
-    port: 5041
-    type: trojan
-    password: c53647f3153f784b3c695ffbe5fb43c0
-    sni: www.baidu.com
-    skip-cert-verify: false
