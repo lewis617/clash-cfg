@@ -420,6 +420,22 @@ proxies:
     tls: false
     tfo: false
     skip-cert-verify: false
+  - name: "[Hysteria2] @v2ray_configs_pool"
+    server: 104.250.239.32
+    port: 53810
+    type: hysteria2
+    password: 07c122ad-50b2-4f61-9435-efcf112bb10b
+    auth: 07c122ad-50b2-4f61-9435-efcf112bb10b
+    sni: real.getafreenode.sbs
+    skip-cert-verify: false
+  - name: "[Hysteria2] @v2ray_configs_pool #1"
+    server: 185.126.255.78
+    port: 45294
+    type: hysteria2
+    password: 07c122ad-50b2-4f61-9435-efcf112bb10b
+    auth: 07c122ad-50b2-4f61-9435-efcf112bb10b
+    sni: real.getafreenode.sbs
+    skip-cert-verify: false
   - name: "[Hysteria2] @Mr_Config_Group✌️"
     server: chervhill.hajalii.com
     port: 29662
@@ -446,7 +462,7 @@ proxies:
     auth: 2429bee3-e0c1-47dd-b420-75e6512b184b
     sni: www.bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] @v2ray_configs_pool"
+  - name: "[Hysteria2] @FreakConfig"
     server: 31.57.241.25
     port: 7009
     type: hysteria2
@@ -557,7 +573,7 @@ proxies:
     password: 70197404-7b40-45e4-bb9c-8bc8995012ae
     auth: 70197404-7b40-45e4-bb9c-8bc8995012ae
     skip-cert-verify: false
-  - name: "[Hysteria2] Channel id: @vpnserverrr🇺🇸"
+  - name: "[Hysteria2] @v2ray_configs_pool #28"
     server: lsj3.mangshe.xyz
     port: 2056
     type: hysteria2
@@ -565,7 +581,7 @@ proxies:
     auth: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
     sni: lsj3.mangshe.xyz
     skip-cert-verify: false
-  - name: "[Hysteria2] Channel id: @vpnserverrr🇺🇸 #1"
+  - name: "[Hysteria2] @v2ray_configs_pool #29"
     server: mg1.mangshe.xyz
     port: 2056
     type: hysteria2
@@ -581,7 +597,7 @@ proxies:
     auth: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
     sni: xg1.mangshe.xyz
     skip-cert-verify: false
-  - name: "[Hysteria2] Channel id: @vpnserverrr🇸🇬"
+  - name: "[Hysteria2] @v2ray_configs_pool #30"
     server: xjp2.mangshe.xyz
     port: 2060
     type: hysteria2
@@ -597,7 +613,7 @@ proxies:
     auth: 79c4fe11-9787-406b-bf94-c1c1dbf59e28
     sni: www.bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] - SE - @freeOnlineVPN #2"
+  - name: "[Hysteria2] @AblNet7 🇸🇪 机场推荐"
     server: 70.34.215.221
     port: 20335
     type: hysteria2
@@ -671,7 +687,7 @@ proxies:
     auth: 9772ecf2-6732-4bfb-a8b1-f48af577c76c
     sni: www.bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] @FreakConfig"
+  - name: "[Hysteria2] @v2ray_configs_pool #37"
     server: 206.71.158.23
     port: 45000
     type: hysteria2
@@ -681,7 +697,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Telegram-->@Ln2Ray
-  - name: "[Hysteria2] WI-FI--@IRAN_V2RAY1 #1"
+  - name: "[Hysteria2] @v2ray_configs_pool #38"
     server: gavazn.lnmarketplace.net
     port: 45000
     type: hysteria2
@@ -691,17 +707,17 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Telegram-->@Ln2Ray
-  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #8"
+  - name: "[Hysteria2] @v2ray_configs_pool #40"
     server: 206.71.158.37
     port: 35000
     type: hysteria2
     password: Yet-Another-Public-Config-1
     auth: Yet-Another-Public-Config-1
-    sni: YAPC-1.afshin.ir
+    sni: YAPC-1.afshin.irr♡ya
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Yet-Another-Public-Config-1
-  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #13"
+  - name: "[Hysteria2] @v2ray_configs_pool #44"
     server: yapc-1.adamhayward.co.uk
     port: 35000
     type: hysteria2
@@ -711,7 +727,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Yet-Another-Public-Config-1
-  - name: "[Hysteria2] 🇬🇧 - GB - @freeOnlineVPN #1"
+  - name: "[Hysteria2] @v2ray_configs_pool #50"
     server: 81.168.83.89
     port: 2083
     type: hysteria2
@@ -841,6 +857,22 @@ proxies:
     auth: ada5516d-f772-414f-b11c-2faec29b5424
     sni: bing.com
     skip-cert-verify: false
+  - name: "[Hysteria2] @v2ray_configs_pool #51"
+    server: 209.135.168.230
+    port: 8080
+    type: hysteria2
+    password: bde0cf51-5bce-473a-8c7d-68949e7e5cfd
+    auth: bde0cf51-5bce-473a-8c7d-68949e7e5cfd
+    sni: us4.youxuan.wiki
+    skip-cert-verify: false
+  - name: "[Hysteria2] @v2ray_configs_pool #52"
+    server: 45.12.134.112
+    port: 33251
+    type: hysteria2
+    password: bde0cf51-5bce-473a-8c7d-68949e7e5cfd
+    auth: bde0cf51-5bce-473a-8c7d-68949e7e5cfd
+    sni: jp3.youxuan.wiki
+    skip-cert-verify: false
   - name: "[Hysteria2] @AblNet7 🇺🇸 机场推荐 #2"
     server: 108.165.213.197
     port: 23891
@@ -864,7 +896,7 @@ proxies:
     auth: cfe032e4-1bc3-454f-9d09-301b0aea08ff
     sni: www.bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] r♡ya #5"
+  - name: "[Hysteria2] @v2ray_configs_pool #55"
     server: 51.159.111.32
     port: 5355
     type: hysteria2
