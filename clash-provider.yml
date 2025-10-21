@@ -906,23 +906,17 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: fQ0ZDCeRt1SyOHAUx2TToTBPkMfEXuTf
-  - name: "[Trojan] 🇺🇸 美国|@ripaojiedian"
+  - name: "[Trojan] 🇺🇸 美国|@ripaojiedian 2"
     server: 202.181.103.235
     port: 2381
     type: trojan
     password: c53647f3153f784b3c695ffbe5fb43c0
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: "[Trojan] 🇯🇵 日本2|@ripaojiedian"
+  - name: "[Trojan] 🇯🇵 日本2|@ripaojiedian 2"
     server: 160.16.57.238
     port: 1331
     type: trojan
     password: c53647f3153f784b3c695ffbe5fb43c0
     sni: www.baidu.com
     skip-cert-verify: false
-  - name: "[SS] 🇸🇬 新加坡4|@ripaojiedian"
-    server: 103.36.91.32
-    port: 8388
-    type: ss
-    cipher: chacha20-ietf
-    password: asd123456
