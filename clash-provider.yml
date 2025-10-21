@@ -478,14 +478,6 @@ proxies:
     auth: 571ec94e-613c-430a-93de-397d3d237475
     sni: hsdg.huasuan666.top
     skip-cert-verify: false
-  - name: "[Hysteria2] @meli_proxyy #3"
-    server: hshl.huasuan666.top
-    port: 22157
-    type: hysteria2
-    password: 571ec94e-613c-430a-93de-397d3d237475
-    auth: 571ec94e-613c-430a-93de-397d3d237475
-    sni: hshl.huasuan666.top
-    skip-cert-verify: false
   - name: "[Hysteria2] @Daily_Configs #2"
     server: banmabanmabanmabanmabanmabanma2.wanlidag.top
     port: 54265
@@ -581,7 +573,7 @@ proxies:
     auth: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
     sni: mg1.mangshe.xyz
     skip-cert-verify: false
-  - name: "[Hysteria2] @meli_proxyy #4"
+  - name: "[Hysteria2] @meli_proxyy #3"
     server: xg1.mangshe.xyz
     port: 2056
     type: hysteria2
@@ -615,17 +607,17 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: U1wBrYQyFm
-  - name: "[Hysteria2] @V2rayNGVPN <- کانفیگ رایگان #1"
+  - name: "[Hysteria2] - SE - @freeOnlineVPN #5"
     server: drhystuichdfy.samanidempire.org
     port: 20335
     type: hysteria2
     password: 80747420-96c4-4a2f-83e6-eea4e46beb09
     auth: 80747420-96c4-4a2f-83e6-eea4e46beb09
-    sni: drhystuichdfy.samanidempire.org@meli_proxyy
+    sni: drhystuichdfy.samanidempire.org
     skip-cert-verify: false
     obfs: salamander
     obfs-password: U1wBrYQyFm
-  - name: "[Hysteria2] @meli_proxyy #6"
+  - name: "[Hysteria2] @meli_proxyy #5"
     server: 40.233.103.51
     port: 47262
     type: hysteria2
@@ -633,7 +625,7 @@ proxies:
     auth: 862e90e1-2f26-4506-b8b9-0adf20da05fc
     sni: www.bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #1"
+  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #2"
     server: 185.92.220.240
     port: 30205
     type: hysteria2
@@ -699,7 +691,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Telegram-->@Ln2Ray
-  - name: "[Hysteria2] @FreakConfig #1 2"
+  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #7"
     server: 206.71.158.37
     port: 35000
     type: hysteria2
@@ -709,7 +701,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Yet-Another-Public-Config-1
-  - name: "[Hysteria2] @FreakConfig #3"
+  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #12"
     server: yapc-1.adamhayward.co.uk
     port: 35000
     type: hysteria2
@@ -825,7 +817,7 @@ proxies:
     auth: a28e61d9-61f9-4058-be6c-cc4ad07e01a4
     sni: us02.tehuicloud.top
     skip-cert-verify: false
-  - name: "[Hysteria2] @FreakConfig #2 2"
+  - name: "[Hysteria2] @FreakConfig #2"
     server: de3.oomz.ru
     port: 30000
     type: hysteria2
@@ -906,17 +898,3 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: fQ0ZDCeRt1SyOHAUx2TToTBPkMfEXuTf
-  - name: "[Trojan] 🇺🇸 美国|@ripaojiedian 2"
-    server: 202.181.103.235
-    port: 2381
-    type: trojan
-    password: c53647f3153f784b3c695ffbe5fb43c0
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: "[Trojan] 🇯🇵 日本2|@ripaojiedian 2"
-    server: 160.16.57.238
-    port: 1331
-    type: trojan
-    password: c53647f3153f784b3c695ffbe5fb43c0
-    sni: www.baidu.com
-    skip-cert-verify: false
