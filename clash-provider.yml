@@ -446,7 +446,7 @@ proxies:
     auth: 2429bee3-e0c1-47dd-b420-75e6512b184b
     sni: www.bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] @FreakConfig"
+  - name: "[Hysteria2] @v2ray_configs_pool"
     server: 31.57.241.25
     port: 7009
     type: hysteria2
@@ -607,7 +607,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: U1wBrYQyFm
-  - name: "[Hysteria2] - SE - @freeOnlineVPN #5"
+  - name: "[Hysteria2] ‍☠️@FreakConfig #1"
     server: drhystuichdfy.samanidempire.org
     port: 20335
     type: hysteria2
@@ -635,7 +635,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: GdQ4bgvT8RFwuWi2
-  - name: "[Hysteria2] r♡ya #3"
+  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #4"
     server: net2025.afsharidempire.uk
     port: 30205
     type: hysteria2
@@ -671,7 +671,7 @@ proxies:
     auth: 9772ecf2-6732-4bfb-a8b1-f48af577c76c
     sni: www.bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] @FreakConfig 2"
+  - name: "[Hysteria2] @FreakConfig"
     server: 206.71.158.23
     port: 45000
     type: hysteria2
@@ -691,7 +691,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Telegram-->@Ln2Ray
-  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #7"
+  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #8"
     server: 206.71.158.37
     port: 35000
     type: hysteria2
@@ -701,7 +701,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Yet-Another-Public-Config-1
-  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #12"
+  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #13"
     server: yapc-1.adamhayward.co.uk
     port: 35000
     type: hysteria2
