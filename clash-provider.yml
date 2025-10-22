@@ -422,7 +422,7 @@ proxies:
     auth: 30c075af-9555-4671-b70e-43e3cfb2e707
     sni: d.eans.top
     skip-cert-verify: false
-  - name: "[Hysteria2] @meli_proxyy #1"
+  - name: "[Hysteria2] @Hddify"
     server: 213.108.198.123
     port: 22155
     type: hysteria2
@@ -509,7 +509,7 @@ proxies:
     password: 70197404-7b40-45e4-bb9c-8bc8995012ae
     auth: 70197404-7b40-45e4-bb9c-8bc8995012ae
     skip-cert-verify: false
-  - name: "[Hysteria2] @meli_proxyy #3"
+  - name: "[Hysteria2] @meli_proxyy #2"
     server: xg1.mangshe.xyz
     port: 2056
     type: hysteria2
@@ -535,7 +535,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: U1wBrYQyFm
-  - name: "[Hysteria2] ‍☠️@FreakConfig #1"
+  - name: "[Hysteria2] All-@IRAN_V2RAY1"
     server: drhystuichdfy.samanidempire.org
     port: 20335
     type: hysteria2
@@ -545,7 +545,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: U1wBrYQyFm
-  - name: "[Hysteria2] @meli_proxyy #5"
+  - name: "[Hysteria2] @meli_proxyy #3"
     server: 40.233.103.51
     port: 47262
     type: hysteria2
@@ -629,7 +629,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Yet-Another-Public-Config-1
-  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #18"
+  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #10"
     server: yapc-1.adamhayward.co.uk
     port: 35000
     type: hysteria2
@@ -752,7 +752,7 @@ proxies:
     auth: ada5516d-f772-414f-b11c-2faec29b5424
     sni: bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] @FreakConfig #2"
+  - name: "[Hysteria2] @FreakConfig #1"
     server: nl1.oomz.ru
     port: 30000
     type: hysteria2
@@ -760,7 +760,7 @@ proxies:
     auth: ada5516d-f772-414f-b11c-2faec29b5424
     sni: bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] @FreakConfig #3"
+  - name: "[Hysteria2] @FreakConfig #2"
     server: nl2.oomz.ru
     port: 30000
     type: hysteria2
