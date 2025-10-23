@@ -597,7 +597,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: GdQ4bgvT8RFwuWi2
-  - name: "[Hysteria2] r♡ya #3"
+  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #3"
     server: net2025.afsharidempire.uk
     port: 30205
     type: hysteria2
@@ -649,7 +649,7 @@ proxies:
     auth: 9faf4015-b6c0-44f9-b9d6-d77454a50a72
     sni: els1.dimoyun.top
     skip-cert-verify: false
-  - name: "[Hysteria2] @FreakConfig"
+  - name: "[Hysteria2] @FreakConfig #4"
     server: 206.71.158.23
     port: 45000
     type: hysteria2
@@ -698,7 +698,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: khameniiko@smad@ret
-  - name: "[Hysteria2] @FreakConfig 2"
+  - name: "[Hysteria2] @FreakConfig #1 2"
     server: de3.oomz.ru
     port: 30000
     type: hysteria2
@@ -706,7 +706,7 @@ proxies:
     auth: ada5516d-f772-414f-b11c-2faec29b5424
     sni: bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] @FreakConfig #1"
+  - name: "[Hysteria2] @FreakConfig #7"
     server: nl1.oomz.ru
     port: 30000
     type: hysteria2
@@ -714,7 +714,7 @@ proxies:
     auth: ada5516d-f772-414f-b11c-2faec29b5424
     sni: bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] @FreakConfig #2"
+  - name: "[Hysteria2] @FreakConfig #8"
     server: nl2.oomz.ru
     port: 30000
     type: hysteria2
