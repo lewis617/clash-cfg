@@ -390,6 +390,14 @@ proxies:
     cipher: aes-256-cfb
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     tfo: false
+  - name: "[Hysteria2] Channel id: @ShadowProxy66🇯🇵"
+    server: 133.18.163.202
+    port: 443
+    type: hysteria2
+    password: fabd2b79-693a-4a37-827c-6d299e8813b1
+    auth: fabd2b79-693a-4a37-827c-6d299e8813b1
+    sni: www.microsoft.com
+    skip-cert-verify: false
   - name: "[Hysteria2] @Mr_Config_Group✌️"
     server: chervhill.hajalii.com
     port: 29662
@@ -410,14 +418,6 @@ proxies:
     skip-cert-verify: false
   - name: "[Hysteria2] @Daily_Configs"
     server: 129.153.59.26
-    port: 30300
-    type: hysteria2
-    password: 2429bee3-e0c1-47dd-b420-75e6512b184b
-    auth: 2429bee3-e0c1-47dd-b420-75e6512b184b
-    sni: www.bing.com
-    skip-cert-verify: false
-  - name: "[Hysteria2] @v2ray_configs_pool"
-    server: 40.233.71.37
     port: 30300
     type: hysteria2
     password: 2429bee3-e0c1-47dd-b420-75e6512b184b
@@ -472,7 +472,7 @@ proxies:
     auth: 571ec94e-613c-430a-93de-397d3d237475
     sni: hsdg.huasuan666.top
     skip-cert-verify: false
-  - name: "[Hysteria2] MCI-@V2rayAlpha--5"
+  - name: "[Hysteria2] @v2ray_configs_pool"
     server: hshl.huasuan666.top
     port: 22157
     type: hysteria2
@@ -587,7 +587,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: U1wBrYQyFm
-  - name: "[Hysteria2] @meli_proxyy #4"
+  - name: "[Hysteria2] @meli_proxyy #3"
     server: 40.233.103.51
     port: 47262
     type: hysteria2
@@ -595,7 +595,7 @@ proxies:
     auth: 862e90e1-2f26-4506-b8b9-0adf20da05fc
     sni: www.bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #8"
+  - name: "[Hysteria2] @v2ray_configs_pool #3"
     server: 185.92.220.240
     port: 30205
     type: hysteria2
@@ -605,7 +605,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: GdQ4bgvT8RFwuWi2
-  - name: "[Hysteria2] All--@V2rayAlpha--8"
+  - name: "[Hysteria2] @v2ray_configs_pool #4"
     server: net2025.afsharidempire.uk
     port: 30205
     type: hysteria2
@@ -667,7 +667,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: wmufVmhTEkFcZ3qLakL9yQ==
-  - name: "[Hysteria2] @v2ray_configs_pool #5"
+  - name: "[Hysteria2] @FreakConfig #4"
     server: 206.71.158.23
     port: 45000
     type: hysteria2
@@ -677,7 +677,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Telegram-->@Ln2Ray
-  - name: "[Hysteria2] @v2ray_configs_pool #6"
+  - name: "[Hysteria2] @v2ray_configs_pool #5"
     server: gavazn.lnmarketplace.net
     port: 45000
     type: hysteria2
@@ -687,7 +687,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Telegram-->@Ln2Ray
-  - name: "[Hysteria2] @v2ray_configs_pool #8"
+  - name: "[Hysteria2] @v2ray_configs_pool #6"
     server: 206.71.158.37
     port: 35000
     type: hysteria2
@@ -697,7 +697,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Yet-Another-Public-Config-1
-  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #16"
+  - name: "[Hysteria2] @v2ray_configs_pool #10"
     server: yapc-1.adamhayward.co.uk
     port: 35000
     type: hysteria2
@@ -716,13 +716,12 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: khameniiko@smad@ret
-  - name: "[Hysteria2] @v2ray_configs_pool #24"
+  - name: "[Hysteria2] @v2ray_configs_pool #17"
     server: 108.165.213.197
     port: 23891
     type: hysteria2
     password: c232f411-96b5-4b07-b2f7-66a434725ffb
     auth: c232f411-96b5-4b07-b2f7-66a434725ffb
-    sni: fus01.mistea.top
     skip-cert-verify: false
   - name: "[Hysteria2] WiFi-@V2rayAlpha--7"
     server: qing-es.mxtn.net
