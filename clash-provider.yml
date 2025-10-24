@@ -813,7 +813,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: ki(rtoko(s-maret-khamneii
-  - name: "[Trojan] US_speednode_0031"
+  - name: "[Trojan] US_speednode_0028"
     server: nop-55q.pages.dev
     port: 2053
     type: trojan
