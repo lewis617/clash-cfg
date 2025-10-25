@@ -329,8 +329,19 @@ proxies:
     cipher: aes-256-cfb
     password: amazonskr05
     tfo: false
+  - name: 🇭🇰 香港3|@ripaojiedian
+    server: 103.224.80.100
+    port: 14994
+    client-fingerprint: chrome
+    type: vmess
+    uuid: 40731c98-9514-4e75-b78e-58311d214095
+    alterId: 0
+    cipher: auto
+    tls: false
+    tfo: false
+    skip-cert-verify: false
   - name: 🇭🇰 香港4|@ripaojiedian
-    server: 58.152.30.133
+    server: 58.152.110.83
     port: 443
     client-fingerprint: chrome
     type: trojan
@@ -338,58 +349,43 @@ proxies:
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇭🇰 香港5|@ripaojiedian
-    server: 36.156.102.69
-    port: 194
+    server: 36.151.251.23
+    port: 4451
     client-fingerprint: chrome
     type: trojan
     password: BxceQaOe
     skip-cert-verify: true
   - name: 🇯🇵 日本|@ripaojiedian
-    server: 36.156.102.82
-    port: 401
+    server: 36.151.251.35
+    port: 811
     client-fingerprint: chrome
     type: trojan
     password: BxceQaOe
     skip-cert-verify: true
   - name: 🇯🇵 日本2|@ripaojiedian
-    server: 160.16.196.59
-    port: 4452
+    server: 160.16.116.227
+    port: 1331
     client-fingerprint: chrome
     type: trojan
     password: ea39fa94f1ee00999337ea1fd3318e69
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: 🇯🇵 日本3|@ripaojiedian
-    server: 182.237.0.26
-    port: 3161
+  - name: 🇯🇵 日本4|@ripaojiedian
+    server: 37.202.200.19
+    port: 15013
+    client-fingerprint: chrome
+    type: trojan
+    password: 898e1dca-14b2-4371-abc8-1b9f839bff6d
+    sni: jp02.weyaf9sdoh2h.space
+    skip-cert-verify: false
+  - name: 🇺🇸 美国2|@ripaojiedian
+    server: 160.16.89.176
+    port: 2381
     client-fingerprint: chrome
     type: trojan
     password: ea39fa94f1ee00999337ea1fd3318e69
-    sni: www.baidu.com
-    skip-cert-verify: true
-  - name: 🇸🇬 新加坡2|@ripaojiedian
-    server: 160.16.81.84
-    port: 2283
-    client-fingerprint: chrome
-    type: trojan
-    password: ea39fa94f1ee00999337ea1fd3318e69
-    sni: www.baidu.com
-    skip-cert-verify: true
-  - name: 🇸🇬 新加坡3|@ripaojiedian
-    server: 36.156.102.115
-    port: 36698
-    client-fingerprint: chrome
-    type: trojan
-    password: BxceQaOe
-    skip-cert-verify: true
-  - name: 🇻🇳 越南|@ripaojiedian
-    server: 103.186.154.212
-    port: 38388
-    client-fingerprint: chrome
-    type: ss
-    cipher: aes-256-cfb
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    tfo: false
+    sni: www.nintendogames.net
+    skip-cert-verify: false
   - name: "[Hysteria2] Channel id: @ShadowProxy66🇯🇵"
     server: 133.18.163.202
     port: 443
@@ -812,6 +808,58 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: ki(rtoko(s-maret-khamneii
+  - name: "[Trojan] 🇭🇰 香港4|@ripaojiedian"
+    server: 58.152.30.133
+    port: 443
+    type: trojan
+    password: ea39fa94f1ee00999337ea1fd3318e69
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+  - name: "[Trojan] 🇭🇰 香港5|@ripaojiedian"
+    server: 36.156.102.69
+    port: 194
+    type: trojan
+    password: BxceQaOe
+    skip-cert-verify: false
+  - name: "[Trojan] 🇯🇵 日本|@ripaojiedian"
+    server: 36.156.102.82
+    port: 401
+    type: trojan
+    password: BxceQaOe
+    skip-cert-verify: false
+  - name: "[Trojan] 🇯🇵 日本2|@ripaojiedian"
+    server: 160.16.196.59
+    port: 4452
+    type: trojan
+    password: ea39fa94f1ee00999337ea1fd3318e69
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+  - name: "[Trojan] 🇯🇵 日本3|@ripaojiedian"
+    server: 182.237.0.26
+    port: 3161
+    type: trojan
+    password: ea39fa94f1ee00999337ea1fd3318e69
+    sni: www.baidu.com
+    skip-cert-verify: false
+  - name: "[Trojan] 🇸🇬 新加坡2|@ripaojiedian"
+    server: 160.16.81.84
+    port: 2283
+    type: trojan
+    password: ea39fa94f1ee00999337ea1fd3318e69
+    sni: www.baidu.com
+    skip-cert-verify: false
+  - name: "[Trojan] 🇸🇬 新加坡3|@ripaojiedian"
+    server: 36.156.102.115
+    port: 36698
+    type: trojan
+    password: BxceQaOe
+    skip-cert-verify: false
+  - name: "[SS] 🇻🇳 越南|@ripaojiedian"
+    server: 103.186.154.212
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   - name: "[Trojan] US_speednode_0028"
     server: nop-55q.pages.dev
     port: 2053
