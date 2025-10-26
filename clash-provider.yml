@@ -392,7 +392,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Telegram-->@Ln2Ray
-  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #11"
+  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #9"
     server: 206.71.158.37
     port: 35000
     type: hysteria2
@@ -429,7 +429,7 @@ proxies:
     auth: dongtaiwang.com
     sni: www.bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] 🇩🇪 - DE - @freeOnlineVPN #1"
+  - name: "[Hysteria2] Channel id: @ShadowProxy66🇩🇪"
     server: banmabanmabanmabanmabanmabanma2.wanlidag.top
     port: 54265
     type: hysteria2
