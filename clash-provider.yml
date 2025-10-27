@@ -394,7 +394,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Telegram-->@Ln2Ray
-  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #9"
+  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #11"
     server: 206.71.158.37
     port: 35000
     type: hysteria2
@@ -404,7 +404,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Yet-Another-Public-Config-1
-  - name: "[Hysteria2] @FreakConfig #9"
+  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #20"
     server: yapc-1.adamhayward.co.uk
     port: 36300
     type: hysteria2
@@ -628,7 +628,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: U1wBrYQyFm
-  - name: "[Hysteria2] All--@V2rayAlpha--8"
+  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #8"
     server: net2025.afsharidempire.uk
     port: 30205
     type: hysteria2
@@ -819,28 +819,9 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: ki(rtoko(s-maret-khamneii
-  - name: "[Trojan] CN_speednode_0002"
+  - name: "[Trojan] CN_speednode_0001"
     server: 36.151.251.23
     port: 4451
     type: trojan
     password: BxceQaOe
     skip-cert-verify: false
-  - name: "[Trojan] HK_speednode_0012"
-    server: 58.152.110.83
-    port: 443
-    type: trojan
-    password: ea39fa94f1ee00999337ea1fd3318e69
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: "[Trojan] US_speednode_0042"
-    server: nop-55q.pages.dev
-    port: 2053
-    type: trojan
-    password: T%40_WvT8Ho%40LW%25w_%2C
-    sni: NOp-55q.pAgEs.dEv
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /trGPZDfetEwuO25SAs
-      headers:
-        Host: NOp-55q.pAgEs.dEv
