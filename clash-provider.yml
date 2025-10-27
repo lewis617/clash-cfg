@@ -394,7 +394,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Telegram-->@Ln2Ray
-  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #11"
+  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #10"
     server: 206.71.158.37
     port: 35000
     type: hysteria2
@@ -404,7 +404,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Yet-Another-Public-Config-1
-  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #20"
+  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #19"
     server: yapc-1.adamhayward.co.uk
     port: 36300
     type: hysteria2
@@ -628,7 +628,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: U1wBrYQyFm
-  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #8"
+  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #7"
     server: net2025.afsharidempire.uk
     port: 30205
     type: hysteria2
@@ -755,6 +755,14 @@ proxies:
     password: c232f411-96b5-4b07-b2f7-66a434725ffb
     auth: c232f411-96b5-4b07-b2f7-66a434725ffb
     sni: hl01.mistea.top
+    skip-cert-verify: false
+  - name: "[Hysteria2] @meli_proxyy #8"
+    server: 38.45.89.97
+    port: 23892
+    type: hysteria2
+    password: c232f411-96b5-4b07-b2f7-66a434725ffb
+    auth: c232f411-96b5-4b07-b2f7-66a434725ffb
+    sni: fus02.mistea.top
     skip-cert-verify: false
   - name: "[Hysteria2] WiFi-@V2rayAlpha--7"
     server: qing-es.mxtn.net
