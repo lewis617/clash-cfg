@@ -423,7 +423,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
-  - name: "[Hysteria2] WI-FI--@IRAN_V2RAY1 #2"
+  - name: "[Hysteria2] MCI--@V2rayAlpha--7"
     server: 51.159.111.32
     port: 5355
     type: hysteria2
@@ -561,7 +561,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
-  - name: "[Hysteria2] WI-FI--@IRAN_V2RAY1"
+  - name: "[Hysteria2] MCI--@V2rayAlpha--8"
     server: hl.dport.top
     port: 33659
     type: hysteria2
