@@ -629,7 +629,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: U1wBrYQyFm
-  - name: "[Hysteria2] All-@IRAN_V2RAY1 #2"
+  - name: "[Hysteria2] - SE - @freeOnlineVPN #4"
     server: drhystuichdfy.samanidempire.org
     port: 20335
     type: hysteria2
@@ -767,7 +767,7 @@ proxies:
     auth: c232f411-96b5-4b07-b2f7-66a434725ffb
     sni: hl01.mistea.top
     skip-cert-verify: false
-  - name: "[Hysteria2] @meli_proxyy #9"
+  - name: "[Hysteria2] @meli_proxyy #8"
     server: 38.45.89.97
     port: 23892
     type: hysteria2
