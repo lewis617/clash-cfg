@@ -378,7 +378,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Yet-Another-Public-Config-1
-  - name: "[Hysteria2] @FreakConfig #5"
+  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #17"
     server: yapc-1.adamhayward.co.uk
     port: 36300
     type: hysteria2
