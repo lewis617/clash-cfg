@@ -553,7 +553,7 @@ proxies:
     auth: 79c4fe11-9787-406b-bf94-c1c1dbf59e28
     sni: www.bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] @AblNet7 🇸🇪 机场推荐"
+  - name: "[Hysteria2] MCI-@V2rayAlpha--1 #1"
     server: 70.34.215.221
     port: 20335
     type: hysteria2
@@ -593,14 +593,6 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: GdQ4bgvT8RFwuWi2
-  - name: "[Hysteria2] @AblNet7 🇺🇸 机场推荐"
-    server: 836902-20.9966661.xyz
-    port: 3000
-    type: hysteria2
-    password: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6
-    auth: 8d80603a-d7d7-4bcd-ad88-aaf1cf70b8c6
-    sni: 836902-20.9966661.xyz
-    skip-cert-verify: false
   - name: "[Hysteria2] All-@V2rayAlpha--8 #2"
     server: de.youyacloud.me
     port: 443
@@ -624,14 +616,6 @@ proxies:
     type: hysteria2
     password: 907d9a05-3bd2-4b44-b1f9-4f26dba76f88
     auth: 907d9a05-3bd2-4b44-b1f9-4f26dba76f88
-    sni: www.bing.com
-    skip-cert-verify: false
-  - name: "[Hysteria2] @AblNet7 🇺🇸 机场推荐 #1"
-    server: 113.192.61.19
-    port: 63979
-    type: hysteria2
-    password: 9772ecf2-6732-4bfb-a8b1-f48af577c76c
-    auth: 9772ecf2-6732-4bfb-a8b1-f48af577c76c
     sni: www.bing.com
     skip-cert-verify: false
   - name: "[Hysteria2] All-@V2rayAlpha--6 #1"
@@ -724,7 +708,7 @@ proxies:
     auth: ab858115-e0ab-4cb7-8e65-0804c35e52d5
     sni: bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] @AblNet7 🇺🇸 机场推荐 #2"
+  - name: "[Hysteria2] @FreakConfig 4"
     server: 108.165.213.197
     port: 23891
     type: hysteria2
@@ -769,14 +753,6 @@ proxies:
     password: c3054d61-c708-4594-9797-f50acd24de2a
     auth: c3054d61-c708-4594-9797-f50acd24de2a
     skip-cert-verify: false
-  - name: "[Hysteria2] @AblNet7 🇨🇦 机场推荐"
-    server: 150.230.28.100
-    port: 45979
-    type: hysteria2
-    password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
-    auth: cfe032e4-1bc3-454f-9d09-301b0aea08ff
-    sni: www.bing.com
-    skip-cert-verify: false
   - name: "[Hysteria2] All--@V2rayAlpha--1"
     server: 51.159.111.32
     port: 5355
@@ -819,15 +795,3 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: ki(rtoko(s-maret-khamneii
-  - name: "[Trojan] CN_speednode_0001"
-    server: 36.151.251.23
-    port: 4451
-    type: trojan
-    password: BxceQaOe
-    skip-cert-verify: false
-  - name: "[Trojan] CN_speednode_0002"
-    server: 36.151.251.35
-    port: 24392
-    type: trojan
-    password: BxceQaOe
-    skip-cert-verify: false
