@@ -610,7 +610,7 @@ proxies:
     password: 907d9a05-3bd2-4b44-b1f9-4f26dba76f88
     auth: 907d9a05-3bd2-4b44-b1f9-4f26dba76f88
     skip-cert-verify: false
-  - name: "[Hysteria2] @FreakConfig #2 2"
+  - name: "[Hysteria2] @FreakConfig #1 2"
     server: 85.208.9.189
     port: 44001
     type: hysteria2
@@ -634,7 +634,7 @@ proxies:
     auth: MxiGoEDnLJELZicwCXwsADPdF4
     sni: bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] @FreakConfig #3"
+  - name: "[Hysteria2] @FreakConfig #2 2"
     server: 206.71.158.23
     port: 45000
     type: hysteria2
@@ -644,7 +644,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Telegram-->@Ln2Ray
-  - name: "[Hysteria2] @FreakConfig #4"
+  - name: "[Hysteria2] @FreakConfig #3"
     server: gavazn.lnmarketplace.net
     port: 45000
     type: hysteria2
@@ -664,7 +664,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Yet-Another-Public-Config-1
-  - name: "[Hysteria2] All-@IRAN_V2RAY1 #3"
+  - name: "[Hysteria2] @IRAN_V2RAY1 #4"
     server: yapc-1.adamhayward.co.uk
     port: 35000
     type: hysteria2
