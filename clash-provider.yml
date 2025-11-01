@@ -516,7 +516,7 @@ proxies:
     password: 70197404-7b40-45e4-bb9c-8bc8995012ae
     auth: 70197404-7b40-45e4-bb9c-8bc8995012ae
     skip-cert-verify: false
-  - name: "[Hysteria2] @V2rayNG3 #11"
+  - name: "[Hysteria2] @V2rayNG3 #9"
     server: s15.serv00.com
     port: 7777
     type: hysteria2
@@ -636,7 +636,7 @@ proxies:
     auth: 9faf4015-b6c0-44f9-b9d6-d77454a50a72
     sni: els1.dimoyun.top
     skip-cert-verify: false
-  - name: "[Hysteria2] @V2rayNG3 #12"
+  - name: "[Hysteria2] @V2rayNG3 #10"
     server: all-v4.dgi000.store
     port: 443
     type: hysteria2
@@ -646,7 +646,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: "@azadi_az_inja_migzare"
-  - name: "[Hysteria2] @V2rayNG3 #13"
+  - name: "[Hysteria2] @V2rayNG3 #11"
     server: p1.punchline.ir
     port: 19037
     type: hysteria2
@@ -693,7 +693,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Yet-Another-Public-Config-1
-  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #8"
+  - name: "[Hysteria2] @FreakConfig #3"
     server: yapc-1.adamhayward.co.uk
     port: 35000
     type: hysteria2
@@ -782,7 +782,7 @@ proxies:
     password: c3054d61-c708-4594-9797-f50acd24de2a
     auth: c3054d61-c708-4594-9797-f50acd24de2a
     skip-cert-verify: false
-  - name: "[Hysteria2] @V2rayNG3 #17"
+  - name: "[Hysteria2] @V2rayNG3 #16"
     server: 46.17.41.189
     port: 50717
     type: hysteria2
@@ -798,7 +798,7 @@ proxies:
     auth: dongtaiwang.com
     sni: www.bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] @V2rayNG3 #19"
+  - name: "[Hysteria2] @V2rayNG3 #18"
     server: 62.60.231.189
     port: 12123
     type: hysteria2
