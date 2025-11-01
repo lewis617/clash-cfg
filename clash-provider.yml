@@ -746,10 +746,17 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: ki(rtoko(s-maret-khamneii
-  - name: "[Trojan] CN_speednode_0002"
-    server: hxfz940e90d9.nfwzdm.com
-    port: 42765
+  - name: "[Trojan] CN_speednode_0003"
+    server: n002.xunxunmimisbs.sbs
+    port: 23100
     type: trojan
-    password: b00abf05-5768-4ac9-8d20-6b1bd605bcf6
-    sni: v1-dy.ixigua.com
+    password: 7197668c-0332-466e-9553-41639c4bc95f
+    sni: uk01.xxxxyyyysbs.sbs
+    skip-cert-verify: false
+  - name: "[Trojan] CN_speednode_0006"
+    server: n001.xunxunmimisbs.sbs
+    port: 23100
+    type: trojan
+    password: f128c8a8-d184-4f9d-8aa2-503266130126
+    sni: uk01.xxxxyyyysbs.sbs
     skip-cert-verify: false
