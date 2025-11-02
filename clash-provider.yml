@@ -845,25 +845,11 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: ki(rtoko(s-maret-khamneii
-  - name: "[Trojan] 🇭🇰 香港3|@ripaojiedian"
-    server: 221.128.195.9
-    port: 22581
-    type: trojan
-    password: bca467b8c15211d189008a93c7519d3b
-    sni: www.nintendogames.net
-    skip-cert-verify: false
   - name: "[Trojan] CN_speednode_0002"
     server: 36.156.102.74
     port: 4861
     type: trojan
     password: BxceQaOe
-    skip-cert-verify: false
-  - name: "[Trojan] 🇯🇵 日本2|@ripaojiedian"
-    server: 160.16.236.32
-    port: 4452
-    type: trojan
-    password: bca467b8c15211d189008a93c7519d3b
-    sni: www.baidu.com
     skip-cert-verify: false
   - name: "[Trojan] CN_speednode_0003"
     server: n002.xunxunmimisbs.sbs
