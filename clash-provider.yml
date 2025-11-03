@@ -273,14 +273,7 @@ proxies:
     client-fingerprint: chrome
     type: trojan
     password: BxceQaOe
-    skip-cert-verify: true
-  - name: 🇯🇵 日本|@ripaojiedian
-    server: 36.150.215.236
-    port: 4492
-    client-fingerprint: chrome
-    type: trojan
-    password: BxceQaOe
-    skip-cert-verify: true
+    skip-cert-verify: false
   - name: 🇭🇰 香港6|@ripaojiedian
     server: 36.133.73.36
     port: 11819
@@ -292,6 +285,13 @@ proxies:
     tls: false
     tfo: false
     skip-cert-verify: false
+  - name: 🇯🇵 日本|@ripaojiedian
+    server: 36.150.215.197
+    port: 8112
+    client-fingerprint: chrome
+    type: trojan
+    password: BxceQaOe
+    skip-cert-verify: true
   - name: 🇯🇵 日本2|@ripaojiedian
     server: 117.172.176.24
     port: 1332
@@ -300,29 +300,9 @@ proxies:
     password: bca467b8c15211d189008a93c7519d3b
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: 🇯🇵 日本4|@ripaojiedian
-    server: 54.64.148.82
-    port: 2377
-    client-fingerprint: chrome
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-    tfo: false
-    plugin: obfs
-    plugin-opts:
-      mode: tls
-      host: (TG @ripaojiedian)e9e4816:99990
-  - name: 🇸🇬 新加坡2|@ripaojiedian
-    server: 160.16.107.37
-    port: 5048
-    client-fingerprint: chrome
-    type: trojan
-    password: bca467b8c15211d189008a93c7519d3b
-    sni: www.nintendogames.net
-    skip-cert-verify: false
   - name: 🇸🇬 新加坡3|@ripaojiedian
-    server: 36.150.215.197
-    port: 51825
+    server: 36.150.215.236
+    port: 24392
     client-fingerprint: chrome
     type: trojan
     password: BxceQaOe
@@ -334,6 +314,14 @@ proxies:
     type: trojan
     password: BxceQaOe
     skip-cert-verify: true
+  - name: 🇻🇳 越南|@ripaojiedian
+    server: 103.186.155.142
+    port: 38388
+    client-fingerprint: chrome
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    tfo: false
   - name: "[Hysteria2] @NoForcedheaven"
     server: 46.62.152.236
     port: 443
@@ -917,6 +905,19 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: ki(rtoko(s-maret-khamneii
+  - name: "[SS] 🇯🇵 日本4|@ripaojiedian"
+    server: 54.64.148.82
+    port: 2377
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  - name: "[Trojan] 🇸🇬 新加坡2|@ripaojiedian"
+    server: 160.16.107.37
+    port: 5048
+    type: trojan
+    password: bca467b8c15211d189008a93c7519d3b
+    sni: www.nintendogames.net
+    skip-cert-verify: false
   - name: "[Trojan] CN_speednode_0005"
     server: oss-cn-shanghai.letssepub.com
     port: 20021
