@@ -322,6 +322,16 @@ proxies:
     cipher: aes-256-cfb
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     tfo: false
+  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #6"
+    server: 206.71.158.37
+    port: 35000
+    type: hysteria2
+    password: Yet-Another-Public-Config-1
+    auth: Yet-Another-Public-Config-1
+    sni: YAPC-1.afshin.ir
+    skip-cert-verify: false
+    obfs: salamander
+    obfs-password: Yet-Another-Public-Config-1
   - name: "[Hysteria2] @NoForcedheaven"
     server: 46.62.152.236
     port: 443
@@ -339,7 +349,7 @@ proxies:
     auth: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
     sni: 97cc76e9-t53wg0-tiqsce-t6fv.us.hyhuawei.com
     skip-cert-verify: false
-  - name: "[Hysteria2] @FreakConfig"
+  - name: "[Hysteria2] @FreakConfig #1"
     server: 108.165.213.197
     port: 23891
     type: hysteria2
@@ -406,7 +416,7 @@ proxies:
     auth: 15cca331-9e92-449d-93b0-25f82203595f
     sni: gb.gomeow.online
     skip-cert-verify: false
-  - name: "[Hysteria2] All-@V2rayAlpha--16"
+  - name: "[Hysteria2] @FreakConfig"
     server: 204.44.110.129
     port: 51541
     type: hysteria2
@@ -424,7 +434,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: de8287cd33b05fa3
-  - name: "[Hysteria2] @Daily_Configs"
+  - name: "[Hysteria2] @sunflowerplato🌻"
     server: 129.153.59.26
     port: 30300
     type: hysteria2
@@ -632,7 +642,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: U1wBrYQyFm
-  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #1"
+  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #2"
     server: 185.92.220.240
     port: 30205
     type: hysteria2
@@ -642,7 +652,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: GdQ4bgvT8RFwuWi2
-  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #3"
+  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #4"
     server: net2025.afsharidempire.uk
     port: 30205
     type: hysteria2
@@ -765,7 +775,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Telegram-->@Ln2Ray
-  - name: "[Hysteria2] @FreakConfig #1"
+  - name: "[Hysteria2] @FreakConfig #1 2"
     server: gavazn.lnmarketplace.net
     port: 45000
     type: hysteria2
@@ -784,17 +794,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: v2raybluecrystal3
-  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #5"
-    server: 206.71.158.37
-    port: 35000
-    type: hysteria2
-    password: Yet-Another-Public-Config-1
-    auth: Yet-Another-Public-Config-1
-    sni: YAPC-1.afshin.ir
-    skip-cert-verify: false
-    obfs: salamander
-    obfs-password: Yet-Another-Public-Config-1
-  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #8"
+  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #9"
     server: yapc-1.adamhayward.co.uk
     port: 35000
     type: hysteria2
@@ -946,22 +946,3 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: ki(rtoko(s-maret-khamneii
-  - name: "[Trojan] CN_speednode_0005"
-    server: oss-cn-shanghai.letssepub.com
-    port: 20021
-    type: trojan
-    password: adbac894-90b9-4913-b77e-a715a8d4ebc8
-    sni: dingding-doc.com
-    skip-cert-verify: false
-  - name: "[Trojan] JP_speednode_0020"
-    server: 103.116.7.1
-    port: 443
-    type: trojan
-    password: trojan
-    sni: wahaha.yingyangkuaixian.dpdns.org
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: wahaha.yingyangkuaixian.dpdns.org
