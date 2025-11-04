@@ -257,7 +257,7 @@ proxies:
     port: 443
     client-fingerprint: chrome
     type: trojan
-    password: bca467b8c15211d189008a93c7519d3b
+    password: e4e262d453466988575c397a30562337
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇭🇰 香港4|@ripaojiedian
@@ -273,7 +273,7 @@ proxies:
     client-fingerprint: chrome
     type: trojan
     password: BxceQaOe
-    skip-cert-verify: false
+    skip-cert-verify: true
   - name: 🇭🇰 香港6|@ripaojiedian
     server: 36.133.73.36
     port: 11819
@@ -286,42 +286,39 @@ proxies:
     tfo: false
     skip-cert-verify: false
   - name: 🇯🇵 日本|@ripaojiedian
-    server: 36.150.215.197
-    port: 8112
+    server: 36.150.215.239
+    port: 1924
     client-fingerprint: chrome
     type: trojan
     password: BxceQaOe
     skip-cert-verify: true
   - name: 🇯🇵 日本2|@ripaojiedian
-    server: 117.172.176.24
-    port: 1332
+    server: 160.16.151.196
+    port: 316
     client-fingerprint: chrome
     type: trojan
-    password: bca467b8c15211d189008a93c7519d3b
+    password: e4e262d453466988575c397a30562337
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: 🇸🇬 新加坡3|@ripaojiedian
-    server: 36.150.215.236
-    port: 24392
+  - name: 🇯🇵 日本3|@ripaojiedian
+    server: 117.172.176.24
+    port: 4452
     client-fingerprint: chrome
     type: trojan
-    password: BxceQaOe
-    skip-cert-verify: true
-  - name: 🇺🇸 美国3|@ripaojiedian
-    server: 36.151.251.47
-    port: 53743
+    password: e4e262d453466988575c397a30562337
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+  - name: 🇰🇷 韩国|@ripaojiedian
+    server: 45.94.68.117
+    port: 53115
     client-fingerprint: chrome
-    type: trojan
-    password: BxceQaOe
-    skip-cert-verify: true
-  - name: 🇻🇳 越南|@ripaojiedian
-    server: 103.186.155.142
-    port: 38388
-    client-fingerprint: chrome
-    type: ss
-    cipher: aes-256-cfb
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    type: vmess
+    uuid: 7eebdcd7-9d77-4663-bde4-b67a51d13975
+    alterId: 0
+    cipher: auto
+    tls: false
     tfo: false
+    skip-cert-verify: false
   - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #6"
     server: 206.71.158.37
     port: 35000
@@ -946,3 +943,27 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: ki(rtoko(s-maret-khamneii
+  - name: "[Trojan] 🇯🇵 日本|@ripaojiedian"
+    server: 36.150.215.197
+    port: 8112
+    type: trojan
+    password: BxceQaOe
+    skip-cert-verify: false
+  - name: "[Trojan] 🇸🇬 新加坡3|@ripaojiedian"
+    server: 36.150.215.236
+    port: 24392
+    type: trojan
+    password: BxceQaOe
+    skip-cert-verify: false
+  - name: "[Trojan] 🇺🇸 美国3|@ripaojiedian"
+    server: 36.151.251.47
+    port: 53743
+    type: trojan
+    password: BxceQaOe
+    skip-cert-verify: false
+  - name: "[SS] 🇻🇳 越南|@ripaojiedian"
+    server: 103.186.155.142
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
