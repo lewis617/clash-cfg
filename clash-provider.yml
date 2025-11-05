@@ -947,10 +947,3 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: ki(rtoko(s-maret-khamneii
-  - name: "[Trojan] CN_speednode_0002"
-    server: oss-cn-shanghai.letssepub.com
-    port: 20021
-    type: trojan
-    password: adbac894-90b9-4913-b77e-a715a8d4ebc8
-    sni: dingding-doc.com
-    skip-cert-verify: false
