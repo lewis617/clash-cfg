@@ -962,29 +962,3 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: ki(rtoko(s-maret-khamneii
-  - name: "[Trojan] 🇭🇰 香港4|@ripaojiedian"
-    server: 36.151.192.242
-    port: 4556
-    type: trojan
-    password: BxceQaOe
-    skip-cert-verify: false
-  - name: "[Trojan] 🇯🇵 日本|@ripaojiedian"
-    server: 36.150.215.239
-    port: 1924
-    type: trojan
-    password: BxceQaOe
-    skip-cert-verify: false
-  - name: "[Trojan] 🇯🇵 日本2|@ripaojiedian"
-    server: 160.16.151.196
-    port: 316
-    type: trojan
-    password: e4e262d453466988575c397a30562337
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: "[Trojan] 🇯🇵 日本3|@ripaojiedian"
-    server: 117.172.176.24
-    port: 4452
-    type: trojan
-    password: e4e262d453466988575c397a30562337
-    sni: www.nintendogames.net
-    skip-cert-verify: false
