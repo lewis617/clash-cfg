@@ -969,10 +969,29 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: ki(rtoko(s-maret-khamneii
-  - name: "[Trojan] CN_speednode_0030"
+  - name: "[Trojan] CN_speednode_0002"
     server: n001.xunxunmimisbs.sbs
-    port: 24100
+    port: 41300
     type: trojan
-    password: d0d86fb6-7597-4382-8bd8-773d0cd26e59
-    sni: us01.xxxxyyyysbs.sbs
+    password: 5a27a43b-c50f-4374-85b0-300c4e0a77f2
+    sni: jp01.xxxxyyyysbs.sbs
     skip-cert-verify: false
+  - name: "[Trojan] CN_speednode_0008"
+    server: n002.xunxunmimisbs.sbs
+    port: 21201
+    type: trojan
+    password: 85c7bad3-d246-4ca4-8ecf-f10317bc1c21
+    sni: hk02.xxxxyyyysbs.sbs
+    skip-cert-verify: false
+  - name: "[Trojan] US_speednode_0036"
+    server: 167.68.4.199
+    port: 2053
+    type: trojan
+    password: Aimer
+    sni: epge.muarua.filegear-sg.me
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: epge.muarua.filegear-sg.me
