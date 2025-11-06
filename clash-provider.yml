@@ -969,15 +969,6 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: ki(rtoko(s-maret-khamneii
-  - name: "[VMess] 🇰🇷 韩国|@ripaojiedian"
-    server: 45.94.68.117
-    port: 53115
-    type: vmess
-    uuid: 7eebdcd7-9d77-4663-bde4-b67a51d13975
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
   - name: "[Trojan] CN_speednode_0030"
     server: n001.xunxunmimisbs.sbs
     port: 24100
