@@ -352,7 +352,7 @@ proxies:
     tls: false
     tfo: false
     skip-cert-verify: false
-  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #6"
+  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #5"
     server: 206.71.158.37
     port: 35000
     type: hysteria2
@@ -669,7 +669,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: GdQ4bgvT8RFwuWi2
-  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #4"
+  - name: "[Hysteria2] All--@V2rayAlpha--8"
     server: net2025.afsharidempire.uk
     port: 30205
     type: hysteria2
@@ -747,6 +747,13 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: telegram@v2raybluecrystaltelegram@v2raybluecrystaltelegram@v2raybluecrystaltelegram@v2raybluecrystaltelegram@v2raybluecrystaltelegram@v2raybluecrystaltelegram@v2raybluecrystaltelegram@v2raybluecrystal
+  - name: "[Hysteria2] @Daily_Configs"
+    server: 191.96.11.107
+    port: 48361
+    type: hysteria2
+    password: JOh7tQHdp8
+    auth: JOh7tQHdp8
+    skip-cert-verify: false
   - name: "[Hysteria2] v2raybluecrystal2-la"
     server: 165.140.166.78
     port: 17083
@@ -969,29 +976,3 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: ki(rtoko(s-maret-khamneii
-  - name: "[Trojan] CN_speednode_0002"
-    server: n001.xunxunmimisbs.sbs
-    port: 41300
-    type: trojan
-    password: 5a27a43b-c50f-4374-85b0-300c4e0a77f2
-    sni: jp01.xxxxyyyysbs.sbs
-    skip-cert-verify: false
-  - name: "[Trojan] CN_speednode_0008"
-    server: n002.xunxunmimisbs.sbs
-    port: 21201
-    type: trojan
-    password: 85c7bad3-d246-4ca4-8ecf-f10317bc1c21
-    sni: hk02.xxxxyyyysbs.sbs
-    skip-cert-verify: false
-  - name: "[Trojan] US_speednode_0036"
-    server: 167.68.4.199
-    port: 2053
-    type: trojan
-    password: Aimer
-    sni: epge.muarua.filegear-sg.me
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: epge.muarua.filegear-sg.me
