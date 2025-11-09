@@ -714,6 +714,15 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Yet-Another-Public-Config-1
+  - name: "[Hysteria2] @NoForcedheaven"
+    server: 46.62.152.236
+    port: 443
+    type: hysteria2
+    password: a2678c97b8d79059
+    auth: a2678c97b8d79059
+    skip-cert-verify: false
+    obfs: salamander
+    obfs-password: 9242a8bf
   - name: "[Hysteria2] @Mr_Config_Group✌️"
     server: chervhill.hajalii.com
     port: 29662
@@ -1130,7 +1139,7 @@ proxies:
     password: c3054d61-c708-4594-9797-f50acd24de2a
     auth: c3054d61-c708-4594-9797-f50acd24de2a
     skip-cert-verify: false
-  - name: "[Hysteria2] @FreakConfig #6"
+  - name: "[Hysteria2] @FreakConfig #5"
     server: sb1.oomz.ru
     port: 30000
     type: hysteria2
@@ -1138,7 +1147,7 @@ proxies:
     auth: d3da4e16-9bef-4e54-9bd9-960d32740392
     sni: bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] @FreakConfig #7"
+  - name: "[Hysteria2] @FreakConfig #6"
     server: sb2.oomz.ru
     port: 30000
     type: hysteria2
