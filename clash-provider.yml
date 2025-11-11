@@ -1265,36 +1265,6 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: ki(rtoko(s-maret-khamneii
-  - name: "[Trojan] 🇭🇰 香港3|@ripaojiedian"
-    server: 58.152.110.25
-    port: 443
-    type: trojan
-    password: 1b57001bd214304027025a740b6cf1ac
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: "[Trojan] 🇭🇰 香港4|@ripaojiedian"
-    server: 36.150.215.247
-    port: 1251
-    type: trojan
-    password: BxceQaOe
-    sni: t.me%2Fripaojiedian
-    skip-cert-verify: false
-  - name: "[VMess] 🇭🇰 香港6|@ripaojiedian"
-    server: 175.29.22.101
-    port: 28034
-    type: vmess
-    uuid: d2540325-9ad6-33d7-be86-259b5bba4ef8
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: "[Trojan] 🇺🇸 美国|@ripaojiedian"
-    server: 153.121.44.99
-    port: 5097
-    type: trojan
-    password: 1b57001bd214304027025a740b6cf1ac
-    sni: www.nintendogames.net
-    skip-cert-verify: false
   - name: "[Trojan] HK_speednode_0023"
     server: 203.198.122.129
     port: 443
