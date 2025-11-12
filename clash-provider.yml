@@ -952,6 +952,16 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+  - name: "[Hysteria2] r♡ya"
+    server: dir.lightnright.com
+    port: 989
+    type: hysteria2
+    password: 6202ab997f570a6a180ae980b41f5789
+    auth: 6202ab997f570a6a180ae980b41f5789
+    sni: jnir-x.pichondan.com
+    skip-cert-verify: false
+    obfs: salamander
+    obfs-password: "@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi"
   - name: "[Hysteria2] telegram-@ISVvpn"
     server: fra-nb-02.linlujs.pw
     port: 29854
@@ -1271,17 +1281,39 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: ki(rtoko(s-maret-khamneii
-  - name: "[Trojan] HK_speednode_0023"
-    server: 203.198.122.129
+  - name: "[Trojan] NL_speednode_0006"
+    server: 194.147.115.149
     port: 443
     type: trojan
-    password: BxceQaOe
-    sni: 203.198.122.129
+    password: c2d6a850-7e35-44f5-ab9f-8299f6f8c72b
+    sni: joss.dus.biz.id
     skip-cert-verify: false
-  - name: "[Trojan] US_speednode_0028"
-    server: 51.45.27.162
-    port: 22223
+    network: ws
+    ws-opts:
+      path: /Free-VPN-CF-Geo-Project/194.147.115.149=443
+      headers:
+        Host: joss.dus.biz.id
+  - name: "[Trojan] PL_speednode_0007"
+    server: 45.144.48.158
+    port: 8443
     type: trojan
-    password: telegram-id-directvpn
-    sni: trojan.burgerip.co.uk
+    password: 49d416e1-4cec-41e1-bff6-3748c466f275
+    sni: joss.dus.biz.id
     skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /Free-VPN-CF-Geo-Project/45.144.48.158=8443
+      headers:
+        Host: joss.dus.biz.id
+  - name: "[Trojan] RU_speednode_0009"
+    server: 213.159.208.88
+    port: 2053
+    type: trojan
+    password: 14d6efcf-b0d3-4054-9d4e-e1347e3ceaa2
+    sni: joss.dus.biz.id
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /Free-VPN-CF-Geo-Project/213.159.208.88=2053
+      headers:
+        Host: joss.dus.biz.id
