@@ -643,8 +643,8 @@ proxies:
       Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
     udp: true
   - name: 🇭🇰 香港3|@ripaojiedian
-    server: 221.128.195.13
-    port: 3841
+    server: 219.76.135.188
+    port: 443
     type: trojan
     password: 1b57001bd214304027025a740b6cf1ac
     sni: www.nintendogames.net
@@ -656,56 +656,62 @@ proxies:
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
+  - name: 🇭🇰 香港5|@ripaojiedian
+    server: 219.77.239.35
+    port: 443
+    type: trojan
+    password: BxceQaOe
+    sni: t.me%2Fripaojiedian
+    skip-cert-verify: true
   - name: 🇯🇵 日本|@ripaojiedian
     server: 36.150.215.246
-    port: 5156
+    port: 4011
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
   - name: 🇯🇵 日本2|@ripaojiedian
-    server: 160.16.136.130
+    server: 153.121.39.240
     port: 1334
     type: trojan
     password: 1b57001bd214304027025a740b6cf1ac
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: 🇰🇷 韩国|@ripaojiedian
-    server: 1.32.216.163
-    port: 27578
-    type: vmess
-    uuid: 3b3aff88-2ed2-4c68-bc0f-d1efe4131e2c
-    alterId: 0
-    cipher: auto
-    tls: false
+  - name: 🇯🇵 日本3|@ripaojiedian
+    server: 160.16.89.176
+    port: 4095
+    type: trojan
+    password: 1b57001bd214304027025a740b6cf1ac
+    sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇸🇬 新加坡|@ripaojiedian
-    server: 160.16.138.24
-    port: 2283
+    server: 160.16.106.144
+    port: 2760
     type: trojan
     password: 1b57001bd214304027025a740b6cf1ac
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇸🇬 新加坡3|@ripaojiedian
-    server: 36.150.215.147
-    port: 4666
-    type: trojan
-    password: BxceQaOe
-    sni: t.me%2Fripaojiedian
-    skip-cert-verify: true
-  - name: 🇺🇸 美国3|@ripaojiedian
     server: 116.49.237.130
-    port: 4569
+    port: 518
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
-  - name: 🇻🇳 越南|@ripaojiedian
-    server: 103.186.154.59
-    port: 38388
-    type: ss
-    cipher: aes-256-cfb
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  - name: 🇺🇸 美国|@ripaojiedian
+    server: 160.16.223.205
+    port: 31409
+    type: trojan
+    password: 1b57001bd214304027025a740b6cf1ac
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+  - name: 🇺🇸 美国2|@ripaojiedian
+    server: 117.172.176.25
+    port: 4054
+    type: trojan
+    password: e4e262d453466988575c397a30562337
+    sni: www.nintendogames.net
+    skip-cert-verify: false
   - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #5"
     server: 206.71.158.37
     port: 35000
@@ -1265,6 +1271,49 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: ki(rtoko(s-maret-khamneii
+  - name: "[Trojan] 🇭🇰 香港3|@ripaojiedian"
+    server: 221.128.195.13
+    port: 3841
+    type: trojan
+    password: 1b57001bd214304027025a740b6cf1ac
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+  - name: "[Trojan] 🇯🇵 日本2|@ripaojiedian"
+    server: 160.16.136.130
+    port: 1334
+    type: trojan
+    password: 1b57001bd214304027025a740b6cf1ac
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+  - name: "[VMess] 🇰🇷 韩国|@ripaojiedian"
+    server: 1.32.216.163
+    port: 27578
+    type: vmess
+    uuid: 3b3aff88-2ed2-4c68-bc0f-d1efe4131e2c
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: "[Trojan] 🇸🇬 新加坡|@ripaojiedian"
+    server: 160.16.138.24
+    port: 2283
+    type: trojan
+    password: 1b57001bd214304027025a740b6cf1ac
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+  - name: "[Trojan] 🇸🇬 新加坡3|@ripaojiedian"
+    server: 36.150.215.147
+    port: 4666
+    type: trojan
+    password: BxceQaOe
+    sni: t.me%2Fripaojiedian
+    skip-cert-verify: false
+  - name: "[SS] 🇻🇳 越南|@ripaojiedian"
+    server: 103.186.154.59
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   - name: "[Trojan] HK_speednode_0023"
     server: 203.198.122.129
     port: 443
