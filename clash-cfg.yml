@@ -80,7 +80,6 @@ rules:
   - RULE-SET,custom-direct,DIRECT
 
   - GEOSITE,openai,OPENAI
-  - GEOSITE,github,DIRECT
   - GEOSITE,category-ads-all,REJECT
   - GEOSITE,gfw,PROXY
 
