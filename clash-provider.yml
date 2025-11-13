@@ -745,7 +745,7 @@ proxies:
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
-  - name: "[Hysteria2] @v2ray_configs_pool🔷 #19"
+  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #7"
     server: 206.71.158.37
     port: 35000
     type: hysteria2
@@ -797,20 +797,6 @@ proxies:
     password: 15cca331-9e92-449d-93b0-25f82203595f
     auth: 15cca331-9e92-449d-93b0-25f82203595f
     sni: gb.gomeow.online
-    skip-cert-verify: false
-  - name: "[Hysteria2] @v2ray_configs_pool🔷"
-    server: 3d2c11f1-t52o00-tdw2ye-2gok.la.shifen.uk
-    port: 1743
-    type: hysteria2
-    password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
-    auth: 17cdeb6c-f046-11ee-bdac-f23c93141fad
-    skip-cert-verify: false
-  - name: "[Hysteria2] @v2ray_configs_pool🔷 #2"
-    server: d48dac10-t4v9c0-tdtx5w-au6.la.shifen.uk
-    port: 1743
-    type: hysteria2
-    password: 1b609740-eec2-11ef-8543-f23c93136cb3
-    auth: 1b609740-eec2-11ef-8543-f23c93136cb3
     skip-cert-verify: false
   - name: "[Hysteria2] All-@V2rayAlpha--5"
     server: 204.44.110.129
@@ -1004,14 +990,6 @@ proxies:
     password: 4a25ab9e-66e3-435a-97a4-276b5c3a1947
     auth: 4a25ab9e-66e3-435a-97a4-276b5c3a1947
     skip-cert-verify: false
-  - name: "[Hysteria2] @v2ray_configs_pool🔷 #4"
-    server: 825eee23-t4un40-tcj7b6-d70y.la.shifen.uk
-    port: 1743
-    type: hysteria2
-    password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
-    auth: 537d7098-fdbe-11ef-8ebc-f23c93141fad
-    sni: 825eee23-t4un40-tcj7b6-d70y.la.shifen.uk
-    skip-cert-verify: false
   - name: "[Hysteria2] All-@V2rayAlpha--6"
     server: 195.133.79.116
     port: 22157
@@ -1094,7 +1072,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
-  - name: "[Hysteria2] @v2ray_configs_pool🔷 #5"
+  - name: "[Hysteria2] r♡ya"
     server: dir.lightnright.com
     port: 989
     type: hysteria2
@@ -1104,22 +1082,6 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: "@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi"
-  - name: "[Hysteria2] @v2ray_configs_pool🔷 #6"
-    server: 227fd503-t4ssg0-t5vo4i-4550.la.shifen.uk
-    port: 1743
-    type: hysteria2
-    password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-    auth: 6286105c-fb6d-11ef-be96-f23c93136cb3
-    sni: 227fd503-t4ssg0-t5vo4i-4550.la.shifen.uk
-    skip-cert-verify: false
-  - name: "[Hysteria2] @v2ray_configs_pool🔷 #7"
-    server: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
-    port: 1743
-    type: hysteria2
-    password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-    auth: 6286105c-fb6d-11ef-be96-f23c93136cb3
-    sni: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
-    skip-cert-verify: false
   - name: "[Hysteria2] telegram-@ISVvpn"
     server: fra-nb-02.linlujs.pw
     port: 29854
@@ -1165,13 +1127,6 @@ proxies:
     auth: 79c4fe11-9787-406b-bf94-c1c1dbf59e28
     sni: www.bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] @v2ray_configs_pool🔷 #9"
-    server: 67e01b04-t3dk00-tcm6ys-deip.la.shifen.uk
-    port: 1743
-    type: hysteria2
-    password: 7a2512b4-09ee-11f0-8d46-f23c9313b177
-    auth: 7a2512b4-09ee-11f0-8d46-f23c9313b177
-    skip-cert-verify: false
   - name: "[Hysteria2] - SE - @freeOnlineVPN #2"
     server: 70.34.215.221
     port: 20335
@@ -1182,7 +1137,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: U1wBrYQyFm
-  - name: "[Hysteria2] - SE - @freeOnlineVPN #4"
+  - name: "[Hysteria2] All--@V2rayAlpha--5 #1"
     server: drhystuichdfy.samanidempire.org
     port: 20335
     type: hysteria2
@@ -1192,14 +1147,6 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: U1wBrYQyFm
-  - name: "[Hysteria2] @v2ray_configs_pool🔷 #10"
-    server: 40.233.103.51
-    port: 47262
-    type: hysteria2
-    password: 862e90e1-2f26-4506-b8b9-0adf20da05fc
-    auth: 862e90e1-2f26-4506-b8b9-0adf20da05fc
-    sni: "🔒 [By EbraSha] "
-    skip-cert-verify: false
   - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #2"
     server: 185.92.220.240
     port: 30205
@@ -1210,7 +1157,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: GdQ4bgvT8RFwuWi2
-  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #4"
+  - name: "[Hysteria2] All--@V2rayAlpha--8"
     server: net2025.afsharidempire.uk
     port: 30205
     type: hysteria2
@@ -1250,14 +1197,6 @@ proxies:
     password: 937f8940-ad8a-409f-93c3-4d6249af628f
     auth: 937f8940-ad8a-409f-93c3-4d6249af628f
     sni: bing.com
-    skip-cert-verify: false
-  - name: "[Hysteria2] @v2ray_configs_pool🔷 #12"
-    server: 113.192.61.19
-    port: 63979
-    type: hysteria2
-    password: 9772ecf2-6732-4bfb-a8b1-f48af577c76c
-    auth: 9772ecf2-6732-4bfb-a8b1-f48af577c76c
-    sni: www.bing.com
     skip-cert-verify: false
   - name: "[Hysteria2] MCI-IR--@V2rayAlpha-7"
     server: 135.148.82.248
@@ -1300,7 +1239,7 @@ proxies:
     auth: MxiGoEDnLJELZicwCXwsADPdF4
     sni: bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] @v2ray_configs_pool🔷 #14"
+  - name: "[Hysteria2] @FreakConfig"
     server: 206.71.158.23
     port: 45000
     type: hysteria2
@@ -1310,7 +1249,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Telegram-->@Ln2Ray
-  - name: "[Hysteria2] @v2ray_configs_pool🔷 #16"
+  - name: "[Hysteria2] @FreakConfig #1"
     server: gavazn.lnmarketplace.net
     port: 45000
     type: hysteria2
@@ -1330,13 +1269,12 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Yet-Another-Public-Config-1
-  - name: "[Hysteria2] @v2ray_configs_pool🔷 #26"
+  - name: "[Hysteria2] 🇬🇧 - GB - @freeOnlineVPN #3"
     server: 81.168.83.89
     port: 2083
     type: hysteria2
     password: YwuvGJk36B
     auth: YwuvGJk36B
-    sni: kotlet.arshiacomplus.dpdns.org
     skip-cert-verify: false
     obfs: salamander
     obfs-password: khameniiko@smad@ret
@@ -1356,28 +1294,6 @@ proxies:
     auth: ab858115-e0ab-4cb7-8e65-0804c35e52d5
     sni: bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] @v2ray_configs_pool🔷 #28"
-    server: hk1.shiyuandian.shop
-    port: 24591
-    type: hysteria2
-    password: ae845cbd-08fb-4346-929a-e28a6f3960a8
-    auth: ae845cbd-08fb-4346-929a-e28a6f3960a8
-    sni: hk1.shiyuandian.shop
-    skip-cert-verify: false
-  - name: "[Hysteria2] @v2ray_configs_pool🔷 #33"
-    server: ad87b9c7-t3b340-t3hjqp-b4pt.la.shifen.uk
-    port: 1743
-    type: hysteria2
-    password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
-    auth: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
-    skip-cert-verify: false
-  - name: "[Hysteria2] @v2ray_configs_pool🔷 #34"
-    server: ea9466bf-t3dk00-t3i5yp-b4pt.la.shifen.uk
-    port: 1743
-    type: hysteria2
-    password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
-    auth: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
-    skip-cert-verify: false
   - name: "[Hysteria2] @sunflowerplato🌻 #2"
     server: 108.165.213.197
     port: 23891
@@ -1386,7 +1302,7 @@ proxies:
     auth: c232f411-96b5-4b07-b2f7-66a434725ffb
     sni: fus01.mistea.top
     skip-cert-verify: false
-  - name: "[Hysteria2] @v2ray_configs_pool🔷 #35"
+  - name: "[Hysteria2] ‍☠️@FreakConfig"
     server: 193.142.59.41
     port: 23899
     type: hysteria2
@@ -1438,14 +1354,6 @@ proxies:
     password: d3da4e16-9bef-4e54-9bd9-960d32740392
     auth: d3da4e16-9bef-4e54-9bd9-960d32740392
     sni: bing.com
-    skip-cert-verify: false
-  - name: "[Hysteria2] @v2ray_configs_pool🔷 #36"
-    server: 70555517-t3bpc0-t9lxaa-1glq.la.shifen.uk
-    port: 1743
-    type: hysteria2
-    password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-    auth: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-    sni: 70555517-t3bpc0-t9lxaa-1glq.la.shifen.uk
     skip-cert-verify: false
   - name: "[Hysteria2] @V2rayNG3 #16"
     server: 46.17.41.189
