@@ -760,16 +760,6 @@ proxies:
     auth: 05fd3f79-dca0-4358-a803-c8d4711c17a3
     sni: lsyd1.lansecs.top
     skip-cert-verify: false
-  - name: "[Hysteria2] @Mr_Config_Group✌️"
-    server: chervhill.hajalii.com
-    port: 29662
-    type: hysteria2
-    password: 10822856-7452-43ec-b35b-6f24ea33530f
-    auth: 10822856-7452-43ec-b35b-6f24ea33530f
-    sni: chervhill.hajalii.com
-    skip-cert-verify: false
-    obfs: salamander
-    obfs-password: xFGh9dsyreJV9sMs1RUnFbwRdon
   - name: "[Hysteria2] @V2rayNG3"
     server: 192.3.85.237
     port: 443
@@ -972,6 +962,13 @@ proxies:
     auth: 30c075af-9555-4671-b70e-43e3cfb2e707
     sni: d.eans.top
     skip-cert-verify: false
+  - name: "[Hysteria2] (Hysteria)"
+    server: 132.226.162.10
+    port: 30102
+    type: hysteria2
+    password: 338ce171-d764-4610-8fd5-6688b0d321f0
+    auth: 338ce171-d764-4610-8fd5-6688b0d321f0
+    skip-cert-verify: false
   - name: "[Hysteria2] MCI-IR--@V2rayAlpha-8"
     server: 193.123.76.141
     port: 30102
@@ -993,6 +990,21 @@ proxies:
     type: hysteria2
     password: 4a25ab9e-66e3-435a-97a4-276b5c3a1947
     auth: 4a25ab9e-66e3-435a-97a4-276b5c3a1947
+    skip-cert-verify: false
+  - name: "[Hysteria2] @meli_proxyy #20"
+    server: 141.147.52.24
+    port: 44001
+    type: hysteria2
+    password: 5001b8d8-76ce-474c-bc29-94e6caa61164
+    auth: 5001b8d8-76ce-474c-bc29-94e6caa61164
+    skip-cert-verify: false
+  - name: "[Hysteria2] @meli_proxyy #21"
+    server: 92.5.77.25
+    port: 44001
+    type: hysteria2
+    password: 5001b8d8-76ce-474c-bc29-94e6caa61164
+    auth: 5001b8d8-76ce-474c-bc29-94e6caa61164
+    sni: www.bing.com
     skip-cert-verify: false
   - name: "[Hysteria2] All-@V2rayAlpha--6"
     server: 195.133.79.116
@@ -1171,13 +1183,6 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: GdQ4bgvT8RFwuWi2
-  - name: "[Hysteria2] All-@V2rayAlpha--5 #1"
-    server: 141.147.52.24
-    port: 44001
-    type: hysteria2
-    password: 907d9a05-3bd2-4b44-b1f9-4f26dba76f88
-    auth: 907d9a05-3bd2-4b44-b1f9-4f26dba76f88
-    skip-cert-verify: false
   - name: "[Hysteria2] @Selinc #2"
     server: 85.208.9.189
     port: 44001
