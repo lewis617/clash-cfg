@@ -1478,29 +1478,27 @@ proxies:
     auth: miaoge110
     sni: www.bing.com
     skip-cert-verify: false
-  - name: "[Trojan] FR_speednode_0007"
-    server: 13.36.161.224
-    port: 22223
+  - name: "[Trojan] NL_speednode_0004"
+    server: 89.110.116.141
+    port: 443
     type: trojan
-    password: telegram-id-directvpn
-    sni: trojan.burgerip.co.uk
-    skip-cert-verify: false
-  - name: "[Trojan] RU_speednode_0016"
-    server: 194.35.116.62
-    port: 11000
-    type: trojan
-    password: -4146XJHYAzJ4K8Ov6_LBQ
-    sni: f4e23c6c168f0e91.noproblemvpn.ru
+    password: e812343b-61a1-46fd-b086-b1395d0eb7de
+    sni: joss.gpj.web.id
     skip-cert-verify: false
     network: ws
     ws-opts:
-      path: /tw
+      path: /Free-VPN-CF-Geo-Project/89.110.116.141=443
       headers:
-        Host: f4e23c6c168f0e91.noproblemvpn.ru
-  - name: "[Trojan] US_speednode_0020"
-    server: 51.45.34.73
-    port: 22223
+        Host: joss.gpj.web.id
+  - name: "[Trojan] RU_speednode_0005"
+    server: 95.182.120.208
+    port: 2053
     type: trojan
-    password: telegram-id-directvpn
-    sni: trojan.burgerip.co.uk
+    password: 3b38715b-f08a-46dd-9904-7531ca4bb6e8
+    sni: joss.gpj.web.id
     skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /Free-VPN-CF-Geo-Project/95.182.120.208=2053
+      headers:
+        Host: joss.gpj.web.id
