@@ -1447,27 +1447,3 @@ proxies:
     auth: miaoge110
     sni: www.bing.com
     skip-cert-verify: false
-  - name: "[Trojan] NL_speednode_0004"
-    server: 89.110.116.141
-    port: 443
-    type: trojan
-    password: e812343b-61a1-46fd-b086-b1395d0eb7de
-    sni: joss.gpj.web.id
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /Free-VPN-CF-Geo-Project/89.110.116.141=443
-      headers:
-        Host: joss.gpj.web.id
-  - name: "[Trojan] RU_speednode_0005"
-    server: 95.182.120.208
-    port: 2053
-    type: trojan
-    password: 3b38715b-f08a-46dd-9904-7531ca4bb6e8
-    sni: joss.gpj.web.id
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /Free-VPN-CF-Geo-Project/95.182.120.208=2053
-      headers:
-        Host: joss.gpj.web.id
