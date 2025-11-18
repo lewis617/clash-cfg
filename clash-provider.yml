@@ -1443,7 +1443,7 @@ proxies:
     auth: 862e90e1-2f26-4506-b8b9-0adf20da05fc
     sni: www.bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] All--@V2ray_Alpha-3"
+  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #1"
     server: 185.92.220.240
     port: 30205
     type: hysteria2
@@ -1567,7 +1567,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Yet-Another-Public-Config-1
-  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #7"
+  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #8"
     server: yapc-1.adamhayward.co.uk
     port: 35200
     type: hysteria2
@@ -1636,22 +1636,8 @@ proxies:
     auth: c232f411-96b5-4b07-b2f7-66a434725ffb
     sni: fus02.mistea.top
     skip-cert-verify: false
-  - name: "[Hysteria2] WiFi-@V2rayAlpha--7"
-    server: qing-es.mxtn.net
-    port: 443
-    type: hysteria2
-    password: c3054d61-c708-4594-9797-f50acd24de2a
-    auth: c3054d61-c708-4594-9797-f50acd24de2a
-    skip-cert-verify: false
   - name: "[Hysteria2] @sunflowerplato🌻 #3"
     server: qing-kz.mxtn.net
-    port: 443
-    type: hysteria2
-    password: c3054d61-c708-4594-9797-f50acd24de2a
-    auth: c3054d61-c708-4594-9797-f50acd24de2a
-    skip-cert-verify: false
-  - name: "[Hysteria2] WiFi-@V2rayAlpha--6"
-    server: qing-lu.mxtn.net
     port: 443
     type: hysteria2
     password: c3054d61-c708-4594-9797-f50acd24de2a
