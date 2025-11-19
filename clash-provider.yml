@@ -1745,31 +1745,3 @@ proxies:
     auth: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
     sni: bing.com
     skip-cert-verify: false
-  - name: "[Trojan] CH_speednode_0001"
-    server: 194.87.18.124
-    port: 443
-    type: trojan
-    password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
-    sni: www.bilibili.com
-    skip-cert-verify: false
-  - name: "[Trojan] IL_speednode_0006"
-    server: 45.144.172.243
-    port: 443
-    type: trojan
-    password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
-    sni: www.bilibili.com
-    skip-cert-verify: false
-  - name: "[Trojan] US_speednode_0013"
-    server: 108.165.255.5
-    port: 443
-    type: trojan
-    password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
-    sni: www.bilibili.com
-    skip-cert-verify: false
-  - name: "[Trojan] US_speednode_0014"
-    server: 96.126.190.132
-    port: 443
-    type: trojan
-    password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
-    sni: www.bilibili.com
-    skip-cert-verify: false
