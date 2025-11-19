@@ -975,6 +975,14 @@ proxies:
     auth: 15cca331-9e92-449d-93b0-25f82203595f
     sni: gb.gomeow.online
     skip-cert-verify: false
+  - name: "[Hysteria2] ‍☠️@FreakConfig"
+    server: 107.167.18.123
+    port: 1743
+    type: hysteria2
+    password: 16955d72-1794-11f0-a035-f23c95b6f51d
+    auth: 16955d72-1794-11f0-a035-f23c95b6f51d
+    sni: fecc1dc4-t4v9c0-t5ht86-dnss.la.shifen.uk
+    skip-cert-verify: false
   - name: "[Hysteria2] All--@IRAN_V2RAY1🇺🇸"
     server: 6adab57e-t53wg0-tdvgqe-2gok.la.shifen.uk
     port: 1743
@@ -1221,14 +1229,14 @@ proxies:
     password: 4a25ab9e-66e3-435a-97a4-276b5c3a1947
     auth: 4a25ab9e-66e3-435a-97a4-276b5c3a1947
     skip-cert-verify: false
-  - name: "[Hysteria2] @meli_proxyy #23"
+  - name: "[Hysteria2] @meli_proxyy #15"
     server: 141.147.52.24
     port: 44001
     type: hysteria2
     password: 5001b8d8-76ce-474c-bc29-94e6caa61164
     auth: 5001b8d8-76ce-474c-bc29-94e6caa61164
     skip-cert-verify: false
-  - name: "[Hysteria2] @meli_proxyy #24"
+  - name: "[Hysteria2] @meli_proxyy #16"
     server: 92.5.77.25
     port: 44001
     type: hysteria2
@@ -1415,6 +1423,14 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: EH2tIccMXNSql76y
+  - name: "[Hysteria2] @meli_proxyy #20"
+    server: 94.249.197.95
+    port: 30000
+    type: hysteria2
+    password: 7daa4a7f-f76e-4941-84bd-c6004cdbb859
+    auth: 7daa4a7f-f76e-4941-84bd-c6004cdbb859
+    sni: bing.com
+    skip-cert-verify: false
   - name: "[Hysteria2] - SE - @freeOnlineVPN #4"
     server: 70.34.215.221
     port: 20335
@@ -1471,6 +1487,16 @@ proxies:
     auth: 907d9a05-3bd2-4b44-b1f9-4f26dba76f88
     sni: www.bing.com
     skip-cert-verify: false
+  - name: "[Hysteria2] @meli_proxyy #24"
+    server: node.waifly.com
+    port: 28132
+    type: hysteria2
+    password: 91bf574a-4a2f-42eb-bfa9-5824317f541c
+    auth: 91bf574a-4a2f-42eb-bfa9-5824317f541c
+    sni: example.com
+    skip-cert-verify: false
+    obfs: salamander
+    obfs-password: 09fdd186-3d5b-482a-a7b6-285cc88a38c8
   - name: "[Hysteria2] All--@IRAN_V2RAY1🇺🇸 #2"
     server: 9b91d3c4-t53wg0-t6h87s-63bp.la.shifen.uk
     port: 443
