@@ -1795,3 +1795,87 @@ proxies:
     auth: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
     sni: bing.com
     skip-cert-verify: false
+  - name: "[Trojan] EE_speednode_0007"
+    server: 37.252.5.75
+    port: 443
+    type: trojan
+    password: 3208e968-b862-4e2e-ad90-2b49e7ce7afb
+    sni: joss.gpj1.web.id
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /Free-VPN-CF-Geo-Project/37.252.5.75=443
+      headers:
+        Host: joss.gpj1.web.id
+  - name: "[Trojan] ES_speednode_0008"
+    server: 212.227.144.37
+    port: 8443
+    type: trojan
+    password: 1e1a7efa-a4f1-4936-a470-a001e0c3c85b
+    sni: joss.gpj1.web.id
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /Free-VPN-CF-Geo-Project/212.227.144.37=8443
+      headers:
+        Host: joss.gpj1.web.id
+  - name: "[Trojan] FR_speednode_0011"
+    server: 51.15.210.1
+    port: 443
+    type: trojan
+    password: e6f0e8b0-3dc5-4d53-a23a-86c02d5ba098
+    sni: joss.gpj1.web.id
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /Free-VPN-CF-Geo-Project/51.15.210.1=443
+      headers:
+        Host: joss.gpj1.web.id
+  - name: "[Trojan] IL_speednode_0014"
+    server: 77.91.74.6
+    port: 443
+    type: trojan
+    password: 8f58ba37-a117-4ad3-9422-37b62e01d2e6
+    sni: joss.gpj1.web.id
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /Free-VPN-CF-Geo-Project/77.91.74.6=443
+      headers:
+        Host: joss.gpj1.web.id
+  - name: "[Trojan] NL_speednode_0021"
+    server: 138.124.30.8
+    port: 443
+    type: trojan
+    password: 0311306e-56d4-4aa1-bde5-8cede7fcd3e4
+    sni: joss.gpj1.web.id
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /Free-VPN-CF-Geo-Project/138.124.30.8=443
+      headers:
+        Host: joss.gpj1.web.id
+  - name: "[Trojan] PL_speednode_0022"
+    server: 217.30.10.31
+    port: 8443
+    type: trojan
+    password: 422d402c-58f1-4473-abeb-fe6e69dc97ed
+    sni: joss.gpj1.web.id
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /Free-VPN-CF-Geo-Project/217.30.10.31=8443
+      headers:
+        Host: joss.gpj1.web.id
+  - name: "[Trojan] PT_speednode_0023"
+    server: 45.159.251.8
+    port: 81
+    type: trojan
+    password: 6ead60c4-4321-45d5-81a9-ba4835f7c692
+    sni: joss.gpj1.web.id
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /Free-VPN-CF-Geo-Project/45.159.251.8=81
+      headers:
+        Host: joss.gpj1.web.id
