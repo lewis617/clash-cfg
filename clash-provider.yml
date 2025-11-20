@@ -1173,7 +1173,7 @@ proxies:
     auth: 2b195c17-5ff5-4b0d-a809-210b92212394
     sni: mumbai-4.nezhasu.com
     skip-cert-verify: false
-  - name: "[Hysteria2] All-@V2rayAlpha--37"
+  - name: "[Hysteria2] telegram @MTMVPN 10"
     server: phoenix-1.nezhasu.com
     port: 443
     type: hysteria2
@@ -1290,7 +1290,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: jjQQP9Av2l6BRdP5
-  - name: "[Hysteria2] r♡ya #3"
+  - name: "[Hysteria2] r♡ya #5"
     server: dd.openaccessnode.com
     port: 989
     type: hysteria2
@@ -1416,7 +1416,7 @@ proxies:
     auth: 79c4fe11-9787-406b-bf94-c1c1dbf59e28
     sni: www.bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] r♡ya #4"
+  - name: "[Hysteria2] r♡ya #6"
     server: hk2.mutoujs.top
     port: 20000
     type: hysteria2
@@ -1425,7 +1425,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: QqvCBoJpDEflbOYm
-  - name: "[Hysteria2] r♡ya #5"
+  - name: "[Hysteria2] r♡ya #7"
     server: mg4.mutoujs.top
     port: 20000
     type: hysteria2
@@ -1434,7 +1434,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: DAnBPK1GxOdklGbv
-  - name: "[Hysteria2] r♡ya #6"
+  - name: "[Hysteria2] r♡ya #8"
     server: sg1.mutoujs.top
     port: 30000
     type: hysteria2
@@ -1443,7 +1443,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: EH2tIccMXNSql76y
-  - name: "[Hysteria2] @meli_proxyy #23"
+  - name: "[Hysteria2] @meli_proxyy #12"
     server: 94.249.197.95
     port: 30000
     type: hysteria2
@@ -1514,7 +1514,7 @@ proxies:
     auth: 907d9a05-3bd2-4b44-b1f9-4f26dba76f88
     sni: www.bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] @meli_proxyy #27"
+  - name: "[Hysteria2] @meli_proxyy #13"
     server: node.waifly.com
     port: 28132
     type: hysteria2
@@ -1697,7 +1697,7 @@ proxies:
     auth: c232f411-96b5-4b07-b2f7-66a434725ffb
     sni: fus01.mistea.top
     skip-cert-verify: false
-  - name: "[Hysteria2] MCI-IR--@V2rayAlpha-9"
+  - name: "[Hysteria2] telegram @MTMVPN 9"
     server: 193.142.59.41
     port: 23899
     type: hysteria2
@@ -1737,7 +1737,7 @@ proxies:
     auth: d3da4e16-9bef-4e54-9bd9-960d32740392
     sni: bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] r♡ya #7"
+  - name: "[Hysteria2] r♡ya #10"
     server: 132.145.96.111
     port: 13805
     type: hysteria2
