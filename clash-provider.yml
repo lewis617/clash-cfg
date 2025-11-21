@@ -1439,7 +1439,7 @@ proxies:
     auth: 79c4fe11-9787-406b-bf94-c1c1dbf59e28
     sni: www.bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] @meli_proxyy #9"
+  - name: "[Hysteria2] @meli_proxyy #8"
     server: 94.249.197.95
     port: 30000
     type: hysteria2
@@ -1510,7 +1510,7 @@ proxies:
     auth: 907d9a05-3bd2-4b44-b1f9-4f26dba76f88
     sni: www.bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] @meli_proxyy #10"
+  - name: "[Hysteria2] @meli_proxyy #9"
     server: node.waifly.com
     port: 28132
     type: hysteria2
@@ -1578,16 +1578,6 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: bipbip
-  - name: "[Hysteria2] @V2RayyNGvpn🇱🇷همه اوپراتور ه..."
-    server: 138.124.60.198
-    port: 8443
-    type: hysteria2
-    password: D3N3IJQX2S
-    auth: D3N3IJQX2S
-    sni: cdnjs.cloudflare.com
-    skip-cert-verify: false
-    obfs: salamander
-    obfs-password: MiraCLeOPV2RayyNGvpntheBestt
   - name: "[Hysteria2] https://t.me/V2ray_Tunnel_Plus..."
     server: p5.punchline.ir
     port: 14055
@@ -1783,6 +1773,16 @@ proxies:
     auth: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
     sni: bing.com
     skip-cert-verify: false
+  - name: "[Hysteria2] @V2RayyNGvpn🇱🇷همه اوپراتور ه..."
+    server: 138.124.60.198
+    port: 8443
+    type: hysteria2
+    password: jqH4W4nlHf
+    auth: jqH4W4nlHf
+    sni: cdnjs.cloudflare.com
+    skip-cert-verify: false
+    obfs: salamander
+    obfs-password: MiraCLeOPV2RayyNGvpntheBestt
   - name: "[Trojan] BE_speednode_0001"
     server: 34.22.190.30
     port: 443
