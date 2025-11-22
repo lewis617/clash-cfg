@@ -1771,89 +1771,6 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: MiraCLeOPV2RayyNGvpntheBestt
-  - name: "[Trojan] 🇭🇰 香港3|@ripaojiedian"
-    server: 58.152.18.124
-    port: 443
-    type: trojan
-    password: dd2f25b4c70689de8bc0f7fa9d6591cb
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: "[Trojan] 🇭🇰 香港5|@ripaojiedian"
-    server: 58.152.25.241
-    port: 443
-    type: trojan
-    password: BxceQaOe
-    sni: t.me%2Fripaojiedian
-    skip-cert-verify: false
-  - name: "[Trojan] 🇯🇵 日本|@ripaojiedian"
-    server: 153.121.51.221
-    port: 1821
-    type: trojan
-    password: BxceQaOe
-    sni: t.me%2Fripaojiedian
-    skip-cert-verify: false
-  - name: "[Trojan] 🇯🇵 日本2|@ripaojiedian"
-    server: 160.16.204.136
-    port: 1331
-    type: trojan
-    password: dd2f25b4c70689de8bc0f7fa9d6591cb
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: "[Trojan] 🇯🇵 日本3|@ripaojiedian"
-    server: 54.199.75.230
-    port: 1331
-    type: trojan
-    password: dd2f25b4c70689de8bc0f7fa9d6591cb
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: "[VMess] 🇯🇵 日本4|@ripaojiedian"
-    server: 113.57.36.148
-    port: 3304
-    type: vmess
-    uuid: f0305e21-30bb-32f9-9b1b-9e02dcf3af54
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: "[Trojan] 🇸🇬 新加坡|@ripaojiedian"
-    server: 160.16.214.6
-    port: 2760
-    type: trojan
-    password: dd2f25b4c70689de8bc0f7fa9d6591cb
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: "[Trojan] 🇸🇬 新加坡2|@ripaojiedian"
-    server: 160.16.89.176
-    port: 2760
-    type: trojan
-    password: dd2f25b4c70689de8bc0f7fa9d6591cb
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: "[Trojan] 🇺🇸 美国3|@ripaojiedian"
-    server: 18.162.123.55
-    port: 2773
-    type: trojan
-    password: BxceQaOe
-    sni: t.me%2Fripaojiedian
-    skip-cert-verify: false
-  - name: "[SS] 🇩🇪 德国|@ripaojiedian"
-    server: 57.128.214.100
-    port: 12000
-    type: ss
-    cipher: aes-256-gcm
-    password: 8JCsPssfgS8tiRwiMlhARg==
-  - name: "[SS] 🇬🇧 英国|@ripaojiedian"
-    server: 144.217.164.29
-    port: 12000
-    type: ss
-    cipher: aes-256-gcm
-    password: 8JCsPssfgS8tiRwiMlhARg==
-  - name: "[SS] 🇺🇸 美国4|@ripaojiedian"
-    server: 15.204.247.49
-    port: 12000
-    type: ss
-    cipher: aes-256-gcm
-    password: 8JCsPssfgS8tiRwiMlhARg==
   - name: "[Trojan] BE_speednode_0001"
     server: 34.22.190.30
     port: 443
@@ -1933,6 +1850,13 @@ proxies:
       path: /Free-VPN-CF-Geo-Project/51.15.210.1=443
       headers:
         Host: joss.gpj1.web.id
+  - name: "[Trojan] HK_speednode_0021"
+    server: 58.152.25.241
+    port: 443
+    type: trojan
+    password: BxceQaOe
+    sni: t.me/ripaojiedian
+    skip-cert-verify: false
   - name: "[Trojan] IT_speednode_0023"
     server: 185.247.184.186
     port: 8443
