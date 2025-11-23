@@ -970,6 +970,14 @@ proxies:
     auth: 05fd3f79-dca0-4358-a803-c8d4711c17a3
     sni: lsyd1.lansecs.top
     skip-cert-verify: false
+  - name: "[Hysteria2] @v2ray_configs_pool🔷"
+    server: hg.kunlun01.com
+    port: 20301
+    type: hysteria2
+    password: 10e80038-9671-4dcf-878d-a8a231a99edb
+    auth: 10e80038-9671-4dcf-878d-a8a231a99edb
+    sni: hg.kunlun01.com
+    skip-cert-verify: false
   - name: "[Hysteria2] @V2rayNG3"
     server: 192.3.85.237
     port: 443
@@ -977,6 +985,36 @@ proxies:
     password: 123456
     auth: 123456
     sni: bing.com
+    skip-cert-verify: false
+  - name: "[Hysteria2] @v2ray_configs_pool🔷 #1"
+    server: jp7.dexlos.com
+    port: 13954
+    type: hysteria2
+    password: 14FD150A-579E-42A1-8212-9D2F6510A70C
+    auth: 14FD150A-579E-42A1-8212-9D2F6510A70C
+    sni: jp7.dexlos.com
+    skip-cert-verify: false
+  - name: "[Hysteria2] @v2ray_configs_pool🔷 #2"
+    server: jp8.dexlos.com
+    port: 15213
+    type: hysteria2
+    password: 14FD150A-579E-42A1-8212-9D2F6510A70C
+    auth: 14FD150A-579E-42A1-8212-9D2F6510A70C
+    skip-cert-verify: false
+  - name: "[Hysteria2] @v2ray_configs_pool🔷 #4"
+    server: jp9.dexlos.com
+    port: 17052
+    type: hysteria2
+    password: 14FD150A-579E-42A1-8212-9D2F6510A70C
+    auth: 14FD150A-579E-42A1-8212-9D2F6510A70C
+    sni: jp9.dexlos.com
+    skip-cert-verify: false
+  - name: "[Hysteria2] @v2ray_configs_pool🔷 #5"
+    server: tw1.dexlos.com
+    port: 1470
+    type: hysteria2
+    password: 14FD150A-579E-42A1-8212-9D2F6510A70C
+    auth: 14FD150A-579E-42A1-8212-9D2F6510A70C
     skip-cert-verify: false
   - name: "[Hysteria2] @V2rayNG3 #1"
     server: gb.gomeow.online
@@ -1009,6 +1047,34 @@ proxies:
     password: 20050105zhu
     auth: 20050105zhu
     sni: www.bing.com
+    skip-cert-verify: false
+  - name: "[Hysteria2] @v2ray_configs_pool🔷 #6"
+    server: hk.xn--9kqv66eehg.site
+    port: 21050
+    type: hysteria2
+    password: 22967c2b-26f2-4d6a-b560-d08ca327ce2c
+    auth: 22967c2b-26f2-4d6a-b560-d08ca327ce2c
+    skip-cert-verify: false
+  - name: "[Hysteria2] @v2ray_configs_pool🔷 #8"
+    server: jp.xn--9kqv66eehg.site
+    port: 21530
+    type: hysteria2
+    password: 22967c2b-26f2-4d6a-b560-d08ca327ce2c
+    auth: 22967c2b-26f2-4d6a-b560-d08ca327ce2c
+    skip-cert-verify: false
+  - name: "[Hysteria2] @v2ray_configs_pool🔷 #10"
+    server: kr.xn--9kqv66eehg.site
+    port: 21098
+    type: hysteria2
+    password: 22967c2b-26f2-4d6a-b560-d08ca327ce2c
+    auth: 22967c2b-26f2-4d6a-b560-d08ca327ce2c
+    skip-cert-verify: false
+  - name: "[Hysteria2] @v2ray_configs_pool🔷 #12"
+    server: vn.xn--9kqv66eehg.site
+    port: 21854
+    type: hysteria2
+    password: 22967c2b-26f2-4d6a-b560-d08ca327ce2c
+    auth: 22967c2b-26f2-4d6a-b560-d08ca327ce2c
     skip-cert-verify: false
   - name: "[Hysteria2] @V2rayNG3 #2"
     server: 109.120.135.123
@@ -1059,6 +1125,14 @@ proxies:
     password: 2b195c17-5ff5-4b0d-a809-210b92212394
     auth: 2b195c17-5ff5-4b0d-a809-210b92212394
     sni: batam3.nezhasu.com
+    skip-cert-verify: false
+  - name: "[Hysteria2] @v2ray_configs_pool🔷 #14"
+    server: chuncheon-2.nezhasu.com
+    port: 443
+    type: hysteria2
+    password: 2b195c17-5ff5-4b0d-a809-210b92212394
+    auth: 2b195c17-5ff5-4b0d-a809-210b92212394
+    sni: chuncheon-2.nezhasu.com
     skip-cert-verify: false
   - name: "[Hysteria2] MCI-IR--@V2rayAlpha-14"
     server: falankefu1.nezhasu.com
@@ -1164,7 +1238,7 @@ proxies:
     auth: 2b195c17-5ff5-4b0d-a809-210b92212394
     sni: mumbai-4.nezhasu.com
     skip-cert-verify: false
-  - name: "[Hysteria2] telegram @MTMVPN 10"
+  - name: "[Hysteria2] @v2ray_configs_pool🔷 #15"
     server: phoenix-1.nezhasu.com
     port: 443
     type: hysteria2
@@ -1180,6 +1254,30 @@ proxies:
     auth: 2b195c17-5ff5-4b0d-a809-210b92212394
     sni: SanJose.nezhasu.com
     skip-cert-verify: false
+  - name: "[Hysteria2] @v2ray_configs_pool🔷 #16"
+    server: tokyo.nezhasu.com
+    port: 443
+    type: hysteria2
+    password: 2b195c17-5ff5-4b0d-a809-210b92212394
+    auth: 2b195c17-5ff5-4b0d-a809-210b92212394
+    sni: Tokyo.nezhasu.com
+    skip-cert-verify: false
+  - name: "[Hysteria2] @v2ray_configs_pool🔷 #17"
+    server: valparaiso-1.nezhasu.cn
+    port: 443
+    type: hysteria2
+    password: 2b195c17-5ff5-4b0d-a809-210b92212394
+    auth: 2b195c17-5ff5-4b0d-a809-210b92212394
+    sni: Valparaiso-1.nezhasu.cn
+    skip-cert-verify: false
+  - name: "[Hysteria2] @v2ray_configs_pool🔷 #18"
+    server: valparaiso-3.nezhasu.cn
+    port: 443
+    type: hysteria2
+    password: 2b195c17-5ff5-4b0d-a809-210b92212394
+    auth: 2b195c17-5ff5-4b0d-a809-210b92212394
+    sni: Valparaiso-3.nezhasu.cn
+    skip-cert-verify: false
   - name: "[Hysteria2] MCI-IR--@V2rayAlpha-11"
     server: yn2.nezhasu.com
     port: 443
@@ -1187,6 +1285,14 @@ proxies:
     password: 2b195c17-5ff5-4b0d-a809-210b92212394
     auth: 2b195c17-5ff5-4b0d-a809-210b92212394
     sni: yn2.nezhasu.com
+    skip-cert-verify: false
+  - name: "[Hysteria2] @v2ray_configs_pool🔷 #20"
+    server: xg.kunlun01.com
+    port: 20301
+    type: hysteria2
+    password: 3071d260-0125-461b-af95-73b0c161152c
+    auth: 3071d260-0125-461b-af95-73b0c161152c
+    sni: xg.kunlun01.com
     skip-cert-verify: false
   - name: "[Hysteria2] https://t.me/Selinc"
     server: 31.57.241.25
@@ -1249,6 +1355,22 @@ proxies:
     password: 4a25ab9e-66e3-435a-97a4-276b5c3a1947
     auth: 4a25ab9e-66e3-435a-97a4-276b5c3a1947
     skip-cert-verify: false
+  - name: "[Hysteria2] @v2ray_configs_pool🔷 #37"
+    server: lsxg1.lansecs.top
+    port: 58338
+    type: hysteria2
+    password: 4a4a80f7-1cf3-4d66-8441-dc083a269b3a
+    auth: 4a4a80f7-1cf3-4d66-8441-dc083a269b3a
+    sni: lsxg1.lansecs.top
+    skip-cert-verify: false
+  - name: "[Hysteria2] @v2ray_configs_pool🔷 #39"
+    server: tg.kunlun01.com
+    port: 20301
+    type: hysteria2
+    password: 4e4e8b1c-b201-4422-a111-5faa042a5999
+    auth: 4e4e8b1c-b201-4422-a111-5faa042a5999
+    sni: tg.kunlun01.com
+    skip-cert-verify: false
   - name: "[Hysteria2] All-@V2rayAlpha--6"
     server: 195.133.79.116
     port: 22157
@@ -1291,6 +1413,16 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: jjQQP9Av2l6BRdP5
+  - name: "[Hysteria2] @v2ray_configs_pool🔷 #40"
+    server: dg.jgpyjc.top
+    port: 40000
+    type: hysteria2
+    password: 59fd10f7-6b90-4976-90ff-7dcd339c0168
+    auth: 59fd10f7-6b90-4976-90ff-7dcd339c0168
+    sni: dg.jgpyjc.top
+    skip-cert-verify: false
+    obfs: salamander
+    obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
   - name: "[Hysteria2] MCi--@IRAN_V2RAY1"
     server: 206.71.158.40
     port: 35000
@@ -1359,6 +1491,14 @@ proxies:
     type: hysteria2
     password: 682c7978-e3eb-44e0-924c-607144495681
     auth: 682c7978-e3eb-44e0-924c-607144495681
+    skip-cert-verify: false
+  - name: "[Hysteria2] @v2ray_configs_pool🔷 #44"
+    server: lsus3.lansecs.top
+    port: 58338
+    type: hysteria2
+    password: 6aba8345-ddc6-412d-860c-df01fcc4fd3c
+    auth: 6aba8345-ddc6-412d-860c-df01fcc4fd3c
+    sni: lsus3.lansecs.top
     skip-cert-verify: false
   - name: "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه..."
     server: 83.147.253.96
@@ -1473,6 +1613,70 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: GdQ4bgvT8RFwuWi2
+  - name: "[Hysteria2] @v2ray_configs_pool🔷 #47"
+    server: hk1.oomz.ru
+    port: 50000
+    type: hysteria2
+    password: 89451f48-2b2e-4f8b-8f64-edef856ba484
+    auth: 89451f48-2b2e-4f8b-8f64-edef856ba484
+    sni: bing.com
+    skip-cert-verify: false
+  - name: "[Hysteria2] @v2ray_configs_pool🔷 #48"
+    server: hk2.oomz.ru
+    port: 50000
+    type: hysteria2
+    password: 89451f48-2b2e-4f8b-8f64-edef856ba484
+    auth: 89451f48-2b2e-4f8b-8f64-edef856ba484
+    sni: bing.com
+    skip-cert-verify: false
+  - name: "[Hysteria2] @v2ray_configs_pool🔷 #49"
+    server: hk3.oomz.ru
+    port: 50000
+    type: hysteria2
+    password: 89451f48-2b2e-4f8b-8f64-edef856ba484
+    auth: 89451f48-2b2e-4f8b-8f64-edef856ba484
+    sni: bing.com
+    skip-cert-verify: false
+  - name: "[Hysteria2] @v2ray_configs_pool🔷 #50"
+    server: jp3.oomz.ru
+    port: 30000
+    type: hysteria2
+    password: 89451f48-2b2e-4f8b-8f64-edef856ba484
+    auth: 89451f48-2b2e-4f8b-8f64-edef856ba484
+    sni: bing.com
+    skip-cert-verify: false
+  - name: "[Hysteria2] @v2ray_configs_pool🔷 #51"
+    server: jp4.oomz.ru
+    port: 30000
+    type: hysteria2
+    password: 89451f48-2b2e-4f8b-8f64-edef856ba484
+    auth: 89451f48-2b2e-4f8b-8f64-edef856ba484
+    sni: bing.com
+    skip-cert-verify: false
+  - name: "[Hysteria2] @v2ray_configs_pool🔷 #52"
+    server: kr3.oomz.ru
+    port: 30000
+    type: hysteria2
+    password: 89451f48-2b2e-4f8b-8f64-edef856ba484
+    auth: 89451f48-2b2e-4f8b-8f64-edef856ba484
+    sni: bing.com
+    skip-cert-verify: false
+  - name: "[Hysteria2] @v2ray_configs_pool🔷 #53"
+    server: kr4.oomz.ru
+    port: 30000
+    type: hysteria2
+    password: 89451f48-2b2e-4f8b-8f64-edef856ba484
+    auth: 89451f48-2b2e-4f8b-8f64-edef856ba484
+    sni: bing.com
+    skip-cert-verify: false
+  - name: "[Hysteria2] @v2ray_configs_pool🔷 #54"
+    server: tw2.oomz.ru
+    port: 30000
+    type: hysteria2
+    password: 89451f48-2b2e-4f8b-8f64-edef856ba484
+    auth: 89451f48-2b2e-4f8b-8f64-edef856ba484
+    sni: bing.com
+    skip-cert-verify: false
   - name: "[Hysteria2] All-@V2rayAlpha--5 #1"
     server: 141.147.52.24
     port: 44001
@@ -1622,7 +1826,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: khameniiko@smad@ret
-  - name: "[Hysteria2] @FreakConfig 4"
+  - name: "[Hysteria2] @v2ray_configs_pool🔷 #56"
     server: de.eyucdn.xyz
     port: 2056
     type: hysteria2
@@ -1653,6 +1857,14 @@ proxies:
     password: afc8e385-dc0f-4b26-a5ed-b0fbf08b9df6
     auth: afc8e385-dc0f-4b26-a5ed-b0fbf08b9df6
     skip-cert-verify: false
+  - name: "[Hysteria2] @v2ray_configs_pool🔷 #61"
+    server: mg.kunlun01.com
+    port: 20301
+    type: hysteria2
+    password: b65dc212-c070-4fdb-8a94-bf4d8696d810
+    auth: b65dc212-c070-4fdb-8a94-bf4d8696d810
+    sni: mg.kunlun01.com
+    skip-cert-verify: false
   - name: "[Hysteria2] @sunflowerplato🌻 #2"
     server: 108.165.213.197
     port: 23891
@@ -1661,7 +1873,7 @@ proxies:
     auth: c232f411-96b5-4b07-b2f7-66a434725ffb
     sni: fus01.mistea.top
     skip-cert-verify: false
-  - name: "[Hysteria2] telegram @MTMVPN 9"
+  - name: "[Hysteria2] ✅سرورهایبیشتردرکانال:prrofile_..."
     server: 193.142.59.41
     port: 23899
     type: hysteria2
@@ -1700,6 +1912,27 @@ proxies:
     password: d3da4e16-9bef-4e54-9bd9-960d32740392
     auth: d3da4e16-9bef-4e54-9bd9-960d32740392
     sni: bing.com
+    skip-cert-verify: false
+  - name: "[Hysteria2] @v2ray_configs_pool🔷 #64"
+    server: hk.xn--gmq00sc0nuve.shop
+    port: 21253
+    type: hysteria2
+    password: da9adc6f-03ca-4d32-9e93-7b2bdbc9b00d
+    auth: da9adc6f-03ca-4d32-9e93-7b2bdbc9b00d
+    skip-cert-verify: false
+  - name: "[Hysteria2] @v2ray_configs_pool🔷 #65"
+    server: my.xn--gmq00sc0nuve.shop
+    port: 21168
+    type: hysteria2
+    password: da9adc6f-03ca-4d32-9e93-7b2bdbc9b00d
+    auth: da9adc6f-03ca-4d32-9e93-7b2bdbc9b00d
+    skip-cert-verify: false
+  - name: "[Hysteria2] @v2ray_configs_pool🔷 #69"
+    server: sg.xn--gmq00sc0nuve.shop
+    port: 21456
+    type: hysteria2
+    password: da9adc6f-03ca-4d32-9e93-7b2bdbc9b00d
+    auth: da9adc6f-03ca-4d32-9e93-7b2bdbc9b00d
     skip-cert-verify: false
   - name: "[Hysteria2] @FreakConfig #2 2"
     server: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk
@@ -1743,7 +1976,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: dbc688df29e582d3
-  - name: "[Hysteria2] All--@V2rayAlpha--3"
+  - name: "[Hysteria2] ✅سرورهایبیشتردرکانال:prrofile_... #1"
     server: nl1.oomz.ru
     port: 30000
     type: hysteria2
@@ -1751,6 +1984,16 @@ proxies:
     auth: faa8b629-13ea-4ccd-94dd-ff1615cb1ba1
     sni: bing.com
     skip-cert-verify: false
+  - name: "[Hysteria2] ✅سرورهایبیشتردرکانال:prrofile_... #2"
+    server: adas-polo-ba-mahi.kotlet.org
+    port: 2083
+    type: hysteria2
+    password: siEk2SjZFG
+    auth: siEk2SjZFG
+    sni: ghasem.kotlet.org
+    skip-cert-verify: false
+    obfs: salamander
+    obfs-password: ki(rtoko(s-maret-khamneii
   - name: "[Trojan] BE_speednode_0002"
     server: 34.22.190.30
     port: 443
