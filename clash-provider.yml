@@ -981,14 +981,6 @@ proxies:
     auth: 15cca331-9e92-449d-93b0-25f82203595f
     sni: gb.gomeow.online
     skip-cert-verify: false
-  - name: "[Hysteria2] ‍☠️@FreakConfig"
-    server: 107.167.18.123
-    port: 1743
-    type: hysteria2
-    password: 16955d72-1794-11f0-a035-f23c95b6f51d
-    auth: 16955d72-1794-11f0-a035-f23c95b6f51d
-    sni: fecc1dc4-t4v9c0-t5ht86-dnss.la.shifen.uk
-    skip-cert-verify: false
   - name: "[Hysteria2] @V2ray_confing33"
     server: 6adab57e-t53wg0-tdvgqe-2gok.la.shifen.uk
     port: 1743
@@ -1191,7 +1183,7 @@ proxies:
     auth: 30c075af-9555-4671-b70e-43e3cfb2e707
     sni: d.eans.top
     skip-cert-verify: false
-  - name: "[Hysteria2] ‍☠️@FreakConfig #1"
+  - name: "[Hysteria2] ‍☠️@FreakConfig"
     server: 140.245.68.133
     port: 30102
     type: hysteria2
@@ -1623,7 +1615,7 @@ proxies:
     auth: ab858115-e0ab-4cb7-8e65-0804c35e52d5
     sni: bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] ‍☠️@FreakConfig #2"
+  - name: "[Hysteria2] ‍☠️@FreakConfig #1"
     server: tr.xn--9kqx4sc0n.shop
     port: 21325
     type: hysteria2
@@ -1738,53 +1730,6 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: ki(rtoko(s-maret-khamneii
-  - name: "[SS] 🇭🇰 香港6|@ripaojiedian"
-    server: 188.116.22.96
-    port: 5003
-    type: ss
-    cipher: aes-256-gcm
-    password: g5MeD6Ft3CWlJId
-  - name: "[Trojan] 🇯🇵 日本|@ripaojiedian"
-    server: 153.121.51.147
-    port: 5156
-    type: trojan
-    password: BxceQaOe
-    sni: t.me%2Fripaojiedian
-    skip-cert-verify: false
-  - name: "[Trojan] 🇯🇵 日本2|@ripaojiedian"
-    server: 160.16.81.84
-    port: 3169
-    type: trojan
-    password: dd2f25b4c70689de8bc0f7fa9d6591cb
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: "[SS] 🇰🇷 韩国|@ripaojiedian"
-    server: 141.164.45.187
-    port: 7001
-    type: ss
-    cipher: aes-256-gcm
-    password: RexnBgU7EV5ADxG
-  - name: "[Trojan] 🇸🇬 新加坡|@ripaojiedian"
-    server: 153.121.51.29
-    port: 2760
-    type: trojan
-    password: dd2f25b4c70689de8bc0f7fa9d6591cb
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: "[Trojan] 🇸🇬 新加坡2|@ripaojiedian"
-    server: 18.177.138.138
-    port: 127
-    type: trojan
-    password: dd2f25b4c70689de8bc0f7fa9d6591cb
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: "[Trojan] 🇺🇸 美国3|@ripaojiedian"
-    server: 95.40.7.3
-    port: 2773
-    type: trojan
-    password: BxceQaOe
-    sni: t.me%2Fripaojiedian
-    skip-cert-verify: false
   - name: "[Trojan] CA_speednode_0001"
     server: 69.28.82.253
     port: 443
