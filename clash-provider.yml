@@ -1562,7 +1562,7 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Telegram-->@Ln2Ray
-  - name: "[Hysteria2] @FreakConfig #2"
+  - name: "[Hysteria2] 🇳🇱 - NL - @freeOnlineVPN #1"
     server: 206.71.158.37
     port: 35000
     type: hysteria2
@@ -1582,16 +1582,17 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: Yet-Another-Public-Config-1
-  - name: "[Hysteria2] 🇬🇧 - GB - @freeOnlineVPN"
+  - name: "[Hysteria2] @FreakConfig 2"
     server: 81.168.83.89
     port: 2083
     type: hysteria2
     password: YwuvGJk36B
     auth: YwuvGJk36B
+    sni: kotlet.arshiacomplus.dpdns.org
     skip-cert-verify: false
     obfs: salamander
     obfs-password: khameniiko@smad@ret
-  - name: "[Hysteria2] @FreakConfig 2"
+  - name: "[Hysteria2] @FreakConfig 3"
     server: de.eyucdn.xyz
     port: 2056
     type: hysteria2
@@ -1670,7 +1671,7 @@ proxies:
     auth: d3da4e16-9bef-4e54-9bd9-960d32740392
     sni: bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] @FreakConfig #2 2"
+  - name: "[Hysteria2] @FreakConfig #2"
     server: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk
     port: 443
     type: hysteria2
