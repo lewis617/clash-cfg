@@ -1266,7 +1266,7 @@ proxies:
     auth: 571ec94e-613c-430a-93de-397d3d237475
     sni: hsdg.huasuan666.top
     skip-cert-verify: false
-  - name: "[Hysteria2] All-@V2ray_Alpha--39"
+  - name: "[Hysteria2] All-@V2rayAlpha--3 #1"
     server: hshl.huasuan666.top
     port: 22157
     type: hysteria2
@@ -1339,20 +1339,6 @@ proxies:
     auth: 6286105c-fb6d-11ef-be96-f23c93136cb3
     sni: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
     skip-cert-verify: false
-  - name: "[Hysteria2] telegram-@ISVvpn"
-    server: fra-nb-02.linlujs.pw
-    port: 29854
-    type: hysteria2
-    password: 6803bc9b-1157-431b-8f73-970a6deb741f
-    auth: 6803bc9b-1157-431b-8f73-970a6deb741f
-    skip-cert-verify: false
-  - name: "[Hysteria2] telegram-@ISVvpn #1"
-    server: fra-nb-01.linlujs.pw
-    port: 24568
-    type: hysteria2
-    password: 682c7978-e3eb-44e0-924c-607144495681
-    auth: 682c7978-e3eb-44e0-924c-607144495681
-    skip-cert-verify: false
   - name: "[Hysteria2] @V2RayyNGvpn🇱🇺همه اوپراتور ه..."
     server: 83.147.253.96
     port: 2053
@@ -1363,13 +1349,6 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: MiracleV2RayyNGvpnfreeconf
-  - name: "[Hysteria2] 🇺🇸 usa-telegram-@ISVvpn"
-    server: us-nb-01.linlujs.pw
-    port: 25684
-    type: hysteria2
-    password: 70197404-7b40-45e4-bb9c-8bc8995012ae
-    auth: 70197404-7b40-45e4-bb9c-8bc8995012ae
-    skip-cert-verify: false
   - name: "[Hysteria2] @V2rayNG3 #9"
     server: s15.serv00.com
     port: 7777
@@ -1632,7 +1611,7 @@ proxies:
     auth: ab858115-e0ab-4cb7-8e65-0804c35e52d5
     sni: bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] telegram @mtmvpn #2"
+  - name: "[Hysteria2] All-@V2ray_Alpha--6 #1"
     server: tr.xn--9kqx4sc0n.shop
     port: 21325
     type: hysteria2
@@ -1687,7 +1666,7 @@ proxies:
     auth: d3da4e16-9bef-4e54-9bd9-960d32740392
     sni: bing.com
     skip-cert-verify: false
-  - name: "[Hysteria2] @meli_proxyy #9"
+  - name: "[Hysteria2] ‍☠️@FreakConfig #1"
     server: tr.xn--gmq00sc0nuve.shop
     port: 21105
     type: hysteria2
