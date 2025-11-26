@@ -1492,6 +1492,30 @@ proxies:
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
+  - name: "[Hysteria2] @v2ray_configs_pool📡🇭🇰®️Hong..."
+    server: bb06bea8-t6e740-tb3p3s-lj7z.hk1.hyhuawei.com
+    port: 443
+    type: hysteria2
+    password: 331cae90-f7e9-11ed-b4e2-f23c913c8d2b
+    auth: 331cae90-f7e9-11ed-b4e2-f23c913c8d2b
+    sni: bb06bea8-t6e740-tb3p3s-lj7z.hk1.hyhuawei.com
+    skip-cert-verify: false
+  - name: "[Hysteria2] @v2ray_configs_pool📡🇺🇸®️Unit..."
+    server: eca509d2-t56dc0-tcjtj6-d70y.la.shifen.uk
+    port: 443
+    type: hysteria2
+    password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
+    auth: 537d7098-fdbe-11ef-8ebc-f23c93141fad
+    sni: eca509d2-t56dc0-tcjtj6-d70y.la.shifen.uk
+    skip-cert-verify: false
+  - name: "[Hysteria2] @v2ray_configs_pool📡🇺🇸®️Unit... #1"
+    server: 8b56a93d-t58800-tcm6ys-deip.la.shifen.uk
+    port: 443
+    type: hysteria2
+    password: 7a2512b4-09ee-11f0-8d46-f23c9313b177
+    auth: 7a2512b4-09ee-11f0-8d46-f23c9313b177
+    sni: 8b56a93d-t58800-tcm6ys-deip.la.shifen.uk
+    skip-cert-verify: false
   - name: "[Hysteria2] +@Azarakhsh_Proxy+🩷"
     server: 179.61.132.96
     port: 8443
@@ -1502,6 +1526,16 @@ proxies:
     skip-cert-verify: false
     obfs: salamander
     obfs-password: KevinZakarian
+  - name: "[Hysteria2] r♡ya #3"
+    server: blogtest.ghazatehran.ir
+    port: 4431
+    type: hysteria2
+    password: a1996dcf-0717-4dea-a6c1-9abeace8acf1
+    auth: a1996dcf-0717-4dea-a6c1-9abeace8acf1
+    sni: blogtest.ghazatehran.ir
+    skip-cert-verify: false
+    obfs: salamander
+    obfs-password: 2wsx
   - name: "[Hysteria2] ‍☠️@FreakConfig #1"
     server: tr.xn--gmq00sc0nuve.shop
     port: 21105
