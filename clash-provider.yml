@@ -1494,30 +1494,6 @@ proxies:
     type: ss
     cipher: aes-256-cfb
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  - name: "[Hysteria2] @v2ray_configs_pool📡🇭🇰®️Hong..."
-    server: bb06bea8-t6e740-tb3p3s-lj7z.hk1.hyhuawei.com
-    port: 443
-    type: hysteria2
-    password: 331cae90-f7e9-11ed-b4e2-f23c913c8d2b
-    auth: 331cae90-f7e9-11ed-b4e2-f23c913c8d2b
-    sni: bb06bea8-t6e740-tb3p3s-lj7z.hk1.hyhuawei.com
-    skip-cert-verify: false
-  - name: "[Hysteria2] @v2ray_configs_pool📡🇺🇸®️Unit..."
-    server: eca509d2-t56dc0-tcjtj6-d70y.la.shifen.uk
-    port: 443
-    type: hysteria2
-    password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
-    auth: 537d7098-fdbe-11ef-8ebc-f23c93141fad
-    sni: eca509d2-t56dc0-tcjtj6-d70y.la.shifen.uk
-    skip-cert-verify: false
-  - name: "[Hysteria2] @v2ray_configs_pool📡🇺🇸®️Unit... #1"
-    server: 8b56a93d-t58800-tcm6ys-deip.la.shifen.uk
-    port: 443
-    type: hysteria2
-    password: 7a2512b4-09ee-11f0-8d46-f23c9313b177
-    auth: 7a2512b4-09ee-11f0-8d46-f23c9313b177
-    sni: 8b56a93d-t58800-tcm6ys-deip.la.shifen.uk
-    skip-cert-verify: false
   - name: "[Hysteria2] +@Azarakhsh_Proxy+🩷"
     server: 179.61.132.96
     port: 8443
@@ -1544,70 +1520,6 @@ proxies:
     type: hysteria2
     password: da9adc6f-03ca-4d32-9e93-7b2bdbc9b00d
     auth: da9adc6f-03ca-4d32-9e93-7b2bdbc9b00d
-    skip-cert-verify: false
-  - name: "[VMess] 🇭🇰 香港6|@ripaojiedian"
-    server: v10.hdacd.com
-    port: 30807
-    type: vmess
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: "[SS] 🇭🇰 香港7|@ripaojiedian"
-    server: ss.020.node-for-bigairport.win
-    port: 11688
-    type: ss
-    cipher: aes-256-gcm
-    password: b0c9d775-32f7-459a-b24d-ecda7c9f3720
-  - name: "[Trojan] 🇯🇵 日本|@ripaojiedian"
-    server: 160.16.242.183
-    port: 2145
-    type: trojan
-    password: BxceQaOe
-    sni: t.me%2Fripaojiedian
-    skip-cert-verify: false
-  - name: "[Trojan] 🇯🇵 日本2|@ripaojiedian"
-    server: 153.121.45.139
-    port: 3093
-    type: trojan
-    password: 2cf6d686799e6fa95316394064f26c0a
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: "[Trojan] 🇯🇵 日本3|@ripaojiedian"
-    server: 153.121.44.99
-    port: 3093
-    type: trojan
-    password: 2cf6d686799e6fa95316394064f26c0a
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: "[Trojan] 🇸🇬 新加坡|@ripaojiedian"
-    server: 160.16.116.227
-    port: 127
-    type: trojan
-    password: 2cf6d686799e6fa95316394064f26c0a
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: "[Trojan] 🇸🇬 新加坡2|@ripaojiedian"
-    server: 160.16.240.91
-    port: 2760
-    type: trojan
-    password: 2cf6d686799e6fa95316394064f26c0a
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: "[Trojan] 🇸🇬 新加坡3|@ripaojiedian"
-    server: 43.198.91.31
-    port: 3579
-    type: trojan
-    password: BxceQaOe
-    sni: t.me%2Fripaojiedian
-    skip-cert-verify: false
-  - name: "[Trojan] 🇺🇸 美国3|@ripaojiedian"
-    server: 18.162.187.235
-    port: 4569
-    type: trojan
-    password: BxceQaOe
-    sni: t.me%2Fripaojiedian
     skip-cert-verify: false
   - name: "[Trojan] BE_speednode_0001"
     server: 34.22.190.30
