@@ -78,9 +78,9 @@ rule-providers:
 rules:
   - RULE-SET,custom-proxy,PROXY
   - RULE-SET,custom-direct,DIRECT
-
+  
+  - DOMAIN-SUFFIX,claude.com,OPENAI
   - GEOSITE,openai,OPENAI
-  - GEOSITE,anthropic,OPENAI
   - GEOSITE,category-ads-all,REJECT
   - GEOSITE,gfw,PROXY
 
