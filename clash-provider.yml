@@ -3242,35 +3242,48 @@ proxies:
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
   - name: 🇯🇵 日本|@ripaojiedian
-    server: jp.baidu.com
-    port: 4012
+    server: 54.65.86.145
+    port: 5156
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
-  - name: 🇸🇬 新加坡2|@ripaojiedian
-    server: 160.16.107.37
-    port: 507
+  - name: 🇯🇵 日本3|@ripaojiedian
+    server: 153.121.38.213
+    port: 1331
+    type: trojan
+    password: 79314e99f0a473fe86efc7827942ad00
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+  - name: 🇰🇷 韩国|@ripaojiedian
+    server: 218.237.185.230
+    port: 4652
+    type: ss
+    cipher: aes-256-cfb
+    password: qwerREWQ@@
+  - name: 🇸🇬 新加坡|@ripaojiedian
+    server: 68.183.231.236
+    port: 443
     type: trojan
     password: 79314e99f0a473fe86efc7827942ad00
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇸🇬 新加坡3|@ripaojiedian
-    server: 54.199.213.179
+    server: 43.199.190.102
     port: 3579
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
   - name: 🇺🇸 美国3|@ripaojiedian
-    server: 18.163.210.14
-    port: 1112
+    server: 43.198.204.4
+    port: 1866
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
   - name: 🇻🇳 越南|@ripaojiedian
-    server: 103.186.155.138
+    server: 103.186.154.220
     port: 38388
     type: ss
     cipher: aes-256-cfb
@@ -3296,6 +3309,13 @@ proxies:
     type: ss
     cipher: chacha20-ietf-poly1305
     password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - name: "[Trojan] 🇸🇬 SG TROJAN-35 | free-nodes"
+    server: 160.16.107.37
+    port: 507
+    type: trojan
+    password: 79314e99f0a473fe86efc7827942ad00
+    sni: www.nintendogames.net
+    skip-cert-verify: false
   - name: "[SS] 未知 SS-38 | free-nodes"
     server: 38.54.4.87
     port: 990
@@ -3623,6 +3643,13 @@ proxies:
     alpn:
       - http%2F1.1
     skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-272 | free-nodes"
+    server: 54.199.213.179
+    port: 3579
+    type: trojan
+    password: BxceQaOe
+    sni: t.me%2Fripaojiedian
+    skip-cert-verify: false
   - name: "[Trojan] 未知 TROJAN-289 | free-nodes"
     server: 141.94.76.177
     port: 443
@@ -3835,6 +3862,13 @@ proxies:
     type: trojan
     password: telegram-id-directvpn
     sni: trojan.burgerip.co.uk
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-470 | free-nodes"
+    server: 18.163.210.14
+    port: 1112
+    type: trojan
+    password: BxceQaOe
+    sni: t.me%2Fripaojiedian
     skip-cert-verify: false
   - name: "[Trojan] 未知 TROJAN-480 | free-nodes"
     server: 18.196.127.24
@@ -4265,6 +4299,13 @@ proxies:
     port: 443
     type: trojan
     password: d86c421f-dbfe-4507-a864-f8f9e29d80e4
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-1121 | free-nodes"
+    server: jp.baidu.com
+    port: 4012
+    type: trojan
+    password: BxceQaOe
+    sni: t.me/ripaojiedian
     skip-cert-verify: false
   - name: "[Trojan] 未知 TROJAN-1125 | free-nodes"
     server: 16.163.0.29
