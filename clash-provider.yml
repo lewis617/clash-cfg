@@ -3224,7 +3224,7 @@ proxies:
     server: 58.152.110.154
     port: 443
     type: trojan
-    password: 79314e99f0a473fe86efc7827942ad00
+    password: 76d630f2af6619c4a5de0ef953df3c6a
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇭🇰 香港4|@ripaojiedian
@@ -3242,48 +3242,42 @@ proxies:
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
   - name: 🇯🇵 日本|@ripaojiedian
-    server: 54.65.86.145
-    port: 5156
+    server: 52.68.48.114
+    port: 4012
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
-  - name: 🇯🇵 日本3|@ripaojiedian
-    server: 153.121.38.213
+  - name: 🇯🇵 日本2|@ripaojiedian
+    server: 13.231.156.35
     port: 1331
     type: trojan
-    password: 79314e99f0a473fe86efc7827942ad00
+    password: 76d630f2af6619c4a5de0ef953df3c6a
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: 🇰🇷 韩国|@ripaojiedian
-    server: 218.237.185.230
-    port: 4652
-    type: ss
-    cipher: aes-256-cfb
-    password: qwerREWQ@@
-  - name: 🇸🇬 新加坡|@ripaojiedian
-    server: 68.183.231.236
-    port: 443
+  - name: 🇸🇬 新加坡2|@ripaojiedian
+    server: 160.16.233.76
+    port: 507
     type: trojan
-    password: 79314e99f0a473fe86efc7827942ad00
+    password: 76d630f2af6619c4a5de0ef953df3c6a
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇸🇬 新加坡3|@ripaojiedian
-    server: 43.199.190.102
-    port: 3579
+    server: 3.112.225.115
+    port: 804
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
-  - name: 🇺🇸 美国3|@ripaojiedian
-    server: 43.198.204.4
-    port: 1866
+  - name: 🇺🇸 美国|@ripaojiedian
+    server: 160.16.136.130
+    port: 4054
     type: trojan
-    password: BxceQaOe
-    sni: t.me%2Fripaojiedian
-    skip-cert-verify: true
+    password: 76d630f2af6619c4a5de0ef953df3c6a
+    sni: www.nintendogames.net
+    skip-cert-verify: false
   - name: 🇻🇳 越南|@ripaojiedian
-    server: 103.186.154.220
+    server: 103.186.155.2
     port: 38388
     type: ss
     cipher: aes-256-cfb
@@ -3306,6 +3300,13 @@ proxies:
     type: ss
     cipher: chacha20-ietf-poly1305
     password: 595HLF3fHUuw0McM51tpvPygSIB1uf4D
+  - name: "[Trojan] 🇸🇬 SG TROJAN-38 | free-nodes"
+    server: 68.183.231.236
+    port: 443
+    type: trojan
+    password: 79314e99f0a473fe86efc7827942ad00
+    sni: www.nintendogames.net
+    skip-cert-verify: false
   - name: "[SS] 未知 SS-46 | free-nodes"
     server: 5.182.37.87
     port: 443
@@ -3925,6 +3926,13 @@ proxies:
     password: BxceQaOe
     sni: t.me/ripaojiedian
     skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-597 | free-nodes"
+    server: 153.121.38.213
+    port: 1331
+    type: trojan
+    password: 79314e99f0a473fe86efc7827942ad00
+    sni: www.nintendogames.net
+    skip-cert-verify: false
   - name: "[Trojan] 未知 TROJAN-599 | free-nodes"
     server: 153.121.65.107
     port: 3169
@@ -4148,6 +4156,13 @@ proxies:
     password: 253bc477d4e43c209f2d427272968280
     sni: www.nintendogames.net
     skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-957 | free-nodes"
+    server: 43.199.190.102
+    port: 3579
+    type: trojan
+    password: BxceQaOe
+    sni: t.me%2Fripaojiedian
+    skip-cert-verify: false
   - name: "[Trojan] 未知 TROJAN-978 | free-nodes"
     server: 211.72.35.154
     port: 3389
@@ -4330,6 +4345,13 @@ proxies:
     password: 034299f4-a5d4-4bdd-a6b0-a2a308ffe6be
     sni: joss.gpj4.web.id
     skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-1233 | free-nodes"
+    server: 43.198.204.4
+    port: 1866
+    type: trojan
+    password: BxceQaOe
+    sni: t.me%2Fripaojiedian
+    skip-cert-verify: false
   - name: "[Trojan] 未知 TROJAN-1236 | free-nodes"
     server: 219.79.165.186
     port: 443
@@ -4343,6 +4365,13 @@ proxies:
     type: trojan
     password: BaeSzHdfJIR13l67
     sni: softpillow.silentrocket.click
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-1247 | free-nodes"
+    server: 54.65.86.145
+    port: 5156
+    type: trojan
+    password: BxceQaOe
+    sni: t.me%2Fripaojiedian
     skip-cert-verify: false
   - name: "[Trojan] 未知 TROJAN-1250 | free-nodes"
     server: www.udemy.com
