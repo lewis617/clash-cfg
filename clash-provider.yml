@@ -3221,7 +3221,7 @@ proxies:
     password: Sp3eDVp
     skip-cert-verify: false
   - name: 🇭🇰 香港3|@ripaojiedian
-    server: 58.152.110.154
+    server: 203.198.122.217
     port: 443
     type: trojan
     password: 76d630f2af6619c4a5de0ef953df3c6a
@@ -3241,43 +3241,65 @@ proxies:
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
+  - name: 🇭🇰 香港6|@ripaojiedian
+    server: 47.242.145.160
+    port: 44457
+    type: vmess
+    uuid: 40290609-2743-4d85-c9c3-4c72dd151b9f
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
   - name: 🇯🇵 日本|@ripaojiedian
-    server: 52.68.48.114
-    port: 4012
+    server: 54.95.4.90
+    port: 2145
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
-  - name: 🇯🇵 日本2|@ripaojiedian
-    server: 13.231.156.35
-    port: 1331
+  - name: 🇸🇬 新加坡|@ripaojiedian
+    server: 54.178.25.255
+    port: 3145
     type: trojan
     password: 76d630f2af6619c4a5de0ef953df3c6a
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇸🇬 新加坡2|@ripaojiedian
-    server: 160.16.233.76
-    port: 507
+    server: 160.16.153.13
+    port: 3145
     type: trojan
     password: 76d630f2af6619c4a5de0ef953df3c6a
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇸🇬 新加坡3|@ripaojiedian
-    server: 3.112.225.115
+    server: 95.40.109.5
     port: 804
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
-  - name: 🇺🇸 美国|@ripaojiedian
-    server: 160.16.136.130
+  - name: 🇺🇸 美国2|@ripaojiedian
+    server: 160.16.89.176
     port: 4054
     type: trojan
     password: 76d630f2af6619c4a5de0ef953df3c6a
     sni: www.nintendogames.net
     skip-cert-verify: false
+  - name: 🇺🇸 美国3|@ripaojiedian
+    server: 54.95.80.83
+    port: 4569
+    type: trojan
+    password: BxceQaOe
+    sni: t.me%2Fripaojiedian
+    skip-cert-verify: true
+  - name: 🇺🇸 美国4|@ripaojiedian
+    server: 107.182.189.99
+    port: 18605
+    type: ss
+    cipher: aes-256-gcm
+    password: 68zES9hWLbwmu4r8
   - name: 🇻🇳 越南|@ripaojiedian
-    server: 103.186.155.2
+    server: 103.186.155.139
     port: 38388
     type: ss
     cipher: aes-256-cfb
@@ -3336,6 +3358,13 @@ proxies:
     type: ss
     cipher: chacha20-ietf-poly1305
     password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  - name: "[Trojan] TR TROJAN-86 | free-nodes"
+    server: 160.16.233.76
+    port: 507
+    type: trojan
+    password: 76d630f2af6619c4a5de0ef953df3c6a
+    sni: www.nintendogames.net
+    skip-cert-verify: false
   - name: "[SS] 未知 SS-87 | free-nodes"
     server: 38.54.4.87
     port: 990
@@ -3602,6 +3631,13 @@ proxies:
     password: telegram-id-directvpn
     sni: trj.rollingnext.co.uk
     skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-295 | free-nodes"
+    server: 160.16.136.130
+    port: 4054
+    type: trojan
+    password: 76d630f2af6619c4a5de0ef953df3c6a
+    sni: www.nintendogames.net
+    skip-cert-verify: false
   - name: "[Trojan] 未知 TROJAN-298 | free-nodes"
     server: 138.2.45.243
     port: 443
@@ -3717,6 +3753,20 @@ proxies:
     type: trojan
     password: a1b16d10-4f43-4dd9-8c4f-52065b2b0910
     skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-381 | free-nodes"
+    server: 58.152.110.154
+    port: 443
+    type: trojan
+    password: 79314e99f0a473fe86efc7827942ad00
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-386 | free-nodes"
+    server: 52.68.48.114
+    port: 4012
+    type: trojan
+    password: BxceQaOe
+    sni: t.me%2Fripaojiedian
+    skip-cert-verify: false
   - name: "[Trojan] 未知 TROJAN-392 | free-nodes"
     server: 129.146.190.42
     port: 443
@@ -3779,6 +3829,13 @@ proxies:
       path: /?ed=2560
       headers:
         Host: heihu880.pages.dev
+  - name: "[Trojan] 未知 TROJAN-455 | free-nodes"
+    server: 3.112.225.115
+    port: 804
+    type: trojan
+    password: BxceQaOe
+    sni: t.me%2Fripaojiedian
+    skip-cert-verify: false
   - name: "[Trojan] 未知 TROJAN-458 | free-nodes"
     server: kaizen-tw-2.mielink-dns2.com
     port: 443
@@ -3823,6 +3880,13 @@ proxies:
     type: trojan
     password: BxceQaOe
     sni: t.me/ripaojiedian
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-490 | free-nodes"
+    server: 13.231.156.35
+    port: 968
+    type: trojan
+    password: BxceQaOe
+    sni: t.me%2Fripaojiedian
     skip-cert-verify: false
   - name: "[Trojan] 未知 TROJAN-495 | free-nodes"
     server: oss-ydniddsasa-3.7.baidu.jjuu.shrestart.com
