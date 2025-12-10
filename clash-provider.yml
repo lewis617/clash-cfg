@@ -4252,7 +4252,19 @@ proxies:
     type: ss
     cipher: aes-256-cfb
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  - name: "[Trojan] 🇫🇷 FR TROJAN-01 | free-nodes"
+  - name: "[SS] 🇸🇬 SG SS-14 | free-nodes"
+    server: 209.74.82.227
+    port: 26515
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: uA1rLP5m0mMOQ8FcxRXxgr
+  - name: "[SS] TR SS-21 | free-nodes"
+    server: 83.217.9.17
+    port: 25232
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: YHtXD4pojvormVWRiHgIfv
+  - name: "[Trojan] 🇫🇷 FR TROJAN-23 | free-nodes"
     server: 51.44.38.121
     port: 22222
     type: trojan
@@ -4261,7 +4273,7 @@ proxies:
     alpn:
       - http%2F1.1
     skip-cert-verify: false
-  - name: "[Trojan] 🇫🇷 FR TROJAN-02 | free-nodes"
+  - name: "[Trojan] 🇫🇷 FR TROJAN-24 | free-nodes"
     server: 51.45.34.110
     port: 22222
     type: trojan
@@ -4270,7 +4282,7 @@ proxies:
     alpn:
       - http%2F1.1
     skip-cert-verify: false
-  - name: "[Trojan] 🇩🇪 DE TROJAN-03 | free-nodes"
+  - name: "[Trojan] 🇩🇪 DE TROJAN-25 | free-nodes"
     server: 18.153.199.156
     port: 22222
     type: trojan
@@ -4279,251 +4291,75 @@ proxies:
     alpn:
       - http%2F1.1
     skip-cert-verify: false
-  - name: "[SS] 未知 SS-07 | free-nodes"
+  - name: "[SS] 未知 SS-29 | free-nodes"
     server: 193.29.139.150
     port: 8080
     type: ss
     cipher: chacha20-ietf-poly1305
     password: oZIoA69Q8yhcQV8ka3Pa3A
-  - name: "[SS] 未知 SS-08 | free-nodes"
+  - name: "[SS] 未知 SS-30 | free-nodes"
     server: 193.29.139.151
     port: 8080
     type: ss
     cipher: chacha20-ietf-poly1305
     password: oZIoA69Q8yhcQV8ka3Pa3A
-  - name: "[SS] 🇸🇬 SG SS-27 | free-nodes"
+  - name: "[SS] 🇸🇬 SG SS-38 | free-nodes"
     server: 209.74.82.196
     port: 48918
     type: ss
     cipher: chacha20-ietf-poly1305
     password: 8Ij4seif85QQHfLmR0zYkQ
-  - name: "[SS] 未知 SS-38 | free-nodes"
+  - name: "[SS] 未知 SS-51 | free-nodes"
     server: 193.29.139.190
     port: 8080
     type: ss
     cipher: chacha20-ietf-poly1305
     password: oZIoA69Q8yhcQV8ka3Pa3A
-  - name: "[SS] 🇺🇸 US SS-39 | free-nodes"
+  - name: "[SS] 🇺🇸 US SS-52 | free-nodes"
     server: 69.30.251.122
     port: 51004
     type: ss
     cipher: chacha20-ietf-poly1305
     password: 245f2c1d-a317-45a8-b230-e420566a7f62
-  - name: "[SS] 未知 SS-53 | free-nodes"
-    server: 193.135.174.135
-    port: 990
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  - name: "[SS] 🇷🇺 RU SS-76 | free-nodes"
+  - name: "[SS] 🇷🇺 RU SS-89 | free-nodes"
     server: 81.200.158.206
     port: 1080
     type: ss
     cipher: chacha20-ietf-poly1305
     password: AqZbt1QCs3ngEfXo1p7T-w
-  - name: "[Trojan] 未知 TROJAN-153 | free-nodes"
-    server: 51.38.71.175
-    port: 80
-    type: trojan
-    password: b640d791-ff83-4300-b509-c2a02f97f167
-    sni: uk1.trojanvh.xyz
-    skip-cert-verify: false
-  - name: "[Trojan] 🇭🇰 HK TROJAN-203 | free-nodes"
-    server: www.visa.com.hk
-    port: 8443
-    type: trojan
-    password: vip
-    sni: heihu880.pages.dev
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        Host: heihu880.pages.dev
-  - name: "[Trojan] 未知 TROJAN-215 | free-nodes"
-    server: 155.248.193.254
-    port: 31853
-    type: trojan
-    password: jKRJgS7uvI
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-232 | free-nodes"
-    server: 52.47.206.247
-    port: 22222
-    type: trojan
-    password: telegram-id-privatevpns
-    sni: trojan.burgerip.co.uk
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-242 | free-nodes"
-    server: 18.140.67.76
+  - name: "[Trojan] 未知 TROJAN-151 | free-nodes"
+    server: 60.82.70.104
     port: 443
     type: trojan
-    password: iyinglong
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-245 | free-nodes"
-    server: 60.249.3.228
-    port: 3389
-    type: trojan
-    password: 7ac49a893e0bd10c
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-253 | free-nodes"
-    server: 103.168.56.77
-    port: 443
-    type: trojan
-    password: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-257 | free-nodes"
-    server: trojan1.udpgw.com
-    port: 443
-    type: trojan
-    password: affae2e0-e84b-11ec-b09f-1239d0255272
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-259 | free-nodes"
-    server: 45.64.22.41
-    port: 443
-    type: trojan
-    password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
-    sni: jgw2.gaox.ml
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-264 | free-nodes"
-    server: 16.163.138.120
-    port: 2752
-    type: trojan
-    password: BxceQaOe
-    sni: t.me%2Fripaojiedian
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-279 | free-nodes"
-    server: sg006.421421.xyz
-    port: 20230
-    type: trojan
-    password: 1b26d982-fd68-44f4-bf6d-22fe17a9249a
-    sni: www.alibaba.com
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: www.alibaba.com
-  - name: "[Trojan] 未知 TROJAN-283 | free-nodes"
-    server: 150.230.96.103
-    port: 443
-    type: trojan
-    password: da777aae-defb-41d0-a183-2c27da2b4677
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-301 | free-nodes"
-    server: 45.82.253.234
-    port: 28443
-    type: trojan
-    password: 750a29bf-0a40-437f-b120-38de74ae7eaf
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-303 | free-nodes"
-    server: 60.249.3.227
-    port: 3389
-    type: trojan
-    password: 7ac49a893e0bd10c
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-311 | free-nodes"
-    server: 141.94.68.216
-    port: 2053
-    type: trojan
-    password: iwangjie
-    sni: nodes.830901.xyz
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-316 | free-nodes"
-    server: de01.trojanyyds.xyz
-    port: 443
-    type: trojan
-    password: cd41b9d7-df15-46ad-a778-257b0851525a
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-328 | free-nodes"
-    server: hn01.xiaohouzi.club
-    port: 16081
-    type: trojan
-    password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-    sni: hn01.xiaohouzi.club
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-331 | free-nodes"
-    server: 160.16.87.174
-    port: 1700
-    type: trojan
-    password: 253bc477d4e43c209f2d427272968280
+    password: c53647f3153f784b3c695ffbe5fb43c0
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-343 | free-nodes"
-    server: it-full.privateip.net
-    port: 443
-    type: trojan
-    password: 8d16a256-42d7-4431-8039-da1eb06cafbc
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-395 | free-nodes"
-    server: 155.248.172.87
-    port: 28443
-    type: trojan
-    password: 750a29bf-0a40-437f-b120-38de74ae7eaf
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-411 | free-nodes"
-    server: official.tokyometropolis.odessa.ua
-    port: 2053
-    type: trojan
-    password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-413 | free-nodes"
-    server: 20.24.192.3
-    port: 20712
-    type: trojan
-    password: ca2345ba-46e7-3991-b1b7-45d18954caf1
-    sni: ssl.ssl12.xyz
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-416 | free-nodes"
-    server: 45.66.134.219
-    port: 443
-    type: trojan
-    password: 28d98f761aca9d636f44db62544628eb
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-426 | free-nodes"
-    server: 103.173.255.234
-    port: 443
-    type: trojan
-    password: 5623be5f-c9da-4511-81a9-b4b39b16edae
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-461 | free-nodes"
-    server: 119.247.119.212
-    port: 443
-    type: trojan
-    password: bb5b1337-fa9e-4e00-b8c6-1110e626171d
-    sni: sg-01.tiktokcdn.top
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-482 | free-nodes"
-    server: 104.21.70.241
-    port: 443
-    type: trojan
-    password: abd16f44-12ca-4078-8345-11bcb4cd0fbd
-    sni: gamang.gpj2.dpdns.org
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /Free-VPN-Geo-Project/92.178.109.187-443
-      headers:
-        Host: gamang.gpj2.dpdns.org
-  - name: "[Trojan] 未知 TROJAN-527 | free-nodes"
-    server: 172.67.156.25
-    port: 443
-    type: trojan
-    password: f282b878-8711-45a1-8c69-5564172123c1
-    sni: aio.zipzap.biz.id
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /aioproxybot/129.150.49.58-18650
-      headers:
-        Host: aio.zipzap.biz.id
-  - name: "[Trojan] 未知 TROJAN-536 | free-nodes"
+  - name: "[Trojan] 未知 TROJAN-167 | free-nodes"
     server: 18.196.127.24
     port: 22222
     type: trojan
     password: telegram-id-directvpn
     sni: trj.rollingnext.co.uk
     skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-584 | free-nodes"
+  - name: "[Trojan] 未知 TROJAN-172 | free-nodes"
+    server: supsig.xiaohouzi.club
+    port: 10102
+    type: trojan
+    password: 263adbfb-49a8-3daf-8a79-2e1687b5dc28
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-180 | free-nodes"
+    server: 103.168.56.77
+    port: 443
+    type: trojan
+    password: 4f2c305b-9a03-4493-b3e4-2dff2f1af8c9
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-187 | free-nodes"
+    server: official.tokyometropolis.odesa.ua
+    port: 2053
+    type: trojan
+    password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-203 | free-nodes"
     server: singapore.com
     port: 443
     type: trojan
@@ -4535,27 +4371,15 @@ proxies:
       path: /?ed=2560
       headers:
         Host: heihu880.pages.dev
-  - name: "[Trojan] 未知 TROJAN-661 | free-nodes"
-    server: zz6.91js.pw
-    port: 10051
-    type: trojan
-    password: a13820c547fa34c5c45515c12f0cd576
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-681 | free-nodes"
-    server: 51.75.76.22
+  - name: "[Trojan] 未知 TROJAN-215 | free-nodes"
+    server: 152.67.160.174
     port: 443
     type: trojan
-    password: c60fbf90-4b55-11ed-b935-225401db9d57
+    password: 54080134-2cba-4535-8599-95650bd9aa54
     skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-692 | free-nodes"
-    server: jp01a.roc-taiwan.net.ua
-    port: 65011
-    type: trojan
-    password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-721 | free-nodes"
-    server: www.iplocation.net
-    port: 443
+  - name: "[Trojan] 🇭🇰 HK TROJAN-216 | free-nodes"
+    server: www.visa.com.hk
+    port: 8443
     type: trojan
     password: vip
     sni: heihu880.pages.dev
@@ -4565,203 +4389,73 @@ proxies:
       path: /?ed=2560
       headers:
         Host: heihu880.pages.dev
-  - name: "[Trojan] 未知 TROJAN-758 | free-nodes"
-    server: 160.16.145.107
-    port: 2053
-    type: trojan
-    password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-764 | free-nodes"
-    server: 152.67.160.174
+  - name: "[Trojan] 未知 TROJAN-227 | free-nodes"
+    server: 104.21.70.241
     port: 443
     type: trojan
-    password: 54080134-2cba-4535-8599-95650bd9aa54
+    password: abd16f44-12ca-4078-8345-11bcb4cd0fbd
+    sni: gamang.gpj2.dpdns.org
     skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-765 | free-nodes"
-    server: supsig.xiaohouzi.club
-    port: 10102
-    type: trojan
-    password: 263adbfb-49a8-3daf-8a79-2e1687b5dc28
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-835 | free-nodes"
-    server: trs17.bolab.net
-    port: 22
-    type: trojan
-    password: 40c89b10235c40321e7a3cef82b53a03
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-846 | free-nodes"
-    server: official.taipeicitygovernment.kiev.ua
-    port: 8443
-    type: trojan
-    password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-894 | free-nodes"
-    server: 38.9.140.66
-    port: 443
-    type: trojan
-    password: vvip-periantara
-    sni: id3tr.jagoan.vip
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-922 | free-nodes"
-    server: 138.2.113.84
-    port: 443
-    type: trojan
-    password: b291d129-ee55-4801-a9b8-b5316e5c37b7
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-965 | free-nodes"
-    server: official.tokyometropolis.odesa.ua
-    port: 2053
-    type: trojan
-    password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-1051 | free-nodes"
-    server: 138.124.183.216
-    port: 443
-    type: trojan
-    password: xxoo
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-1102 | free-nodes"
-    server: 58.152.25.205
-    port: 443
-    type: trojan
-    password: 253bc477d4e43c209f2d427272968280
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-1143 | free-nodes"
-    server: 153.121.65.107
-    port: 1331
-    type: trojan
-    password: 79314e99f0a473fe86efc7827942ad00
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-1145 | free-nodes"
-    server: official.taipeicitygovernment.org.ua
-    port: 8443
-    type: trojan
-    password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-1155 | free-nodes"
-    server: cn.speedabc.xyz
-    port: 32002
-    type: trojan
-    password: cfbabf31-2cf6-40ca-9688-abbb682370aa
-    sni: jp-bgp.speedaccelerate.com
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-1157 | free-nodes"
-    server: 23.247.137.70
-    port: 3389
-    type: trojan
-    password: d4e41ff772c7fd45
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-1210 | free-nodes"
-    server: 212.24.103.3
-    port: 443
-    type: trojan
-    password: 4f9ca636-5195-406a-b48c-0388689dd9a7
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-1271 | free-nodes"
-    server: 129.146.175.86
-    port: 44302
-    type: trojan
-    password: 4d111af8-5078-37e0-a583-34155f60b32c
-    sni: phxv001.jd0001.top
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-1290 | free-nodes"
-    server: 58.152.53.214
-    port: 443
-    type: trojan
-    password: c53647f3153f784b3c695ffbe5fb43c0
-    sni: www.baidu.com
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-1317 | free-nodes"
-    server: 52.47.104.63
-    port: 22222
-    type: trojan
-    password: telegram-id-privatevpns
-    sni: trojan.burgerip.co.uk
-    alpn:
-      - http%2F1.1
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-1349 | free-nodes"
-    server: sh.xiaohouzi.club
-    port: 12468
-    type: trojan
-    password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
-    sni: $$sh.xiaohouzi.club
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-1387 | free-nodes"
-    server: 3.239.128.106
-    port: 22222
-    type: trojan
-    password: telegram-id-directvpn
-    sni: trj.rollingnext.co.uk
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-1448 | free-nodes"
-    server: official.tokyometropolis.ivano-frankivsk.ua
-    port: 2053
-    type: trojan
-    password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-1467 | free-nodes"
-    server: 211.72.35.158
-    port: 3389
-    type: trojan
-    password: 7b06d22a8a7c764f
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-1484 | free-nodes"
-    server: 168.138.43.89
-    port: 443
-    type: trojan
-    password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-1581 | free-nodes"
-    server: official.seoulcitygovernment.com.ua
-    port: 8443
-    type: trojan
-    password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-1623 | free-nodes"
-    server: 51.38.99.96
-    port: 443
-    type: trojan
-    password: b8808043-6566-4923-9195-e66bfb553d57
-    sni: ba24.ir
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-1696 | free-nodes"
-    server: 18.193.90.253
-    port: 22222
-    type: trojan
-    password: telegram-id-privatevpns
-    sni: trojan.burgerip.co.uk
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-1758 | free-nodes"
-    server: jp-full.privateip.net
-    port: 443
-    type: trojan
-    password: d9576e81-fc34-46f2-b624-0c1e99cde4be
-    skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-1789 | free-nodes"
+    network: ws
+    ws-opts:
+      path: /Free-VPN-Geo-Project/92.178.109.187-443
+      headers:
+        Host: gamang.gpj2.dpdns.org
+  - name: "[Trojan] 未知 TROJAN-240 | free-nodes"
     server: 160.16.150.76
     port: 1596
     type: trojan
     password: 79314e99f0a473fe86efc7827942ad00
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-1834 | free-nodes"
+  - name: "[Trojan] 未知 TROJAN-244 | free-nodes"
+    server: 153.121.65.107
+    port: 1331
+    type: trojan
+    password: 79314e99f0a473fe86efc7827942ad00
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-253 | free-nodes"
     server: 46.29.161.237
     port: 443
     type: trojan
     password: af4b064a9c39472fb34ad8b113acdc6b
     sni: 46.29.161.237
     skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-1850 | free-nodes"
-    server: kaizen-hk-8.mielink-dns2.com
+  - name: "[Trojan] 未知 TROJAN-257 | free-nodes"
+    server: 18.140.67.76
     port: 443
     type: trojan
-    password: 265f092f-418b-30c9-a479-4800fd44dd19mielink
-    sni: paydiu.com
+    password: iyinglong
     skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-1854 | free-nodes"
+  - name: "[Trojan] 未知 TROJAN-276 | free-nodes"
+    server: hn01.xiaohouzi.club
+    port: 16081
+    type: trojan
+    password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
+    sni: hn01.xiaohouzi.club
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-291 | free-nodes"
+    server: 141.94.68.216
+    port: 2053
+    type: trojan
+    password: iwangjie
+    sni: nodes.830901.xyz
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-296 | free-nodes"
+    server: 13.40.3.71
+    port: 22222
+    type: trojan
+    password: telegram-id-directvpn
+    sni: trj.rollingnext.co.uk
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-386 | free-nodes"
+    server: 138.2.113.84
+    port: 443
+    type: trojan
+    password: b291d129-ee55-4801-a9b8-b5316e5c37b7
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-433 | free-nodes"
     server: www.gov.se
     port: 443
     type: trojan
@@ -4773,22 +4467,292 @@ proxies:
       path: /?ed=2560
       headers:
         Host: heihu880.pages.dev
-  - name: "[Trojan] 未知 TROJAN-1857 | free-nodes"
+  - name: "[Trojan] 未知 TROJAN-449 | free-nodes"
+    server: 155.248.193.254
+    port: 31853
+    type: trojan
+    password: jKRJgS7uvI
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-454 | free-nodes"
+    server: 45.66.134.219
+    port: 443
+    type: trojan
+    password: 28d98f761aca9d636f44db62544628eb
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-467 | free-nodes"
+    server: 45.82.253.234
+    port: 28443
+    type: trojan
+    password: 750a29bf-0a40-437f-b120-38de74ae7eaf
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-493 | free-nodes"
+    server: 138.2.113.248
+    port: 443
+    type: trojan
+    password: 9c822f05-cfdc-479a-9534-60f3d4127435
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-507 | free-nodes"
+    server: 38.9.140.66
+    port: 443
+    type: trojan
+    password: vvip-periantara
+    sni: id3tr.jagoan.vip
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-536 | free-nodes"
+    server: 150.230.96.103
+    port: 443
+    type: trojan
+    password: da777aae-defb-41d0-a183-2c27da2b4677
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-557 | free-nodes"
+    server: official.seoulcitygovernment.com.ua
+    port: 8443
+    type: trojan
+    password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-576 | free-nodes"
+    server: 52.47.206.247
+    port: 22222
+    type: trojan
+    password: telegram-id-privatevpns
+    sni: trojan.burgerip.co.uk
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-627 | free-nodes"
+    server: 103.173.255.234
+    port: 443
+    type: trojan
+    password: 5623be5f-c9da-4511-81a9-b4b39b16edae
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-635 | free-nodes"
+    server: 3.239.128.106
+    port: 22222
+    type: trojan
+    password: telegram-id-directvpn
+    sni: trj.rollingnext.co.uk
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-647 | free-nodes"
+    server: 119.247.119.212
+    port: 443
+    type: trojan
+    password: bb5b1337-fa9e-4e00-b8c6-1110e626171d
+    sni: sg-01.tiktokcdn.top
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-669 | free-nodes"
+    server: 172.67.156.25
+    port: 443
+    type: trojan
+    password: f282b878-8711-45a1-8c69-5564172123c1
+    sni: aio.zipzap.biz.id
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /aioproxybot/129.150.49.58-18650
+      headers:
+        Host: aio.zipzap.biz.id
+  - name: "[Trojan] 未知 TROJAN-730 | free-nodes"
+    server: 45.64.22.41
+    port: 443
+    type: trojan
+    password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+    sni: jgw2.gaox.ml
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-748 | free-nodes"
+    server: 18.193.90.253
+    port: 22222
+    type: trojan
+    password: telegram-id-privatevpns
+    sni: trojan.burgerip.co.uk
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-782 | free-nodes"
+    server: 211.72.35.158
+    port: 3389
+    type: trojan
+    password: 7b06d22a8a7c764f
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-813 | free-nodes"
+    server: jp01a.roc-taiwan.net.ua
+    port: 65011
+    type: trojan
+    password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-816 | free-nodes"
+    server: official.taipeicitygovernment.org.ua
+    port: 8443
+    type: trojan
+    password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-834 | free-nodes"
+    server: official.taipeicitygovernment.kiev.ua
+    port: 8443
+    type: trojan
+    password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-854 | free-nodes"
+    server: www.iplocation.net
+    port: 443
+    type: trojan
+    password: vip
+    sni: heihu880.pages.dev
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: heihu880.pages.dev
+  - name: "[Trojan] 未知 TROJAN-864 | free-nodes"
+    server: 51.38.71.175
+    port: 80
+    type: trojan
+    password: b640d791-ff83-4300-b509-c2a02f97f167
+    sni: uk1.trojanvh.xyz
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-887 | free-nodes"
+    server: zz6.91js.pw
+    port: 10051
+    type: trojan
+    password: a13820c547fa34c5c45515c12f0cd576
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-1078 | free-nodes"
+    server: de01.trojanyyds.xyz
+    port: 443
+    type: trojan
+    password: cd41b9d7-df15-46ad-a778-257b0851525a
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-1101 | free-nodes"
+    server: trs17.bolab.net
+    port: 22
+    type: trojan
+    password: 40c89b10235c40321e7a3cef82b53a03
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-1130 | free-nodes"
+    server: 150.136.57.125
+    port: 41106
+    type: trojan
+    password: kSZddpnUKy
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-1208 | free-nodes"
+    server: 51.38.99.96
+    port: 443
+    type: trojan
+    password: b8808043-6566-4923-9195-e66bfb553d57
+    sni: ba24.ir
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-1239 | free-nodes"
+    server: 62.210.254.72
+    port: 28443
+    type: trojan
+    password: 750a29bf-0a40-437f-b120-38de74ae7eaf
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-1265 | free-nodes"
+    server: 212.24.103.3
+    port: 443
+    type: trojan
+    password: 4f9ca636-5195-406a-b48c-0388689dd9a7
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-1296 | free-nodes"
+    server: official.tokyometropolis.odessa.ua
+    port: 2053
+    type: trojan
+    password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-1374 | free-nodes"
+    server: it-full.privateip.net
+    port: 443
+    type: trojan
+    password: 8d16a256-42d7-4431-8039-da1eb06cafbc
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-1376 | free-nodes"
     server: 23.142.200.175
     port: 443
     type: trojan
     password: 27876_t7d7f4e3f
     skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-1858 | free-nodes"
+  - name: "[Trojan] 未知 TROJAN-1385 | free-nodes"
+    server: 141.147.191.85
+    port: 28443
+    type: trojan
+    password: 750a29bf-0a40-437f-b120-38de74ae7eaf
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-1396 | free-nodes"
+    server: cn.speedabc.xyz
+    port: 32002
+    type: trojan
+    password: cfbabf31-2cf6-40ca-9688-abbb682370aa
+    sni: jp-bgp.speedaccelerate.com
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-1409 | free-nodes"
+    server: 51.75.76.22
+    port: 443
+    type: trojan
+    password: c60fbf90-4b55-11ed-b935-225401db9d57
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-1452 | free-nodes"
+    server: sg.stablize.top
+    port: 443
+    type: trojan
+    password: 1bf16b43-0ad5-4512-a0e8-34bb8966278e
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-1453 | free-nodes"
+    server: 13.113.1.5
+    port: 1691
+    type: trojan
+    password: BxceQaOe
+    sni: t.me/ripaojiedian
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-1461 | free-nodes"
+    server: official.tokyometropolis.ivano-frankivsk.ua
+    port: 2053
+    type: trojan
+    password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-1514 | free-nodes"
+    server: 60.249.3.228
+    port: 3389
+    type: trojan
+    password: 7ac49a893e0bd10c
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-1600 | free-nodes"
+    server: 58.152.25.205
+    port: 443
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-1638 | free-nodes"
+    server: trojan1.udpgw.com
+    port: 443
+    type: trojan
+    password: affae2e0-e84b-11ec-b09f-1239d0255272
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-1678 | free-nodes"
     server: szf02.xiaohouzi.club
     port: 36304
     type: trojan
     password: 64de1de7-e3bb-3dc4-ab04-d1e601e18ac5
     sni: szf02.xiaohouzi.club
     skip-cert-verify: false
-  - name: "[Trojan] 未知 TROJAN-1927 | free-nodes"
-    server: 150.136.57.125
-    port: 41106
+  - name: "[Trojan] 未知 TROJAN-1711 | free-nodes"
+    server: 168.138.43.89
+    port: 443
     type: trojan
-    password: kSZddpnUKy
+    password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-1720 | free-nodes"
+    server: sg006.421421.xyz
+    port: 20230
+    type: trojan
+    password: 1b26d982-fd68-44f4-bf6d-22fe17a9249a
+    sni: www.alibaba.com
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: www.alibaba.com
+  - name: "[Trojan] 未知 TROJAN-1781 | free-nodes"
+    server: 160.16.87.174
+    port: 1700
+    type: trojan
+    password: 253bc477d4e43c209f2d427272968280
+    sni: www.nintendogames.net
     skip-cert-verify: false
