@@ -4170,88 +4170,6 @@ proxies:
     type: trojan
     password: bs6KJkPBW9MP74uHEa
     skip-cert-verify: false
-  - name: 🇭🇰 香港3|@ripaojiedian
-    server: 58.152.110.82
-    port: 443
-    type: trojan
-    password: 76d630f2af6619c4a5de0ef953df3c6a
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: 🇭🇰 香港6|@ripaojiedian
-    server: 120.232.81.194
-    port: 49213
-    type: trojan
-    password: 44db2c35-9eef-4f62-b444-813871ff69d7
-    sni: t.me%2Fripaojiedian
-    skip-cert-verify: true
-  - name: 🇭🇰 香港7|@ripaojiedian
-    server: cfa9c38f-t6uv40-ta5nd4-e06r.hk3.p5pv.com
-    port: 80
-    type: vmess
-    uuid: 861726bb-c61a-b0e0-99fa-5ddfdcf21902
-    alterId: 2
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: broadcastlv.chat.bilibili.com
-  - name: 🇯🇵 日本|@ripaojiedian
-    server: 52.195.216.100
-    port: 4492
-    type: trojan
-    password: BxceQaOe
-    sni: t.me%2Fripaojiedian
-    skip-cert-verify: true
-  - name: 🇯🇵 日本2|@ripaojiedian
-    server: 160.16.229.223
-    port: 3093
-    type: trojan
-    password: 76d630f2af6619c4a5de0ef953df3c6a
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: 🇯🇵 日本3|@ripaojiedian
-    server: 52.193.180.87
-    port: 3093
-    type: trojan
-    password: 76d630f2af6619c4a5de0ef953df3c6a
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: 🇸🇬 新加坡|@ripaojiedian
-    server: 13.231.220.185
-    port: 507
-    type: trojan
-    password: 76d630f2af6619c4a5de0ef953df3c6a
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: 🇸🇬 新加坡3|@ripaojiedian
-    server: 43.206.220.221
-    port: 3579
-    type: trojan
-    password: BxceQaOe
-    sni: t.me%2Fripaojiedian
-    skip-cert-verify: true
-  - name: 🇸🇬 新加坡4|@ripaojiedian
-    server: 209.74.81.149
-    port: 21166
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: q92MrrP9oJ3lMEzbQFpyuU
-  - name: 🇺🇸 美国2|@ripaojiedian
-    server: 202.181.103.235
-    port: 2890
-    type: trojan
-    password: 76d630f2af6619c4a5de0ef953df3c6a
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: 🇻🇳 越南|@ripaojiedian
-    server: 103.186.154.44
-    port: 38388
-    type: ss
-    cipher: aes-256-cfb
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   - name: "[SS] 未知 SS-05 | free-nodes"
     server: 193.135.174.135
     port: 990
@@ -4282,6 +4200,13 @@ proxies:
     type: ss
     cipher: chacha20-ietf-poly1305
     password: uA1rLP5m0mMOQ8FcxRXxgr
+  - name: "[Trojan] 🇭🇰 HK TROJAN-25 | free-nodes"
+    server: 58.152.110.82
+    port: 443
+    type: trojan
+    password: 76d630f2af6619c4a5de0ef953df3c6a
+    sni: www.nintendogames.net
+    skip-cert-verify: false
   - name: "[SS] TR SS-26 | free-nodes"
     server: 83.217.9.17
     port: 25232
@@ -4300,6 +4225,12 @@ proxies:
     type: ss
     cipher: chacha20-ietf-poly1305
     password: oZIoA69Q8yhcQV8ka3Pa3A
+  - name: "[SS] 🇸🇬 SG SS-29 | free-nodes"
+    server: 209.74.81.149
+    port: 21166
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: q92MrrP9oJ3lMEzbQFpyuU
   - name: "[SS] 🇸🇬 SG SS-31 | free-nodes"
     server: 209.74.82.196
     port: 48918
@@ -4381,6 +4312,13 @@ proxies:
       path: /?ed=2560
       headers:
         Host: heihu880.pages.dev
+  - name: "[Trojan] 未知 TROJAN-206 | free-nodes"
+    server: 13.231.220.185
+    port: 507
+    type: trojan
+    password: 76d630f2af6619c4a5de0ef953df3c6a
+    sni: www.nintendogames.net
+    skip-cert-verify: false
   - name: "[Trojan] 未知 TROJAN-212 | free-nodes"
     server: de01.trojanyyds.xyz
     port: 443
@@ -4394,6 +4332,13 @@ proxies:
     password: b8808043-6566-4923-9195-e66bfb553d57
     sni: ba24.ir
     skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-224 | free-nodes"
+    server: 52.193.180.87
+    port: 3093
+    type: trojan
+    password: 76d630f2af6619c4a5de0ef953df3c6a
+    sni: www.nintendogames.net
+    skip-cert-verify: false
   - name: "[Trojan] 未知 TROJAN-229 | free-nodes"
     server: 159.203.35.137
     port: 2096
@@ -4406,6 +4351,13 @@ proxies:
     port: 443
     type: trojan
     password: 4f9ca636-5195-406a-b48c-0388689dd9a7
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-266 | free-nodes"
+    server: 120.232.81.194
+    port: 49213
+    type: trojan
+    password: 44db2c35-9eef-4f62-b444-813871ff69d7
+    sni: t.me%2Fripaojiedian
     skip-cert-verify: false
   - name: "[Trojan] 未知 TROJAN-268 | free-nodes"
     server: 160.16.150.76
@@ -4491,6 +4443,13 @@ proxies:
     type: trojan
     password: 27876_t7d7f4e3f
     skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-478 | free-nodes"
+    server: 52.195.216.100
+    port: 4492
+    type: trojan
+    password: BxceQaOe
+    sni: t.me/ripaojiedian
+    skip-cert-verify: false
   - name: "[Trojan] 未知 TROJAN-514 | free-nodes"
     server: hn01.xiaohouzi.club
     port: 16081
@@ -4517,6 +4476,13 @@ proxies:
     port: 28443
     type: trojan
     password: 750a29bf-0a40-437f-b120-38de74ae7eaf
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-566 | free-nodes"
+    server: 202.181.103.235
+    port: 2890
+    type: trojan
+    password: 76d630f2af6619c4a5de0ef953df3c6a
+    sni: www.nintendogames.net
     skip-cert-verify: false
   - name: "[Trojan] 未知 TROJAN-568 | free-nodes"
     server: a03.taipeicitygovernment.cn.ua
@@ -4675,6 +4641,13 @@ proxies:
       path: /?ed=2560
       headers:
         Host: heihu880.pages.dev
+  - name: "[Trojan] 未知 TROJAN-853 | free-nodes"
+    server: 43.206.220.221
+    port: 3579
+    type: trojan
+    password: BxceQaOe
+    sni: t.me%2Fripaojiedian
+    skip-cert-verify: false
   - name: "[Trojan] 未知 TROJAN-857 | free-nodes"
     server: 60.82.70.104
     port: 443
@@ -4735,6 +4708,13 @@ proxies:
     port: 4054
     type: trojan
     password: 79314e99f0a473fe86efc7827942ad00
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+  - name: "[Trojan] 未知 TROJAN-1047 | free-nodes"
+    server: 160.16.229.223
+    port: 3093
+    type: trojan
+    password: 76d630f2af6619c4a5de0ef953df3c6a
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: "[Trojan] 未知 TROJAN-1120 | free-nodes"
