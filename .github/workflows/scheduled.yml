@@ -32,6 +32,7 @@ jobs:
         if ! git diff --cached --quiet; then
           git commit -m "Update clash-provider.yml"
           git push
+          curl -I https://purge.jsdelivr.net/gh/lewis617/clash-cfg@main/clash-provider.yml
         else
           echo "No changes to commit."
         fi

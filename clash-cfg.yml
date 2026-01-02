@@ -57,21 +57,21 @@ proxy-providers:
     interval: 3600
     type: "http"
     path: "./clash-provider.yml"
-    url: "https://raw.githubusercontent.com/lewis617/clash-cfg/main/clash-provider.yml"
+    url: "https://testingcf.jsdelivr.net/gh/lewis617/clash-cfg@main/clash-provider.yml"
 
 tunnels:
 rule-providers:
   custom-proxy:
     type: http
     behavior: domain
-    url: "https://raw.githubusercontent.com/lewis617/clash-cfg/main/ruleset/custom-proxy.yml"
+    url: "https://testingcf.jsdelivr.net/gh/lewis617/clash-cfg@main/ruleset/custom-proxy.yml"
     path: ./ruleset/custom-proxy.yml
     interval: 86400
     format: yaml
   custom-direct:
     type: http
     behavior: domain
-    url: "https://raw.githubusercontent.com/lewis617/clash-cfg/main/ruleset/custom-direct.yml"
+    url: "https://testingcf.jsdelivr.net/gh/lewis617/clash-cfg@main/ruleset/custom-direct.yml"
     path: ./ruleset/custom-direct.yml
     interval: 86400
     format: yaml
