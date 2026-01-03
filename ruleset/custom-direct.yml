@@ -1,4 +1,4 @@
 payload:
-  - 'testingcf.jsdelivr.net'
+  - 'fastly.jsdelivr.net'
   - '+.phncdn.com'
   - '+.bing.com'
