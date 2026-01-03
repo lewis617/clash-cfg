@@ -10,7 +10,7 @@ external-ui: './ui'
 dns:
 proxies: []
 proxy-groups:
-  - icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/AI.png
+  - icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/AI.png
     include-all: true
     interval: 300
     lazy: true
@@ -19,7 +19,7 @@ proxy-groups:
     type: url-test
     url: "https://api.openai.com/v1/models"
     expected-status: 401
-  - icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Auto.png
+  - icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Auto.png
     include-all: true
     interval: 300
     lazy: true
@@ -28,7 +28,7 @@ proxy-groups:
     type: url-test
     url: https://www.gstatic.com/generate_204
     expected-status: 204
-  - icon: https://fastly.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Proxy.png
+  - icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Proxy.png
     name: PROXY
     type: select
     include-all: true
@@ -40,21 +40,21 @@ proxy-providers:
     interval: 3600
     type: "http"
     path: "./clash-provider.yml"
-    url: "https://fastly.jsdelivr.net/gh/lewis617/clash-cfg@main/clash-provider.yml"
+    url: "https://testingcf.jsdelivr.net/gh/lewis617/clash-cfg@main/clash-provider.yml"
 
 tunnels:
 rule-providers:
   custom-proxy:
     type: http
     behavior: domain
-    url: "https://fastly.jsdelivr.net/gh/lewis617/clash-cfg@main/ruleset/custom-proxy.yml"
+    url: "https://testingcf.jsdelivr.net/gh/lewis617/clash-cfg@main/ruleset/custom-proxy.yml"
     path: ./ruleset/custom-proxy.yml
     interval: 86400
     format: yaml
   custom-direct:
     type: http
     behavior: domain
-    url: "https://fastly.jsdelivr.net/gh/lewis617/clash-cfg@main/ruleset/custom-direct.yml"
+    url: "https://testingcf.jsdelivr.net/gh/lewis617/clash-cfg@main/ruleset/custom-direct.yml"
     path: ./ruleset/custom-direct.yml
     interval: 86400
     format: yaml

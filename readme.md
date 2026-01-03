@@ -1,7 +1,7 @@
 provider 地址：
 
 ```
-https://fastly.jsdelivr.net/gh/lewis617/clash-cfg/clash-provider.yml
+https://testingcf.jsdelivr.net/gh/lewis617/clash-cfg/clash-provider.yml
 ```
 
 ```
@@ -11,7 +11,7 @@ https://raw.githubusercontent.com/lewis617/clash-cfg/refs/heads/main/clash-provi
 配置文件地址：
 
 ```
-https://fastly.jsdelivr.net/gh/lewis617/clash-cfg/clash-cfg.yml
+https://testingcf.jsdelivr.net/gh/lewis617/clash-cfg/clash-cfg.yml
 ```
 
 ```
