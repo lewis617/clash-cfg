@@ -922,15 +922,6 @@ proxies:
     type: ss
     cipher: aes-128-gcm
     password: 6601fb90e9b3
-  - name: 🇭🇰 香港2|@ripaojiedian
-    server: 47.242.192.233
-    port: 34659
-    type: vmess
-    uuid: 8482671e-846f-45c7-aec4-531c79f775ec
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
   - name: 🇭🇰 香港4|@ripaojiedian
     server: 13.159.22.132
     port: 3292
@@ -980,9 +971,3 @@ proxies:
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
-  - name: 🇻🇳 越南|@ripaojiedian
-    server: 103.186.155.51
-    port: 38388
-    type: ss
-    cipher: aes-256-cfb
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
