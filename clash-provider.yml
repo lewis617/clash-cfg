@@ -809,64 +809,106 @@ proxies:
     tls: false
     skip-cert-verify: false
   - name: 🇭🇰 香港3|@ripaojiedian
-    server: 43.207.108.97
+    server: 54.95.118.21
     port: 3373
     type: trojan
     password: 5fb072e0ddd631cf66cf752b09210480
     sni: www.nintendogames.net
     skip-cert-verify: true
   - name: 🇭🇰 香港4|@ripaojiedian
-    server: 43.206.227.236
-    port: 4183
+    server: 13.231.5.152
+    port: 2266
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
   - name: 🇭🇰 香港5|@ripaojiedian
-    server: 52.68.254.155
-    port: 3292
+    server: 52.196.168.206
+    port: 2266
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
   - name: 🇯🇵 日本2|@ripaojiedian
-    server: 52.198.102.170
+    server: 18.181.173.100
     port: 1933
     type: trojan
     password: 5fb072e0ddd631cf66cf752b09210480
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇯🇵 日本3|@ripaojiedian
-    server: 160.16.63.16
-    port: 3423
+    server: 54.168.105.60
+    port: 4006
+    type: trojan
+    password: 5fb072e0ddd631cf66cf752b09210480
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+  - name: 🇸🇬 新加坡|@ripaojiedian
+    server: 13.231.53.184
+    port: 3076
     type: trojan
     password: 5fb072e0ddd631cf66cf752b09210480
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇸🇬 新加坡2|@ripaojiedian
-    server: 160.16.70.180
-    port: 3901
+    server: 160.16.130.21
+    port: 544
     type: trojan
     password: 5fb072e0ddd631cf66cf752b09210480
     sni: www.nintendogames.net
     skip-cert-verify: false
+  - name: 🇸🇬 新加坡3|@ripaojiedian
+    server: 43.199.59.14
+    port: 8041
+    type: trojan
+    password: BxceQaOe
+    sni: t.me%252Fripaojiedian
+    skip-cert-verify: true
   - name: 🇺🇸 美国|@ripaojiedian
-    server: 43.249.193.101
-    port: 2760
+    server: 153.121.38.213
+    port: 276
     type: trojan
     password: 5fb072e0ddd631cf66cf752b09210480
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇺🇸 美国2|@ripaojiedian
-    server: 160.16.231.103
-    port: 1276
+    server: 3.112.14.249
+    port: 276
     type: trojan
     password: 5fb072e0ddd631cf66cf752b09210480
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: 🇺🇸 美国4|@ripaojiedian
-    server: 13.217.198.211
-    port: 443
+  - name: 🇺🇸 美国3|@ripaojiedian
+    server: 18.166.210.2
+    port: 1221
+    type: trojan
+    password: BxceQaOe
+    sni: t.me%2Fripaojiedian
+    skip-cert-verify: true
+  - name: 🇰🇷 韩国|@ripaojiedian
+    server: 168.126.234.247
+    port: 4469
     type: ss
     cipher: aes-256-cfb
-    password: amazonskr05
+    password: qwerREWQ@@
+  - name: 🇭🇰 香港2|@ripaojiedian
+    server: hk3.network-cdn-gw-yd.net
+    port: 32058
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 66f89621-49f0-4788-85ce-f9a62537a8e4
+  - name: 🇯🇵 日本4|@ripaojiedian
+    server: tokyo01.zgjok.com
+    port: 443
+    type: vmess
+    uuid: e6d5d668-2091-41d9-9bff-df0a1c5107ec
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: false
+    servername: tokyo01.zgjok.com
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: tokyo01.zgjok.com
