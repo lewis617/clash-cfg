@@ -808,44 +808,57 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
+  - name: 🇭🇰 香港2|@ripaojiedian
+    server: assets-cfnode67.cloudflarecdn-edge.rfsconfig.com
+    port: 10015
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 049d354a-2cf1-4956-b6d8-d04aa4969b64
   - name: 🇭🇰 香港3|@ripaojiedian
-    server: 18.183.109.29
+    server: 46.51.224.113
     port: 3373
     type: trojan
     password: 9372cb81c7b0ad903f91f2f8a4d3f02b
     sni: www.nintendogames.net
     skip-cert-verify: true
   - name: 🇭🇰 香港4|@ripaojiedian
-    server: 57.180.15.194
+    server: 95.40.2.208
     port: 54548
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
   - name: 🇭🇰 香港5|@ripaojiedian
-    server: 43.207.105.49
-    port: 443
+    server: 57.180.245.83
+    port: 54548
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
+  - name: 🇹🇼 台湾|@ripaojiedian
+    server: a12.taipeicitygovernment.org.ua
+    port: 3462
+    type: trojan
+    password: 736cd94d-7b94-3e44-8106-3419f64eaf09
+    sni: 45.32.28.232
+    skip-cert-verify: false
   - name: 🇯🇵 日本|@ripaojiedian
-    server: 43.206.226.70
+    server: 13.158.130.64
     port: 2595
     type: trojan
     password: BxceQaOe
     sni: t.me%252Fripaojiedian
     skip-cert-verify: true
   - name: 🇯🇵 日本2|@ripaojiedian
-    server: 160.16.85.33
-    port: 193
+    server: 18.181.199.98
+    port: 3423
     type: trojan
     password: 9372cb81c7b0ad903f91f2f8a4d3f02b
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇯🇵 日本3|@ripaojiedian
-    server: 160.16.231.103
-    port: 400
+    server: 160.16.124.17
+    port: 3423
     type: trojan
     password: 9372cb81c7b0ad903f91f2f8a4d3f02b
     sni: www.nintendogames.net
@@ -864,15 +877,8 @@ proxies:
     password: 9372cb81c7b0ad903f91f2f8a4d3f02b
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: 🇸🇬 新加坡3|@ripaojiedian
-    server: 43.199.161.245
-    port: 2673
-    type: trojan
-    password: BxceQaOe
-    sni: t.me%252Fripaojiedian
-    skip-cert-verify: true
   - name: 🇺🇸 美国|@ripaojiedian
-    server: 153.121.38.213
+    server: 43.207.73.82
     port: 1281
     type: trojan
     password: 9372cb81c7b0ad903f91f2f8a4d3f02b
