@@ -1129,7 +1129,7 @@ proxies:
     type: ss
     cipher: aes-128-gcm
     password: 6601fb90e9b3
-  - name: 🇬🇧 GB SS-03 | free-nodes
+  - name: 🇬🇧 GB SS-02 | free-nodes
     server: 57.128.191.90
     port: 8388
     type: ss
@@ -1141,45 +1141,35 @@ proxies:
     type: ss
     cipher: aes-256-gcm
     password: 8JCsPssfgS8tiRwiMlhARg==
-  - name: 🇫🇷 FR SS-25 | free-nodes
+  - name: 🇫🇷 FR SS-24 | free-nodes
     server: 95.111.250.4
     port: 80
     type: ss
     cipher: aes-256-gcm
     password: BbOUgNLUyT6rdrxE
-  - name: 🇯🇵 JP SS-26 | free-nodes
+  - name: 🇯🇵 JP SS-28 | free-nodes
     server: 103.106.228.175
     port: 8009
     type: ss
     cipher: aes-256-gcm
     password: XKFKl2rULjIp74
-  - name: 🇨🇳 TW TROJAN-30 | free-nodes
-    server: a03.taipeicitygovernment.cn.ua
-    port: 3462
-    type: trojan
-    password: 736cd94d-7b94-3e44-8106-3419f64eaf09
-    sni: 45.32.28.232
-    skip-cert-verify: false
-  - name: 🇭🇰 HK TROJAN-31 | free-nodes
+  - name: 🇭🇰 HK TROJAN-36 | free-nodes
     server: 54.150.211.34
     port: 1491
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: false
-  - name: 🇬🇧 GB TROJAN-32 | free-nodes
+  - name: 🇬🇧 GB TROJAN-37 | free-nodes
     server: hl-freedom-2.undef.network
     port: 443
     type: trojan
     password: Tn2Bf0iRwJkJQgDk6gX6x81RB
-    sni: hl-freedom-2.undef.network
     skip-cert-verify: false
     network: ws
     ws-opts:
       path: /f2fc2a1f
-      headers:
-        Host: hl-freedom-2.undef.network
-  - name: 🇫🇷 FR TROJAN-33 | free-nodes
+  - name: 🇫🇷 FR TROJAN-38 | free-nodes
     server: www.calmlunch.com
     port: 443
     type: trojan
@@ -1191,11 +1181,27 @@ proxies:
       path: /assignment
       headers:
         Host: www.calmlunch.com
-  - name: 🇫🇷 FR TROJAN-34 | free-nodes
-    server: 35.181.232.8
-    port: 22223
+  - name: 🇩🇪 DE TROJAN-39 | free-nodes
+    server: free-de-2.undef.network
+    port: 443
     type: trojan
-    password: telegram-id-directvpn
+    password: pYIoKUPGpWeTYXEx3HjR7s97B
+    sni: free-de-2.undef.network
+    skip-cert-verify: false
+  - name: 🇫🇷 FR TROJAN-40 | free-nodes
+    server: 35.181.232.8
+    port: 22222
+    type: trojan
+    password: telegram-id-privatevpns
+    sni: trojan.burgerip.co.uk
+    alpn:
+      - http/1.1
+    skip-cert-verify: false
+  - name: 🇩🇪 DE TROJAN-41 | free-nodes
+    server: 52.57.37.167
+    port: 22222
+    type: trojan
+    password: telegram-id-privatevpns
     sni: trojan.burgerip.co.uk
     alpn:
       - http/1.1
