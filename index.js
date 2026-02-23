@@ -2,40 +2,50 @@ import { parse, stringify } from 'yaml';
 import fs from 'fs/promises';
 
 async function fetchClashSubscriptionLinks() {
-  const url = 'https://raw.githubusercontent.com/clashfree/clashfree.github.io/refs/heads/main/README.md';
-  const additionalLinks = [
+  const sources = [
+    'https://raw.githubusercontent.com/clashfree/clashfree.github.io/refs/heads/main/README.md',
+    'https://raw.githubusercontent.com/free-nodes/clashfree/refs/heads/main/README.md',
     'https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash',
-    'https://raw.githubusercontent.com/free-nodes/clashfree/refs/heads/main/clash.yml',
   ];
   
-  try {
-    const response = await fetch(url);
-    const text = await response.text();
-    
-    const sectionRegex = /### .+Clash.+订阅链接[\s\S]*?(?=###|$)/;
-    const section = text.match(sectionRegex);
-    
-    let links = [];
-    
-    if (section) {
-      const linkRegex = /https?:\/\/[^\s)]+/g;
-      links = section[0].match(linkRegex) || [];
+  let links = [];
+
+  for (const url of sources) {
+    try {
+      if (url.endsWith('README.md')) {
+        const response = await fetch(url);
+        const text = await response.text();
+        // 提取 .yaml 或 .yml 链接
+        const yamlRegex = /https?:\/\/[^\s)]+\.(?:yaml|yml)/g;
+        let foundLinks = text.match(yamlRegex) || [];
+        
+        // 转换为 raw 链接
+        foundLinks = foundLinks.map(link => {
+          if (link.includes('github.com') && link.includes('/blob/')) {
+            return link.replace('github.com', 'raw.githubusercontent.com').replace('/blob/', '/');
+          }
+          return link;
+        });
+        links.push(...foundLinks);
+      } else {
+        links.push(url);
+      }
+    } catch (error) {
+      console.error(`获取或解析 ${url} 时出错：`, error);
     }
-    
-    links.push(...additionalLinks);
-    
-    if (links.length > 0) {
-      console.log('找到的 Clash 订阅链接：');
-      links.forEach(link => console.log(link));
-    } else {
-      console.log('没有找到任何 Clash 订阅链接。');
-    }
-    
-    return links;
-  } catch (error) {
-    console.error('获取或解析内容时出错：', error);
-    return [...additionalLinks];
   }
+
+  // 去重
+  links = [...new Set(links)];
+
+  if (links.length > 0) {
+    console.log('找到的 Clash 订阅链接：');
+    links.forEach(link => console.log(link));
+  } else {
+    console.log('没有找到任何 Clash 订阅链接。');
+  }
+  
+  return links;
 }
 
 async function fetchAndParseProxies(url) {
@@ -45,7 +55,7 @@ async function fetchAndParseProxies(url) {
     const config = parse(text);
     return config?.proxies || [];
   } catch (error) {
-    console.error(`获取或解析 ${url} 时出错：`, error);
+    console.error(`获取 or 解析 ${url} 时出错：`, error);
     return [];
   }
 }
@@ -65,6 +75,7 @@ async function getAllProxies() {
 
   // 过滤代理
   let filteredProxies = allProxies.filter(proxy => {
+    if (!proxy) return false;
     // 过滤掉 cipher 为 'ss' 'chacha20' 或 type 为 'vless' 的代理
     if (['ss', 'chacha20'].includes(proxy.cipher) || proxy.type === 'vless') {
       return false;
@@ -113,7 +124,6 @@ async function updateClashProviderYml(proxies) {
 // 立即调用异步函数
 (async () => {
   const proxies = await getAllProxies();
-  console.log('过滤和去重后的代理：', proxies);
   
   // 更新 clash-provider.yml
   await updateClashProviderYml(proxies);

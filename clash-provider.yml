@@ -1316,6 +1316,125 @@ proxies:
     type: ss
     cipher: aes-128-gcm
     password: 6601fb90e9b3
+  - name: 🇩🇪 DE SS-01 | free-nodes
+    server: 46.38.143.236
+    port: 60633
+    type: ss
+    cipher: 2022-blake3-chacha20-poly1305
+    password: HnzIN1CLGGEh+mD/uzbbvTQc/Alq+hkmrC7Po3D4k4E=
+  - name: 🇬🇧 GB SS-03 | free-nodes
+    server: 57.128.191.90
+    port: 8388
+    type: ss
+    cipher: 2022-blake3-aes-256-gcm
+    password: R532mRBv3acPAGakeITDQWJRxyym0pxqvzJPmWCFwHU=
+  - name: 🇩🇪 DE SS-04 | free-nodes
+    server: 162.19.208.118
+    port: 50285
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 4anGtou86vGB7r1lOm5n8g
+  - name: 🇺🇸 US SS-05 | free-nodes
+    server: 154.53.34.27
+    port: 45234
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 5d8680180abdb564
+  - name: 🇫🇷 FR SS-10 | free-nodes
+    server: 45.95.233.133
+    port: 8388
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: vqyEdGysKQ9FkWHkPnow_fBNANcMRsNH
+  - name: 🇷🇺 RU SS-11 | free-nodes
+    server: 62.113.114.116
+    port: 42320
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: BShcek5ydIWbXEnhI2vIym
+  - name: 🇷🇺 RU SS-14 | free-nodes
+    server: 212.192.14.234
+    port: 24441
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: Ow8iSExQNaobZPY9bJ4EPI
+  - name: 未知 SS-18 | free-nodes
+    server: 45.80.231.75
+    port: 31019
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: XN6Xf0ZqwDeFrt39TQraen
+  - name: 未知 SS-19 | free-nodes
+    server: 46.246.97.140
+    port: 53908
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: ZweuXavjovuhzt1AF0d6qx
+  - name: 🇺🇸 US SS-23 | free-nodes
+    server: 144.217.164.29
+    port: 12000
+    type: ss
+    cipher: aes-256-gcm
+    password: 8JCsPssfgS8tiRwiMlhARg==
+  - name: 🇫🇷 FR SS-25 | free-nodes
+    server: 95.111.250.4
+    port: 80
+    type: ss
+    cipher: aes-256-gcm
+    password: BbOUgNLUyT6rdrxE
+  - name: 🇯🇵 JP SS-26 | free-nodes
+    server: 103.106.228.175
+    port: 8009
+    type: ss
+    cipher: aes-256-gcm
+    password: XKFKl2rULjIp74
+  - name: 🇨🇳 TW TROJAN-30 | free-nodes
+    server: a03.taipeicitygovernment.cn.ua
+    port: 3462
+    type: trojan
+    password: 736cd94d-7b94-3e44-8106-3419f64eaf09
+    sni: 45.32.28.232
+    skip-cert-verify: false
+  - name: 🇭🇰 HK TROJAN-31 | free-nodes
+    server: 54.150.211.34
+    port: 1491
+    type: trojan
+    password: BxceQaOe
+    sni: t.me%2Fripaojiedian
+    skip-cert-verify: false
+  - name: 🇬🇧 GB TROJAN-32 | free-nodes
+    server: hl-freedom-2.undef.network
+    port: 443
+    type: trojan
+    password: Tn2Bf0iRwJkJQgDk6gX6x81RB
+    sni: hl-freedom-2.undef.network
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /f2fc2a1f
+      headers:
+        Host: hl-freedom-2.undef.network
+  - name: 🇫🇷 FR TROJAN-33 | free-nodes
+    server: www.calmlunch.com
+    port: 443
+    type: trojan
+    password: humanity
+    sni: www.calmlunch.com
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.calmlunch.com
+  - name: 🇫🇷 FR TROJAN-34 | free-nodes
+    server: 35.181.232.8
+    port: 22223
+    type: trojan
+    password: telegram-id-directvpn
+    sni: trojan.burgerip.co.uk
+    alpn:
+      - http/1.1
+    skip-cert-verify: false
   - name: 🇭🇰 香港3|@ripaojiedian
     server: 13.112.42.244
     port: 4856
@@ -1323,13 +1442,6 @@ proxies:
     password: 64a59181551b5773e390bd717a7b7c06
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: 🇭🇰 香港4|@ripaojiedian
-    server: 54.150.211.34
-    port: 1491
-    type: trojan
-    password: BxceQaOe
-    sni: t.me%2Fripaojiedian
-    skip-cert-verify: true
   - name: 🇭🇰 香港5|@ripaojiedian
     server: 13.113.247.215
     port: 2399
