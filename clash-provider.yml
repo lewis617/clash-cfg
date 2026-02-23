@@ -1135,47 +1135,56 @@ proxies:
     type: ss
     cipher: 2022-blake3-aes-256-gcm
     password: R532mRBv3acPAGakeITDQWJRxyym0pxqvzJPmWCFwHU=
-  - name: 🇫🇷 FR SS-03 | free-nodes
-    server: 57.131.42.19
-    port: 8389
-    type: ss
-    cipher: 2022-blake3-aes-256-gcm
-    password: et1sgh1iQaWzsw201JX2eexN1Ai6QmIGcZIlvlC5L54=
-  - name: 🇺🇸 US SS-23 | free-nodes
+  - name: 🇺🇸 US SS-27 | free-nodes
     server: 144.217.164.29
     port: 12000
     type: ss
     cipher: aes-256-gcm
     password: 8JCsPssfgS8tiRwiMlhARg==
-  - name: 🇯🇵 JP SS-29 | free-nodes
+  - name: 🇺🇸 US SS-29 | free-nodes
+    server: 154.53.60.197
+    port: 80
+    type: ss
+    cipher: aes-256-gcm
+    password: 8rb580EBG4l7tO8K
+  - name: 🇫🇷 FR SS-30 | free-nodes
+    server: 95.111.250.4
+    port: 80
+    type: ss
+    cipher: aes-256-gcm
+    password: BbOUgNLUyT6rdrxE
+  - name: 🇯🇵 JP SS-34 | free-nodes
     server: 103.106.228.175
     port: 8009
     type: ss
     cipher: aes-256-gcm
     password: XKFKl2rULjIp74
-  - name: 🇭🇰 HK TROJAN-38 | free-nodes
+  - name: 🇭🇰 HK TROJAN-41 | free-nodes
     server: 54.150.211.34
     port: 1491
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: false
-  - name: 🇬🇧 GB TROJAN-39 | free-nodes
+  - name: 🇬🇧 GB TROJAN-42 | free-nodes
     server: hl-freedom-2.undef.network
     port: 443
     type: trojan
     password: Tn2Bf0iRwJkJQgDk6gX6x81RB
+    sni: hl-freedom-2.undef.network
     skip-cert-verify: false
     network: ws
     ws-opts:
       path: /f2fc2a1f
-  - name: 🇨🇦 CA TROJAN-40 | free-nodes
+      headers:
+        Host: hl-freedom-2.undef.network
+  - name: 🇨🇦 CA TROJAN-43 | free-nodes
     server: ca05.oportal.cc
     port: 443
     type: trojan
     password: adb13850-7e70-492e-85b2-01184801d587
     skip-cert-verify: false
-  - name: 🇫🇷 FR TROJAN-41 | free-nodes
+  - name: 🇫🇷 FR TROJAN-44 | free-nodes
     server: www.calmlunch.com
     port: 443
     type: trojan
@@ -1187,8 +1196,17 @@ proxies:
       path: /assignment
       headers:
         Host: www.calmlunch.com
-  - name: 🇩🇪 DE TROJAN-42 | free-nodes
+  - name: 🇩🇪 DE TROJAN-45 | free-nodes
     server: 63.181.24.193
+    port: 22223
+    type: trojan
+    password: telegram-id-directvpn
+    sni: trojan.burgerip.co.uk
+    alpn:
+      - http/1.1
+    skip-cert-verify: false
+  - name: 🇩🇪 DE TROJAN-46 | free-nodes
+    server: 18.196.6.7
     port: 22222
     type: trojan
     password: telegram-id-privatevpns
@@ -1196,7 +1214,7 @@ proxies:
     alpn:
       - http/1.1
     skip-cert-verify: false
-  - name: 未知 SS-126 | free-nodes
+  - name: 未知 SS-127 | free-nodes
     server: www.ccgfw.top
     port: 443
     type: ss
