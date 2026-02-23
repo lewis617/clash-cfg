@@ -15,12 +15,6 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - name: US美国
-    type: ss
-    server: ldu.izenny.com
-    port: 18140
-    cipher: chacha20-ietf-poly1305
-    password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
   - name: 法国节点
     type: vmess
     server: 2001:bc8:32d7:302::10
@@ -350,13 +344,6 @@ proxies:
     sni: vbhk.999864.xyz
     skip-cert-verify: true
     udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 23
-    server: 183.232.137.2
-    port: 43076
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: c6d61cd1-d3dc-405e-afb2-d67815f4e4da
-    udp: true
   - name: US美国(mibei77.com 米贝节点分享) 24
     server: hj.huangshang.qzz.io
     port: 443
@@ -396,13 +383,6 @@ proxies:
     ws-path: /LDTpW8UIEnTAiN9LMya
     ws-headers:
       Host: jki.huangdi.indevs.in
-    udp: true
-  - name: 伊朗(mibei77.com 米贝节点分享)
-    server: f.sdnlv0.cn
-    port: 11270
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 13df5feb-756e-4627-bcee-497f3c81bab4
     udp: true
   - name: US美国(mibei77.com 米贝节点分享) 30
     server: liubu9.singdns.com
@@ -602,20 +582,6 @@ proxies:
     tls: false
     skip-cert-verify: true
     udp: true
-  - name: RU俄罗斯(mibei77.com 米贝节点分享)
-    server: 185.250.45.163
-    port: 4129
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: Kg5NRMdbXzKqMCO04CbOYb
-    udp: true
-  - name: 伊朗(mibei77.com 米贝节点分享) 2
-    server: xgrr.sdnlv0.cn
-    port: 48973
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 13df5feb-756e-4627-bcee-497f3c81bab4
-    udp: true
   - name: US美国(mibei77.com 米贝节点分享) 57
     server: nnmjkio.taipei101.indevs.in
     port: 443
@@ -653,13 +619,6 @@ proxies:
     password: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
     sni: hhjk.huangzi.cfd
     skip-cert-verify: true
-    udp: true
-  - name: RU俄罗斯(mibei77.com 米贝节点分享) 2
-    server: 62.133.63.167
-    port: 61377
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: E12yZBPC7y8SnmkSYjf0Wl
     udp: true
   - name: US美国(mibei77.com 米贝节点分享) 66
     server: mghnnbj.1yy.ccwu.cc
@@ -739,13 +698,6 @@ proxies:
     ws-headers:
       Host: cdge.avaaaal.ir
     udp: true
-  - name: FR法国(mibei77.com 米贝节点分享) 13
-    server: switcher-nick-croquet.freesocks.work
-    port: 443
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 9tqhMdIrTkgQ46PvhyAtMH
-    udp: true
   - name: FR法国(mibei77.com 米贝节点分享) 14
     server: 167.68.4.199
     port: 2053
@@ -780,13 +732,6 @@ proxies:
     ws-path: /
     ws-headers:
       Host: gtm1.ktmwan.net
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享) 86
-    server: tinkered-pennies-puppies.freesocks.work
-    port: 443
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: hbGrpfvNrJsUmKmPbR3iY2
     udp: true
   - name: US美国(mibei77.com 米贝节点分享) 87
     server: vvVBNhJ.191288.xyZ
@@ -1017,138 +962,6 @@ proxies:
     sni: www.nintendogames.net
     skip-cert-verify: true
     tls: false
-  - name: 🇫🇷 FR SS-01 | free-nodes
-    server: 37.60.250.243
-    port: 20558
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 455c15bc175b4d74
-  - name: 🇩🇪 DE SS-02 | free-nodes
-    server: 57.129.95.45
-    port: 11201
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 6675cbf62d6a3a4f
-  - name: 🇬🇧 GB SS-03 | free-nodes
-    server: 51.75.168.50
-    port: 13030
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 6c815bb84c781da5
-  - name: 🇨🇦 CA SS-04 | free-nodes
-    server: 148.113.139.160
-    port: 46534
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 7a106afc33eaa261
-  - name: 未知 SS-05 | free-nodes
-    server: 89.223.88.33
-    port: 11201
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 7c31a67b41b18c26
-  - name: 🇺🇸 US SS-06 | free-nodes
-    server: 92.38.149.110
-    port: 31348
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 351q6zQEEgP2hVB8WOAYmOZzzXqMq5AEVuDDOMjpnAgJMJKG
-  - name: 未知 SS-07 | free-nodes
-    server: 38.54.93.66
-    port: 49696
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 3b72ad57035835c7
-  - name: 🇷🇺 RU SS-09 | free-nodes
-    server: basic-ru-1.undef.network
-    port: 35686
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: IElNXAaTf5U9WtbJerrgzP4Lf
-  - name: 未知 SS-10 | free-nodes
-    server: 95.164.113.198
-    port: 53829
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: Kbm3xoK04p4OhoqVpEzdlj
-  - name: 未知 SS-12 | free-nodes
-    server: bogging-eyeteeth-fly.freesocks.work
-    port: 443
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: QFWzCw2uX9B9i6qAYeFBIE
-  - name: 🇷🇺 RU SS-13 | free-nodes
-    server: basic-ru-0.undef.network
-    port: 42095
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: VCFAk7Hc8FI27kHavKAfJpamy
-  - name: 🇬🇧 GB SS-14 | free-nodes
-    server: series-a1.samanehha.co
-    port: 443
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: W74XFALLLuw6m5IA
-  - name: 🇬🇧 GB SS-15 | free-nodes
-    server: series-a2.samanehha.co
-    port: 443
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: W74XFALLLuw6m5IA
-  - name: 未知 SS-16 | free-nodes
-    server: 163.171.213.47
-    port: 12025
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: abe595aeb7a6a035
-  - name: 未知 SS-17 | free-nodes
-    server: 38.54.29.57
-    port: 11201
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: cb955c8530320120
-  - name: 🇺🇸 US SS-18 | free-nodes
-    server: 62.146.224.145
-    port: 20591
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: d933225e6e380dad
-  - name: TR SS-19 | free-nodes
-    server: 94.131.123.86
-    port: 35361
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: g0UgfsdXOhn8McpdHpWcmo
-  - name: 🇬🇧 GB SS-21 | free-nodes
-    server: admin.c2.havij.co
-    port: 443
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: kaQH3hGdcP80XEDI
-  - name: 未知 SS-22 | free-nodes
-    server: 82.38.31.35
-    port: 8080
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-  - name: 未知 SS-23 | free-nodes
-    server: 82.38.31.62
-    port: 8080
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-  - name: 未知 SS-24 | free-nodes
-    server: 178.17.61.67
-    port: 5790
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: qS3skwmolrQ70q842irQD0
-  - name: 🇺🇸 US SS-25 | free-nodes
-    server: 204.44.122.100
-    port: 3031
-    type: ss
-    cipher: chacha20-poly1305
-    password: rootface
   - name: 未知 SS-26 | free-nodes
     server: 57.131.38.151
     port: 8443
@@ -1316,60 +1129,12 @@ proxies:
     type: ss
     cipher: aes-128-gcm
     password: 6601fb90e9b3
-  - name: 🇩🇪 DE SS-01 | free-nodes
-    server: 46.38.143.236
-    port: 60633
-    type: ss
-    cipher: 2022-blake3-chacha20-poly1305
-    password: HnzIN1CLGGEh+mD/uzbbvTQc/Alq+hkmrC7Po3D4k4E=
   - name: 🇬🇧 GB SS-03 | free-nodes
     server: 57.128.191.90
     port: 8388
     type: ss
     cipher: 2022-blake3-aes-256-gcm
     password: R532mRBv3acPAGakeITDQWJRxyym0pxqvzJPmWCFwHU=
-  - name: 🇩🇪 DE SS-04 | free-nodes
-    server: 162.19.208.118
-    port: 50285
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 4anGtou86vGB7r1lOm5n8g
-  - name: 🇺🇸 US SS-05 | free-nodes
-    server: 154.53.34.27
-    port: 45234
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 5d8680180abdb564
-  - name: 🇫🇷 FR SS-10 | free-nodes
-    server: 45.95.233.133
-    port: 8388
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: vqyEdGysKQ9FkWHkPnow_fBNANcMRsNH
-  - name: 🇷🇺 RU SS-11 | free-nodes
-    server: 62.113.114.116
-    port: 42320
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: BShcek5ydIWbXEnhI2vIym
-  - name: 🇷🇺 RU SS-14 | free-nodes
-    server: 212.192.14.234
-    port: 24441
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: Ow8iSExQNaobZPY9bJ4EPI
-  - name: 未知 SS-18 | free-nodes
-    server: 45.80.231.75
-    port: 31019
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: XN6Xf0ZqwDeFrt39TQraen
-  - name: 未知 SS-19 | free-nodes
-    server: 46.246.97.140
-    port: 53908
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: ZweuXavjovuhzt1AF0d6qx
   - name: 🇺🇸 US SS-23 | free-nodes
     server: 144.217.164.29
     port: 12000
