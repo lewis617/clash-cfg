@@ -15,7 +15,7 @@ proxy-groups:
     interval: 300
     lazy: true
     name: OPENAI
-    tolerance: 150
+    timeout: 1500
     type: url-test
     url: "https://api.openai.com/v1/models"
     expected-status: 401
@@ -24,7 +24,7 @@ proxy-groups:
     interval: 300
     lazy: true
     name: AUTO
-    tolerance: 150
+    timeout: 1500
     type: url-test
     url: https://www.gstatic.com/generate_204
     expected-status: 204
