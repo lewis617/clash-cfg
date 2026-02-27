@@ -1131,87 +1131,86 @@ proxies:
     password: 6601fb90e9b3
   - name: 🇬🇧 GB SS-02 | free-nodes
     server: 57.128.191.90
-    port: 8388
+    port: 8390
     type: ss
     cipher: 2022-blake3-aes-256-gcm
     password: R532mRBv3acPAGakeITDQWJRxyym0pxqvzJPmWCFwHU=
-  - name: 🇫🇷 FR SS-03 | free-nodes
-    server: 51.38.141.210
-    port: 8388
-    type: ss
-    cipher: 2022-blake3-aes-256-gcm
-    password: dCmwaTQxKk6QAMzFnQdHkRhxHF1duniBX4OV9xIzLEE=
-  - name: 🇫🇷 FR SS-04 | free-nodes
-    server: 57.131.42.19
-    port: 8389
-    type: ss
-    cipher: 2022-blake3-aes-256-gcm
-    password: et1sgh1iQaWzsw201JX2eexN1Ai6QmIGcZIlvlC5L54=
-  - name: 🇺🇸 US SS-32 | free-nodes
+  - name: 🇺🇸 US SS-25 | free-nodes
     server: 144.217.164.29
     port: 12000
     type: ss
     cipher: aes-256-gcm
     password: 8JCsPssfgS8tiRwiMlhARg==
-  - name: 🇫🇷 FR SS-36 | free-nodes
+  - name: 🇺🇸 US SS-27 | free-nodes
+    server: 154.53.60.197
+    port: 80
+    type: ss
+    cipher: aes-256-gcm
+    password: 8rb580EBG4l7tO8K
+  - name: 🇫🇷 FR SS-28 | free-nodes
     server: 95.111.250.4
     port: 80
     type: ss
     cipher: aes-256-gcm
     password: BbOUgNLUyT6rdrxE
-  - name: 🇸🇬 SG TROJAN-46 | free-nodes
+  - name: 🇺🇸 US SS-29 | free-nodes
+    server: 154.53.63.42
+    port: 80
+    type: ss
+    cipher: aes-256-gcm
+    password: SM7WYtAwvBORXKjI
+  - name: 🇯🇵 JP SS-30 | free-nodes
+    server: 103.106.228.175
+    port: 8009
+    type: ss
+    cipher: aes-256-gcm
+    password: XKFKl2rULjIp74
+  - name: 未知 SS-31 | free-nodes
+    server: 38.180.161.123
+    port: 8119
+    type: ss
+    cipher: aes-256-gcm
+    password: cdBIDV42DCwnfIN
+  - name: 未知 SS-32 | free-nodes
+    server: 38.180.2.141
+    port: 5499
+    type: ss
+    cipher: aes-256-gcm
+    password: lGqs95QkFHo2NV
+  - name: 未知 SS-33 | free-nodes
+    server: 154.223.16.41
+    port: 4444
+    type: ss
+    cipher: aes-256-gcm
+    password: pKEW8JPByTVTLtM
+  - name: 🇸🇬 SG TROJAN-35 | free-nodes
     server: 153.121.65.107
     port: 3419
     type: trojan
     password: 262f1d150049457ac1d6e66b020fa980
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: 🇺🇸 US TROJAN-48 | free-nodes
+  - name: 🇺🇸 US TROJAN-38 | free-nodes
     server: 5.34.222.4
     port: 43074
     type: trojan
     password: 347ca311-8fc2-499c-8fe1-bd0ecb50f1b3
     sni: iepl.jpz2.cat.bilibili.com
     skip-cert-verify: false
-  - name: 🇭🇰 HK TROJAN-49 | free-nodes
-    server: bgp1.stimaysmhy8.com
-    port: 14011
-    type: trojan
-    password: 984c7793-1447-4af5-9200-d514ad6fe329
-    sni: jsygouer.weixin-baidu-qq.com
-    skip-cert-verify: false
-  - name: 🇸🇬 SG TROJAN-50 | free-nodes
-    server: sg05.stimaysmhy8.com
-    port: 45005
-    type: trojan
-    password: 984c7793-1447-4af5-9200-d514ad6fe329
-    sni: jsygouer.weixin-baidu-qq.com
-    skip-cert-verify: false
-  - name: 🇸🇬 SG TROJAN-51 | free-nodes
-    server: 16.163.102.116
-    port: 52951
-    type: trojan
-    password: BxceQaOe
-    sni: t.me%252Fripaojiedian
-    skip-cert-verify: false
-  - name: 🇬🇧 GB TROJAN-52 | free-nodes
-    server: hl-freedom-2.undef.network
-    port: 443
-    type: trojan
-    password: Tn2Bf0iRwJkJQgDk6gX6x81RB
-    sni: hl-freedom-2.undef.network
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /f2fc2a1f
-      headers:
-        Host: hl-freedom-2.undef.network
-  - name: 🇨🇦 CA TROJAN-53 | free-nodes
+  - name: 🇨🇦 CA TROJAN-39 | free-nodes
     server: ca05.oportal.cc
     port: 443
     type: trojan
     password: adb13850-7e70-492e-85b2-01184801d587
     skip-cert-verify: false
+  - name: 🇬🇧 GB TROJAN-40 | free-nodes
+    server: 194.150.166.151
+    port: 52047
+    type: trojan
+    password: zp630tdUuD
+    sni: aws.amazon.com
+    skip-cert-verify: false
+    network: grpc
   - name: 🇭🇰 香港3|@ripaojiedian
     server: 52.69.221.238
     port: 4856
