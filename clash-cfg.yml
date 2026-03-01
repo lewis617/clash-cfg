@@ -62,6 +62,7 @@ rules:
   - RULE-SET,custom-proxy,PROXY
   - RULE-SET,custom-direct,DIRECT
   
+  - GEOSITE,github,OPENAI
   - GEOSITE,anthropic,OPENAI
   - GEOSITE,openai,OPENAI
   - GEOSITE,category-ads-all,REJECT
