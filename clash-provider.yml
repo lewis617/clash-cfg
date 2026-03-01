@@ -1141,31 +1141,25 @@ proxies:
     type: ss
     cipher: aes-256-gcm
     password: KixLvKzwjekG00rm
-  - name: 🇺🇸 US SS-08 | free-nodes
-    server: 154.53.63.42
-    port: 80
-    type: ss
-    cipher: aes-256-gcm
-    password: SM7WYtAwvBORXKjI
-  - name: 未知 SS-09 | free-nodes
+  - name: 未知 SS-08 | free-nodes
     server: 38.180.161.123
     port: 8119
     type: ss
     cipher: aes-256-gcm
     password: cdBIDV42DCwnfIN
-  - name: 未知 SS-10 | free-nodes
+  - name: 未知 SS-09 | free-nodes
     server: 38.180.2.141
     port: 5499
     type: ss
     cipher: aes-256-gcm
     password: lGqs95QkFHo2NV
-  - name: 未知 SS-11 | free-nodes
+  - name: 未知 SS-10 | free-nodes
     server: 154.223.16.41
     port: 4444
     type: ss
     cipher: aes-256-gcm
     password: pKEW8JPByTVTLtM
-  - name: 🇸🇬 SG TROJAN-12 | free-nodes
+  - name: 🇸🇬 SG TROJAN-11 | free-nodes
     server: ubu.okaoclax.me
     port: 443
     type: trojan
@@ -1177,6 +1171,13 @@ proxies:
       path: /trojan-ws
       headers:
         Host: ubu.okaoclax.me
+  - name: 🇸🇬 SG TROJAN-12 | free-nodes
+    server: 153.121.65.107
+    port: 3419
+    type: trojan
+    password: 262f1d150049457ac1d6e66b020fa980
+    sni: www.nintendogames.net
+    skip-cert-verify: false
   - name: 🇺🇸 US TROJAN-13 | free-nodes
     server: 160.16.130.21
     port: 4920
@@ -1205,7 +1206,13 @@ proxies:
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: false
-  - name: 🇬🇧 GB TROJAN-18 | free-nodes
+  - name: 🇫🇷 FR TROJAN-18 | free-nodes
+    server: 13.39.66.187
+    port: 22222
+    type: trojan
+    password: telegram-id-privatevpns
+    skip-cert-verify: false
+  - name: 🇬🇧 GB TROJAN-19 | free-nodes
     server: 194.150.166.151
     port: 52047
     type: trojan
