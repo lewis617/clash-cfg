@@ -1129,43 +1129,55 @@ proxies:
     type: ss
     cipher: aes-128-gcm
     password: 6601fb90e9b3
-  - name: 🇺🇸 US SS-06 | free-nodes
+  - name: 🇺🇸 US SS-18 | free-nodes
     server: 144.217.164.29
     port: 12000
     type: ss
     cipher: aes-256-gcm
     password: 8JCsPssfgS8tiRwiMlhARg==
-  - name: 🇩🇪 DE SS-08 | free-nodes
-    server: 144.217.7.33
-    port: 12000
+  - name: 未知 SS-19 | free-nodes
+    server: 38.180.197.41
+    port: 8080
     type: ss
     cipher: aes-256-gcm
-    password: 8JCsPssfgS8tiRwiMlhARg==
-  - name: 🇯🇵 JP SS-10 | free-nodes
+    password: KixLvKzwjekG00rm
+  - name: 🇺🇸 US SS-20 | free-nodes
+    server: 154.53.63.42
+    port: 80
+    type: ss
+    cipher: aes-256-gcm
+    password: SM7WYtAwvBORXKjI
+  - name: 🇯🇵 JP SS-22 | free-nodes
     server: 103.106.228.175
     port: 8009
     type: ss
     cipher: aes-256-gcm
     password: XKFKl2rULjIp74
-  - name: 未知 SS-11 | free-nodes
+  - name: 🇬🇧 GB SS-23 | free-nodes
+    server: 149.102.132.186
+    port: 80
+    type: ss
+    cipher: aes-256-gcm
+    password: YhzqOeJsfuZ9rkkc
+  - name: 未知 SS-24 | free-nodes
     server: 38.180.161.123
     port: 8119
     type: ss
     cipher: aes-256-gcm
     password: cdBIDV42DCwnfIN
-  - name: 未知 SS-12 | free-nodes
+  - name: 未知 SS-25 | free-nodes
     server: 38.180.2.141
     port: 5499
     type: ss
     cipher: aes-256-gcm
     password: lGqs95QkFHo2NV
-  - name: 未知 SS-13 | free-nodes
+  - name: 未知 SS-26 | free-nodes
     server: 154.223.16.41
     port: 4444
     type: ss
     cipher: aes-256-gcm
     password: pKEW8JPByTVTLtM
-  - name: 🇸🇬 SG TROJAN-14 | free-nodes
+  - name: 🇸🇬 SG TROJAN-28 | free-nodes
     server: ubu.okaoclax.me
     port: 443
     type: trojan
@@ -1177,34 +1189,26 @@ proxies:
       path: /trojan-ws
       headers:
         Host: ubu.okaoclax.me
-  - name: 🇯🇵 JP TROJAN-15 | free-nodes
-    server: 160.16.106.99
-    port: 2001
-    type: trojan
-    password: 262f1d150049457ac1d6e66b020fa980
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: 🇺🇸 US TROJAN-16 | free-nodes
+  - name: 🇺🇸 US TROJAN-29 | free-nodes
     server: 160.16.124.17
     port: 4920
     type: trojan
     password: 262f1d150049457ac1d6e66b020fa980
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: 🇬🇧 GB TROJAN-17 | free-nodes
-    server: 194.150.166.151
-    port: 52047
+  - name: 🇯🇵 JP TROJAN-30 | free-nodes
+    server: 160.16.70.180
+    port: 2001
     type: trojan
-    password: zp630tdUuD
-    sni: aws.amazon.com
+    password: 262f1d150049457ac1d6e66b020fa980
+    sni: www.nintendogames.net
     skip-cert-verify: false
-    network: grpc
-  - name: 未知 SS-121 | free-nodes
-    server: www.ccgfw.top
+  - name: 🇨🇦 CA TROJAN-31 | free-nodes
+    server: ca05.oportal.cc
     port: 443
-    type: ss
-    cipher: aes-128-gcm
-    password: 6601fb90e9b3
+    type: trojan
+    password: adb13850-7e70-492e-85b2-01184801d587
+    skip-cert-verify: false
   - name: 🇭🇰 香港4|@ripaojiedian
     server: 18.166.31.170
     port: 54548
@@ -1226,6 +1230,13 @@ proxies:
     password: BxceQaOe
     sni: t.me%252Fripaojiedian
     skip-cert-verify: true
+  - name: 🇯🇵 日本3|@ripaojiedian
+    server: 160.16.106.99
+    port: 2001
+    type: trojan
+    password: 262f1d150049457ac1d6e66b020fa980
+    sni: www.nintendogames.net
+    skip-cert-verify: false
   - name: 🇸🇬 新加坡|@ripaojiedian
     server: 54.65.39.157
     port: 3419
