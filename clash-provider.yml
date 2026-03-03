@@ -1190,32 +1190,34 @@ proxies:
       headers:
         Host: ubu.okaoclax.me
   - name: 🇺🇸 US TROJAN-22 | free-nodes
-    server: 160.16.130.21
+    server: 160.16.106.99
     port: 4920
     type: trojan
     password: 262f1d150049457ac1d6e66b020fa980
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇯🇵 JP TROJAN-23 | free-nodes
-    server: 160.16.70.180
+    server: 160.16.214.104
     port: 2001
     type: trojan
-    password: 262f1d150049457ac1d6e66b020fa980
+    password: f7dbed8b1ca85124e793ba6c0bcfd0db
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: 未知 SS-115 | free-nodes
-    server: www.ccgfw.top
-    port: 443
-    type: ss
-    cipher: aes-128-gcm
-    password: 6601fb90e9b3
-  - name: 🇭🇰 香港3|@ripaojiedian
+  - name: 🇭🇰 HK TROJAN-24 | free-nodes
     server: 18.183.167.108
     port: 331
     type: trojan
     password: f7dbed8b1ca85124e793ba6c0bcfd0db
     sni: www.nintendogames.net
     skip-cert-verify: false
+  - name: 🇬🇧 GB TROJAN-25 | free-nodes
+    server: 194.150.166.151
+    port: 52047
+    type: trojan
+    password: zp630tdUuD
+    sni: aws.amazon.com
+    skip-cert-verify: false
+    network: grpc
   - name: 🇭🇰 香港4|@ripaojiedian
     server: 18.183.175.225
     port: 388
@@ -1240,13 +1242,6 @@ proxies:
   - name: 🇯🇵 日本2|@ripaojiedian
     server: 52.68.27.2
     port: 34818
-    type: trojan
-    password: f7dbed8b1ca85124e793ba6c0bcfd0db
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: 🇯🇵 日本3|@ripaojiedian
-    server: 160.16.214.104
-    port: 2001
     type: trojan
     password: f7dbed8b1ca85124e793ba6c0bcfd0db
     sni: www.nintendogames.net
