@@ -1421,42 +1421,48 @@ proxies:
     cipher: aes-256-gcm
     password: 8JCsPssfgS8tiRwiMlhARg==
   - name: 🇩🇪 DE SS-16 | free-nodes
-    server: 57.128.214.100
+    server: 144.217.7.33
     port: 12000
     type: ss
     cipher: aes-256-gcm
     password: 8JCsPssfgS8tiRwiMlhARg==
   - name: 未知 SS-17 | free-nodes
+    server: 57.128.214.100
+    port: 12000
+    type: ss
+    cipher: aes-256-gcm
+    password: 8JCsPssfgS8tiRwiMlhARg==
+  - name: 未知 SS-18 | free-nodes
     server: 38.180.197.41
     port: 8080
     type: ss
     cipher: aes-256-gcm
     password: KixLvKzwjekG00rm
-  - name: 🇺🇸 US SS-18 | free-nodes
+  - name: 🇺🇸 US SS-19 | free-nodes
     server: 154.53.63.42
     port: 80
     type: ss
     cipher: aes-256-gcm
     password: SM7WYtAwvBORXKjI
-  - name: 🇬🇧 GB SS-19 | free-nodes
+  - name: 🇬🇧 GB SS-20 | free-nodes
     server: 149.102.132.186
     port: 80
     type: ss
     cipher: aes-256-gcm
     password: YhzqOeJsfuZ9rkkc
-  - name: 未知 SS-20 | free-nodes
+  - name: 未知 SS-21 | free-nodes
     server: 38.180.161.123
     port: 8119
     type: ss
     cipher: aes-256-gcm
     password: cdBIDV42DCwnfIN
-  - name: 未知 SS-21 | free-nodes
+  - name: 未知 SS-22 | free-nodes
     server: 38.180.2.141
     port: 5499
     type: ss
     cipher: aes-256-gcm
     password: lGqs95QkFHo2NV
-  - name: 🇸🇬 SG TROJAN-22 | free-nodes
+  - name: 🇸🇬 SG TROJAN-23 | free-nodes
     server: ubu.okaoclax.me
     port: 443
     type: trojan
@@ -1468,45 +1474,47 @@ proxies:
       path: /trojan-ws
       headers:
         Host: ubu.okaoclax.me
-  - name: 🇭🇰 HK TROJAN-23 | free-nodes
+  - name: 🇸🇬 SG TROJAN-24 | free-nodes
+    server: 16.162.45.163
+    port: 52951
+    type: trojan
+    password: BxceQaOe
+    sni: t.me%252Fripaojiedian
+    skip-cert-verify: false
+  - name: 🇭🇰 HK TROJAN-25 | free-nodes
     server: 58.152.25.253
     port: 443
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: false
-  - name: 🇨🇦 CA TROJAN-24 | free-nodes
+  - name: 🇨🇦 CA TROJAN-26 | free-nodes
     server: ca05.oportal.cc
     port: 443
     type: trojan
     password: adb13850-7e70-492e-85b2-01184801d587
     skip-cert-verify: false
-  - name: 🇭🇰 HK TROJAN-30 | free-nodes
+  - name: 🇯🇵 JP TROJAN-29 | free-nodes
+    server: 160.16.214.104
+    port: 2001
+    type: trojan
+    password: f389ed926e512e15f382dc3804029474
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+  - name: 🇭🇰 HK TROJAN-33 | free-nodes
     server: 58.152.18.189
     port: 443
     type: trojan
     password: f7dbed8b1ca85124e793ba6c0bcfd0db
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: 🇫🇷 FR TROJAN-31 | free-nodes
-    server: www.calmlunch.com
-    port: 443
-    type: trojan
-    password: humanity
-    sni: www.calmlunch.com
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /assignment
-      headers:
-        Host: www.calmlunch.com
-  - name: TR TROJAN-32 | free-nodes
+  - name: TR TROJAN-34 | free-nodes
     server: 8443.golden-cards.me
     port: 443
     type: trojan
     password: q2GRUM1-odJBWq_KV6xv2fuNvu8ed-
     skip-cert-verify: false
-  - name: 🇬🇧 GB TROJAN-33 | free-nodes
+  - name: 🇬🇧 GB TROJAN-35 | free-nodes
     server: 194.150.166.151
     port: 52047
     type: trojan
@@ -1514,7 +1522,7 @@ proxies:
     sni: aws.amazon.com
     skip-cert-verify: false
     network: grpc
-  - name: 未知 SS-120 | free-nodes
+  - name: 未知 SS-117 | free-nodes
     server: www.ccgfw.top
     port: 443
     type: ss
@@ -1544,20 +1552,6 @@ proxies:
   - name: 🇯🇵 日本|@ripaojiedian
     server: 52.68.96.91
     port: 3022
-    type: trojan
-    password: BxceQaOe
-    sni: t.me%252Fripaojiedian
-    skip-cert-verify: true
-  - name: 🇯🇵 日本2|@ripaojiedian
-    server: 160.16.214.104
-    port: 2001
-    type: trojan
-    password: f389ed926e512e15f382dc3804029474
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: 🇸🇬 新加坡3|@ripaojiedian
-    server: 16.162.45.163
-    port: 52951
     type: trojan
     password: BxceQaOe
     sni: t.me%252Fripaojiedian
