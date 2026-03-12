@@ -1396,26 +1396,26 @@ proxies:
     port: 38388
     cipher: aes-256-cfb
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  - name: 🇸🇬 SG SS-01 | free-nodes
-    server: 43.128.111.119
-    port: 38012
-    type: ss
-    cipher: 2022-blake3-aes-256-gcm
-    password: slG+0TTh3ooR89EGCea91CuAmPK4RVUdc7ah9ENN3jY=
-  - name: 未知 SS-11 | free-nodes
+  - name: 未知 SS-10 | free-nodes
     server: 158.173.20.171
     port: 443
     type: ss
     cipher: aes-128-gcm
     password: shadowsocks
-  - name: 🇺🇸 US SS-12 | free-nodes
+  - name: 🇺🇸 US SS-11 | free-nodes
     server: 66.94.125.178
     port: 80
     type: ss
     cipher: aes-256-gcm
     password: 14CLBaFBqwqxBJy6
-  - name: 🇺🇸 US SS-13 | free-nodes
+  - name: 🇺🇸 US SS-12 | free-nodes
     server: 144.217.164.29
+    port: 12000
+    type: ss
+    cipher: aes-256-gcm
+    password: 8JCsPssfgS8tiRwiMlhARg==
+  - name: 🇩🇪 DE SS-13 | free-nodes
+    server: 144.217.7.33
     port: 12000
     type: ss
     cipher: aes-256-gcm
@@ -1489,21 +1489,28 @@ proxies:
     password: d5fa43f9-1ace-4b8f-b865-627e67b1fe37
     sni: jsygouer.weixin-baidu-qq.com
     skip-cert-verify: false
-  - name: 🇯🇵 JP TROJAN-24 | free-nodes
+  - name: 🇨🇳 TW TROJAN-24 | free-nodes
+    server: tw05.stimaysmhy8.com
+    port: 31500
+    type: trojan
+    password: d5fa43f9-1ace-4b8f-b865-627e67b1fe37
+    sni: jsygouer.weixin-baidu-qq.com
+    skip-cert-verify: false
+  - name: 🇯🇵 JP TROJAN-25 | free-nodes
     server: 153.121.45.139
     port: 34818
     type: trojan
     password: f389ed926e512e15f382dc3804029474
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: 🇯🇵 JP TROJAN-28 | free-nodes
+  - name: 🇯🇵 JP TROJAN-26 | free-nodes
     server: 160.16.214.104
     port: 2001
     type: trojan
     password: f389ed926e512e15f382dc3804029474
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: TR TROJAN-29 | free-nodes
+  - name: TR TROJAN-30 | free-nodes
     server: 8443.golden-cards.me
     port: 443
     type: trojan
