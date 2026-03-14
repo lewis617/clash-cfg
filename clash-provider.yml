@@ -1502,64 +1502,64 @@ proxies:
     cipher: aes-128-gcm
     password: 6601fb90e9b3
   - name: 🇭🇰 香港3|@ripaojiedian
-    server: 54.238.23.69
+    server: 54.249.53.157
     port: 921
     type: trojan
     password: f389ed926e512e15f382dc3804029474
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇭🇰 香港4|@ripaojiedian
-    server: 119.237.128.216
-    port: 443
+    server: 16.163.150.32
+    port: 5823
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
   - name: 🇭🇰 香港5|@ripaojiedian
-    server: 13.231.91.242
-    port: 6313
+    server: 52.194.190.150
+    port: 5823
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
   - name: 🇯🇵 日本|@ripaojiedian
-    server: 3.112.213.24
-    port: 4945
+    server: 52.196.224.76
+    port: 3022
     type: trojan
     password: BxceQaOe
     sni: t.me%252Fripaojiedian
     skip-cert-verify: true
   - name: 🇯🇵 日本2|@ripaojiedian
-    server: 153.121.38.213
-    port: 34818
+    server: 52.68.61.114
+    port: 4937
     type: trojan
     password: f389ed926e512e15f382dc3804029474
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇯🇵 日本3|@ripaojiedian
-    server: 160.16.85.33
+    server: 160.16.132.38
     port: 4937
     type: trojan
     password: f389ed926e512e15f382dc3804029474
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇸🇬 新加坡3|@ripaojiedian
-    server: 13.231.110.103
-    port: 52951
+    server: 43.199.43.18
+    port: 29666
     type: trojan
     password: BxceQaOe
     sni: t.me%252Fripaojiedian
     skip-cert-verify: true
   - name: 🇺🇸 美国2|@ripaojiedian
-    server: 54.248.177.86
+    server: 18.181.152.121
     port: 4920
     type: trojan
     password: f389ed926e512e15f382dc3804029474
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇺🇸 美国3|@ripaojiedian
-    server: 16.163.105.149
-    port: 5390
+    server: 95.40.28.8
+    port: 45947
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
