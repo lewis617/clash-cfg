@@ -1510,64 +1510,64 @@ proxies:
     cipher: aes-128-gcm
     password: 6601fb90e9b3
   - name: 🇭🇰 香港3|@ripaojiedian
-    server: 54.249.53.157
-    port: 921
+    server: 54.238.7.116
+    port: 6196
     type: trojan
     password: f389ed926e512e15f382dc3804029474
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇭🇰 香港4|@ripaojiedian
-    server: 16.163.150.32
-    port: 5823
+    server: 18.163.114.142
+    port: 50495
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
   - name: 🇭🇰 香港5|@ripaojiedian
-    server: 52.194.190.150
-    port: 5823
+    server: 18.162.133.174
+    port: 50495
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
-  - name: 🇯🇵 日本|@ripaojiedian
-    server: 52.196.224.76
-    port: 3022
-    type: trojan
-    password: BxceQaOe
-    sni: t.me%252Fripaojiedian
-    skip-cert-verify: true
   - name: 🇯🇵 日本2|@ripaojiedian
-    server: 52.68.61.114
+    server: 3.112.213.118
     port: 4937
     type: trojan
     password: f389ed926e512e15f382dc3804029474
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇯🇵 日本3|@ripaojiedian
-    server: 160.16.132.38
-    port: 4937
+    server: 57.181.29.108
+    port: 34818
     type: trojan
     password: f389ed926e512e15f382dc3804029474
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇸🇬 新加坡3|@ripaojiedian
-    server: 43.199.43.18
-    port: 29666
+    server: 54.238.89.170
+    port: 25343
     type: trojan
     password: BxceQaOe
     sni: t.me%252Fripaojiedian
     skip-cert-verify: true
+  - name: 🇺🇸 美国|@ripaojiedian
+    server: 153.121.65.107
+    port: 4019
+    type: trojan
+    password: f389ed926e512e15f382dc3804029474
+    sni: www.nintendogames.net
+    skip-cert-verify: false
   - name: 🇺🇸 美国2|@ripaojiedian
-    server: 18.181.152.121
-    port: 4920
+    server: 160.16.130.21
+    port: 4019
     type: trojan
     password: f389ed926e512e15f382dc3804029474
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇺🇸 美国3|@ripaojiedian
-    server: 95.40.28.8
-    port: 45947
+    server: 95.40.46.74
+    port: 50446
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
