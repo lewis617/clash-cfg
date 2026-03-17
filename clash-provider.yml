@@ -1397,37 +1397,56 @@ proxies:
     cipher: aes-256-cfb
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   - name: 🇺🇸 US SS-09 | free-nodes
+    server: 185.111.156.33
+    port: 80
+    type: ss
+    cipher: aes-256-gcm
+    password: 5mCH4624QflO1cFR
+  - name: 🇺🇸 US SS-10 | free-nodes
     server: 144.217.164.29
     port: 12000
     type: ss
     cipher: aes-256-gcm
     password: 8JCsPssfgS8tiRwiMlhARg==
-  - name: 🇺🇸 US SS-10 | free-nodes
+  - name: 🇩🇪 DE SS-11 | free-nodes
+    server: 57.128.214.100
+    port: 12000
+    type: ss
+    cipher: aes-256-gcm
+    password: 8JCsPssfgS8tiRwiMlhARg==
+  - name: 🇺🇸 US SS-12 | free-nodes
     server: 144.126.145.77
     port: 443
     type: ss
     cipher: aes-256-gcm
     password: QzM0NfuMNngbVnZK
-  - name: 🇸🇬 SG TROJAN-11 | free-nodes
+  - name: 🇺🇸 US TROJAN-13 | free-nodes
+    server: 16.163.155.36
+    port: 8401
+    type: trojan
+    password: BxceQaOe
+    sni: t.me%2Fripaojiedian
+    skip-cert-verify: false
+  - name: 🇸🇬 SG TROJAN-14 | free-nodes
     server: delicate-buck.rooster465.autos
     port: 443
     type: trojan
     password: ZY07256934
     skip-cert-verify: false
-  - name: 🇸🇬 SG TROJAN-12 | free-nodes
+  - name: 🇸🇬 SG TROJAN-15 | free-nodes
     server: free-duckling.rooster465.autos
     port: 443
     type: trojan
     password: ZY07256934
     skip-cert-verify: false
-  - name: 🇰🇷 KR TROJAN-13 | free-nodes
+  - name: 🇰🇷 KR TROJAN-16 | free-nodes
     server: glowing-deer.rooster465.autos
     port: 443
     type: trojan
     password: ZY07256934
     sni: glowing-deer.rooster465.autos
     skip-cert-verify: false
-  - name: 未知 SS-95 | free-nodes
+  - name: 未知 SS-93 | free-nodes
     server: www.ccgfw.top
     port: 443
     type: ss
@@ -1474,11 +1493,4 @@ proxies:
     type: trojan
     password: BxceQaOe
     sni: t.me%252Fripaojiedian
-    skip-cert-verify: true
-  - name: 🇺🇸 美国3|@ripaojiedian
-    server: 16.163.155.36
-    port: 8401
-    type: trojan
-    password: BxceQaOe
-    sni: t.me%2Fripaojiedian
     skip-cert-verify: true
