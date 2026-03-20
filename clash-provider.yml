@@ -1533,64 +1533,70 @@ proxies:
     tls: false
     skip-cert-verify: false
   - name: 🇭🇰 香港3|@ripaojiedian
-    server: 54.168.247.232
-    port: 921
+    server: 43.207.174.89
+    port: 6196
     type: trojan
     password: 86e150eb21c6faee48e81d496d7f61c2
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇭🇰 香港4|@ripaojiedian
-    server: 54.199.102.78
-    port: 8044
+    server: 16.162.120.15
+    port: 51885
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
   - name: 🇭🇰 香港5|@ripaojiedian
-    server: 18.181.212.23
-    port: 6313
+    server: 43.199.230.155
+    port: 8044
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
+  - name: 🇭🇰 香港6|@ripaojiedian
+    server: 106.75.162.7
+    port: 50000
+    type: ss
+    cipher: aes-128-gcm
+    password: d72781da-3ea8-4d7f-9bca-c04ed410443b
+  - name: 🇯🇵 日本|@ripaojiedian
+    server: 57.180.252.251
+    port: 16919
+    type: trojan
+    password: BxceQaOe
+    sni: t.me%252Fripaojiedian
+    skip-cert-verify: true
   - name: 🇯🇵 日本2|@ripaojiedian
-    server: 57.180.246.216
-    port: 4937
+    server: 54.248.3.214
+    port: 34818
     type: trojan
     password: 86e150eb21c6faee48e81d496d7f61c2
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇯🇵 日本3|@ripaojiedian
-    server: 13.230.3.199
+    server: 57.180.17.175
     port: 2001
     type: trojan
     password: 86e150eb21c6faee48e81d496d7f61c2
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇸🇬 新加坡|@ripaojiedian
-    server: 160.16.72.205
+    server: 153.121.45.139
     port: 4674
     type: trojan
     password: 86e150eb21c6faee48e81d496d7f61c2
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: 🇸🇬 新加坡2|@ripaojiedian
-    server: 160.16.214.104
-    port: 3419
-    type: trojan
-    password: 86e150eb21c6faee48e81d496d7f61c2
-    sni: www.nintendogames.net
-    skip-cert-verify: false
   - name: 🇺🇸 美国|@ripaojiedian
-    server: 54.199.166.248
+    server: 52.195.215.60
     port: 4920
     type: trojan
     password: 86e150eb21c6faee48e81d496d7f61c2
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇺🇸 美国3|@ripaojiedian
-    server: 95.40.3.110
-    port: 8401
+    server: 54.95.208.150
+    port: 14919
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
