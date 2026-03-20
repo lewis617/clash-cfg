@@ -1389,142 +1389,134 @@ proxies:
     port: 38388
     cipher: aes-256-cfb
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  - name: 🇭🇰 HK SS-14 | free-nodes
+  - name: 🇭🇰 HK SS-15 | free-nodes
     server: 106.75.162.7
     port: 50000
     type: ss
     cipher: aes-128-gcm
     password: d72781da-3ea8-4d7f-9bca-c04ed410443b
-  - name: 未知 SS-15 | free-nodes
+  - name: 未知 SS-16 | free-nodes
     server: 158.173.20.171
     port: 443
     type: ss
     cipher: aes-128-gcm
     password: shadowsocks
-  - name: 🇺🇸 US SS-16 | free-nodes
+  - name: 🇺🇸 US SS-17 | free-nodes
     server: 185.111.156.33
     port: 80
     type: ss
     cipher: aes-256-gcm
     password: 5mCH4624QflO1cFR
-  - name: 🇺🇸 US SS-17 | free-nodes
+  - name: 🇺🇸 US SS-18 | free-nodes
     server: 144.217.164.29
     port: 12000
     type: ss
     cipher: aes-256-gcm
     password: 8JCsPssfgS8tiRwiMlhARg==
-  - name: 🇩🇪 DE SS-18 | free-nodes
+  - name: 🇩🇪 DE SS-19 | free-nodes
     server: 144.217.7.33
     port: 12000
     type: ss
     cipher: aes-256-gcm
     password: 8JCsPssfgS8tiRwiMlhARg==
-  - name: 🇩🇪 DE SS-19 | free-nodes
+  - name: 🇩🇪 DE SS-20 | free-nodes
     server: 57.128.214.100
     port: 12000
     type: ss
     cipher: aes-256-gcm
     password: 8JCsPssfgS8tiRwiMlhARg==
-  - name: 🇺🇸 US SS-20 | free-nodes
+  - name: 🇺🇸 US SS-21 | free-nodes
     server: 144.126.145.77
     port: 443
     type: ss
     cipher: aes-256-gcm
     password: QzM0NfuMNngbVnZK
-  - name: 🇸🇬 SG SS-21 | free-nodes
-    server: 192.124.176.95
-    port: 8388
-    type: ss
-    cipher: aes-256-gcm
-    password: UcbtKq1aPi88
-  - name: 🇸🇬 SG TROJAN-22 | free-nodes
-    server: 153.121.45.139
-    port: 4674
-    type: trojan
-    password: 86e150eb21c6faee48e81d496d7f61c2
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: 🇺🇸 US TROJAN-23 | free-nodes
+  - name: 🇯🇵 JP TROJAN-22 | free-nodes
     server: 160.16.106.99
-    port: 3057
+    port: 2001
     type: trojan
     password: 86e150eb21c6faee48e81d496d7f61c2
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: TR TROJAN-26 | free-nodes
+  - name: TR TROJAN-27 | free-nodes
     server: engaged-ram.rooster465.autos
     port: 443
     type: trojan
     password: IL37892054
     skip-cert-verify: false
-  - name: 🇯🇵 JP TROJAN-27 | free-nodes
+  - name: 🇯🇵 JP TROJAN-28 | free-nodes
     server: engaging-toucan.rooster465.autos
     port: 443
     type: trojan
     password: IL37892054
     sni: engaging-toucan.rooster465.autos
     skip-cert-verify: false
-  - name: TR TROJAN-28 | free-nodes
+  - name: 🇭🇰 HK TROJAN-29 | free-nodes
+    server: growing-tuna.rooster465.autos
+    port: 443
+    type: trojan
+    password: IL37892054
+    skip-cert-verify: false
+  - name: TR TROJAN-30 | free-nodes
     server: outgoing-ladybird.rooster465.autos
     port: 443
     type: trojan
     password: IL37892054
-    sni: outgoing-ladybird.rooster465.autos
     skip-cert-verify: false
-  - name: 🇰🇷 KR TROJAN-29 | free-nodes
+  - name: TR TROJAN-31 | free-nodes
     server: select-marmoset.rooster465.autos
     port: 443
     type: trojan
     password: IL37892054
     sni: select-marmoset.rooster465.autos
     skip-cert-verify: false
-  - name: TR TROJAN-30 | free-nodes
+  - name: TR TROJAN-32 | free-nodes
     server: upright-rhino.rooster465.autos
     port: 443
     type: trojan
     password: IL37892054
     sni: upright-rhino.rooster465.autos
     skip-cert-verify: false
-  - name: TR TROJAN-31 | free-nodes
+  - name: TR TROJAN-33 | free-nodes
     server: nl-4.tr202512.com
     port: 443
     type: trojan
     password: M08tvzYWtUEJNtbpHp
     sni: nl-4.tr202512.com
     skip-cert-verify: false
-  - name: 🇸🇬 SG TROJAN-32 | free-nodes
+  - name: 🇸🇬 SG TROJAN-34 | free-nodes
     server: delicate-buck.rooster465.autos
     port: 443
     type: trojan
     password: ZY07256934
     skip-cert-verify: false
-  - name: 🇸🇬 SG TROJAN-33 | free-nodes
+  - name: 🇸🇬 SG TROJAN-35 | free-nodes
     server: free-duckling.rooster465.autos
     port: 443
     type: trojan
     password: ZY07256934
     skip-cert-verify: false
-  - name: 🇰🇷 KR TROJAN-34 | free-nodes
+  - name: 🇰🇷 KR TROJAN-36 | free-nodes
     server: glowing-deer.rooster465.autos
     port: 443
     type: trojan
     password: ZY07256934
     sni: glowing-deer.rooster465.autos
     skip-cert-verify: false
-  - name: 🇺🇸 US TROJAN-35 | free-nodes
-    server: 153.121.65.107
+  - name: 🇺🇸 US TROJAN-37 | free-nodes
+    server: 160.16.130.21
     port: 4019
     type: trojan
     password: f389ed926e512e15f382dc3804029474
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: TR TROJAN-36 | free-nodes
+  - name: TR TROJAN-38 | free-nodes
     server: 8443.golden-cards.me
     port: 443
     type: trojan
     password: q2GRUM1-odJBWq_KV6xv2fuNvu8ed-
     skip-cert-verify: false
-  - name: 未知 SS-133 | free-nodes
+  - name: 未知 SS-128 | free-nodes
     server: www.ccgfw.top
     port: 443
     type: ss
@@ -1577,6 +1569,13 @@ proxies:
   - name: 🇯🇵 日本3|@ripaojiedian
     server: 57.180.17.175
     port: 2001
+    type: trojan
+    password: 86e150eb21c6faee48e81d496d7f61c2
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+  - name: 🇸🇬 新加坡|@ripaojiedian
+    server: 153.121.45.139
+    port: 4674
     type: trojan
     password: 86e150eb21c6faee48e81d496d7f61c2
     sni: www.nintendogames.net
