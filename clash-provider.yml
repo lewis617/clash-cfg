@@ -1520,56 +1520,56 @@ proxies:
     tls: false
     skip-cert-verify: false
   - name: 🇭🇰 香港3|@ripaojiedian
-    server: 43.207.174.89
-    port: 6196
+    server: 43.207.232.176
+    port: 921
     type: trojan
     password: 86e150eb21c6faee48e81d496d7f61c2
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇭🇰 香港4|@ripaojiedian
-    server: 16.162.120.15
-    port: 51885
+    server: 58.152.18.28
+    port: 443
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
   - name: 🇭🇰 香港5|@ripaojiedian
-    server: 43.199.230.155
-    port: 8044
+    server: 13.230.175.163
+    port: 51885
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
   - name: 🇯🇵 日本|@ripaojiedian
-    server: 57.180.252.251
-    port: 16919
+    server: 13.231.224.38
+    port: 4945
     type: trojan
     password: BxceQaOe
     sni: t.me%252Fripaojiedian
     skip-cert-verify: true
   - name: 🇯🇵 日本2|@ripaojiedian
-    server: 54.248.3.214
-    port: 34818
-    type: trojan
-    password: 86e150eb21c6faee48e81d496d7f61c2
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: 🇯🇵 日本3|@ripaojiedian
-    server: 57.180.17.175
+    server: 18.183.166.176
     port: 2001
     type: trojan
     password: 86e150eb21c6faee48e81d496d7f61c2
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: 🇸🇬 新加坡|@ripaojiedian
-    server: 153.121.45.139
-    port: 4674
+  - name: 🇯🇵 日本3|@ripaojiedian
+    server: 153.121.38.213
+    port: 4937
     type: trojan
     password: 86e150eb21c6faee48e81d496d7f61c2
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: 🇺🇸 美国|@ripaojiedian
-    server: 52.195.215.60
+  - name: 🇸🇬 新加坡3|@ripaojiedian
+    server: 95.40.8.7
+    port: 41973
+    type: trojan
+    password: BxceQaOe
+    sni: t.me%252Fripaojiedian
+    skip-cert-verify: true
+  - name: 🇺🇸 美国2|@ripaojiedian
+    server: 13.115.91.176
     port: 4920
     type: trojan
     password: 86e150eb21c6faee48e81d496d7f61c2
