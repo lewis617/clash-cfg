@@ -1389,158 +1389,167 @@ proxies:
     port: 38388
     cipher: aes-256-cfb
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  - name: 未知 SS-20 | free-nodes
+  - name: 未知 SS-25 | free-nodes
     server: 158.173.20.171
     port: 443
     type: ss
     cipher: aes-128-gcm
     password: shadowsocks
-  - name: 🇩🇪 DE SS-21 | free-nodes
-    server: jp02.academicbest.dpdns.org
-    port: 7008
+  - name: 🇺🇸 US SS-26 | free-nodes
+    server: 185.111.156.33
+    port: 80
     type: ss
     cipher: aes-256-gcm
-    password: 26a6a0aa-cf25-42b2-8b9c-6f9835b81b78
-  - name: 🇺🇸 US SS-22 | free-nodes
+    password: 5mCH4624QflO1cFR
+  - name: 🇺🇸 US SS-27 | free-nodes
     server: us.academicbest.dpdns.org
     port: 7002
     type: ss
     cipher: aes-256-gcm
     password: 65025369-720b-4792-9f7e-163b0372a4ad
-  - name: 🇺🇸 US SS-23 | free-nodes
+  - name: 🇸🇬 SG SS-28 | free-nodes
+    server: 103.47.225.69
+    port: 443
+    type: ss
+    cipher: aes-256-gcm
+    password: 899c7e30-50c7-4b63-a0a0-f26ac572d4f9
+  - name: 🇺🇸 US SS-29 | free-nodes
     server: 144.217.164.29
     port: 12000
     type: ss
     cipher: aes-256-gcm
     password: 8JCsPssfgS8tiRwiMlhARg==
-  - name: 🇩🇪 DE SS-24 | free-nodes
+  - name: 🇩🇪 DE SS-30 | free-nodes
     server: 144.217.7.33
     port: 12000
     type: ss
     cipher: aes-256-gcm
     password: 8JCsPssfgS8tiRwiMlhARg==
-  - name: 🇩🇪 DE SS-25 | free-nodes
-    server: 57.128.214.100
-    port: 12000
-    type: ss
-    cipher: aes-256-gcm
-    password: 8JCsPssfgS8tiRwiMlhARg==
-  - name: 🇺🇸 US SS-26 | free-nodes
+  - name: 🇺🇸 US SS-31 | free-nodes
     server: 144.126.145.77
     port: 443
     type: ss
     cipher: aes-256-gcm
     password: QzM0NfuMNngbVnZK
-  - name: 🇺🇸 US SS-27 | free-nodes
+  - name: 🇺🇸 US SS-32 | free-nodes
     server: 154.53.60.212
     port: 80
     type: ss
     cipher: aes-256-gcm
     password: ZfbPFDdeBj0B1Txs
-  - name: 未知 SS-28 | free-nodes
+  - name: 未知 SS-33 | free-nodes
     server: 38.180.161.123
     port: 8119
     type: ss
     cipher: aes-256-gcm
     password: cdBIDV42DCwnfIN
-  - name: 未知 SS-29 | free-nodes
+  - name: 🇩🇪 DE SS-34 | free-nodes
+    server: us02.academicbest.dpdns.org
+    port: 7012
+    type: ss
+    cipher: aes-256-gcm
+    password: d19df351-057e-4ce1-9bd1-425c160980f6
+  - name: 未知 SS-35 | free-nodes
     server: 38.180.2.141
     port: 5499
     type: ss
     cipher: aes-256-gcm
     password: lGqs95QkFHo2NV
-  - name: 🇯🇵 JP TROJAN-30 | free-nodes
+  - name: 🇸🇬 SG TROJAN-36 | free-nodes
+    server: ubu.okaoclax.me
+    port: 443
+    type: trojan
+    password: 13c169be-8592-4eaa-94cb-69c859e7d987
+    sni: ubu.okaoclax.me
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: ubu.okaoclax.me
+  - name: 🇸🇬 SG TROJAN-37 | free-nodes
     server: 160.16.124.17
-    port: 34818
+    port: 1524
     type: trojan
     password: 6d29eb2f74293cb01a19b32cf08ad2e9
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: 🇭🇰 HK TROJAN-33 | free-nodes
+  - name: 🇭🇰 HK TROJAN-40 | free-nodes
     server: caring-ghoul.rooster465.autos
     port: 443
     type: trojan
     password: IL37892054
     skip-cert-verify: false
-  - name: TR TROJAN-34 | free-nodes
+  - name: TR TROJAN-41 | free-nodes
     server: enhanced-crayfish.rooster465.autos
     port: 443
     type: trojan
     password: IL37892054
     sni: enhanced-crayfish.rooster465.autos
     skip-cert-verify: false
-  - name: TR TROJAN-35 | free-nodes
+  - name: TR TROJAN-42 | free-nodes
     server: fluent-stingray.crayfish192.xyz
     port: 443
     type: trojan
     password: IL37892054
     sni: fluent-stingray.crayfish192.xyz
     skip-cert-verify: false
-  - name: 🇭🇰 HK TROJAN-36 | free-nodes
+  - name: 🇭🇰 HK TROJAN-43 | free-nodes
     server: growing-tuna.rooster465.autos
     port: 443
     type: trojan
     password: IL37892054
     skip-cert-verify: false
-  - name: TR TROJAN-37 | free-nodes
+  - name: TR TROJAN-44 | free-nodes
     server: outgoing-ladybird.rooster465.autos
     port: 443
     type: trojan
     password: IL37892054
+    sni: outgoing-ladybird.rooster465.autos
     skip-cert-verify: false
-  - name: 🇰🇷 KR TROJAN-38 | free-nodes
+  - name: 🇰🇷 KR TROJAN-45 | free-nodes
     server: select-marmoset.rooster465.autos
     port: 443
     type: trojan
     password: IL37892054
     sni: select-marmoset.rooster465.autos
     skip-cert-verify: false
-  - name: TR TROJAN-39 | free-nodes
+  - name: TR TROJAN-46 | free-nodes
     server: steady-lemming.rooster465.autos
     port: 443
     type: trojan
     password: IL37892054
     sni: steady-lemming.rooster465.autos
     skip-cert-verify: false
-  - name: TR TROJAN-40 | free-nodes
+  - name: TR TROJAN-47 | free-nodes
     server: nl-4.tr202512.com
     port: 443
     type: trojan
     password: M08tvzYWtUEJNtbpHp
     sni: nl-4.tr202512.com
     skip-cert-verify: false
-  - name: 🇰🇷 KR TROJAN-41 | free-nodes
+  - name: TR TROJAN-48 | free-nodes
+    server: 78.159.131.12
+    port: 28259
+    type: trojan
+    password: MeaDiUmPlkWbZJ2BON8tz
+    sni: ads.x5.ru
+    skip-cert-verify: false
+  - name: 🇰🇷 KR TROJAN-49 | free-nodes
     server: glowing-deer.rooster465.autos
     port: 443
     type: trojan
     password: ZY07256934
     sni: glowing-deer.rooster465.autos
     skip-cert-verify: false
-  - name: 🇫🇷 FR TROJAN-42 | free-nodes
-    server: www.calmlunch.com
-    port: 443
-    type: trojan
-    password: humanity
-    sni: www.calmlunch.com
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /assignment
-      headers:
-        Host: www.calmlunch.com
-  - name: TR TROJAN-43 | free-nodes
+  - name: TR TROJAN-50 | free-nodes
     server: 8443.golden-cards.me
     port: 443
     type: trojan
     password: q2GRUM1-odJBWq_KV6xv2fuNvu8ed-
+    sni: 8443.golden-cards.me
     skip-cert-verify: false
-  - name: 🇫🇷 FR TROJAN-44 | free-nodes
-    server: 51.44.2.160
-    port: 22222
-    type: trojan
-    password: telegram-id-privatevpns
-    skip-cert-verify: false
-  - name: 未知 SS-132 | free-nodes
+  - name: 未知 SS-136 | free-nodes
     server: www.ccgfw.top
     port: 443
     type: ss
