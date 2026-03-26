@@ -1389,175 +1389,132 @@ proxies:
     port: 38388
     cipher: aes-256-cfb
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  - name: 未知 SS-37 | free-nodes
+  - name: 未知 SS-33 | free-nodes
     server: 158.173.20.171
     port: 443
     type: ss
     cipher: aes-128-gcm
     password: shadowsocks
-  - name: 🇺🇸 US SS-38 | free-nodes
+  - name: 🇺🇸 US SS-34 | free-nodes
     server: 144.217.164.29
     port: 12000
     type: ss
     cipher: aes-256-gcm
     password: 8JCsPssfgS8tiRwiMlhARg==
-  - name: 🇩🇪 DE SS-39 | free-nodes
+  - name: 🇩🇪 DE SS-35 | free-nodes
     server: 144.217.7.33
     port: 12000
     type: ss
     cipher: aes-256-gcm
     password: 8JCsPssfgS8tiRwiMlhARg==
-  - name: 🇩🇪 DE SS-40 | free-nodes
+  - name: 🇩🇪 DE SS-36 | free-nodes
     server: 57.128.214.100
     port: 12000
     type: ss
     cipher: aes-256-gcm
     password: 8JCsPssfgS8tiRwiMlhARg==
-  - name: 未知 SS-42 | free-nodes
+  - name: 🇺🇸 US SS-37 | free-nodes
     server: 144.126.145.77
     port: 443
     type: ss
     cipher: aes-256-gcm
     password: QzM0NfuMNngbVnZK
-  - name: 🇺🇸 US SS-43 | free-nodes
+  - name: 🇺🇸 US SS-38 | free-nodes
     server: 154.53.60.212
     port: 80
     type: ss
     cipher: aes-256-gcm
     password: ZfbPFDdeBj0B1Txs
-  - name: 未知 SS-44 | free-nodes
-    server: 38.180.161.123
-    port: 8119
-    type: ss
-    cipher: aes-256-gcm
-    password: cdBIDV42DCwnfIN
-  - name: 未知 SS-45 | free-nodes
+  - name: 未知 SS-39 | free-nodes
     server: 38.180.2.141
     port: 5499
     type: ss
     cipher: aes-256-gcm
     password: lGqs95QkFHo2NV
-  - name: 🇸🇬 SG TROJAN-46 | free-nodes
-    server: ubu.okaoclax.me
-    port: 443
-    type: trojan
-    password: 13c169be-8592-4eaa-94cb-69c859e7d987
-    sni: ubu.okaoclax.me
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /trojan-ws
-      headers:
-        Host: ubu.okaoclax.me
-  - name: 🇯🇵 JP TROJAN-47 | free-nodes
+  - name: 🇯🇵 JP TROJAN-40 | free-nodes
     server: 160.16.106.99
     port: 4937
     type: trojan
     password: 6d29eb2f74293cb01a19b32cf08ad2e9
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: TR TROJAN-48 | free-nodes
+  - name: 🇸🇬 SG TROJAN-41 | free-nodes
     server: 160.16.124.17
     port: 1524
     type: trojan
     password: 6d29eb2f74293cb01a19b32cf08ad2e9
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: 🇯🇵 JP TROJAN-51 | free-nodes
-    server: 13.113.229.223
-    port: 3022
-    type: trojan
-    password: BxceQaOe
-    sni: t.me%252Fripaojiedian
-    skip-cert-verify: false
-  - name: TR TROJAN-52 | free-nodes
+  - name: TR TROJAN-44 | free-nodes
     server: enhanced-crayfish.rooster465.autos
     port: 443
     type: trojan
     password: IL37892054
     sni: enhanced-crayfish.rooster465.autos
     skip-cert-verify: false
-  - name: TR TROJAN-53 | free-nodes
+  - name: TR TROJAN-45 | free-nodes
     server: fluent-stingray.crayfish192.xyz
     port: 443
     type: trojan
     password: IL37892054
     sni: fluent-stingray.crayfish192.xyz
     skip-cert-verify: false
-  - name: TR TROJAN-54 | free-nodes
+  - name: TR TROJAN-46 | free-nodes
     server: outgoing-ladybird.rooster465.autos
     port: 443
     type: trojan
     password: IL37892054
     sni: outgoing-ladybird.rooster465.autos
     skip-cert-verify: false
-  - name: 🇰🇷 KR TROJAN-55 | free-nodes
+  - name: 🇰🇷 KR TROJAN-47 | free-nodes
     server: select-marmoset.rooster465.autos
     port: 443
     type: trojan
     password: IL37892054
     sni: select-marmoset.rooster465.autos
     skip-cert-verify: false
-  - name: TR TROJAN-56 | free-nodes
+  - name: TR TROJAN-48 | free-nodes
     server: steady-lemming.rooster465.autos
     port: 443
     type: trojan
     password: IL37892054
     sni: steady-lemming.rooster465.autos
     skip-cert-verify: false
-  - name: TR TROJAN-57 | free-nodes
-    server: nl-4.tr202512.com
-    port: 443
-    type: trojan
-    password: M08tvzYWtUEJNtbpHp
-    sni: nl-4.tr202512.com
-    skip-cert-verify: false
-  - name: TR TROJAN-58 | free-nodes
+  - name: TR TROJAN-49 | free-nodes
     server: 78.159.131.12
     port: 28259
     type: trojan
     password: MeaDiUmPlkWbZJ2BON8tz
     sni: ads.x5.ru
     skip-cert-verify: false
-  - name: TR TROJAN-59 | free-nodes
+  - name: TR TROJAN-50 | free-nodes
     server: funky-platypus.rooster465.autos
     port: 443
     type: trojan
     password: WF42809561
     sni: funky-platypus.rooster465.autos
     skip-cert-verify: false
-  - name: TR TROJAN-60 | free-nodes
+  - name: TR TROJAN-51 | free-nodes
     server: top-goshawk.rooster465.autos
     port: 443
     type: trojan
     password: WF42809561
     sni: top-goshawk.rooster465.autos
     skip-cert-verify: false
-  - name: 🇰🇷 KR TROJAN-61 | free-nodes
+  - name: 🇰🇷 KR TROJAN-52 | free-nodes
     server: glowing-deer.rooster465.autos
     port: 443
     type: trojan
     password: ZY07256934
     sni: glowing-deer.rooster465.autos
     skip-cert-verify: false
-  - name: TR TROJAN-62 | free-nodes
-    server: 77.239.126.65
-    port: 5540
-    type: trojan
-    password: mj5JfghL49jcoBbx4E1GsjQ7YFtC9pYG
-    sni: eh.vk.com
-    skip-cert-verify: false
-    network: grpc
-    grpc-opts:
-      grpc-service-name: eh.vk.com
-  - name: TR TROJAN-63 | free-nodes
+  - name: TR TROJAN-53 | free-nodes
     server: 8443.golden-cards.me
     port: 443
     type: trojan
     password: q2GRUM1-odJBWq_KV6xv2fuNvu8ed-
-    sni: 8443.golden-cards.me
     skip-cert-verify: false
-  - name: 未知 SS-136 | free-nodes
+  - name: 未知 SS-139 | free-nodes
     server: www.ccgfw.top
     port: 443
     type: ss
@@ -1576,6 +1533,13 @@ proxies:
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
+    skip-cert-verify: true
+  - name: 🇯🇵 日本|@ripaojiedian
+    server: 13.113.229.223
+    port: 3022
+    type: trojan
+    password: BxceQaOe
+    sni: t.me%252Fripaojiedian
     skip-cert-verify: true
   - name: 🇯🇵 日本2|@ripaojiedian
     server: 52.195.4.144
