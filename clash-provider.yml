@@ -1389,128 +1389,140 @@ proxies:
     port: 38388
     cipher: aes-256-cfb
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  - name: 🇺🇸 US SS-70 | free-nodes
+  - name: 🇺🇸 US SS-69 | free-nodes
     server: 144.217.164.29
     port: 12000
     type: ss
     cipher: aes-256-gcm
     password: 8JCsPssfgS8tiRwiMlhARg==
-  - name: 🇺🇸 US SS-71 | free-nodes
-    server: 144.126.145.77
-    port: 443
+  - name: 🇩🇪 DE SS-70 | free-nodes
+    server: 15.204.247.49
+    port: 12000
     type: ss
     cipher: aes-256-gcm
-    password: QzM0NfuMNngbVnZK
+    password: 8JCsPssfgS8tiRwiMlhARg==
+  - name: 🇩🇪 DE SS-71 | free-nodes
+    server: 57.128.214.100
+    port: 12000
+    type: ss
+    cipher: aes-256-gcm
+    password: 8JCsPssfgS8tiRwiMlhARg==
   - name: 🇺🇸 US SS-72 | free-nodes
     server: 154.53.60.212
     port: 80
     type: ss
     cipher: aes-256-gcm
     password: ZfbPFDdeBj0B1Txs
-  - name: TR TROJAN-74 | free-nodes
+  - name: 🇺🇸 US TROJAN-73 | free-nodes
+    server: n2.chateditimage.com
+    port: 443
+    type: trojan
+    password: 4123ae62-0999-4984-8ead-091630e594a9
+    sni: n2.chateditimage.com
+    skip-cert-verify: false
+  - name: 🇭🇰 HK TROJAN-75 | free-nodes
+    server: caring-ghoul.rooster465.autos
+    port: 443
+    type: trojan
+    password: IL37892054
+    skip-cert-verify: false
+  - name: TR TROJAN-76 | free-nodes
     server: enhanced-crayfish.rooster465.autos
     port: 443
     type: trojan
     password: IL37892054
     sni: enhanced-crayfish.rooster465.autos
     skip-cert-verify: false
-  - name: TR TROJAN-75 | free-nodes
+  - name: TR TROJAN-77 | free-nodes
     server: fluent-stingray.crayfish192.xyz
     port: 443
     type: trojan
     password: IL37892054
     sni: fluent-stingray.crayfish192.xyz
     skip-cert-verify: false
-  - name: 🇭🇰 HK TROJAN-76 | free-nodes
+  - name: 🇭🇰 HK TROJAN-78 | free-nodes
     server: growing-tuna.rooster465.autos
     port: 443
     type: trojan
     password: IL37892054
     skip-cert-verify: false
-  - name: TR TROJAN-77 | free-nodes
+  - name: TR TROJAN-79 | free-nodes
     server: outgoing-ladybird.rooster465.autos
     port: 443
     type: trojan
     password: IL37892054
     sni: outgoing-ladybird.rooster465.autos
     skip-cert-verify: false
-  - name: 🇰🇷 KR TROJAN-78 | free-nodes
+  - name: 🇰🇷 KR TROJAN-80 | free-nodes
     server: select-marmoset.rooster465.autos
     port: 443
     type: trojan
     password: IL37892054
     sni: select-marmoset.rooster465.autos
     skip-cert-verify: false
-  - name: TR TROJAN-79 | free-nodes
+  - name: TR TROJAN-81 | free-nodes
     server: steady-lemming.rooster465.autos
     port: 443
     type: trojan
     password: IL37892054
     sni: steady-lemming.rooster465.autos
     skip-cert-verify: false
-  - name: TR TROJAN-80 | free-nodes
+  - name: TR TROJAN-82 | free-nodes
     server: evolving-kangaroo.rooster465.autos
     port: 443
     type: trojan
     password: WF42809561
     sni: evolving-kangaroo.rooster465.autos
     skip-cert-verify: false
-  - name: TR TROJAN-81 | free-nodes
+  - name: TR TROJAN-83 | free-nodes
     server: fun-seagull.rooster465.autos
     port: 443
     type: trojan
     password: WF42809561
     skip-cert-verify: false
-  - name: TR TROJAN-82 | free-nodes
+  - name: TR TROJAN-84 | free-nodes
     server: funky-platypus.rooster465.autos
     port: 443
     type: trojan
     password: WF42809561
     sni: funky-platypus.rooster465.autos
     skip-cert-verify: false
-  - name: 🇭🇰 HK TROJAN-83 | free-nodes
+  - name: 🇭🇰 HK TROJAN-85 | free-nodes
     server: nearby-muskrat.rooster465.autos
     port: 443
     type: trojan
     password: WF42809561
     sni: nearby-muskrat.rooster465.autos
     skip-cert-verify: false
-  - name: TR TROJAN-84 | free-nodes
+  - name: TR TROJAN-86 | free-nodes
     server: premium-lab.rooster465.autos
     port: 443
     type: trojan
     password: WF42809561
     sni: premium-lab.rooster465.autos
     skip-cert-verify: false
-  - name: TR TROJAN-85 | free-nodes
+  - name: TR TROJAN-87 | free-nodes
     server: top-goshawk.rooster465.autos
     port: 443
     type: trojan
     password: WF42809561
     sni: top-goshawk.rooster465.autos
     skip-cert-verify: false
-  - name: TR TROJAN-86 | free-nodes
+  - name: TR TROJAN-88 | free-nodes
     server: touching-pigeon.rooster465.autos
     port: 443
     type: trojan
     password: WF42809561
     sni: touching-pigeon.rooster465.autos
     skip-cert-verify: false
-  - name: 🇰🇷 KR TROJAN-87 | free-nodes
-    server: glowing-deer.rooster465.autos
-    port: 443
-    type: trojan
-    password: ZY07256934
-    sni: glowing-deer.rooster465.autos
-    skip-cert-verify: false
-  - name: 🇺🇸 US TROJAN-88 | free-nodes
+  - name: 🇺🇸 US TROJAN-89 | free-nodes
     server: n1.chateditimage.com
     port: 443
     type: trojan
     password: de7d6444-a7a8-4b3a-bf26-bc6939bb0279
     sni: n1.chateditimage.com
     skip-cert-verify: false
-  - name: 未知 SS-137 | free-nodes
+  - name: 未知 SS-134 | free-nodes
     server: www.ccgfw.top
     port: 443
     type: ss
