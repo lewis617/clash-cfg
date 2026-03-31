@@ -1389,92 +1389,98 @@ proxies:
     port: 38388
     cipher: aes-256-cfb
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  - name: 🇺🇸 US SS-74 | free-nodes
+  - name: 未知 SS-65 | free-nodes
+    server: 158.173.20.171
+    port: 443
+    type: ss
+    cipher: aes-128-gcm
+    password: shadowsocks
+  - name: 🇺🇸 US SS-66 | free-nodes
     server: 185.111.156.33
     port: 80
     type: ss
     cipher: aes-256-gcm
     password: 5mCH4624QflO1cFR
-  - name: 🇺🇸 US SS-75 | free-nodes
+  - name: 🇺🇸 US SS-67 | free-nodes
     server: 144.217.164.29
     port: 12000
     type: ss
     cipher: aes-256-gcm
     password: 8JCsPssfgS8tiRwiMlhARg==
-  - name: 🇺🇸 US SS-76 | free-nodes
-    server: 144.126.145.77
-    port: 443
-    type: ss
-    cipher: aes-256-gcm
-    password: QzM0NfuMNngbVnZK
-  - name: 🇺🇸 US SS-77 | free-nodes
+  - name: 🇺🇸 US SS-68 | free-nodes
     server: 154.53.60.212
     port: 80
     type: ss
     cipher: aes-256-gcm
     password: ZfbPFDdeBj0B1Txs
-  - name: 🇯🇵 JP TROJAN-78 | free-nodes
+  - name: 未知 SS-69 | free-nodes
+    server: 38.180.161.123
+    port: 8119
+    type: ss
+    cipher: aes-256-gcm
+    password: cdBIDV42DCwnfIN
+  - name: 未知 SS-70 | free-nodes
+    server: 38.180.2.141
+    port: 5499
+    type: ss
+    cipher: aes-256-gcm
+    password: lGqs95QkFHo2NV
+  - name: 未知 SS-71 | free-nodes
+    server: 154.223.16.41
+    port: 4444
+    type: ss
+    cipher: aes-256-gcm
+    password: pKEW8JPByTVTLtM
+  - name: 🇸🇬 SG TROJAN-72 | free-nodes
+    server: 153.121.65.107
+    port: 4674
+    type: trojan
+    password: 9f7d5cb76d1645101994d9b25891e3b7
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+  - name: 🇺🇸 US TROJAN-73 | free-nodes
+    server: 160.16.132.38
+    port: 3057
+    type: trojan
+    password: 9f7d5cb76d1645101994d9b25891e3b7
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+  - name: 🇯🇵 JP TROJAN-75 | free-nodes
     server: 160.16.85.33
     port: 4380
     type: trojan
     password: 9f7d5cb76d1645101994d9b25891e3b7
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: 🇭🇰 HK TROJAN-79 | free-nodes
-    server: caring-ghoul.rooster465.autos
-    port: 443
-    type: trojan
-    password: IL37892054
-    skip-cert-verify: false
-  - name: TR TROJAN-80 | free-nodes
+  - name: TR TROJAN-76 | free-nodes
     server: 78.159.131.12
     port: 28259
     type: trojan
     password: MeaDiUmPlkWbZJ2BON8tz
     sni: ads.x5.ru
     skip-cert-verify: false
-  - name: TR TROJAN-81 | free-nodes
-    server: evolving-kangaroo.rooster465.autos
-    port: 443
-    type: trojan
-    password: WF42809561
-    sni: evolving-kangaroo.rooster465.autos
-    skip-cert-verify: false
-  - name: TR TROJAN-82 | free-nodes
-    server: funky-platypus.rooster465.autos
-    port: 443
-    type: trojan
-    password: WF42809561
-    sni: funky-platypus.rooster465.autos
-    skip-cert-verify: false
-  - name: 🇺🇸 US TROJAN-83 | free-nodes
+  - name: 🇺🇸 US TROJAN-77 | free-nodes
     server: n1.chateditimage.com
     port: 443
     type: trojan
     password: de7d6444-a7a8-4b3a-bf26-bc6939bb0279
     sni: n1.chateditimage.com
     skip-cert-verify: false
-  - name: 🇺🇸 US TROJAN-84 | free-nodes
-    server: n2.chateditimage.com
-    port: 443
+  - name: 🇩🇪 DE TROJAN-78 | free-nodes
+    server: 82.26.155.3
+    port: 10369
     type: trojan
-    password: de7d6444-a7a8-4b3a-bf26-bc6939bb0279
-    sni: n2.chateditimage.com
+    password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
+    sni: fra34.chasem2026sud.com
     skip-cert-verify: false
-  - name: 🇺🇸 US TROJAN-85 | free-nodes
-    server: n3.chateditimage.com
-    port: 443
-    type: trojan
-    password: de7d6444-a7a8-4b3a-bf26-bc6939bb0279
-    sni: n3.chateditimage.com
-    skip-cert-verify: false
-  - name: TR TROJAN-86 | free-nodes
+  - name: TR TROJAN-79 | free-nodes
     server: 94.131.105.125
     port: 4443
     type: trojan
     password: strong-secret-pass-777
+    sni: 94.131.105.125
     skip-cert-verify: false
-  - name: 未知 SS-138 | free-nodes
+  - name: 未知 SS-135 | free-nodes
     server: www.ccgfw.top
     port: 443
     type: ss
@@ -1501,20 +1507,6 @@ proxies:
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
-  - name: 🇯🇵 日本2|@ripaojiedian
-    server: 160.16.132.38
-    port: 4937
-    type: trojan
-    password: 9f7d5cb76d1645101994d9b25891e3b7
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: 🇸🇬 新加坡2|@ripaojiedian
-    server: 153.121.65.107
-    port: 4674
-    type: trojan
-    password: 9f7d5cb76d1645101994d9b25891e3b7
-    sni: www.nintendogames.net
-    skip-cert-verify: false
   - name: 🇸🇬 新加坡3|@ripaojiedian
     server: 16.162.188.208
     port: 25675
