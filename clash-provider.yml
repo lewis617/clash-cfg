@@ -1621,12 +1621,6 @@ proxies:
     type: trojan
     password: telegram-id-privatevpns
     skip-cert-verify: false
-  - name: 未知 SS-136 | free-nodes
-    server: www.ccgfw.top
-    port: 443
-    type: ss
-    cipher: aes-128-gcm
-    password: 6601fb90e9b3
   - name: 🇭🇰 香港3|@ripaojiedian
     server: 18.162.54.192
     port: 52687
