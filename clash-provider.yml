@@ -15,38 +15,42 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - name: 亞太地區
-    type: vmess
-    server: 103.181.164.145
-    port: 54022
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 🇨🇳 TW台湾节点丨yoyapai.com
+  - name: 🇸🇬SG丨yoyapai.com新加坡節點
     type: ss
-    server: sub.danfeng.eu.org
-    port: 443
+    server: 45.32.100.46
+    port: 13802
     cipher: none
-    password: 79960b0b-7d31-4263-8915-6511b0e137a8
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
     plugin: v2ray-plugin
     plugin-opts:
       mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
-  - name: 🇮🇷 伊朗
-    type: vmess
-    server: v12.hdacd.com
-    port: 30812
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
   - name: 🇭🇰HK香港丨yoyapai.com
     type: ss
+    server: 103.43.191.121
+    port: 8443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇭🇰HK香港節點丨yoyapai.com
+    type: ss
     server: 8.223.63.150
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇭🇰HK香港丨yoyapai.com_2
+    type: ss
+    server: 47.76.218.163
     port: 443
     cipher: none
     password: 3e96ef7d-8637-42c2-ac73-75182196e755
@@ -66,106 +70,7 @@ proxies:
       mode: websocket
       host: mfvpn.fuchen.indevs.in
       path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇭🇰HK丨yoyapai.com_1
-    type: ss
-    server: 83.229.121.78
-    port: 8443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇭🇰HK香港丨yoyapai.com_1
-    type: ss
-    server: 47.76.218.163
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇭🇰HK香港丨yoyapai.com_2
-    type: ss
-    server: 8.223.63.189
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇭🇰HK香港丨yoyapai.com_3
-    type: ss
-    server: 103.43.191.121
-    port: 8443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇯🇵JP日本丨yoyapai.com
-    type: ss
-    server: 3.112.89.102
-    port: 8443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 香港丨yoyapai.com
-    type: ss
-    server: 68.64.176.135
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
   - name: 🇸🇬SG新加坡丨yoyapai.com
-    type: ss
-    server: 47.236.119.109
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇸🇬SG丨yoyapai.com
-    type: ss
-    server: 18.138.34.221
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇸🇬SG丨yoyapai.com_1
-    type: ss
-    server: 149.28.158.103
-    port: 10030
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇸🇬SG新加坡丨yoyapai.com_1
     type: ss
     server: 47.237.71.245
     port: 15430
@@ -176,105 +81,17 @@ proxies:
       mode: websocket
       host: mfvpn.fuchen.indevs.in
       path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇸🇬SG丨yoyapai.com_2
-    type: ss
-    server: 188.239.43.6
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇸🇬SG丨yoyapai.com_3
-    type: ss
-    server: 8.219.154.217
-    port: 8443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇸🇬SG新加坡丨yoyapai.com_2
-    type: ss
-    server: 45.77.255.153
-    port: 8443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇸🇬SG丨yoyapai.com_4
-    type: ss
-    server: 207.148.125.245
-    port: 8443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇸🇬SG新加坡丨yoyapai.com_3
-    type: ss
-    server: 66.42.61.215
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇯🇵JP
-    type: ss
-    server: 202.84.53.85
-    port: 12145
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇰🇷KR韓國丨yoyapai.com
-    type: ss
-    server: 168.107.5.23
-    port: 8443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 日本
-    type: ss
-    server: 153.121.45.101
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇯🇵JP_1
+  - name: 🇯🇵JP日本節點
     type: ss
     server: 140.238.51.35
     port: 443
     cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
     plugin: v2ray-plugin
     plugin-opts:
       mode: websocket
-      host: ylnhh.us.ci
-      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
   - name: 🇯🇵JP丨yoyapai.com
     type: ss
     server: 155.248.177.246
@@ -286,9 +103,20 @@ proxies:
       mode: websocket
       host: mfvpn.fuchen.indevs.in
       path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇩🇪DE德国
+  - name: 🇨🇳 TW台湾节点丨yoyapai.com
     type: ss
-    server: 94.159.98.123
+    server: sub.danfeng.eu.org
+    port: 443
+    cipher: none
+    password: 79960b0b-7d31-4263-8915-6511b0e137a8
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
+  - name: 日本
+    type: ss
+    server: 153.121.45.101
     port: 443
     cipher: none
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
@@ -297,13 +125,6 @@ proxies:
       mode: websocket
       host: ylnhh.us.ci
       path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇨🇳_CN_中国丨yoyapai.com
-    type: trojan
-    server: 58.152.25.253
-    port: 443
-    password: BxceQaOe
-    skip-cert-verify: true
-    tls: true
   - name: 🇩🇪DE德國丨yoyapai.com
     type: ss
     server: 94.159.98.140
@@ -315,10 +136,32 @@ proxies:
       mode: websocket
       host: ylnhh.us.ci
       path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇰🇷KR韓國丨yoyapai.com_1
+  - name: 🇩🇪DE
+    type: ss
+    server: 89.169.6.69
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇩🇪DE丨yoyapai.com
+    type: ss
+    server: 94.159.100.136
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇰🇷KR韓國丨yoyapai.com
     type: ss
     server: 116.93.199.28
-    port: 10296
+    port: 19769
     cipher: none
     password: 3e96ef7d-8637-42c2-ac73-75182196e755
     plugin: v2ray-plugin
@@ -326,6 +169,40 @@ proxies:
       mode: websocket
       host: mfvpn.fuchen.indevs.in
       path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 🇺🇸US_243
+    type: ss
+    server: 50.62.195.16
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇺🇸US丨yoyapai.com
+    type: ss
+    server: 64.186.239.78
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 美國丨yoyapai.com
+    type: trojan
+    server: 152.53.200.98
+    port: 8444
+    password: trojan
+    sni: jflsjlaf.pages.dev
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: //
+      headers:
+        Host: jflsjlaf.pages.dev
   - name: 🇺🇸US_美國
     type: ss
     server: 50.62.88.16
@@ -337,20 +214,27 @@ proxies:
       mode: websocket
       host: ylnhh.us.ci
       path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇭🇰 HK
+  - name: 亞太地區
+    type: vmess
+    server: 103.181.164.145
+    port: 54022
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 德國
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 🇺🇸US_230丨yoyapai.com
     type: ss
-    server: cf.008500.xyz
-    port: 443
-    cipher: none
-    password: 79960b0b-7d31-4263-8915-6511b0e137a8
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
-  - name: 🇺🇸US美國節點
-    type: ss
-    server: 50.62.90.16
+    server: 72.167.243.16
     port: 443
     cipher: none
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
@@ -370,48 +254,6 @@ proxies:
       mode: websocket
       host: mfvpn.fuchen.indevs.in
       path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇺🇸US_美國_1
-    type: ss
-    server: 104.238.70.16
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇺🇸US_161
-    type: ss
-    server: 154.194.0.16
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 美國
-    type: vmess
-    server: 82.198.246.46
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 🇩🇪DE
-    type: ss
-    server: 89.169.6.69
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
   - name: 美國節點
     type: vmess
     server: 82.198.246.97
@@ -421,6 +263,18 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
+  - name: 美国丨yoyapai.com
+    type: trojan
+    server: 152.53.60.198
+    port: 8444
+    password: trojan
+    sni: jflsjlaf.pages.dev
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: jflsjlaf.pages.dev
   - name: 🇸🇪SE瑞典節點丨yoyapai.com
     type: ss
     server: 46.246.96.59
@@ -432,21 +286,51 @@ proxies:
       mode: websocket
       host: mfvpn.fuchen.indevs.in
       path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 美國丨yoyapai.com
-    type: trojan
-    server: 152.53.200.98
-    port: 8444
-    password: trojan
-    sni: jflsjlaf.pages.dev
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: //
-      headers:
-        Host: jflsjlaf.pages.dev
-  - name: 🇸🇬SG新加坡丨yoyapai.com_4
+  - name: 🇺🇸US美國丨yoyapai.com
     type: ss
-    server: 116.251.217.65
+    server: 160.153.137.16
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇺🇸US_297
+    type: ss
+    server: 45.40.147.16
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 美國_6
+    type: vmess
+    server: 82.198.246.46
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 美國🇺🇸US丨yoyapai.com
+    type: ss
+    server: 31.58.226.196
+    port: 8443
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 🇩🇪DE丨yoyapai.com_1
+    type: ss
+    server: 77.239.121.232
     port: 443
     cipher: none
     password: 3e96ef7d-8637-42c2-ac73-75182196e755
@@ -455,6 +339,61 @@ proxies:
       mode: websocket
       host: mfvpn.fuchen.indevs.in
       path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 🇩🇪DE德國丨yoyapai.com_1
+    type: ss
+    server: 31.172.72.83
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇩🇪DE丨yoyapai.com_2
+    type: ss
+    server: 103.228.171.165
+    port: 443
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 🇩🇪DE丨yoyapai.com_3
+    type: ss
+    server: 31.192.237.186
+    port: 2053
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇺🇸US丨yoyapai.com_1
+    type: ss
+    server: 173.249.201.109
+    port: 18521
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 🇰🇷KR丨yoyapai.com
+    type: ss
+    server: 211.48.77.114
+    port: 19655
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
   - name: 印度丨yoyapai.com
     type: ss
     server: 103.181.177.88
@@ -466,9 +405,31 @@ proxies:
       mode: websocket
       host: ylnhh.us.ci
       path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇺🇸US_243
+  - name: 🇺🇸US丨yoyapai.com_2
     type: ss
-    server: 50.62.195.16
+    server: 142.171.171.35
+    port: 443
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 🇳🇱NL荷蘭丨yoyapai.com
+    type: ss
+    server: 194.54.157.81
+    port: 443
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 🇺🇸US_美國_1
+    type: ss
+    server: 104.238.70.16
     port: 443
     cipher: none
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
@@ -477,9 +438,128 @@ proxies:
       mode: websocket
       host: ylnhh.us.ci
       path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇺🇸US_133
+  - name: 🇸🇪SE瑞典節點丨yoyapai.com_1
     type: ss
-    server: 160.153.137.16
+    server: 51.20.160.11
+    port: 443
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 🇺🇸US_27
+    type: ss
+    server: 198.12.144.16
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇩🇪DE丨yoyapai.com_4
+    type: ss
+    server: 103.228.171.5
+    port: 2053
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 🇺🇸US_161
+    type: ss
+    server: 154.194.0.16
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇩🇪DE德国
+    type: ss
+    server: 94.159.98.123
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇺🇸US美國節點
+    type: ss
+    server: 50.62.90.16
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇺🇸US丨yoyapai.com_3
+    type: ss
+    server: 64.44.157.80
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 美國_9
+    type: vmess
+    server: v12.hdacd.com
+    port: 30812
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: 🇫🇷FR法國丨yoyapai.com
+    type: ss
+    server: 212.47.226.52
+    port: 443
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 🇯🇵JP日本丨yoyapai.com
+    type: ss
+    server: 158.51.109.218
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇩🇪DE丨yoyapai.com_5
+    type: ss
+    server: 194.39.204.118
+    port: 65535
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 🇺🇸US_290
+    type: ss
+    server: 45.40.154.16
     port: 443
     cipher: none
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
@@ -499,7 +579,29 @@ proxies:
       mode: websocket
       host: ylnhh.us.ci
       path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇺🇸US美國丨yoyapai.com
+  - name: 🇭🇰HK丨yoyapai.com_1
+    type: ss
+    server: 83.229.121.78
+    port: 8443
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 🇺🇸US_201丨yoyapai.com
+    type: ss
+    server: 94.247.142.16
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇺🇸US美國丨yoyapai.com_1
     type: ss
     server: 31.58.50.110
     port: 2053
@@ -510,51 +612,6 @@ proxies:
       mode: websocket
       host: mfvpn.fuchen.indevs.in
       path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 美国丨yoyapai.com
-    type: trojan
-    server: 152.53.60.198
-    port: 8444
-    password: trojan
-    sni: jflsjlaf.pages.dev
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: jflsjlaf.pages.dev
-  - name: 🇰🇷KR丨yoyapai.com
-    type: ss
-    server: 211.48.77.114
-    port: 19655
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇺🇸US_297
-    type: ss
-    server: 45.40.147.16
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 德國丨yoyapai.com
-    type: ss
-    server: 143.20.160.38
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
   - name: 美國節點丨yoyapai.com
     type: trojan
     server: 152.53.200.167
@@ -567,30 +624,9 @@ proxies:
       path: /
       headers:
         Host: jflsjlaf.pages.dev
-  - name: 德國
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 美國丨yoyapai.com_1
-    type: trojan
-    server: 172.66.44.230
-    port: 8443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /tro8sFW1S91B6sZrM1?ed=2560
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-  - name: 🇺🇸US
+  - name: 🇳🇱NL荷蘭丨yoyapai.com_1
     type: ss
-    server: 103.133.1.38
+    server: 185.133.175.70
     port: 443
     cipher: none
     password: 3e96ef7d-8637-42c2-ac73-75182196e755
@@ -599,18 +635,7 @@ proxies:
       mode: websocket
       host: mfvpn.fuchen.indevs.in
       path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 美國🇺🇸US
-    type: ss
-    server: 31.58.226.196
-    port: 8443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 美國節點_4
+  - name: 美國節點_5
     type: vmess
     server: 2001:bc8:32d7:302::10
     port: 44579
@@ -624,20 +649,9 @@ proxies:
       path: /?ed=2048
       headers:
         Host: 2001:bc8:32d7:302::10
-  - name: 🇯🇵JP日本丨yoyapai.com_1
+  - name: 🇩🇪DE_1
     type: ss
-    server: 158.51.109.218
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇺🇸US_27
-    type: ss
-    server: 198.12.144.16
+    server: 135.125.191.9
     port: 443
     cipher: none
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
@@ -646,31 +660,20 @@ proxies:
       mode: websocket
       host: ylnhh.us.ci
       path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇺🇸US_290
+  - name: 🇨🇦CA加拿大節點
     type: ss
-    server: 45.40.154.16
+    server: 192.99.169.176
     port: 443
     cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
     plugin: v2ray-plugin
     plugin-opts:
       mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇭🇰 HK_1
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 🇭🇰 HK
     type: ss
     server: cf.zhetengsha.eu.org
-    port: 443
-    cipher: none
-    password: 79960b0b-7d31-4263-8915-6511b0e137a8
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
-  - name: 🇯🇵 JP
-    type: ss
-    server: cdns.doon.eu.org
     port: 443
     cipher: none
     password: 79960b0b-7d31-4263-8915-6511b0e137a8
@@ -690,153 +693,24 @@ proxies:
       mode: websocket
       host: mfvpn.fuchen.indevs.in
       path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇩🇪DE丨yoyapai.com
+  - name: 美國節點_7
+    type: vmess
+    server: 2001:bc8:32d7:302::11
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+      headers:
+        Host: Azerb.NET
+  - name: 德國_2
     type: ss
-    server: 78.40.216.169
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇺🇸US_1
-    type: ss
-    server: 170.114.45.38
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇩🇪DE德國丨yoyapai.com_1
-    type: ss
-    server: 45.147.248.115
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇭🇰 HK_2
-    type: ss
-    server: cf.877774.xyz
-    port: 443
-    cipher: none
-    password: 79960b0b-7d31-4263-8915-6511b0e137a8
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
-  - name: 🇸🇪SE瑞典節點
-    type: ss
-    server: 91.223.169.88
-    port: 8443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇸🇪SE瑞典節點丨yoyapai.com_1
-    type: ss
-    server: 51.20.160.11
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇺🇸US_235
-    type: ss
-    server: 69.84.182.16
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇩🇪DE_1
-    type: ss
-    server: 135.125.191.9
-    port: 8443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇸🇬 SG新加坡
-    type: ss
-    server: cf.090227.xyz
-    port: 443
-    cipher: none
-    password: 79960b0b-7d31-4263-8915-6511b0e137a8
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: woshinidie-et3.pages.dev
-      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
-  - name: 荷蘭🇳🇱NL
-    type: ss
-    server: 212.192.215.229
-    port: 8443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇩🇪DE德國丨yoyapai.com_2
-    type: ss
-    server: 172.104.250.194
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇸🇬SG新加坡丨yoyapai.com_5
-    type: ss
-    server: 188.239.21.47
-    port: 8443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 拉脫維亞節點
-    type: ss
-    server: 37.128.207.179
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇩🇪DE_3
-    type: ss
-    server: 139.144.181.138
-    port: 443
+    server: 188.241.241.3
+    port: 2053
     cipher: none
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
     plugin: v2ray-plugin
@@ -855,10 +729,10 @@ proxies:
       mode: websocket
       host: woshinidie-et3.pages.dev
       path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
-  - name: 🇸🇪SE瑞典節點_1
+  - name: 🇺🇸US丨yoyapai.com_4
     type: ss
-    server: 77.110.96.166
-    port: 8443
+    server: 31.185.108.38
+    port: 443
     cipher: none
     password: 3e96ef7d-8637-42c2-ac73-75182196e755
     plugin: v2ray-plugin
@@ -866,10 +740,54 @@ proxies:
       mode: websocket
       host: mfvpn.fuchen.indevs.in
       path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇰🇷KR韓國丨yoyapai.com_2
+  - name: 🇩🇪DE德國丨yoyapai.com_2
     type: ss
-    server: 129.154.220.126
-    port: 2083
+    server: 45.147.248.115
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇺🇸US_320丨yoyapai.com
+    type: ss
+    server: 8.34.70.16
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 德國丨yoyapai.com
+    type: ss
+    server: 143.20.160.38
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇩🇪DE丨yoyapai.com_6
+    type: ss
+    server: 78.40.216.169
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇺🇸US丨yoyapai.com_5
+    type: ss
+    server: 128.199.0.28
+    port: 443
     cipher: none
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
     plugin: v2ray-plugin
@@ -877,6 +795,50 @@ proxies:
       mode: websocket
       host: ylnhh.us.ci
       path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇺🇸US_235
+    type: ss
+    server: 69.84.182.16
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇺🇸US_56
+    type: ss
+    server: 190.93.246.16
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇩🇪DE_2
+    type: ss
+    server: 45.43.88.13
+    port: 2053
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 🇩🇪DE_3
+    type: ss
+    server: 192.46.237.206
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
   - name: 拉脫維亞
     type: ss
     server: 46.32.186.85
@@ -901,51 +863,6 @@ proxies:
       path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
   - name: 🇩🇪DE_5
     type: ss
-    server: 45.43.88.13
-    port: 2053
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇻🇳VN越南丨yoyapai.com
-    type: ss
-    server: 103.15.90.134
-    port: 49678
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 美國丨yoyapai.com_2
-    type: trojan
-    server: 152.53.45.251
-    port: 8888
-    password: trojan
-    sni: jflsjlaf.pages.dev
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /
-      headers:
-        Host: jflsjlaf.pages.dev
-  - name: 🇨🇦CA加拿大節點
-    type: ss
-    server: 192.99.169.176
-    port: 443
-    cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇩🇪DE_6
-    type: ss
     server: 83.147.253.18
     port: 443
     cipher: none
@@ -955,9 +872,20 @@ proxies:
       mode: websocket
       host: ylnhh.us.ci
       path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇺🇸US_2
+  - name: 🇸🇪SE瑞典節點
     type: ss
-    server: 216.205.52.16
+    server: 91.223.169.88
+    port: 8443
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 德國丨yoyapai.com_1
+    type: ss
+    server: 194.233.167.228
     port: 443
     cipher: none
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
@@ -966,39 +894,6 @@ proxies:
       mode: websocket
       host: ylnhh.us.ci
       path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇩🇪DE_7
-    type: ss
-    server: 167.235.224.25
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇩🇪DE_8
-    type: ss
-    server: 139.162.150.12
-    port: 443
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 新加坡
-    type: ss
-    server: 140.245.42.216
-    port: 2053
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
   - name: 🇳🇱NL荷蘭
     type: ss
     server: 5.253.189.215
@@ -1010,20 +905,34 @@ proxies:
       mode: websocket
       host: mfvpn.fuchen.indevs.in
       path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 拉脫維亞丨yoyapai.com
+  - name: 🇸🇬SG新加坡丨yoyapai.com_1
     type: ss
-    server: 46.32.185.152
-    port: 443
+    server: 188.239.21.47
+    port: 8443
     cipher: none
-    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
     plugin: v2ray-plugin
     plugin-opts:
       mode: websocket
-      host: mfvpn.fuchen.indevs.in
-      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇩🇪DE_9
+      host: ylnhh.us.ci
+      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 美國節點_10
+    type: vmess
+    server: 2001:bc8:32d7:302::17
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+      headers:
+        Host: AZERB.NET
+  - name: 🇩🇪DE_6
     type: ss
-    server: 192.46.237.206
+    server: 167.235.224.25
     port: 443
     cipher: none
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
@@ -1032,18 +941,29 @@ proxies:
       mode: websocket
       host: ylnhh.us.ci
       path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇸🇬SG
+  - name: 🇩🇪DE_7
     type: ss
-    server: 209.17.118.112
-    port: 20524
+    server: 139.162.150.12
+    port: 443
     cipher: none
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
     plugin: v2ray-plugin
     plugin-opts:
       mode: websocket
       host: ylnhh.us.ci
-      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇩🇪DE_10
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇩🇪DE德國丨yoyapai.com_3
+    type: ss
+    server: 172.104.250.194
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇩🇪DE_8
     type: ss
     server: 139.144.181.54
     port: 443
@@ -1065,10 +985,21 @@ proxies:
       mode: websocket
       host: mfvpn.fuchen.indevs.in
       path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 芬蘭
+  - name: 🇭🇰HK香港丨yoyapai.com_3
     type: ss
-    server: 94.183.190.73
-    port: 2053
+    server: 8.223.63.189
+    port: 443
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 拉脫維亞丨yoyapai.com
+    type: ss
+    server: 46.32.185.152
+    port: 443
     cipher: none
     password: 3e96ef7d-8637-42c2-ac73-75182196e755
     plugin: v2ray-plugin
@@ -1087,7 +1018,7 @@ proxies:
       mode: websocket
       host: mfvpn.fuchen.indevs.in
       path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
-  - name: 🇬🇧GB
+  - name: 🇬🇧GB英國
     type: ss
     server: 57.129.137.51
     port: 8443
@@ -1098,6 +1029,128 @@ proxies:
       mode: websocket
       host: mfvpn.fuchen.indevs.in
       path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 🇺🇸US
+    type: ss
+    server: 103.133.1.38
+    port: 443
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 🇻🇳VN越南丨yoyapai.com
+    type: ss
+    server: 103.15.90.134
+    port: 49678
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇺🇸US_1
+    type: ss
+    server: 170.114.45.38
+    port: 443
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 🇯🇵JP_1
+    type: ss
+    server: 202.84.53.85
+    port: 30816
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇭🇰 HK_1
+    type: ss
+    server: cf.008500.xyz
+    port: 443
+    cipher: none
+    password: 79960b0b-7d31-4263-8915-6511b0e137a8
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
+  - name: 🇺🇸US_180丨yoyapai.com
+    type: ss
+    server: 104.254.140.16
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇺🇸US丨yoyapai.com_6
+    type: ss
+    server: 194.59.5.16
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇸🇬 SG新加坡
+    type: ss
+    server: cf.090227.xyz
+    port: 443
+    cipher: none
+    password: 79960b0b-7d31-4263-8915-6511b0e137a8
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
+  - name: 🇭🇰 HK_2
+    type: ss
+    server: cf.877774.xyz
+    port: 443
+    cipher: none
+    password: 79960b0b-7d31-4263-8915-6511b0e137a8
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
+  - name: 🇯🇵 JP
+    type: ss
+    server: cdns.doon.eu.org
+    port: 443
+    cipher: none
+    password: 79960b0b-7d31-4263-8915-6511b0e137a8
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: woshinidie-et3.pages.dev
+      path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
+  - name: 美國丨yoyapai.com_5
+    type: trojan
+    server: 172.66.44.230
+    port: 8443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /tro8sFW1S91B6sZrM1?ed=2560
+      headers:
+        Host: Koma-YT.PAGeS.Dev
   - name: 🇯🇵 JP_1
     type: ss
     server: saas.sin.fan
@@ -1109,20 +1162,9 @@ proxies:
       mode: websocket
       host: woshinidie-et3.pages.dev
       path: /79960b0b-7d31-4263-8915-6511b0e137a8/?ed\=2560
-  - name: 德國_2
+  - name: 🇺🇸US_2
     type: ss
-    server: 188.241.241.3
-    port: 2053
-    cipher: none
-    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ylnhh.us.ci
-      path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 德國丨yoyapai.com_1
-    type: ss
-    server: 194.233.167.228
+    server: 216.205.52.16
     port: 443
     cipher: none
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
@@ -1131,9 +1173,65 @@ proxies:
       mode: websocket
       host: ylnhh.us.ci
       path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 🇺🇸US_56
+  - name: 美國丨yoyapai.com_6
+    type: trojan
+    server: 152.53.45.251
+    port: 8888
+    password: trojan
+    sni: jflsjlaf.pages.dev
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: jflsjlaf.pages.dev
+  - name: 🇸🇬SG丨yoyapai.com
     type: ss
-    server: 190.93.246.16
+    server: 207.148.125.245
+    port: 8443
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 🇸🇬SG新加坡丨yoyapai.com_2
+    type: ss
+    server: 66.42.61.215
+    port: 443
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 🇩🇪DE丨yoyapai.com_7
+    type: ss
+    server: 92.118.230.228
+    port: 443
+    cipher: none
+    password: 3e96ef7d-8637-42c2-ac73-75182196e755
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: mfvpn.fuchen.indevs.in
+      path: 3e96ef7d-8637-42c2-ac73-75182196e755/?ed\=2560
+  - name: 🇩🇪DE丨yoyapai.com_8
+    type: ss
+    server: 150.241.79.123
+    port: 443
+    cipher: none
+    password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+    plugin: v2ray-plugin
+    plugin-opts:
+      mode: websocket
+      host: ylnhh.us.ci
+      path: 14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
+  - name: 🇺🇸US_54丨yoyapai.com
+    type: ss
+    server: 192.0.54.16
     port: 443
     cipher: none
     password: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
@@ -1142,44 +1240,82 @@ proxies:
       mode: websocket
       host: ylnhh.us.ci
       path: /14b02e2a-8930-4afb-8412-ea4a4954ca5b/?ed\=2560
-  - name: 美國節點_12
+  - name: AU澳大利亚(mibei77.com 米贝节点分享)
     type: vmess
-    server: 2001:bc8:32d7:302::11
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    server: efan.dnsefan04881.com
+    port: 7754
+    uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
-      headers:
-        Host: Azerb.NET
-  - name: 美國節點_15
-    type: vmess
-    server: 2001:bc8:32d7:302::17
-    port: 44579
-    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
-    alterId: 0
-    cipher: auto
-    tls: false
+  - name: US美国(mibei77.com 米贝节点分享)_4
+    type: trojan
+    server: 109.234.211.66
+    port: 8443
+    password: trojan
+    sni: store.timimi.dpdns.org
     skip-cert-verify: false
-    network: ws
+    tls: true
     ws-opts:
-      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+      path: /
       headers:
-        Host: AZERB.NET
-  - name: 伊朗節點
+        Host: store.timimi.dpdns.org
+  - name: US美国(mibei77.com 米贝节点分享)_5
+    type: trojan
+    server: wing2452.nyc.mn
+    port: 443
+    password: bpb-trojan
+    sni: wing2452.nyc.mn
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /tr
+      headers:
+        Host: wing2452.nyc.mn
+  - name: US美国(mibei77.com 米贝节点分享)_13
+    type: trojan
+    server: cmcc.877774.xyz
+    port: 443
+    password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+    sni: cm22-bgphhh.pages.dev
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: cm22-bgphhh.pages.dev
+  - name: US美国(mibei77.com 米贝节点分享)_20
+    type: trojan
+    server: 104.16.148.10
+    port: 443
+    password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+    sni: cm22-bgphhh.pages.dev
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /buy/proxyip=45.196.239.151,167.253.153.161,45.196.239.238,45.196.238.248,45.196.238.145,223.165.4.57,85.237.207.19,167.253.153.80
+      headers:
+        Host: cm22-bgphhh.pages.dev
+  - name: US美国(mibei77.com 米贝节点分享)_22
     type: vmess
-    server: v30.hdacd.com
-    port: 30830
+    server: v8.hdacd.com
+    port: 30808
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 0
+    alterId: 2
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: US美国(mibei77.com 米贝节点分享)_1
+  - name: US美国(mibei77.com 米贝节点分享)_24
+    type: vmess
+    server: v29.hdacd.com
+    port: 30829
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: US美国(mibei77.com 米贝节点分享)_25
     type: vmess
     server: vc.fly.dev
     port: 443
@@ -1194,11 +1330,98 @@ proxies:
       path: /vc
       headers:
         Host: vc.fly.dev
-  - name: FR法国(mibei77.com 米贝节点分享)
+  - name: US美国(mibei77.com 米贝节点分享)_28
+    type: vmess
+    server: v9.hdacd.com
+    port: 30809
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: US美国(mibei77.com 米贝节点分享)_29
+    type: vmess
+    server: v33.hdacd.com
+    port: 30833
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: US美国(mibei77.com 米贝节点分享)_33
+    type: ss
+    server: 89.125.103.52
+    port: 20129
+    cipher: aes-256-gcm
+    password: 9cdc6440d42cb19c
+  - name: US美国(mibei77.com 米贝节点分享)_34
+    type: vmess
+    server: v30.hdacd.com
+    port: 30830
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: US美国(mibei77.com 米贝节点分享)_37
+    type: vmess
+    server: v36.hdacd.com
+    port: 30836
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: US美国(mibei77.com 米贝节点分享)_38
+    type: vmess
+    server: v24.hdacd.com
+    port: 30824
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: US美国(mibei77.com 米贝节点分享)_40
+    type: vmess
+    server: vm51544542.dns8656815.com
+    port: 7754
+    uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: DE德国(mibei77.com 米贝节点分享)_1
+    type: vmess
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+  - name: US美国(mibei77.com 米贝节点分享)_41
+    type: ss
+    server: 45.140.169.225
+    port: 10974
+    cipher: aes-256-gcm
+    password: c5fcdf7829112cb4
+  - name: US美国(mibei77.com 米贝节点分享)_42
+    type: trojan
+    server: mfa.gov.ua
+    port: 2096
+    password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+    sni: cm22-bgphhh.pages.dev
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /
+      headers:
+        Host: cm22-bgphhh.pages.dev
+  - name: US美国(mibei77.com 米贝节点分享)_44
     type: vmess
     server: m.cnmjin.net
-    port: 16617
-    uuid: c6e0db22-c963-4c99-9f7d-ee8a39f64a07
+    port: 16622
+    uuid: b49af8c9-0cf1-4212-8ed8-35b70d9f2cf4
     alterId: 0
     cipher: auto
     tls: false
@@ -1207,129 +1430,32 @@ proxies:
     ws-opts:
       path: /
       headers:
-        Host: fc05e62e9e82b8264faaba517868b9e8.mobgslb.tbcache.com
-  - name: DE德国(mibei77.com 米贝节点分享)_5
+        Host: 3416cbe57b7c52733721859d4e23be39.mobgslb.tbcache.com
+  - name: US美国(mibei77.com 米贝节点分享)_45
     type: trojan
-    server: cloudflare.182682.xyz
-    port: 443
-    password: ac246072-3078-4cd2-ba8a-8c91d4eb3570
-    sni: 5qfg26y3xj2zjlmr.catimecsgo.xyz
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /images
-      headers:
-        Host: 5qfg26y3xj2zjlmr.catimecsgo.xyz
-  - name: US美国(mibei77.com 米贝节点分享)_13
-    type: trojan
-    server: 167.68.4.199
+    server: www.shopify.com
     port: 2053
-    password: Aimer
-    sni: epge.muarua.filegear-sg.me
+    password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+    sni: cm22-bgphhh.pages.dev
     skip-cert-verify: false
     tls: true
-    ws-opts:
-      path: /?ed
-      headers:
-        Host: epge.muarua.filegear-sg.me
-  - name: DE德国(mibei77.com 米贝节点分享)_7
-    type: vmess
-    server: 216.238.86.158
-    port: 34460
-    uuid: 90be214d-048c-4ea2-a602-b8e4d4e51e36
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: FR法国(mibei77.com 米贝节点分享)_4
-    type: vmess
-    server: planb.mojcn.com
-    port: 16632
-    uuid: c6e0db22-c963-4c99-9f7d-ee8a39f64a07
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    network: ws
     ws-opts:
       path: /
       headers:
-        Host: fc05e62e9e82b8264faaba517868b9e8.mobgslb.tbcache.com
-  - name: CA加拿大(mibei77.com 米贝节点分享)_1
+        Host: cm22-bgphhh.pages.dev
+  - name: US美国(mibei77.com 米贝节点分享)_46
     type: trojan
-    server: 23.227.38.43
+    server: cmcc.090227.xyz
     port: 443
-    password: ac246072-3078-4cd2-ba8a-8c91d4eb3570
-    sni: ukmp1pz6n5doe90u.tkgogocsgo.top
+    password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+    sni: cm22-bgphhh.pages.dev
     skip-cert-verify: false
     tls: true
-    ws-opts:
-      path: /images
-      headers:
-        Host: ukmp1pz6n5doe90u.tkgogocsgo.top
-  - name: DE德国(mibei77.com 米贝节点分享)_14
-    type: trojan
-    server: 555.cloudflare.182682.xyz
-    port: 443
-    password: ac246072-3078-4cd2-ba8a-8c91d4eb3570
-    sni: fast.usfaster.top
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /images
-      headers:
-        Host: fast.usfaster.top
-  - name: DE德国(mibei77.com 米贝节点分享)_16
-    type: trojan
-    server: 888.cloudflare.182682.xyz
-    port: 443
-    password: ac246072-3078-4cd2-ba8a-8c91d4eb3570
-    sni: fast.usfaster.top
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /images
-      headers:
-        Host: fast.usfaster.top
-  - name: DE德国(mibei77.com 米贝节点分享)_18
-    type: trojan
-    server: 777.cloudflare.182682.xyz
-    port: 443
-    password: ac246072-3078-4cd2-ba8a-8c91d4eb3570
-    sni: fast.usfaster.top
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /images
-      headers:
-        Host: fast.usfaster.top
-  - name: FR法国(mibei77.com 米贝节点分享)_5
-    type: vmess
-    server: t.cnmjcn.cyou
-    port: 16617
-    uuid: c6e0db22-c963-4c99-9f7d-ee8a39f64a07
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    network: ws
     ws-opts:
       path: /
       headers:
-        Host: fc05e62e9e82b8264faaba517868b9e8.mobgslb.tbcache.com
-  - name: DE德国(mibei77.com 米贝节点分享)_27
-    type: trojan
-    server: er33.cloudflare.182682.xyz
-    port: 443
-    password: ac246072-3078-4cd2-ba8a-8c91d4eb3570
-    sni: help.bper2026.top
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /images
-      headers:
-        Host: help.bper2026.top
-  - name: NL荷兰(mibei77.com 米贝节点分享)_8
+        Host: cm22-bgphhh.pages.dev
+  - name: US美国(mibei77.com 米贝节点分享)_56
     type: vmess
     server: 2001:bc8:32d7:302::15
     port: 44579
@@ -1343,30 +1469,42 @@ proxies:
       path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
       headers:
         Host: TURK.NET
-  - name: DE德国(mibei77.com 米贝节点分享)_30
+  - name: US美国(mibei77.com 米贝节点分享)_57
+    type: vmess
+    server: 2001:bc8:32d7:302::14
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+      headers:
+        Host: TABRIZ.NET
+  - name: US美国(mibei77.com 米贝节点分享)_62
+    type: vmess
+    server: 2001:bc8:32d7:302::16
+    port: 44579
+    uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+      headers:
+        Host: AZERB.NET
+  - name: JP日本(mibei77.com 米贝节点分享)_1
     type: trojan
-    server: 111.cloudflare.182682.xyz
-    port: 443
-    password: ac246072-3078-4cd2-ba8a-8c91d4eb3570
-    sni: fast.usfaster.top
+    server: jp2-8sb.6121999.dpdns.org
+    port: 24534
+    password: e136d465-0558-43b9-b50c-b1f45d4cb2c2
+    sni: jp2-8sb.6121999.dpdns.org
     skip-cert-verify: false
     tls: true
-    ws-opts:
-      path: /images
-      headers:
-        Host: fast.usfaster.top
-  - name: HK香港(mibei77.com 米贝节点分享)_47
-    type: trojan
-    server: 109.234.211.66
-    port: 2087
-    password: trojan
-    sni: store.timimi.dpdns.org
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
-      headers:
-        Host: store.timimi.dpdns.org
   - name: 8元老牌专线机场：cczzuu.top
     server: 63.180.254.10
     port: 443
@@ -1383,85 +1521,64 @@ proxies:
     tls: false
     skip-cert-verify: false
   - name: 🇭🇰 香港3|@stairnode
-    server: 43.199.200.208
+    server: 95.40.85.50
     port: 52687
     type: trojan
-    password: 187dda4498be9ac4f28db939d5940185
+    password: 868ecdaf6aed618ec98cf78585672b2b
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇭🇰 香港4|@stairnode
-    server: 18.162.243.187
-    port: 39507
+    server: 54.46.52.70
+    port: 6313
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
   - name: 🇭🇰 香港5|@stairnode
-    server: 95.40.86.174
-    port: 4972
+    server: 52.69.111.130
+    port: 6313
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
   - name: 🇯🇵 日本|@stairnode
-    server: 18.163.16.38
-    port: 4746
+    server: 13.112.73.166
+    port: 1951
     type: trojan
     password: BxceQaOe
     sni: t.me%252Fripaojiedian
     skip-cert-verify: true
   - name: 🇯🇵 日本2|@stairnode
-    server: 13.231.242.181
-    port: 9201
+    server: 54.249.109.55
+    port: 34818
     type: trojan
-    password: 187dda4498be9ac4f28db939d5940185
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: 🇯🇵 日本3|@stairnode
-    server: 160.16.72.205
-    port: 9201
-    type: trojan
-    password: 187dda4498be9ac4f28db939d5940185
+    password: 868ecdaf6aed618ec98cf78585672b2b
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇸🇬 新加坡|@stairnode
-    server: 18.181.196.7
+    server: 13.115.146.132
     port: 4674
     type: trojan
-    password: 187dda4498be9ac4f28db939d5940185
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: 🇸🇬 新加坡2|@stairnode
-    server: 18.177.145.165
-    port: 4674
-    type: trojan
-    password: 187dda4498be9ac4f28db939d5940185
+    password: 868ecdaf6aed618ec98cf78585672b2b
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇸🇬 新加坡3|@stairnode
-    server: 43.199.69.179
-    port: 30726
+    server: 95.40.68.160
+    port: 12070
     type: trojan
     password: BxceQaOe
     sni: t.me%252Fripaojiedian
     skip-cert-verify: true
-  - name: 🇺🇸 美国|@stairnode
-    server: 57.180.7.56
-    port: 4019
-    type: trojan
-    password: 187dda4498be9ac4f28db939d5940185
-    sni: www.nintendogames.net
-    skip-cert-verify: false
   - name: 🇺🇸 美国2|@stairnode
-    server: 160.16.106.99
+    server: 13.115.246.132
     port: 3057
     type: trojan
-    password: 187dda4498be9ac4f28db939d5940185
+    password: 868ecdaf6aed618ec98cf78585672b2b
     sni: www.nintendogames.net
     skip-cert-verify: false
   - name: 🇺🇸 美国3|@stairnode
-    server: 16.163.129.49
-    port: 14919
+    server: 54.46.52.234
+    port: 23255
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
@@ -1566,6 +1683,13 @@ proxies:
     password: BvzUvt45hON9We5X9wM6I9ZrxHRcYd46QK
     sni: sao2.cdn-graph.click
     skip-cert-verify: false
+  - name: 🇭🇰 HK TROJAN-78 | free-nodes
+    server: 58.152.25.253
+    port: 443
+    type: trojan
+    password: BxceQaOe
+    sni: t.me/ripaojiedian
+    skip-cert-verify: false
   - name: TR TROJAN-79 | free-nodes
     server: 78.159.131.12
     port: 28259
@@ -1627,66 +1751,17 @@ proxies:
     type: ss
     cipher: aes-128-gcm
     password: 6601fb90e9b3
-  - name: 🇭🇰 香港3|@ripaojiedian
-    server: 95.40.85.50
-    port: 52687
-    type: trojan
-    password: 868ecdaf6aed618ec98cf78585672b2b
-    sni: www.nintendogames.net
-    skip-cert-verify: false
   - name: 🇭🇰 香港4|@ripaojiedian
-    server: 54.46.52.70
-    port: 6313
-    type: trojan
-    password: BxceQaOe
-    sni: t.me%2Fripaojiedian
-    skip-cert-verify: true
-  - name: 🇭🇰 香港5|@ripaojiedian
-    server: 52.69.111.130
-    port: 6313
+    server: 18.183.182.241
+    port: 9211
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
   - name: 🇯🇵 日本|@ripaojiedian
-    server: 13.112.73.166
-    port: 1951
+    server: 13.192.183.245
+    port: 1783
     type: trojan
     password: BxceQaOe
     sni: t.me%252Fripaojiedian
-    skip-cert-verify: true
-  - name: 🇯🇵 日本2|@ripaojiedian
-    server: 54.249.109.55
-    port: 34818
-    type: trojan
-    password: 868ecdaf6aed618ec98cf78585672b2b
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: 🇸🇬 新加坡|@ripaojiedian
-    server: 13.115.146.132
-    port: 4674
-    type: trojan
-    password: 868ecdaf6aed618ec98cf78585672b2b
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: 🇸🇬 新加坡3|@ripaojiedian
-    server: 95.40.68.160
-    port: 12070
-    type: trojan
-    password: BxceQaOe
-    sni: t.me%252Fripaojiedian
-    skip-cert-verify: true
-  - name: 🇺🇸 美国2|@ripaojiedian
-    server: 13.115.246.132
-    port: 3057
-    type: trojan
-    password: 868ecdaf6aed618ec98cf78585672b2b
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: 🇺🇸 美国3|@ripaojiedian
-    server: 54.46.52.234
-    port: 23255
-    type: trojan
-    password: BxceQaOe
-    sni: t.me%2Fripaojiedian
     skip-cert-verify: true
