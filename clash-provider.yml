@@ -3350,33 +3350,26 @@ proxies:
     tls: false
     skip-cert-verify: false
   - name: 🇭🇰 香港3|@ripaojiedian
-    server: 18.163.99.54
-    port: 53018
-    type: trojan
-    password: 69ecb45889d99f31b8ccc10bf8f76a72
-    sni: www.nintendogames.net
-    skip-cert-verify: true
-  - name: 🇭🇰 香港4|@ripaojiedian
-    server: 18.167.12.200
-    port: 5823
-    type: trojan
-    password: BxceQaOe
-    sni: t.me%2Fripaojiedian
-    skip-cert-verify: true
-  - name: 🇯🇵 日本|@ripaojiedian
-    server: 18.163.116.37
-    port: 9412
-    type: trojan
-    password: BxceQaOe
-    sni: t.me%252Fripaojiedian
-    skip-cert-verify: true
-  - name: 🇯🇵 日本2|@ripaojiedian
-    server: 13.230.197.150
+    server: 95.40.115.145
     port: 2008
     type: trojan
     password: 69ecb45889d99f31b8ccc10bf8f76a72
     sni: www.nintendogames.net
     skip-cert-verify: false
+  - name: 🇭🇰 香港4|@ripaojiedian
+    server: 52.198.36.96
+    port: 3685
+    type: trojan
+    password: BxceQaOe
+    sni: t.me%2Fripaojiedian
+    skip-cert-verify: true
+  - name: 🇯🇵 日本|@ripaojiedian
+    server: 116.80.61.224
+    port: 443
+    type: trojan
+    password: BxceQaOe
+    sni: t.me%252Fripaojiedian
+    skip-cert-verify: true
   - name: 🇯🇵 日本3|@ripaojiedian
     server: 3.112.1.63
     port: 9201
@@ -3398,23 +3391,16 @@ proxies:
     password: 69ecb45889d99f31b8ccc10bf8f76a72
     sni: www.nintendogames.net
     skip-cert-verify: false
-  - name: 🇺🇸 美国|@ripaojiedian
-    server: 54.238.146.34
-    port: 4019
+  - name: 🇸🇬 新加坡3|@ripaojiedian
+    server: 43.198.82.20
+    port: 1275
     type: trojan
-    password: 69ecb45889d99f31b8ccc10bf8f76a72
-    sni: www.nintendogames.net
-    skip-cert-verify: false
-  - name: 🇺🇸 美国2|@ripaojiedian
-    server: 18.183.75.181
-    port: 4019
-    type: trojan
-    password: 69ecb45889d99f31b8ccc10bf8f76a72
-    sni: www.nintendogames.net
-    skip-cert-verify: false
+    password: BxceQaOe
+    sni: t.me%252Fripaojiedian
+    skip-cert-verify: true
   - name: 🇺🇸 美国3|@ripaojiedian
-    server: 18.162.96.119
-    port: 49534
+    server: 95.40.19.36
+    port: 38692
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
