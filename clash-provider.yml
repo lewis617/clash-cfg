@@ -3162,24 +3162,24 @@ proxies:
     type: ss
     cipher: aes-256-gcm
     password: 14CLBaFBqwqxBJy6
-  - name: 🇷🇺 RU SS-31 | free-nodes
-    server: 46.17.42.114
-    port: 40129
-    type: ss
-    cipher: aes-256-gcm
-    password: 7ae4e68cf77f6089
-  - name: 🇺🇸 US SS-32 | free-nodes
+  - name: 🇺🇸 US SS-31 | free-nodes
     server: 185.111.156.33
     port: 443
     type: ss
     cipher: aes-256-gcm
     password: 5mCH4624QflO1cFR
-  - name: 🇺🇸 US SS-33 | free-nodes
+  - name: 🇺🇸 US SS-32 | free-nodes
     server: 154.53.60.197
     port: 80
     type: ss
     cipher: aes-256-gcm
     password: 8rb580EBG4l7tO8K
+  - name: 🇩🇪 DE SS-33 | free-nodes
+    server: 2.58.81.221
+    port: 443
+    type: ss
+    cipher: aes-256-gcm
+    password: 9dQS3geeylyrRth9
   - name: 🇺🇸 US SS-34 | free-nodes
     server: 144.126.145.77
     port: 443
@@ -3285,7 +3285,7 @@ proxies:
       path: /assignment
       headers:
         Host: www.ignitelimit.com
-  - name: TR TROJAN-48 | free-nodes
+  - name: TR TROJAN-49 | free-nodes
     server: 172.64.152.23
     port: 443
     type: trojan
@@ -3297,7 +3297,7 @@ proxies:
       path: /assignment
       headers:
         Host: www.multiplydose.com
-  - name: TR TROJAN-49 | free-nodes
+  - name: TR TROJAN-50 | free-nodes
     server: 172.67.180.92
     port: 443
     type: trojan
@@ -3309,20 +3309,6 @@ proxies:
       path: /assignment
       headers:
         Host: www.multiplydose.com
-  - name: 🇫🇷 FR TROJAN-50 | free-nodes
-    server: sourceforge.net
-    port: 443
-    type: trojan
-    password: humanity
-    sni: www.calmloud.com
-    alpn:
-      - http%2F1.1
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /assignment
-      headers:
-        Host: www.calmloud.com
   - name: TR TROJAN-51 | free-nodes
     server: v1.dabache.top
     port: 443
@@ -3361,19 +3347,25 @@ proxies:
       path: /trojan-ws
       headers:
         Host: xo.e0f.cx
-  - name: 🇩🇪 DE TROJAN-55 | free-nodes
+  - name: 🇫🇷 FR TROJAN-55 | free-nodes
+    server: 15.236.94.52
+    port: 22222
+    type: trojan
+    password: telegram-id-privatevpns
+    skip-cert-verify: false
+  - name: 🇩🇪 DE TROJAN-56 | free-nodes
     server: 52.57.232.245
     port: 22222
     type: trojan
     password: telegram-id-privatevpns
     skip-cert-verify: false
-  - name: 未知 SS-121 | free-nodes
+  - name: 未知 SS-118 | free-nodes
     server: www.ccgfw.top
     port: 443
     type: ss
     cipher: aes-128-gcm
     password: 6601fb90e9b3
-  - name: 🇺🇸 US HY2-150 | free-nodes
+  - name: 🇺🇸 US HY2-147 | free-nodes
     server: 172.245.11.73
     port: 443
     type: hysteria2
@@ -3383,7 +3375,7 @@ proxies:
     skip-cert-verify: false
     alpn:
       - h3
-  - name: 🇺🇸 US VMESS-158 | free-nodes
+  - name: 🇺🇸 US VMESS-155 | free-nodes
     server: s842.ccgfw.top
     port: 443
     type: vmess
