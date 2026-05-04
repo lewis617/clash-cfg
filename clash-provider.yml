@@ -843,123 +843,63 @@ proxies:
     skip-cert-verify: false
     tls: false
     udp: true
-  - name: 🇺🇸 US SS-38 | free-nodes
+  - name: 🇺🇸 US SS-29 | free-nodes
     server: 66.94.125.178
     port: 80
     type: ss
     cipher: aes-256-gcm
     password: 14CLBaFBqwqxBJy6
-  - name: 🇺🇸 US SS-39 | free-nodes
+  - name: 🇺🇸 US SS-30 | free-nodes
     server: 185.111.156.33
     port: 80
     type: ss
     cipher: aes-256-gcm
     password: 5mCH4624QflO1cFR
-  - name: 🇺🇸 US SS-40 | free-nodes
-    server: 154.53.60.197
-    port: 80
-    type: ss
-    cipher: aes-256-gcm
-    password: 8rb580EBG4l7tO8K
-  - name: 🇸🇬 SG SS-41 | free-nodes
-    server: 194.233.94.119
-    port: 80
-    type: ss
-    cipher: aes-256-gcm
-    password: 8t2xeemUtyui4zAv
-  - name: 🇩🇪 DE SS-42 | free-nodes
-    server: 2.58.81.221
-    port: 80
-    type: ss
-    cipher: aes-256-gcm
-    password: 9dQS3geeylyrRth9
-  - name: 未知 SS-43 | free-nodes
-    server: 38.180.216.114
-    port: 7307
-    type: ss
-    cipher: aes-256-gcm
-    password: FoOiGlkAA9yPEGP
-  - name: 🇺🇸 US SS-44 | free-nodes
+  - name: 🇺🇸 US SS-31 | free-nodes
     server: 144.126.145.77
     port: 443
     type: ss
     cipher: aes-256-gcm
     password: QzM0NfuMNngbVnZK
-  - name: 🇬🇧 GB SS-45 | free-nodes
-    server: 149.102.132.186
-    port: 80
-    type: ss
-    cipher: aes-256-gcm
-    password: YhzqOeJsfuZ9rkkc
-  - name: 🇺🇸 US SS-46 | free-nodes
+  - name: 🇺🇸 US SS-32 | free-nodes
     server: 154.53.60.212
     port: 80
     type: ss
     cipher: aes-256-gcm
     password: ZfbPFDdeBj0B1Txs
-  - name: 未知 SS-47 | free-nodes
-    server: 38.180.161.123
-    port: 8119
-    type: ss
-    cipher: aes-256-gcm
-    password: cdBIDV42DCwnfIN
-  - name: 未知 SS-48 | free-nodes
-    server: 38.180.2.141
-    port: 5499
-    type: ss
-    cipher: aes-256-gcm
-    password: lGqs95QkFHo2NV
-  - name: 未知 SS-49 | free-nodes
-    server: 154.223.16.41
-    port: 4444
-    type: ss
-    cipher: aes-256-gcm
-    password: pKEW8JPByTVTLtM
-  - name: 🇬🇧 GB SS-50 | free-nodes
-    server: 149.102.149.207
+  - name: 🇺🇸 US SS-33 | free-nodes
+    server: 62.146.171.57
     port: 443
     type: ss
     cipher: aes-256-gcm
-    password: umWwoQJEJGf74SLe
-  - name: 🇸🇬 SG TROJAN-51 | free-nodes
-    server: ubu.okaoclax.me
-    port: 443
-    type: trojan
-    password: 13c169be-8592-4eaa-94cb-69c859e7d987
-    sni: ubu.okaoclax.me
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /trojan-ws
-      headers:
-        Host: ubu.okaoclax.me
-  - name: 🇭🇰 HK TROJAN-52 | free-nodes
-    server: 23.227.38.178
-    port: 443
-    type: trojan
-    password: 8b45d379-702f-41b3-a6b2-9c87a01dcd5c
-    sni: q6clkp794liy3y90.hktimecsgo.xyz
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /images
-      headers:
-        Host: q6clkp794liy3y90.hktimecsgo.xyz
-  - name: 🇯🇵 JP TROJAN-53 | free-nodes
+    password: jd9FR12wprKPNJHg
+  - name: 🇯🇵 JP TROJAN-34 | free-nodes
     server: 116.80.80.121
     port: 443
     type: trojan
     password: BxceQaOe
     sni: t.me%252Fripaojiedian
     skip-cert-verify: false
-  - name: TR TROJAN-55 | free-nodes
+  - name: TR TROJAN-36 | free-nodes
     server: 78.159.131.12
     port: 28259
     type: trojan
     password: MeaDiUmPlkWbZJ2BON8tz
     sni: ads.x5.ru
     skip-cert-verify: false
-  - name: TR TROJAN-57 | free-nodes
+  - name: TR TROJAN-38 | free-nodes
+    server: 104.18.32.47
+    port: 443
+    type: trojan
+    password: humanity
+    sni: www.multiplydose.com
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.multiplydose.com
+  - name: TR TROJAN-39 | free-nodes
     server: 104.20.6.134
     port: 443
     type: trojan
@@ -971,7 +911,31 @@ proxies:
       path: /assignment
       headers:
         Host: www.ignitelimit.com
-  - name: 🇫🇷 FR TROJAN-58 | free-nodes
+  - name: TR TROJAN-40 | free-nodes
+    server: 172.64.152.23
+    port: 443
+    type: trojan
+    password: humanity
+    sni: www.multiplydose.com
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.multiplydose.com
+  - name: TR TROJAN-41 | free-nodes
+    server: 172.67.180.92
+    port: 443
+    type: trojan
+    password: humanity
+    sni: www.multiplydose.com
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.multiplydose.com
+  - name: 🇫🇷 FR TROJAN-42 | free-nodes
     server: sourceforge.net
     port: 443
     type: trojan
@@ -985,19 +949,33 @@ proxies:
       path: /assignment
       headers:
         Host: www.calmloud.com
-  - name: 🇫🇷 FR TROJAN-59 | free-nodes
-    server: v3.dabache.top
+  - name: TR TROJAN-43 | free-nodes
+    server: v1.dabache.top
     port: 443
     type: trojan
     password: humanity
-    sni: www.gossipglove.com
+    sni: www.multiplydose.com
     skip-cert-verify: false
     network: ws
     ws-opts:
-      path: /assignment#✅@AR14N24b🤖بهترین+راهکار+رفع+مشکل+اتصال+به+پروکسی/فیلترشکن+🧠#کانفیگ+#proxy+#v2ray+#اینترنت
+      path: /assignment
       headers:
-        Host: www.gossipglove.com
-  - name: TR TROJAN-60 | free-nodes
+        Host: www.multiplydose.com
+  - name: 🇩🇪 DE TROJAN-45 | free-nodes
+    server: 104.20.5.134
+    port: 443
+    type: trojan
+    password: mSzFVhUczD
+    sni: abest.api-tel.xyz
+    alpn:
+      - http%2F1.1
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: abest.api-tel.xyz
+  - name: TR TROJAN-46 | free-nodes
     server: 170.168.102.234
     port: 2083
     type: trojan
@@ -1009,7 +987,7 @@ proxies:
       path: /trojan-ws
       headers:
         Host: xo.e0f.cx
-  - name: TR TROJAN-61 | free-nodes
+  - name: TR TROJAN-47 | free-nodes
     server: 91.184.250.116
     port: 2083
     type: trojan
@@ -1021,19 +999,13 @@ proxies:
       path: /trojan-ws
       headers:
         Host: xo.e0f.cx
-  - name: 🇫🇷 FR TROJAN-62 | free-nodes
-    server: 13.39.30.161
-    port: 22222
-    type: trojan
-    password: telegram-id-privatevpns
-    skip-cert-verify: false
-  - name: 未知 SS-114 | free-nodes
+  - name: 未知 SS-115 | free-nodes
     server: www.ccgfw.top
     port: 443
     type: ss
     cipher: aes-128-gcm
     password: 6601fb90e9b3
-  - name: 🇺🇸 US HY2-142 | free-nodes
+  - name: 🇺🇸 US HY2-143 | free-nodes
     server: 172.245.11.73
     port: 443
     type: hysteria2
@@ -1043,7 +1015,7 @@ proxies:
     skip-cert-verify: false
     alpn:
       - h3
-  - name: 🇺🇸 US VMESS-150 | free-nodes
+  - name: 🇺🇸 US VMESS-151 | free-nodes
     server: s842.ccgfw.top
     port: 443
     type: vmess
