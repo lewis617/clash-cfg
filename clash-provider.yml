@@ -844,43 +844,47 @@ proxies:
     tls: false
     udp: true
   - name: 🇺🇸 US SS-29 | free-nodes
+    server: 66.94.125.178
+    port: 80
+    type: ss
+    cipher: aes-256-gcm
+    password: 14CLBaFBqwqxBJy6
+  - name: 未知 SS-30 | free-nodes
     server: 185.111.156.33
     port: 80
     type: ss
     cipher: aes-256-gcm
     password: 5mCH4624QflO1cFR
-  - name: 🇺🇸 US SS-30 | free-nodes
+  - name: 🇺🇸 US SS-31 | free-nodes
     server: 144.126.145.77
     port: 443
     type: ss
     cipher: aes-256-gcm
     password: QzM0NfuMNngbVnZK
-  - name: 🇺🇸 US SS-31 | free-nodes
+  - name: 🇺🇸 US SS-32 | free-nodes
     server: 154.53.60.212
     port: 80
     type: ss
     cipher: aes-256-gcm
     password: ZfbPFDdeBj0B1Txs
-  - name: 🇯🇵 JP TROJAN-32 | free-nodes
-    server: 54.248.66.236
-    port: 4099
+  - name: 🇸🇬 SG TROJAN-33 | free-nodes
+    server: ubu.okaoclax.me
+    port: 443
     type: trojan
-    password: BxceQaOe
-    sni: t.me%2Fripaojiedian
+    password: 13c169be-8592-4eaa-94cb-69c859e7d987
+    sni: ubu.okaoclax.me
     skip-cert-verify: false
-  - name: 🇭🇰 HK TROJAN-33 | free-nodes
+    network: ws
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: ubu.okaoclax.me
+  - name: 🇭🇰 HK TROJAN-34 | free-nodes
     server: bb.bejkn.cn
     port: 11233
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
-    skip-cert-verify: false
-  - name: TR TROJAN-34 | free-nodes
-    server: 78.159.131.12
-    port: 28259
-    type: trojan
-    password: MeaDiUmPlkWbZJ2BON8tz
-    sni: ads.x5.ru
     skip-cert-verify: false
   - name: TR TROJAN-35 | free-nodes
     server: 104.18.32.47
@@ -982,19 +986,13 @@ proxies:
       path: /trojan-ws
       headers:
         Host: xo.e0f.cx
-  - name: 🇫🇷 FR TROJAN-44 | free-nodes
-    server: 15.224.94.238
-    port: 22222
-    type: trojan
-    password: telegram-id-privatevpns
-    skip-cert-verify: false
-  - name: 未知 SS-104 | free-nodes
+  - name: 未知 SS-100 | free-nodes
     server: www.ccgfw.top
     port: 443
     type: ss
     cipher: aes-128-gcm
     password: 6601fb90e9b3
-  - name: 🇺🇸 US HY2-132 | free-nodes
+  - name: 🇺🇸 US HY2-128 | free-nodes
     server: 172.245.11.73
     port: 443
     type: hysteria2
@@ -1004,7 +1002,7 @@ proxies:
     skip-cert-verify: false
     alpn:
       - h3
-  - name: 🇺🇸 US VMESS-140 | free-nodes
+  - name: 🇺🇸 US VMESS-136 | free-nodes
     server: s842.ccgfw.top
     port: 443
     type: vmess
@@ -1047,6 +1045,13 @@ proxies:
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
+    skip-cert-verify: true
+  - name: 🇯🇵 日本|@ripaojiedian
+    server: 54.248.66.236
+    port: 4099
+    type: trojan
+    password: BxceQaOe
+    sni: t.me%252Fripaojiedian
     skip-cert-verify: true
   - name: 🇯🇵 日本3|@ripaojiedian
     server: 13.231.106.216
