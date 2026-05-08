@@ -1023,44 +1023,65 @@ proxies:
     tls: false
     skip-cert-verify: false
   - name: 🇭🇰 香港3|@ripaojiedian
-    server: 54.46.50.228
-    port: 53018
+    server: 16.162.192.117
+    port: 2008
     type: trojan
     password: ba62c023f9bce796ae334fecb20ef7cc
     sni: www.nintendogames.net
-    skip-cert-verify: true
+    skip-cert-verify: false
   - name: 🇭🇰 香港4|@ripaojiedian
+    server: 18.183.218.93
+    port: 4327
+    type: trojan
+    password: BxceQaOe
+    sni: t.me%2Fripaojiedian
+    skip-cert-verify: true
+  - name: 🇭🇰 香港5|@ripaojiedian
     server: 18.181.180.183
-    port: 13693
+    port: 13963
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
   - name: 🇯🇵 日本|@ripaojiedian
-    server: 54.248.66.236
-    port: 4099
+    server: 54.46.123.251
+    port: 2140
     type: trojan
     password: BxceQaOe
     sni: t.me%252Fripaojiedian
     skip-cert-verify: true
-  - name: 🇯🇵 日本3|@ripaojiedian
-    server: 13.231.106.216
+  - name: 🇯🇵 日本2|@ripaojiedian
+    server: 52.197.26.190
     port: 11541
     type: trojan
     password: ba62c023f9bce796ae334fecb20ef7cc
     sni: www.nintendogames.net
     skip-cert-verify: true
+  - name: 🇯🇵 日本3|@ripaojiedian
+    server: 54.65.211.149
+    port: 24184
+    type: trojan
+    password: ba62c023f9bce796ae334fecb20ef7cc
+    sni: www.nintendogames.net
+    skip-cert-verify: true
   - name: 🇸🇬 新加坡3|@ripaojiedian
-    server: 43.207.186.192
-    port: 2074
+    server: 13.158.32.76
+    port: 4203
     type: trojan
     password: BxceQaOe
     sni: t.me%252Fripaojiedian
     skip-cert-verify: true
-  - name: 🇺🇸 美国|@ripaojiedian
-    server: 18.179.108.192
+  - name: 🇺🇸 美国2|@ripaojiedian
+    server: 43.198.85.13
     port: 52249
     type: trojan
     password: ba62c023f9bce796ae334fecb20ef7cc
     sni: www.nintendogames.net
-    skip-cert-verify: false
+    skip-cert-verify: true
+  - name: 🇺🇸 美国3|@ripaojiedian
+    server: 43.207.42.56
+    port: 44386
+    type: trojan
+    password: BxceQaOe
+    sni: t.me%2Fripaojiedian
+    skip-cert-verify: true
