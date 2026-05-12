@@ -1316,62 +1316,56 @@ proxies:
     skip-cert-verify: false
     tls: false
     udp: true
-  - name: 未知 SS-30 | free-nodes
+  - name: 🇷🇺 RU SS-33 | free-nodes
     server: 195.58.49.26
     port: 60129
     type: ss
     cipher: aes-256-gcm
     password: 3150466568eda87b
-  - name: 🇺🇸 US SS-31 | free-nodes
+  - name: 🇺🇸 US SS-34 | free-nodes
     server: 185.111.156.33
-    port: 80
+    port: 443
     type: ss
     cipher: aes-256-gcm
     password: 5mCH4624QflO1cFR
-  - name: 🇺🇸 US SS-32 | free-nodes
+  - name: 未知 SS-35 | free-nodes
+    server: 38.180.197.41
+    port: 8080
+    type: ss
+    cipher: aes-256-gcm
+    password: KixLvKzwjekG00rm
+  - name: 🇺🇸 US SS-36 | free-nodes
     server: 144.126.145.77
     port: 443
     type: ss
     cipher: aes-256-gcm
     password: QzM0NfuMNngbVnZK
-  - name: 🇺🇸 US SS-33 | free-nodes
+  - name: 🇺🇸 US SS-37 | free-nodes
     server: 154.53.60.212
     port: 80
     type: ss
     cipher: aes-256-gcm
     password: ZfbPFDdeBj0B1Txs
-  - name: 🇷🇺 RU SS-34 | free-nodes
+  - name: 🇷🇺 RU SS-38 | free-nodes
     server: 45.140.169.216
     port: 30112
     type: ss
     cipher: aes-256-gcm
     password: c5fcdf7829112cb4
-  - name: 🇷🇺 RU SS-35 | free-nodes
+  - name: 🇷🇺 RU SS-39 | free-nodes
     server: 185.22.154.104
     port: 50129
     type: ss
     cipher: aes-256-gcm
     password: f34579d0148b2581
-  - name: TR TROJAN-36 | free-nodes
-    server: yespaintstudio.rav-kraski.ru
-    port: 50824
-    type: trojan
-    password: 7aXwJPnpAJ
-    sni: yespaintstudio.rav-kraski.ru
-    skip-cert-verify: false
-  - name: TR TROJAN-37 | free-nodes
-    server: 104.18.32.47
+  - name: 🇯🇵 JP TROJAN-40 | free-nodes
+    server: 116.80.61.236
     port: 443
     type: trojan
-    password: humanity
-    sni: www.multiplydose.com
+    password: BxceQaOe
+    sni: t.me%252Fripaojiedian
     skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /assignment
-      headers:
-        Host: www.multiplydose.com
-  - name: 🇫🇷 FR TROJAN-38 | free-nodes
+  - name: 🇫🇷 FR TROJAN-41 | free-nodes
     server: 104.20.6.134
     port: 443
     type: trojan
@@ -1385,7 +1379,7 @@ proxies:
       path: /assignment
       headers:
         Host: www.calmloud.com
-  - name: 🇩🇪 DE TROJAN-40 | free-nodes
+  - name: 🇩🇪 DE TROJAN-43 | free-nodes
     server: 104.20.5.134
     port: 443
     type: trojan
@@ -1399,7 +1393,7 @@ proxies:
       path: /
       headers:
         Host: abest.api-tel.xyz
-  - name: TR TROJAN-41 | free-nodes
+  - name: TR TROJAN-44 | free-nodes
     server: 170.168.102.234
     port: 2083
     type: trojan
@@ -1411,7 +1405,7 @@ proxies:
       path: /trojan-ws
       headers:
         Host: xo.e0f.cx
-  - name: TR TROJAN-42 | free-nodes
+  - name: TR TROJAN-45 | free-nodes
     server: 91.184.250.116
     port: 2083
     type: trojan
@@ -1423,13 +1417,13 @@ proxies:
       path: /trojan-ws
       headers:
         Host: xo.e0f.cx
-  - name: 未知 SS-94 | free-nodes
+  - name: 未知 SS-105 | free-nodes
     server: ccgfw.top
     port: 443
     type: ss
     cipher: aes-128-gcm
     password: 6601fb90e9b3
-  - name: 🇺🇸 US HY2-113 | free-nodes
+  - name: 🇺🇸 US HY2-124 | free-nodes
     server: 172.245.11.73
     port: 443
     type: hysteria2
@@ -1439,7 +1433,7 @@ proxies:
     skip-cert-verify: false
     alpn:
       - h3
-  - name: 🇺🇸 US VMESS-120 | free-nodes
+  - name: 🇺🇸 US VMESS-131 | free-nodes
     server: s842.ccgfw.top
     port: 443
     type: vmess
@@ -1473,13 +1467,6 @@ proxies:
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
-    skip-cert-verify: true
-  - name: 🇯🇵 日本|@ripaojiedian
-    server: 116.80.61.236
-    port: 443
-    type: trojan
-    password: BxceQaOe
-    sni: t.me%252Fripaojiedian
     skip-cert-verify: true
   - name: 🇯🇵 日本3|@ripaojiedian
     server: 95.40.11.168
