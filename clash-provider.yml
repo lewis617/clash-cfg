@@ -3860,15 +3860,15 @@ proxies:
     cipher: aes-256-cfb
     password: amazonskr05
   - name: 🇭🇰 香港3|@ripaojiedian
-    server: 16.162.217.83
-    port: 2008
+    server: 52.195.217.94
+    port: 53018
     type: trojan
-    password: 635340b47bddf8f41c123dc6f2b5f7ce
+    password: f6d3aa07a52dbcedcb4731029e2fb6ae
     sni: www.nintendogames.net
-    skip-cert-verify: false
+    skip-cert-verify: true
   - name: 🇭🇰 香港4|@ripaojiedian
-    server: 13.230.159.214
-    port: 3285
+    server: 54.250.202.23
+    port: 1123
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
@@ -3881,37 +3881,30 @@ proxies:
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
   - name: 🇯🇵 日本|@ripaojiedian
-    server: 43.198.101.71
-    port: 4099
+    server: 13.158.82.174
+    port: 2140
     type: trojan
     password: BxceQaOe
     sni: t.me%252Fripaojiedian
     skip-cert-verify: true
   - name: 🇯🇵 日本2|@ripaojiedian
-    server: 18.181.205.14
-    port: 24184
+    server: 18.183.203.240
+    port: 3135
     type: trojan
-    password: 635340b47bddf8f41c123dc6f2b5f7ce
+    password: f6d3aa07a52dbcedcb4731029e2fb6ae
+    sni: www.nintendogames.net
+    skip-cert-verify: true
+  - name: 🇸🇬 新加坡|@ripaojiedian
+    server: 13.113.236.116
+    port: 1180
+    type: trojan
+    password: f6d3aa07a52dbcedcb4731029e2fb6ae
     sni: www.nintendogames.net
     skip-cert-verify: true
   - name: 🇸🇬 新加坡2|@ripaojiedian
-    server: 52.195.217.94
-    port: 3842
+    server: 18.181.205.14
+    port: 2511
     type: trojan
-    password: 635340b47bddf8f41c123dc6f2b5f7ce
-    sni: www.nintendogames.net
-    skip-cert-verify: true
-  - name: 🇸🇬 新加坡3|@ripaojiedian
-    server: 43.207.215.131
-    port: 10578
-    type: trojan
-    password: BxceQaOe
-    sni: t.me%252Fripaojiedian
-    skip-cert-verify: true
-  - name: 🇺🇸 美国2|@ripaojiedian
-    server: 43.206.93.224
-    port: 2663
-    type: trojan
-    password: 635340b47bddf8f41c123dc6f2b5f7ce
+    password: f6d3aa07a52dbcedcb4731029e2fb6ae
     sni: www.nintendogames.net
     skip-cert-verify: true
