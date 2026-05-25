@@ -15,72 +15,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - name: 🇸🇬SG新加坡丨yoyapai.com
-    type: trojan
-    server: 66.42.61.215
-    port: 443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 🇰🇷KR韓國丨yoyapai.com
-    type: trojan
-    server: 220.118.248.123
-    port: 18001
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 🇰🇷KR韓國丨yoyapai.com_1
-    type: trojan
-    server: 123.99.111.135
-    port: 19461
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
   - name: 🇳🇱NL荷蘭丨yoyapai.com
-    type: trojan
-    server: 185.52.0.84
-    port: 443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 🇳🇱NL荷蘭丨yoyapai.com_1
-    type: trojan
-    server: 91.221.190.80
-    port: 443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 🇳🇱NL荷蘭丨yoyapai.com_2
     type: trojan
     server: 2.59.183.210
     port: 443
@@ -93,10 +28,10 @@ proxies:
       headers:
         Host: Koma-YT.PAGeS.Dev
     udp: true
-  - name: 🇳🇱NL荷蘭丨yoyapai.com_3
+  - name: 🇰🇷KR韓國丨yoyapai.com
     type: trojan
-    server: 38.180.96.40
-    port: 443
+    server: 59.0.95.106
+    port: 32773
     password: 8r<[9'l6hAO#8ZQi
     sni: Koma-YT.PAGeS.Dev
     skip-cert-verify: true
@@ -106,156 +41,32 @@ proxies:
       headers:
         Host: Koma-YT.PAGeS.Dev
     udp: true
-  - name: 🇳🇱NL荷蘭丨yoyapai.com_4
-    type: trojan
-    server: 144.31.122.162
-    port: 8443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 🇩🇰DK丹麥丨yoyapai.com
-    type: trojan
-    server: 77.37.96.132
-    port: 443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 🇨🇭CH臺灣丨yoyapai.com
-    type: trojan
-    server: 146.70.71.157
-    port: 443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 奧地利節點丨yoyapai.com
-    type: trojan
-    server: 38.180.143.51
-    port: 2053
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 🇧🇪BE比利時丨yoyapai.com
-    type: trojan
-    server: 95.164.62.196
-    port: 443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 🇰🇷KR韓國丨yoyapai.com_2
-    type: trojan
-    server: 183.102.55.197
-    port: 10003
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 亞太地區
+  - name: 美國節點
     type: vmess
-    server: 103.181.164.145
-    port: 54022
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    server: 2a02:6ea0:d32f::f8fe:349b
+    port: 24202
+    uuid: b20a7042-70ff-4376-a79f-b68f9edb7519
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
-    udp: true
-  - name: 🇰🇷KR韓國丨yoyapai.com_3
-    type: trojan
-    server: 183.107.78.213
-    port: 20880
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
+    network: ws
     ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
+      path: /github.com/Alvin9999-newpac/fanqiang
     udp: true
-  - name: 泰國節點丨yoyapai.com
-    type: trojan
-    server: 45.91.134.91
-    port: 2053
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 🇰🇷KR韓國丨yoyapai.com_4
-    type: trojan
-    server: 118.39.136.248
-    port: 20002
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 德國
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: 美國
+  - name: 美國節點_1
     type: vmess
     server: 82.198.246.214
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
-    cipher: auto
+    cipher: aes-128-gcm
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: 丹麥節點🇩🇰DK丨yoyapai.com
+  - name: 🇳🇱NL荷蘭丨yoyapai.com_1
     type: trojan
-    server: 77.37.96.247
+    server: 45.145.171.206
     port: 443
     password: 8r<[9'l6hAO#8ZQi
     sni: Koma-YT.PAGeS.Dev
@@ -268,16 +79,6 @@ proxies:
     udp: true
   - name: 美國節點_2
     type: vmess
-    server: 82.198.246.9
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: aes-128-gcm
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: 英國節點_2
-    type: vmess
     server: 82.198.246.97
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
@@ -286,7 +87,86 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: 英國_4
+  - name: 英國
+    type: vmess
+    server: 82.198.246.233
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇰🇷KR韓國丨yoyapai.com_1
+    type: trojan
+    server: 59.12.232.18
+    port: 12345
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegram🇨🇳 @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: 英國_1
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 美國_1
+    type: vmess
+    server: 103.181.164.145
+    port: 54022
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 美國節點_7
+    type: vmess
+    server: 82.198.246.9
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: 🇳🇱NL荷蘭丨yoyapai.com_2
+    type: trojan
+    server: 144.31.122.162
+    port: 8443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegram🇨🇳 @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: 奧地利節點丨yoyapai.com
+    type: trojan
+    server: 46.102.156.144
+    port: 2053
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegram🇨🇳 @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: 英國節點_33
     type: vmess
     server: 82.198.246.37
     port: 180
@@ -296,69 +176,7 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: 瑞士節點丨yoyapai.com
-    type: trojan
-    server: 140.238.208.240
-    port: 443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 美國節點_4
-    type: vmess
-    server: 82.198.246.233
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: aes-128-gcm
-    tls: false
-    skip-cert-verify: false
-    udp: true
   - name: 瑞典節點丨yoyapai.com
-    type: trojan
-    server: 185.104.151.181
-    port: 443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 泰國節點丨yoyapai.com_1
-    type: trojan
-    server: 45.150.128.181
-    port: 443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 瑞典節點丨yoyapai.com_1
-    type: trojan
-    server: 83.147.254.243
-    port: 443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 瑞典節點丨yoyapai.com_2
     type: trojan
     server: 176.125.240.147
     port: 2053
@@ -384,244 +202,10 @@ proxies:
       headers:
         Host: Koma-YT.PAGeS.Dev
     udp: true
-  - name: 🇰🇷KR韓國丨yoyapai.com_5
+  - name: 丹麥節點🇩🇰DK丨yoyapai.com
     type: trojan
-    server: 59.12.232.18
-    port: 12345
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 🇸🇪SE瑞典節點丨yoyapai.com
-    type: trojan
-    server: 83.147.254.168
+    server: 77.37.96.247
     port: 443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 🇳🇱NL荷蘭丨yoyapai.com_5
-    type: trojan
-    server: 91.221.191.120
-    port: 8443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 荷蘭節點丨yoyapai.com
-    type: trojan
-    server: 77.110.103.243
-    port: 8443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 🇷🇺RU俄羅斯丨yoyapai.com
-    type: trojan
-    server: 95.163.242.189
-    port: 8443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 🇳🇱NL荷蘭丨yoyapai.com_6
-    type: trojan
-    server: 45.145.171.206
-    port: 443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 🇳🇱NL荷蘭丨yoyapai.com_7
-    type: trojan
-    server: 185.162.9.60
-    port: 8443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 🇫🇷FR法國丨yoyapai.com
-    type: trojan
-    server: 109.61.110.241
-    port: 443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 🇰🇷KR韓國丨yoyapai.com_6
-    type: trojan
-    server: 59.0.95.106
-    port: 32773
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 🇳🇱NL荷蘭丨yoyapai.com_8
-    type: trojan
-    server: 95.169.192.234
-    port: 8443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 瑞典丨yoyapai.com
-    type: trojan
-    server: 16.16.45.85
-    port: 8443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 匈牙利節點丨yoyapai.com
-    type: trojan
-    server: 180.149.37.38
-    port: 8443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 🇳🇱NL荷蘭丨yoyapai.com_9
-    type: trojan
-    server: 38.180.233.61
-    port: 443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 俄羅斯節點丨yoyapai.com
-    type: trojan
-    server: 85.239.39.144
-    port: 8443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 🇸🇪SE瑞典節點丨yoyapai.com_1
-    type: trojan
-    server: 45.153.187.209
-    port: 8443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 捷克節點丨yoyapai.com
-    type: trojan
-    server: 185.253.46.5
-    port: 443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 🇷🇴RO羅馬尼亞節點丨yoyapai.com
-    type: trojan
-    server: 38.180.205.71
-    port: 443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 意大利丨yoyapai.com
-    type: trojan
-    server: 38.180.194.222
-    port: 2053
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 荷蘭節點丨yoyapai.com_1
-    type: trojan
-    server: 152.53.200.89
-    port: 8443
     password: 8r<[9'l6hAO#8ZQi
     sni: Koma-YT.PAGeS.Dev
     skip-cert-verify: true
@@ -644,9 +228,126 @@ proxies:
       headers:
         Host: Koma-YT.PAGeS.Dev
     udp: true
-  - name: 🇱🇻LV拉脫維亞節點丨yoyapai.com
+  - name: 匈牙利節點丨yoyapai.com
     type: trojan
-    server: 91.239.23.10
+    server: 180.149.37.38
+    port: 8443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegram🇨🇳 @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: 🇸🇪SE瑞典節點丨yoyapai.com
+    type: trojan
+    server: 83.147.254.168
+    port: 443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegram🇨🇳 @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: 🇳🇱NL荷蘭丨yoyapai.com_3
+    type: trojan
+    server: 152.53.200.164
+    port: 8443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegram🇨🇳 @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: 🇸🇪SE瑞典丨yoyapai.com
+    type: trojan
+    server: 176.125.240.63
+    port: 2053
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegram🇨🇳 @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: 🇫🇷FR法國丨yoyapai.com
+    type: trojan
+    server: 109.61.110.241
+    port: 443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegram🇨🇳 @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: 🇳🇱NL荷蘭丨yoyapai.com_4
+    type: trojan
+    server: 91.221.190.80
+    port: 443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegram🇨🇳 @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: 荷蘭節點丨yoyapai.com
+    type: trojan
+    server: 152.53.200.89
+    port: 8443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegram🇨🇳 @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: 瑞典節點丨yoyapai.com_1
+    type: trojan
+    server: 64.112.127.151
+    port: 443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegram🇨🇳 @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: 🇳🇱NL荷蘭丨yoyapai.com_5
+    type: trojan
+    server: 31.15.18.58
+    port: 8443
+    password: 8r<[9'l6hAO#8ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: /trTelegram🇨🇳 @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: 瑞士節點丨yoyapai.com
+    type: trojan
+    server: 140.238.208.240
     port: 443
     password: 8r<[9'l6hAO#8ZQi
     sni: Koma-YT.PAGeS.Dev
@@ -670,137 +371,7 @@ proxies:
       headers:
         Host: Koma-YT.PAGeS.Dev
     udp: true
-  - name: 瑞士節點丨yoyapai.com_1
-    type: trojan
-    server: 91.192.102.55
-    port: 443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 🇳🇱NL荷蘭丨yoyapai.com_10
-    type: trojan
-    server: 152.53.200.164
-    port: 8443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 俄羅斯節點丨yoyapai.com_1
-    type: trojan
-    server: 95.213.226.60
-    port: 443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 🇳🇱NL荷蘭丨yoyapai.com_11
-    type: trojan
-    server: 38.180.70.111
-    port: 443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 瑞典節點丨yoyapai.com_3
-    type: trojan
-    server: 64.112.127.151
-    port: 443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 瑞士節點丨yoyapai.com_2
-    type: trojan
-    server: 38.180.84.86
-    port: 443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 法國節點丨yoyapai.com
-    type: trojan
-    server: 138.124.81.204
-    port: 443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 🇸🇪SE瑞典丨yoyapai.com
-    type: trojan
-    server: 176.125.240.63
-    port: 2053
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 西班牙節點🇪🇸ES丨yoyapai.com
-    type: trojan
-    server: 172.233.97.34
-    port: 443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 奧地利節點丨yoyapai.com_1
-    type: trojan
-    server: 46.102.156.144
-    port: 2053
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 🇳🇱NL荷蘭丨yoyapai.com_12
+  - name: 🇳🇱NL荷蘭丨yoyapai.com_6
     type: trojan
     server: 185.31.200.184
     port: 2053
@@ -813,20 +384,7 @@ proxies:
       headers:
         Host: Koma-YT.PAGeS.Dev
     udp: true
-  - name: 俄羅斯節點丨yoyapai.com_2
-    type: trojan
-    server: 79.141.73.189
-    port: 8443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 荷蘭節點丨yoyapai.com_2
+  - name: 荷蘭節點丨yoyapai.com_1
     type: trojan
     server: 31.15.17.129
     port: 2053
@@ -839,441 +397,30 @@ proxies:
       headers:
         Host: Koma-YT.PAGeS.Dev
     udp: true
-  - name: 🇷🇴RO羅馬尼亞節點丨yoyapai.com_1
-    type: trojan
-    server: 38.180.35.88
-    port: 443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 🇳🇱NL荷蘭丨yoyapai.com_13
-    type: trojan
-    server: 31.15.18.58
-    port: 8443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 🇱🇹LT立陶宛丨yoyapai.com
-    type: trojan
-    server: 185.80.128.115
-    port: 8443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 🇪🇪EE愛沙尼亞丨yoyapai.com
-    type: trojan
-    server: 5.189.254.235
-    port: 443
-    password: 8r<[9'l6hAO#8ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    tls: true
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    udp: true
-  - name: 🇺🇸 US美国丨yoyapai.com
+  - name: 🇩🇪 DE德國丨yoyapai.com
     type: ss
-    server: chengbai02.ascwt179.com
-    port: 13223
+    server: ru.safepass.click
+    port: 442
     cipher: aes-128-gcm
-    password: JVrsLLN1tkN8oXZO
+    password: 6784aee2-0dfe-474f-8446-480259ff9918
     udp: true
-  - name: JP日本(mibei77.com 米贝节点分享)
-    type: trojan
-    server: 219.103.68.164
-    port: 20770
-    password: GKHWMe2R4qwNcNxu6l3KMkdd
-    sni: vpn1.rnmcnm.com
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /trj-ws
-      headers:
-        Host: vpn1.rnmcnm.com
-    udp: true
-  - name: KR韩国(mibei77.com 米贝节点分享)
-    type: trojan
-    server: 121.162.61.37
-    port: 10017
-    password: GKHWMe2R4qwNcNxu6l3KMkdd
-    sni: vpn1.rnmcnm.com
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /trj-ws
-      headers:
-        Host: vpn1.rnmcnm.com
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享)_2
+  - name: US美国(mibei77.com 米贝节点分享)
     type: ss
-    server: 47.79.144.115
-    port: 40003
+    server: 203.32.26.24
+    port: 20129
     cipher: aes-256-gcm
-    password: GTZI5AbjNAeWQG0oVNptvWJogHNKiiKA
+    password: 63d7c17506d1f48b
     udp: true
-  - name: US美国(mibei77.com 米贝节点分享)_13
+  - name: US美国(mibei77.com 米贝节点分享)_1
     type: trojan
-    server: www.ignitelimit.com
-    port: 443
-    password: humanity
+    server: xxxmg1.xiaoliebao.club
+    port: 4433
+    password: I0shjZ
+    sni: xxxmg1.xiaoliebao.club
     skip-cert-verify: false
     tls: true
-    ws-opts:
-      path: /assignment
     udp: true
-  - name: KR韩国(mibei77.com 米贝节点分享)_3
-    type: trojan
-    server: 222.98.185.243
-    port: 37215
-    password: GKHWMe2R4qwNcNxu6l3KMkdd
-    sni: vpn1.rnmcnm.com
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /trj-ws
-      headers:
-        Host: vpn1.rnmcnm.com
-    udp: true
-  - name: GB英国(mibei77.com 米贝节点分享)_3
-    type: trojan
-    server: 121.180.171.43
-    port: 11310
-    password: GKHWMe2R4qwNcNxu6l3KMkdd
-    sni: vpn1.rnmcnm.com
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /trj-ws
-      headers:
-        Host: vpn1.rnmcnm.com
-    udp: true
-  - name: GB英国(mibei77.com 米贝节点分享)_4
-    type: trojan
-    server: 183.103.4.162
-    port: 32677
-    password: GKHWMe2R4qwNcNxu6l3KMkdd
-    sni: vpn1.rnmcnm.com
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /trj-ws
-      headers:
-        Host: vpn1.rnmcnm.com
-    udp: true
-  - name: GB英国(mibei77.com 米贝节点分享)_5
-    type: trojan
-    server: 112.166.213.102
-    port: 16993
-    password: GKHWMe2R4qwNcNxu6l3KMkdd
-    sni: vpn1.rnmcnm.com
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /trj-ws
-      headers:
-        Host: vpn1.rnmcnm.com
-    udp: true
-  - name: GB英国(mibei77.com 米贝节点分享)_6
-    type: trojan
-    server: 175.201.34.127
-    port: 18786
-    password: GKHWMe2R4qwNcNxu6l3KMkdd
-    sni: vpn1.rnmcnm.com
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /trj-ws
-      headers:
-        Host: vpn1.rnmcnm.com
-    udp: true
-  - name: GB英国(mibei77.com 米贝节点分享)_7
-    type: trojan
-    server: 121.154.97.193
-    port: 38699
-    password: GKHWMe2R4qwNcNxu6l3KMkdd
-    sni: vpn1.rnmcnm.com
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /trj-ws
-      headers:
-        Host: vpn1.rnmcnm.com
-    udp: true
-  - name: GB英国(mibei77.com 米贝节点分享)_8
-    type: trojan
-    server: 125.141.32.222
-    port: 11371
-    password: GKHWMe2R4qwNcNxu6l3KMkdd
-    sni: vpn1.rnmcnm.com
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /trj-ws
-      headers:
-        Host: vpn1.rnmcnm.com
-    udp: true
-  - name: GB英国(mibei77.com 米贝节点分享)_9
-    type: trojan
-    server: 112.172.55.228
-    port: 25010
-    password: GKHWMe2R4qwNcNxu6l3KMkdd
-    sni: vpn1.rnmcnm.com
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /trj-ws
-      headers:
-        Host: vpn1.rnmcnm.com
-    udp: true
-  - name: GB英国(mibei77.com 米贝节点分享)_10
-    type: trojan
-    server: 218.150.34.228
-    port: 10912
-    password: GKHWMe2R4qwNcNxu6l3KMkdd
-    sni: vpn1.rnmcnm.com
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /trj-ws
-      headers:
-        Host: vpn1.rnmcnm.com
-    udp: true
-  - name: GB英国(mibei77.com 米贝节点分享)_11
-    type: trojan
-    server: 121.172.210.22
-    port: 18790
-    password: GKHWMe2R4qwNcNxu6l3KMkdd
-    sni: vpn1.rnmcnm.com
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /trj-ws
-      headers:
-        Host: vpn1.rnmcnm.com
-    udp: true
-  - name: GB英国(mibei77.com 米贝节点分享)_12
-    type: trojan
-    server: 14.36.170.70
-    port: 19888
-    password: GKHWMe2R4qwNcNxu6l3KMkdd
-    sni: vpn1.rnmcnm.com
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /trj-ws
-      headers:
-        Host: vpn1.rnmcnm.com
-    udp: true
-  - name: GB英国(mibei77.com 米贝节点分享)_13
-    type: trojan
-    server: 59.21.203.65
-    port: 10443
-    password: GKHWMe2R4qwNcNxu6l3KMkdd
-    sni: vpn1.rnmcnm.com
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /trj-ws
-      headers:
-        Host: vpn1.rnmcnm.com
-    udp: true
-  - name: GB英国(mibei77.com 米贝节点分享)_14
-    type: trojan
-    server: 211.225.164.199
-    port: 22335
-    password: GKHWMe2R4qwNcNxu6l3KMkdd
-    sni: vpn1.rnmcnm.com
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /trj-ws
-      headers:
-        Host: vpn1.rnmcnm.com
-    udp: true
-  - name: GB英国(mibei77.com 米贝节点分享)_15
-    type: trojan
-    server: 59.2.63.17
-    port: 12300
-    password: GKHWMe2R4qwNcNxu6l3KMkdd
-    sni: vpn1.rnmcnm.com
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /trj-ws
-      headers:
-        Host: vpn1.rnmcnm.com
-    udp: true
-  - name: GB英国(mibei77.com 米贝节点分享)_17
-    type: trojan
-    server: 121.179.212.16
-    port: 10001
-    password: GKHWMe2R4qwNcNxu6l3KMkdd
-    sni: vpn1.rnmcnm.com
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /trj-ws
-      headers:
-        Host: vpn1.rnmcnm.com
-    udp: true
-  - name: GB英国(mibei77.com 米贝节点分享)_18
-    type: trojan
-    server: 59.12.158.224
-    port: 11001
-    password: GKHWMe2R4qwNcNxu6l3KMkdd
-    sni: vpn1.rnmcnm.com
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /trj-ws
-      headers:
-        Host: vpn1.rnmcnm.com
-    udp: true
-  - name: GB英国(mibei77.com 米贝节点分享)_19
-    type: trojan
-    server: 221.149.34.13
-    port: 10909
-    password: GKHWMe2R4qwNcNxu6l3KMkdd
-    sni: vpn1.rnmcnm.com
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /trj-ws
-      headers:
-        Host: vpn1.rnmcnm.com
-    udp: true
-  - name: GB英国(mibei77.com 米贝节点分享)_20
-    type: trojan
-    server: 106.245.187.246
-    port: 34973
-    password: GKHWMe2R4qwNcNxu6l3KMkdd
-    sni: vpn1.rnmcnm.com
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /trj-ws
-      headers:
-        Host: vpn1.rnmcnm.com
-    udp: true
-  - name: GB英国(mibei77.com 米贝节点分享)_21
-    type: trojan
-    server: 221.158.4.230
-    port: 18853
-    password: GKHWMe2R4qwNcNxu6l3KMkdd
-    sni: vpn1.rnmcnm.com
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /trj-ws
-      headers:
-        Host: vpn1.rnmcnm.com
-    udp: true
-  - name: GB英国(mibei77.com 米贝节点分享)_22
-    type: trojan
-    server: 14.40.27.140
-    port: 18889
-    password: GKHWMe2R4qwNcNxu6l3KMkdd
-    sni: vpn1.rnmcnm.com
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /trj-ws
-      headers:
-        Host: vpn1.rnmcnm.com
-    udp: true
-  - name: GB英国(mibei77.com 米贝节点分享)_23
-    type: trojan
-    server: 112.163.117.142
-    port: 30005
-    password: GKHWMe2R4qwNcNxu6l3KMkdd
-    sni: vpn1.rnmcnm.com
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /trj-ws
-      headers:
-        Host: vpn1.rnmcnm.com
-    udp: true
-  - name: GB英国(mibei77.com 米贝节点分享)_24
-    type: trojan
-    server: 121.178.83.161
-    port: 26214
-    password: GKHWMe2R4qwNcNxu6l3KMkdd
-    sni: vpn1.rnmcnm.com
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /trj-ws
-      headers:
-        Host: vpn1.rnmcnm.com
-    udp: true
-  - name: GB英国(mibei77.com 米贝节点分享)_25
-    type: trojan
-    server: 14.41.44.168
-    port: 12300
-    password: GKHWMe2R4qwNcNxu6l3KMkdd
-    sni: vpn1.rnmcnm.com
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /trj-ws
-      headers:
-        Host: vpn1.rnmcnm.com
-    udp: true
-  - name: GB英国(mibei77.com 米贝节点分享)_26
-    type: trojan
-    server: 121.132.124.22
-    port: 15000
-    password: GKHWMe2R4qwNcNxu6l3KMkdd
-    sni: vpn1.rnmcnm.com
-    skip-cert-verify: false
-    tls: true
-    ws-opts:
-      path: /trj-ws
-      headers:
-        Host: vpn1.rnmcnm.com
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享)_24
-    type: vmess
-    server: v36.hdacd.com
-    port: 30836
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享)_54
-    type: vmess
-    server: v9.hdacd.com
-    port: 30809
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享)_56
+  - name: HK香港(mibei77.com 米贝节点分享)_1
     type: vmess
     server: v10.hdacd.com
     port: 30807
@@ -1283,7 +430,89 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: US美国(mibei77.com 米贝节点分享)_62
+  - name: US美国(mibei77.com 米贝节点分享)_6
+    type: trojan
+    server: mg5.xiaoliebao.club
+    port: 4434
+    password: I0shjZ
+    sni: mg5.xiaoliebao.club
+    skip-cert-verify: false
+    tls: true
+    udp: true
+  - name: DE德国(mibei77.com 米贝节点分享)_1
+    type: trojan
+    server: jpbgp.netvigor.cc
+    port: 19128
+    password: gcuCpQfaiVeDBdWG
+    sni: yazhou10.dynu.net
+    skip-cert-verify: false
+    tls: true
+    udp: true
+  - name: FR法国(mibei77.com 米贝节点分享)_1
+    type: trojan
+    server: 104.21.40.34
+    port: 443
+    password: humanity
+    sni: www.gossipglove.com
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.gossipglove.com
+    udp: true
+  - name: US美国(mibei77.com 米贝节点分享)_16
+    type: ss
+    server: 45.140.168.54
+    port: 50129
+    cipher: aes-256-gcm
+    password: 32c0ea6e823341a2
+    udp: true
+  - name: FR法国(mibei77.com 米贝节点分享)_2
+    type: ss
+    server: 202.85.76.170
+    port: 13223
+    cipher: aes-128-gcm
+    password: JVrsLLN1tkN8oXZO
+    udp: true
+  - name: US美国(mibei77.com 米贝节点分享)_24
+    type: trojan
+    server: www.gossipglove.com
+    port: 443
+    password: humanity
+    skip-cert-verify: false
+    tls: true
+    ws-opts:
+      path: /assignment
+    udp: true
+  - name: JP日本(mibei77.com 米贝节点分享)
+    type: vmess
+    server: 103.127.243.59
+    port: 56738
+    uuid: 5f49c80e-7770-4bd1-9c86-43c2068a3a26
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: US美国(mibei77.com 米贝节点分享)_27
+    type: vmess
+    server: v30.hdacd.com
+    port: 30830
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: US美国(mibei77.com 米贝节点分享)_30
+    type: ss
+    server: chengbai02.ascwt179.com
+    port: 13223
+    cipher: aes-128-gcm
+    password: JVrsLLN1tkN8oXZO
+    udp: true
+  - name: US美国(mibei77.com 米贝节点分享)_31
     type: vmess
     server: v8.hdacd.com
     port: 30808
@@ -1293,17 +522,7 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: US美国(mibei77.com 米贝节点分享)_63
-    type: vmess
-    server: 103.127.243.49
-    port: 53224
-    uuid: 4f47e6cc-659d-4588-8155-21d2782f1b91
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: US美国(mibei77.com 米贝节点分享)_66
+  - name: US美国(mibei77.com 米贝节点分享)_36
     type: vmess
     server: v4.hdacd.com
     port: 30804
@@ -1313,12 +532,42 @@ proxies:
     tls: false
     skip-cert-verify: false
     udp: true
-  - name: JP日本(mibei77.com 米贝节点分享)_1
+  - name: GB英国(mibei77.com 米贝节点分享)_28
     type: vmess
-    server: 103.127.243.59
-    port: 56738
-    uuid: 5f49c80e-7770-4bd1-9c86-43c2068a3a26
-    alterId: 0
+    server: v36.hdacd.com
+    port: 30836
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: US美国(mibei77.com 米贝节点分享)_97
+    type: vmess
+    server: v9.hdacd.com
+    port: 30809
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: US美国(mibei77.com 米贝节点分享)_100
+    type: vmess
+    server: v24.hdacd.com
+    port: 30824
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    udp: true
+  - name: US美国(mibei77.com 米贝节点分享)_105
+    type: vmess
+    server: v29.hdacd.com
+    port: 30829
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
     cipher: auto
     tls: false
     skip-cert-verify: false
@@ -1333,41 +582,15 @@ proxies:
     tls: false
     skip-cert-verify: true
     tfo: false
-  - name: 🇮🇷 伊朗 CCZZUU.TOP
-    server: 46.183.184.60
-    port: 989
+  - name: 🇺🇸 美国 华盛顿Cogent通信公司
+    server: 38.180.113.194
+    port: 8119
     type: ss
-    cipher: aes-256-cfb
-    password: f8f7aCzcPKbsF8p3
-    tfo: false
-  - name: 🇬🇧 英国 CCZZUU.TOP
-    server: 77.239.98.191
-    port: 8443
-    type: trojan
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /trTelegram🇨🇳+@WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
+    cipher: aes-256-gcm
+    password: cdBIDV42DCwnfIN
     tfo: false
   - name: 🇭🇰 香港 阿里云
-    server: 47.82.155.79
-    port: 8443
-    type: trojan
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    tfo: false
-  - name: 🇯🇵 日本 东京Choopa数据中心
-    server: 45.32.51.200
+    server: 47.82.178.58
     port: 443
     type: trojan
     password: 8r%3C%5B9%27l6hAO%238ZQi
@@ -1375,12 +598,12 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
+      path: /trTelegram🇨🇳
       headers:
         Host: Koma-YT.PAGeS.Dev
     tfo: false
-  - name: 🇫🇷 法国 巴黎Choopa数据中心
-    server: 45.77.62.142
+  - name: 🇷🇴 罗马尼亚 CCZZUU.TOP
+    server: 217.19.4.246
     port: 8443
     type: trojan
     password: 8r%3C%5B9%27l6hAO%238ZQi
@@ -1392,8 +615,8 @@ proxies:
       headers:
         Host: Koma-YT.PAGeS.Dev
     tfo: false
-  - name: 🇿🇦 南非 CCZZUU.TOP
-    server: 156.225.72.253
+  - name: 🇺🇸 美国 CCZZUU.TOP
+    server: 137.184.122.138
     port: 443
     type: trojan
     password: 8r%3C%5B9%27l6hAO%238ZQi
@@ -1401,12 +624,12 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: "/tr | 免费机场TG@proxyshareCN | "
+      path: /trTelegram
       headers:
         Host: Koma-YT.PAGeS.Dev
     tfo: false
-  - name: 🇭🇰 香港 特别行政区
-    server: 213.176.92.138
+  - name: 🇸🇬 新加坡 DigitalOcean数据中心
+    server: 188.166.230.196
     port: 443
     type: trojan
     password: 8r%3C%5B9%27l6hAO%238ZQi
@@ -1414,101 +637,150 @@ proxies:
     skip-cert-verify: true
     network: ws
     ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
+      path: /trTelegram🇨🇳
       headers:
         Host: Koma-YT.PAGeS.Dev
     tfo: false
-  - name: 🇨🇳 安徽省马鞍山市 联通
-    server: 103.186.155.71
-    port: 38388
-    type: ss
-    cipher: aes-256-cfb
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    tfo: false
-  - name: 🇨🇳 安徽省马鞍山市 联通 2
-    server: 103.186.154.186
-    port: 38388
-    type: ss
-    cipher: aes-256-cfb
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    tfo: false
-  - name: 🇨🇳 安徽省马鞍山市 联通 3
-    server: 103.186.154.80
-    port: 38388
-    type: ss
-    cipher: aes-256-cfb
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    tfo: false
-  - name: 🇪🇸 西班牙 CCZZUU.TOP
-    server: 150.241.108.2
-    port: 443
-    type: trojan
-    password: 8r%3C%5B9%27l6hAO%238ZQi
-    sni: Koma-YT.PAGeS.Dev
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /trTelegram🇨🇳 @WangCai2
-      headers:
-        Host: Koma-YT.PAGeS.Dev
-    tfo: false
-  - name: 🇭🇰_HK_中国香港
+  - name: 🇲🇾 马来西亚 吉隆坡阿里云
+    server: 47.250.45.234
+    port: 8613
     type: vmess
-    server: 47.239.69.43
-    port: 56698
-    uuid: 0be3a336-85ad-4c42-930b-05318236e68c
+    uuid: 80039b4d-bac0-4f89-82c7-54fad3b0a1ea
     alterId: 0
     cipher: auto
     tls: false
-    skip-cert-verify: false
-    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /
+    tfo: false
+  - name: 🇺🇸 美国 CCZZUU.TOP 2
+    server: 45.40.144.253
+    port: 443
+    type: trojan
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /trTelegram
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    tfo: false
+  - name: 🇩🇪 德国 CCZZUU.TOP
+    server: 213.202.208.199
+    port: 7001
+    type: ss
+    cipher: aes-256-gcm
+    password: RexnBgU7EV5ADxG
+    tfo: false
+  - name: 🇸🇬 新加坡 CCZZUU.TOP
+    server: 164.52.2.98
+    port: 443
+    type: trojan
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /trTelegram🇨🇳
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    tfo: false
+  - name: 🇭🇰 香港 数掘科技gfvps.cn数据中心
+    server: 27.50.49.253
+    port: 443
+    type: trojan
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /trTelegram🇨🇳 @WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    tfo: false
+  - name: 🇷🇺 俄罗斯 CCZZUU.TOP
+    server: 62.182.196.202
+    port: 8443
+    type: trojan
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /trTelegram🇨🇳+@WangCai2
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    tfo: false
+  - name: 🇺🇸 美国 Akamai科技公司CDN网络节点
+    server: 172.232.103.186
+    port: 22324
+    type: vmess
+    uuid: 04621bae-ab36-11ec-b909-0242ac120002
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    tfo: false
+  - name: 🇺🇸 北美地区 CCZZUU.TOP
+    server: 134.195.211.140
+    port: 8443
+    type: trojan
+    password: 8r%3C%5B9%27l6hAO%238ZQi
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /trTelegram
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    tfo: false
   - name: 🇻🇳_VN_越南
     type: ss
-    server: 103.186.154.198
+    server: 103.186.154.181
     port: 38388
     cipher: aes-256-cfb
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     udp: true
+  - name: 🇪🇸_ES_西班牙
+    type: ss
+    server: 5.188.181.201
+    port: 9029
+    cipher: aes-256-cfb
+    password: dU3DSNS8wYPXzEKw
+    udp: true
   - name: 🇻🇳_VN_越南_1
     type: ss
-    server: 103.186.154.210
+    server: 103.186.154.166
     port: 38388
     cipher: aes-256-cfb
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     udp: true
   - name: 🇻🇳_VN_越南_2
     type: ss
-    server: 103.186.155.27
+    server: 103.186.154.174
     port: 38388
     cipher: aes-256-cfb
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     udp: true
-  - name: 🇺🇸_US_美国_6
-    type: trojan
-    server: us200m.jiasu.asia
-    port: 50000
-    password: acf3f32e-2b46-4535-a068-4bcb6dcb86f8
-    sni: us200m.jiasu.asia
-    skip-cert-verify: false
-    tls: false
-    udp: true
   - name: 🇻🇳_VN_越南_3
     type: ss
-    server: 103.186.155.64
+    server: 103.186.154.40
     port: 38388
     cipher: aes-256-cfb
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     udp: true
   - name: 🇻🇳_VN_越南_4
     type: ss
-    server: 103.186.154.209
+    server: 103.186.155.114
     port: 38388
     cipher: aes-256-cfb
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     udp: true
   - name: 🇻🇳_VN_越南_5
     type: ss
-    server: 103.186.154.195
+    server: 103.186.154.234
     port: 38388
     cipher: aes-256-cfb
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
