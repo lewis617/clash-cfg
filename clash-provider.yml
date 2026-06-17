@@ -15,70 +15,18 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - name: 香港節點丨yoyapai.com
+  - name: 美國節點丨yoyapai.com
     type: trojan
-    server: adak.sonofthewinds.com
-    port: 34436
-    password: 825929f4-c702-35ce-9124-00d3f95b8c32
-    sni: hh4.sonofthewinds.com
+    server: 167.68.4.199
+    port: 2053
+    password: Aimer
+    sni: epge.muarua.filegear-sg.me
     skip-cert-verify: true
     tls: true
-    udp: true
-  - name: 美國節點
-    type: vmess
-    server: 2a02:6ea0:d32f::f8fe:349b
-    port: 24202
-    uuid: b20a7042-70ff-4376-a79f-b68f9edb7519
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    network: ws
     ws-opts:
-      path: /github.com/Alvin9999-newpac/fanqiang
-    udp: true
-  - name: 英國節點
-    type: vmess
-    server: 82.198.246.250
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 英國節點_3
-    type: vmess
-    server: 82.198.246.214
-    port: 180
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    udp: true
-  - name: 俄羅斯
-    type: vmess
-    server: renderer-stream-1-411.mirra.now
-    port: 443
-    uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
-    alterId: 0
-    cipher: auto
-    tls: true
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: /api/v1/gpu-stream/socket
+      path: /
       headers:
-        Host: renderer-stream-1-411.mirra.now
-    udp: true
-  - name: 美國節點丨yoyapai.com_4
-    type: ss
-    server: chengbai02.ascwt179.com
-    port: 13223
-    cipher: aes-128-gcm
-    password: JVrsLLN1tkN8oXZO
-    skip-cert-verify: true
+        Host: epge.muarua.filegear-sg.me
     udp: true
   - name: 亞太地區
     type: vmess
@@ -90,13 +38,33 @@ proxies:
     tls: false
     skip-cert-verify: true
     udp: true
-  - name: 美國_6
+  - name: 美國
     type: vmess
     server: 82.198.246.37
     port: 180
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
     alterId: 0
     cipher: aes-128-gcm
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: 英國節點
+    type: vmess
+    server: 82.198.246.214
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: 美國節點_1
+    type: vmess
+    server: 82.198.246.250
+    port: 180
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
     tls: false
     skip-cert-verify: true
     udp: true
@@ -126,7 +94,7 @@ proxies:
       headers:
         Host: vpn1.rnmcnm.com
     udp: true
-  - name: 美國丨yoyapai.com
+  - name: 美國丨yoyapai.com_2
     type: trojan
     server: jpbgp.netvigor.cc
     port: 19128
@@ -135,7 +103,20 @@ proxies:
     skip-cert-verify: true
     tls: true
     udp: true
-  - name: 美國節點_26
+  - name: 美國節點_8
+    type: vmess
+    server: 2a02:6ea0:d32f::f8fe:349b
+    port: 24202
+    uuid: b20a7042-70ff-4376-a79f-b68f9edb7519
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /github.com/Alvin9999-newpac/fanqiang
+    udp: true
+  - name: 美國節點_9
     type: vmess
     server: 82.198.246.97
     port: 180
@@ -184,7 +165,7 @@ proxies:
       headers:
         Host: Koma-YT.PAGeS.Dev
     udp: true
-  - name: 荷蘭節點丨yoyapai.com_1
+  - name: 荷蘭節點丨yoyapai.com_4
     type: trojan
     server: 152.53.200.89
     port: 8443
@@ -271,7 +252,22 @@ proxies:
       headers:
         Host: vpn5.rnmcnm.com
     udp: true
-  - name: 荷蘭丨yoyapai.com
+  - name: 俄羅斯
+    type: vmess
+    server: renderer-stream-1-411.mirra.now
+    port: 443
+    uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /api/v1/gpu-stream/socket
+      headers:
+        Host: renderer-stream-1-411.mirra.now
+    udp: true
+  - name: 荷蘭丨yoyapai.com_1
     type: hysteria2
     server: hy2.aspidnet.xyz
     port: 443
@@ -281,251 +277,243 @@ proxies:
     obfs: salamander
     obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
     udp: true
-  - name: 美國節點丨yoyapai.com_6
+  - name: 香港節點丨yoyapai.com_1
     type: trojan
-    server: 167.68.4.199
-    port: 2053
-    password: Aimer
-    sni: epge.muarua.filegear-sg.me
+    server: adak.sonofthewinds.com
+    port: 34436
+    password: 825929f4-c702-35ce-9124-00d3f95b8c32
+    sni: hh4.sonofthewinds.com
+    skip-cert-verify: true
+    tls: true
+    udp: true
+  - name: 美國節點丨yoyapai.com_11
+    type: ss
+    server: chengbai02.ascwt179.com
+    port: 13223
+    cipher: aes-128-gcm
+    password: JVrsLLN1tkN8oXZO
+    skip-cert-verify: true
+    udp: true
+  - name: 美國節點丨yoyapai.com_16
+    type: trojan
+    server: blackshadow.dpdns.org
+    port: 443
+    password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+    sni: blackshadow.dpdns.org
     skip-cert-verify: true
     tls: true
     ws-opts:
-      path: /
+      path: /195.123.218.174-443
       headers:
-        Host: epge.muarua.filegear-sg.me
+        Host: blackshadow.dpdns.org
     udp: true
-  - name: 🇯🇵 JP日本(mibei77.com 米贝节点分享)
-    server: 154.31.113.248
-    port: 443
-    type: ss
-    cipher: aes-128-gcm
-    password: eeb6823c-b926-4ea2-866a-5542edd26e59
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ss.hhll.qqs.me
-      path: /proxyip\=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc\=aes-128-gcm
-      tls: true
-      mux: true
-      skip-cert-verify: true
-    udp: true
-  - name: 🇸🇬 SG新加坡(mibei77.com 米贝节点分享)
-    server: 47.82.162.142
-    port: 443
-    type: ss
-    cipher: aes-128-gcm
-    password: eeb6823c-b926-4ea2-866a-5542edd26e59
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ss.hhll.qqs.me
-      path: /proxyip\=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc\=aes-128-gcm
-      tls: true
-      mux: true
-      skip-cert-verify: true
-    udp: true
-  - name: 🇨🇦 CA加拿大(mibei77.com 米贝节点分享)
-    server: yx.cloudflare.182682.xyz
-    port: 443
-    type: ss
-    cipher: aes-128-gcm
-    password: eeb6823c-b926-4ea2-866a-5542edd26e59
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ss.hhll.qqs.me
-      path: /proxyip\=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc\=aes-128-gcm
-      tls: true
-      mux: true
-      skip-cert-verify: true
-    udp: true
-  - name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 18
-    server: 64.186.229.245
-    port: 443
-    type: ss
-    cipher: aes-128-gcm
-    password: eeb6823c-b926-4ea2-866a-5542edd26e59
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ss.hhll.qqs.me
-      path: /proxyip\=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc\=aes-128-gcm
-      tls: true
-      mux: true
-      skip-cert-verify: true
-    udp: true
-  - name: 🇨🇦 CA加拿大(mibei77.com 米贝节点分享) 2
-    server: cf.130519.xyz
-    port: 443
-    type: ss
-    cipher: aes-128-gcm
-    password: eeb6823c-b926-4ea2-866a-5542edd26e59
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ss.hhll.qqs.me
-      path: /proxyip\=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc\=aes-128-gcm
-      tls: true
-      mux: true
-      skip-cert-verify: true
-    udp: true
-  - name: 🇫🇷 FR法国(mibei77.com 米贝节点分享)
-    server: 90081bb25c.node.tro.cac.cab
-    port: 45553
+  - name: 巴西聖保羅丨yoyapai.com
     type: trojan
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: ch.01.naiun.bilibili.com
+    server: 188.114.97.6
+    port: 443
+    password: mitivpn
+    sni: 2.1.mitivpn.dee.srfsl.gleobal.fastl3y.n3et.mitivpn.site
+    alpn:
+      - http/1.1
+    skip-cert-verify: true
+    tls: true
+    ws-opts:
+      path: https://chatgpt.com
+      headers:
+        Host: mitivpn.de.ssl.global.fastly.net.mitivpn.site
+    udp: true
+  - name: 土耳其丨yoyapai.com
+    type: ss
+    server: 103.130.147.40
+    port: 1122
+    cipher: aes-256-gcm
+    password: wc/eqRPrYjnxfAJ2JKnio7cG2Ko9K9DiMwzonRjU3LI=
     skip-cert-verify: true
     udp: true
-  - name: 🇷🇴 罗马尼亚(mibei77.com 米贝节点分享)
-    server: 154.17.29.221
+  - name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 2
+    server: 172.64.152.23
     port: 443
-    type: ss
-    cipher: aes-128-gcm
-    password: eeb6823c-b926-4ea2-866a-5542edd26e59
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ss.hhll.qqs.me
-      path: /proxyip\=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc\=aes-128-gcm
-      tls: true
-      mux: true
-      skip-cert-verify: true
+    type: trojan
+    password: humanity
+    sni: www.calmlunch.com
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.calmlunch.com
     udp: true
-  - name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 19
-    server: 154.21.87.223
-    port: 443
-    type: ss
-    cipher: aes-128-gcm
-    password: eeb6823c-b926-4ea2-866a-5542edd26e59
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ss.hhll.qqs.me
-      path: /proxyip\=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc\=aes-128-gcm
-      tls: true
-      mux: true
-      skip-cert-verify: true
+  - name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 4
+    server: 121.154.96.50
+    port: 18000
+    type: trojan
+    password: 433e785b-2077-47f7-a43d-985f63dd18d1
+    sni: vpn.rnmcnm.com
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: vpn.rnmcnm.com
     udp: true
-  - name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 21
-    server: 69.63.212.251
+  - name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 5
+    server: 193.180.209.21
     port: 443
-    type: ss
-    cipher: aes-128-gcm
-    password: eeb6823c-b926-4ea2-866a-5542edd26e59
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ss.hhll.qqs.me
-      path: /proxyip\=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc\=aes-128-gcm
-      tls: true
-      mux: true
-      skip-cert-verify: true
+    type: trojan
+    password: rYuChHcwQZskq9E0zdoR
+    sni: vpn5.rnmcnm.com
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /ws-79dffb8106db
+      headers:
+        Host: vpn5.rnmcnm.com
+    udp: true
+  - name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 8
+    server: 121.191.33.84
+    port: 30303
+    type: trojan
+    password: 433e785b-2077-47f7-a43d-985f63dd18d1
+    sni: vpn.rnmcnm.com
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: vpn.rnmcnm.com
+    udp: true
+  - name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 18
+    server: skk.moe
+    port: 80
+    type: vmess
+    uuid: 65b17c0b-0a52-4b54-9bc9-60e31397b841
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /65b17c0b-0a52-4b54-9bc9-60e31397b841-vmess
+      headers:
+        Host: accklsj.bufu.us.ci
+    udp: true
+  - name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 20
+    server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
+    port: 10020
+    type: vmess
+    uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
     udp: true
   - name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 22
-    server: 69.63.216.10
+    server: www.ignitelimit.com
     port: 443
-    type: ss
-    cipher: aes-128-gcm
-    password: eeb6823c-b926-4ea2-866a-5542edd26e59
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ss.hhll.qqs.me
-      path: /proxyip\=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc\=aes-128-gcm
-      tls: true
-      mux: true
-      skip-cert-verify: true
+    type: trojan
+    password: humanity
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /assignment
     udp: true
-  - name: 🇯🇵 JP日本(mibei77.com 米贝节点分享) 4
-    server: 54.199.97.220
-    port: 443
-    type: ss
-    cipher: aes-128-gcm
-    password: eeb6823c-b926-4ea2-866a-5542edd26e59
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ss.hhll.qqs.me
-      path: /proxyip\=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc\=aes-128-gcm
-      tls: true
-      mux: true
-      skip-cert-verify: true
+  - name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 35
+    server: v36.hdacd.com
+    port: 30836
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
     udp: true
-  - name: 🇸🇬 SG新加坡(mibei77.com 米贝节点分享) 3
-    server: 18.138.34.221
-    port: 443
-    type: ss
-    cipher: aes-128-gcm
-    password: eeb6823c-b926-4ea2-866a-5542edd26e59
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ss.hhll.qqs.me
-      path: /proxyip\=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc\=aes-128-gcm
-      tls: true
-      mux: true
-      skip-cert-verify: true
+  - name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 36
+    server: v29.hdacd.com
+    port: 30829
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
     udp: true
-  - name: 🇯🇵 JP日本(mibei77.com 米贝节点分享) 6
-    server: 47.79.37.210
-    port: 443
-    type: ss
-    cipher: aes-128-gcm
-    password: eeb6823c-b926-4ea2-866a-5542edd26e59
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ss.hhll.qqs.me
-      path: /proxyip\=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc\=aes-128-gcm
-      tls: true
-      mux: true
-      skip-cert-verify: true
+  - name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 37
+    server: v4.hdacd.com
+    port: 30804
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
     udp: true
-  - name: 🇯🇵 JP日本(mibei77.com 米贝节点分享) 7
-    server: 3.115.100.16
-    port: 443
-    type: ss
-    cipher: aes-128-gcm
-    password: eeb6823c-b926-4ea2-866a-5542edd26e59
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ss.hhll.qqs.me
-      path: /proxyip\=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc\=aes-128-gcm
-      tls: true
-      mux: true
-      skip-cert-verify: true
+  - name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 38
+    server: v10.hdacd.com
+    port: 30807
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
     udp: true
-  - name: 🇯🇵 JP日本(mibei77.com 米贝节点分享) 8
-    server: 35.72.81.216
-    port: 443
-    type: ss
-    cipher: aes-128-gcm
-    password: eeb6823c-b926-4ea2-866a-5542edd26e59
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ss.hhll.qqs.me
-      path: /proxyip\=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc\=aes-128-gcm
-      tls: true
-      mux: true
-      skip-cert-verify: true
+  - name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 39
+    server: gtm-sg-cc54q7d1q01.365cloud0285.com
+    port: 6003
+    type: vmess
+    uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
     udp: true
-  - name: 🇯🇵 JP日本(mibei77.com 米贝节点分享) 11
-    server: 54.248.143.139
+  - name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 42
+    server: v33.hdacd.com
+    port: 30833
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 43
+    server: v35.hdacd.com
+    port: 30835
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 US美国(mibei77.com 米贝节点分享) 47
+    server: v9.hdacd.com
+    port: 30809
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: 🇳🇴 挪威(mibei77.com 米贝节点分享)
+    server: 125.7.24.251
     port: 443
-    type: ss
-    cipher: aes-128-gcm
-    password: eeb6823c-b926-4ea2-866a-5542edd26e59
-    plugin: v2ray-plugin
-    plugin-opts:
-      mode: websocket
-      host: ss.hhll.qqs.me
-      path: /proxyip\=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc\=aes-128-gcm
-      tls: true
-      mux: true
-      skip-cert-verify: true
+    type: trojan
+    password: rYuChHcwQZskq9E0zdoR
+    sni: vpn5.rnmcnm.com
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /ws-79dffb8106db
+      headers:
+        Host: vpn5.rnmcnm.com
     udp: true
   - name: 8元老牌专线机场：cczzuu.top
     server: efan.dnsefan04881.com
@@ -536,32 +524,12 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 🇩🇪 德国 starcorenode.com
-    server: 5.45.100.100
-    port: 51511
-    type: hysteria2
-    password: miaoge110
-    auth: miaoge110
-    sni: www.bing.com
-    skip-cert-verify: false
-  - name: 🇺🇸 美国 CloudFlare节点 2
-    server: www.multiplydose.com
+  - name: 🇺🇸 美国 CloudFlare节点
+    server: 104.17.121.9
     port: 443
     type: trojan
     password: humanity
-    sni: www.multiplydose.com
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /assignment
-      headers:
-        Host: www.multiplydose.com
-  - name: 🇺🇸 美国 CloudFlare节点 3
-    server: 104.20.6.134
-    port: 443
-    type: trojan
-    password: humanity
-    sni: www.calmloud.com
+    sni: www.calmlunch.com
     alpn:
       - http%2F1.1
     skip-cert-verify: false
@@ -569,30 +537,9 @@ proxies:
     ws-opts:
       path: /assignment
       headers:
-        Host: www.calmloud.com
-  - name: 亚太地区 starcorenode.com
-    server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
-    port: 10123
-    type: vmess
-    uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-  - name: 🇺🇸 美国 德克萨斯州达拉斯Linode数据中心
-    server: 45.79.8.17
-    port: 443
-    type: trojan
-    password: rXyShM8Jni+5Sbq3k4gkyr5Lq0zOMRL2Uf
-    sni: 45.79.8.17
-    skip-cert-verify: false
-  - name: 🇺🇸 美国 RF Engineering
-    server: 141.193.213.10
+        Host: www.calmlunch.com
+  - name: 🇺🇸 美国 starcorenode.com
+    server: 199.181.197.169
     port: 443
     type: trojan
     password: humanity
@@ -605,49 +552,44 @@ proxies:
       path: /assignment
       headers:
         Host: www.calmloud.com
-  - name: 🇲🇾_MY_马来西亚->🇺🇸_US_美国
-    type: vmess
-    server: v24.hdacd.com
-    port: 30824
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: 🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾
-    type: vmess
-    server: world.t.51guangtaobao.com
-    port: 2510
-    uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: 🇺🇸_US_美国->🇸🇬_SG_新加坡
-    type: vmess
-    server: gtm-sg-cc54q7d1q01.365cloud0285.com
-    port: 6004
-    uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-    udp: true
-  - name: 🇨🇦_CA_加拿大
-    type: ss
-    server: 15.223.186.62
+  - name: 🇺🇸 美国 CloudFlare节点 4
+    server: www.creationlong.org
     port: 443
-    cipher: aes-256-cfb
-    password: amazonskr05
+    type: trojan
+    password: humanity
+    sni: www.creationlong.org
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: /assignment
+      headers:
+        Host: www.creationlong.org
+  - name: 🇷🇴 罗马尼亚 starcorenode.com
+    server: 185.137.157.254
+    port: 443
+    type: trojan
+    password: hxn2jK9Uzezogua0oHuq9Y8viN=UCe.2Jd
+    sni: www.directorypipeline.click
+    skip-cert-verify: false
+  - name: 🇭🇰_HK_中国香港_1
+    type: vmess
+    server: 154.37.223.19
+    port: 56972
+    uuid: ae225455-5e8c-491d-d931-c06ac56f4aee
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    network: http
     udp: true
-  - name: 🇷🇺_RU_俄罗斯
-    type: ss
-    server: 45.140.169.216
-    port: 30129
-    cipher: aes-256-gcm
-    password: c5fcdf7829112cb4
+  - name: 🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆
+    type: trojan
+    server: 90081bb25c.node.tro.cac.cab
+    port: 41943
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: az.01.naiun.bilibili.com
+    skip-cert-verify: true
+    tls: false
     udp: true
   - name: 未知 HY2-01 | free-nodes
     server: 2001:19f0:7001:4425:5400:6ff:fe40:9725
@@ -791,59 +733,74 @@ proxies:
     type: ss
     cipher: 2022-blake3-aes-128-gcm
     password: Z7+ihCahl4v8UUYCgPv93w==
-  - name: 未知 SS-40 | free-nodes
+  - name: 未知 SS-44 | free-nodes
     server: 168.138.175.92
     port: 9888
     type: ss
     cipher: aes-128-gcm
     password: JVSuuib4ydvY8m7u6jElTYbeRO8ygJ4Hi8Iq733BqAkF
-  - name: 未知 SS-42 | free-nodes
+  - name: 未知 SS-46 | free-nodes
     server: 161.129.71.148
     port: 17913
     type: ss
     cipher: aes-128-gcm
     password: wcjMniCODfhz26P7L2BvpEDQfhogbFTl
-  - name: 未知 SS-43 | free-nodes
+  - name: 未知 SS-47 | free-nodes
     server: 15.204.254.187
     port: 12000
     type: ss
     cipher: aes-256-gcm
     password: 8JCsPssfgS8tiRwiMlhARg==
-  - name: 未知 SS-44 | free-nodes
-    server: 103.130.147.40
-    port: 1122
-    type: ss
-    cipher: aes-256-gcm
-    password: wc/eqRPrYjnxfAJ2JKnio7cG2Ko9K9DiMwzonRjU3LI=
-  - name: 未知 TROJAN-46 | free-nodes
-    server: 103.177.136.45
+  - name: 未知 TROJAN-49 | free-nodes
+    server: 103.177.136.41
+    port: 45553
+    type: trojan
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: ch.01.naiun.bilibili.com
+    skip-cert-verify: false
+  - name: 未知 TROJAN-50 | free-nodes
+    server: 103.177.136.42
+    port: 46424
+    type: trojan
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: de.01.naiun.bilibili.com
+    skip-cert-verify: false
+  - name: 未知 TROJAN-52 | free-nodes
+    server: 103.177.136.44
     port: 41943
     type: trojan
     password: 4f4d1167-ef14-4304-9bce-0740472503ef
     sni: az.01.naiun.bilibili.com
     skip-cert-verify: false
-  - name: 未知 TROJAN-48 | free-nodes
+  - name: 未知 TROJAN-55 | free-nodes
     server: 188.253.12.90
-    port: 45619
+    port: 48697
     type: trojan
     password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: fr.01.naiun.bilibili.com
+    sni: gh.01.naiun.bilibili.com
     skip-cert-verify: false
-  - name: 未知 TROJAN-50 | free-nodes
+  - name: 未知 TROJAN-56 | free-nodes
+    server: 188.253.12.93
+    port: 47909
+    type: trojan
+    password: 4f4d1167-ef14-4304-9bce-0740472503ef
+    sni: is.01.naiun.bilibili.com
+    skip-cert-verify: false
+  - name: 未知 TROJAN-57 | free-nodes
     server: 188.253.12.96
-    port: 45553
+    port: 41943
     type: trojan
     password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: ch.01.naiun.bilibili.com
+    sni: az.01.naiun.bilibili.com
     skip-cert-verify: false
-  - name: 未知 TROJAN-53 | free-nodes
-    server: 188.253.12.99
-    port: 45553
+  - name: 未知 TROJAN-59 | free-nodes
+    server: 188.253.12.98
+    port: 41943
     type: trojan
     password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: ch.01.naiun.bilibili.com
+    sni: az.01.naiun.bilibili.com
     skip-cert-verify: false
-  - name: 未知 TROJAN-54 | free-nodes
+  - name: 未知 TROJAN-60 | free-nodes
     server: 46.137.202.140
     port: 443
     type: trojan
@@ -855,61 +812,87 @@ proxies:
       path: /node1-node1-5sczzi
       headers:
         Host: node1.bw8848.org
-  - name: 未知 TROJAN-55 | free-nodes
+  - name: 未知 TROJAN-61 | free-nodes
     server: 119.246.1.143
     port: 443
     type: trojan
     password: BxceQaOe
     sni: t.me/ripaojiedian
     skip-cert-verify: false
-  - name: 未知 TROJAN-56 | free-nodes
+  - name: 未知 TROJAN-62 | free-nodes
+    server: 43.199.65.165
+    port: 11035
+    type: trojan
+    password: BxceQaOe
+    sni: t.me%2Fripaojiedian
+    skip-cert-verify: false
+  - name: 未知 TROJAN-63 | free-nodes
     server: 207.126.167.241
     port: 443
     type: trojan
     password: GTCCjtvCtuy03-aV1mwF0OkG2q6yL+Fc5K
     sni: 207.126.167.241
     skip-cert-verify: false
-  - name: 未知 TROJAN-57 | free-nodes
-    server: 94.103.173.70
+  - name: 未知 TROJAN-64 | free-nodes
+    server: de-1.hysteria.ltd
     port: 9443
     type: trojan
     password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
+    sni: de-1.hysteria.ltd
     skip-cert-verify: false
-  - name: 未知 TROJAN-58 | free-nodes
+  - name: 未知 TROJAN-65 | free-nodes
     server: 185.137.157.59
     port: 443
     type: trojan
     password: fFj7MAGy1VlAWmB_gMBG_27oPYTSHvV6MX
     sni: www.lateralio.click
     skip-cert-verify: false
-  - name: 未知 TROJAN-59 | free-nodes
+  - name: 未知 TROJAN-66 | free-nodes
     server: 3.8.238.251
     port: 443
     type: trojan
     password: hF7uSJfeBPtSNXKtuYvTRNaBdGkkXHpKJfLRfbpaDWovomSL
+    sni: uk1.bw8848.org
     skip-cert-verify: false
-  - name: 未知 TROJAN-60 | free-nodes
+    network: ws
+    ws-opts:
+      path: /uk1-uk1-gcjtze
+      headers:
+        Host: uk1.bw8848.org
+  - name: 未知 TROJAN-67 | free-nodes
     server: 38.54.13.189
     port: 443
     type: trojan
     password: lhvfOzkRQqNd9cLDwpryrAkFGgqzlZR9Fi
     sni: 38.54.13.189
     skip-cert-verify: false
-  - name: 未知 TROJAN-61 | free-nodes
+  - name: 未知 TROJAN-68 | free-nodes
     server: 103.125.219.70
     port: 443
     type: trojan
     password: s75Gtmy56sptTA39hmBH965YYx4ZgfQR_I
     sni: 103.125.219.70
     skip-cert-verify: false
-  - name: 未知 TROJAN-62 | free-nodes
+  - name: 未知 TROJAN-69 | free-nodes
     server: 130.94.94.15
     port: 443
     type: trojan
     password: tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR
     sni: 130.94.94.15
     skip-cert-verify: false
-  - name: 未知 VMESS-229 | free-nodes
+  - name: 未知 TROJAN-70 | free-nodes
+    server: 63.176.115.85
+    port: 22222
+    type: trojan
+    password: telegram-id-privatevpns
+    skip-cert-verify: false
+  - name: 未知 TROJAN-71 | free-nodes
+    server: 63.184.57.98
+    port: 22222
+    type: trojan
+    password: telegram-id-privatevpns
+    skip-cert-verify: false
+  - name: 未知 VMESS-239 | free-nodes
     server: 45.63.75.211
     port: 44855
     type: vmess
@@ -921,7 +904,7 @@ proxies:
     network: ws
     ws-opts:
       path: /5164f226
-  - name: 未知 VMESS-230 | free-nodes
+  - name: 未知 VMESS-240 | free-nodes
     server: 51.254.133.152
     port: 80
     type: vmess
@@ -935,7 +918,7 @@ proxies:
       path: /vmess
       headers:
         Host: fr5.niekotin.de
-  - name: 未知 VMESS-231 | free-nodes
+  - name: 未知 VMESS-241 | free-nodes
     server: 8.211.149.30
     port: 443
     type: vmess
@@ -949,7 +932,7 @@ proxies:
       path: /ws/
       headers:
         Host: polartime.link
-  - name: 未知 VMESS-233 | free-nodes
+  - name: 未知 VMESS-243 | free-nodes
     server: 89.167.82.102
     port: 4443
     type: vmess
@@ -958,7 +941,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 未知 VMESS-234 | free-nodes
+  - name: 未知 VMESS-245 | free-nodes
     server: 96.47.230.5
     port: 54840
     type: vmess
@@ -973,7 +956,7 @@ proxies:
       path: /speedtest
       headers:
         Host: imafake.locker
-  - name: 未知 VMESS-237 | free-nodes
+  - name: 未知 VMESS-248 | free-nodes
     server: myvpshosting.name.ng
     port: 80
     type: vmess
@@ -988,7 +971,7 @@ proxies:
       path: /
       headers:
         Host: myvpshosting.name.ng
-  - name: 未知 VMESS-238 | free-nodes
+  - name: 未知 VMESS-249 | free-nodes
     server: nlt.reata.ir
     port: 1020
     type: vmess
@@ -997,13 +980,13 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 未知 SS-245 | free-nodes
+  - name: 未知 SS-255 | free-nodes
     server: fast.com
     port: 443
     type: ss
     cipher: aes-128-gcm
     password: 6601fb90e9b3
-  - name: 未知 HY2-250 | free-nodes
+  - name: 未知 HY2-260 | free-nodes
     server: 88.151.33.158
     port: 443
     type: hysteria2
@@ -1013,7 +996,7 @@ proxies:
     skip-cert-verify: false
     alpn:
       - h3
-  - name: 未知 HY2-253 | free-nodes
+  - name: 未知 HY2-263 | free-nodes
     server: 150.129.10.140
     port: 443
     type: hysteria2
@@ -1023,7 +1006,7 @@ proxies:
     skip-cert-verify: false
     alpn:
       - h3
-  - name: 🇺🇸 US HY2-256 | free-nodes
+  - name: 🇺🇸 US HY2-266 | free-nodes
     server: 104.168.76.175
     port: 443
     type: hysteria2
@@ -1033,7 +1016,7 @@ proxies:
     skip-cert-verify: false
     alpn:
       - h3
-  - name: 🇯🇵 JP HY2-272 | free-nodes
+  - name: 🇯🇵 JP HY2-282 | free-nodes
     server: 139.180.201.141
     port: 443
     type: hysteria2
@@ -1043,7 +1026,7 @@ proxies:
     skip-cert-verify: false
     alpn:
       - h3
-  - name: 🇯🇵 JP HY2-274 | free-nodes
+  - name: 🇯🇵 JP HY2-284 | free-nodes
     server: 64.176.34.138
     port: 443
     type: hysteria2
@@ -1053,7 +1036,7 @@ proxies:
     skip-cert-verify: false
     alpn:
       - h3
-  - name: 未知 HY2-278 | free-nodes
+  - name: 未知 HY2-288 | free-nodes
     server: 31.59.129.225
     port: 443
     type: hysteria2
@@ -1063,7 +1046,7 @@ proxies:
     skip-cert-verify: false
     alpn:
       - h3
-  - name: 🇺🇸 US HY2-294 | free-nodes
+  - name: 🇺🇸 US HY2-304 | free-nodes
     server: s544.ccgfw.online
     port: 443
     type: hysteria2
@@ -1073,7 +1056,7 @@ proxies:
     skip-cert-verify: false
     alpn:
       - h3
-  - name: 🇩🇪 DE HY2-295 | free-nodes
+  - name: 🇩🇪 DE HY2-305 | free-nodes
     server: s662.ccgfw.top
     port: 443
     type: hysteria2
@@ -1083,7 +1066,7 @@ proxies:
     skip-cert-verify: false
     alpn:
       - h3
-  - name: 🇩🇪 DE HY2-297 | free-nodes
+  - name: 🇩🇪 DE HY2-307 | free-nodes
     server: s665.ccgfw.top
     port: 443
     type: hysteria2
@@ -1093,7 +1076,7 @@ proxies:
     skip-cert-verify: false
     alpn:
       - h3
-  - name: 🇰🇷 KR HY2-313 | free-nodes
+  - name: 🇰🇷 KR HY2-323 | free-nodes
     server: 130.94.30.13
     port: 443
     type: hysteria2
@@ -1103,7 +1086,7 @@ proxies:
     skip-cert-verify: false
     alpn:
       - h3
-  - name: 🇯🇵 JP HY2-357 | free-nodes
+  - name: 🇯🇵 JP HY2-367 | free-nodes
     server: 45.76.217.48
     port: 443
     type: hysteria2
@@ -1113,7 +1096,7 @@ proxies:
     skip-cert-verify: false
     alpn:
       - h3
-  - name: 🇯🇵 JP HY2-365 | free-nodes
+  - name: 🇯🇵 JP HY2-375 | free-nodes
     server: 66.245.216.178
     port: 443
     type: hysteria2
@@ -1123,7 +1106,7 @@ proxies:
     skip-cert-verify: false
     alpn:
       - h3
-  - name: 🇯🇵 JP HY2-368 | free-nodes
+  - name: 🇯🇵 JP HY2-378 | free-nodes
     server: 45.32.34.228
     port: 443
     type: hysteria2
@@ -1133,7 +1116,7 @@ proxies:
     skip-cert-verify: false
     alpn:
       - h3
-  - name: 🇯🇵 JP HY2-370 | free-nodes
+  - name: 🇯🇵 JP HY2-380 | free-nodes
     server: 38.54.50.15
     port: 443
     type: hysteria2
@@ -1143,7 +1126,7 @@ proxies:
     skip-cert-verify: false
     alpn:
       - h3
-  - name: 🇺🇸 US HY2-378 | free-nodes
+  - name: 🇺🇸 US HY2-388 | free-nodes
     server: s843.ccgfw.top
     port: 443
     type: hysteria2
@@ -1159,15 +1142,6 @@ proxies:
     type: ss
     cipher: aes-256-cfb
     password: amazonskr05
-  - name: 🇭🇰 香港|@ripaojiedian
-    server: v10.hdacd.com
-    port: 30807
-    type: vmess
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    alterId: 2
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
   - name: 🇭🇰 香港3|@ripaojiedian
     server: 54.199.232.104
     port: 53018
@@ -1177,13 +1151,6 @@ proxies:
     skip-cert-verify: true
   - name: 🇭🇰 香港4|@ripaojiedian
     server: 16.162.109.208
-    port: 11035
-    type: trojan
-    password: BxceQaOe
-    sni: t.me%2Fripaojiedian
-    skip-cert-verify: true
-  - name: 🇭🇰 香港5|@ripaojiedian
-    server: 43.199.65.165
     port: 11035
     type: trojan
     password: BxceQaOe
