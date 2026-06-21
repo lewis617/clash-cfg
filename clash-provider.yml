@@ -883,70 +883,54 @@ proxies:
     type: ss
     cipher: 2022-blake3-aes-128-gcm
     password: Z7+ihCahl4v8UUYCgPv93w==
-  - name: 未知 SS-62 | free-nodes
+  - name: 未知 SS-64 | free-nodes
     server: 68.168.209.194
     port: 17276
     type: ss
     cipher: aes-128-gcm
     password: 7l3i6el6hyx0xq5j1c8b
-  - name: 未知 SS-63 | free-nodes
+  - name: 未知 SS-65 | free-nodes
     server: 168.138.175.92
     port: 9888
     type: ss
     cipher: aes-128-gcm
     password: JVSuuib4ydvY8m7u6jElTYbeRO8ygJ4Hi8Iq733BqAkF
-  - name: 未知 SS-65 | free-nodes
+  - name: 未知 SS-67 | free-nodes
     server: 161.129.71.148
     port: 17913
     type: ss
     cipher: aes-128-gcm
     password: wcjMniCODfhz26P7L2BvpEDQfhogbFTl
-  - name: 未知 SS-66 | free-nodes
+  - name: 未知 SS-68 | free-nodes
     server: 61.171.92.202
     port: 1001
     type: ss
     cipher: aes-256-gcm
     password: 123
-  - name: 未知 SS-67 | free-nodes
+  - name: 未知 SS-69 | free-nodes
     server: 103.136.150.192
     port: 30129
     type: ss
     cipher: aes-256-gcm
     password: 7e1dd4c55bf85da5
-  - name: 未知 TROJAN-70 | free-nodes
-    server: 103.177.136.45
-    port: 47909
-    type: trojan
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: is.01.naiun.bilibili.com
-    skip-cert-verify: false
-  - name: 未知 TROJAN-71 | free-nodes
-    server: 188.253.12.96
-    port: 46424
-    type: trojan
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: de.01.naiun.bilibili.com
-    skip-cert-verify: false
-  - name: 未知 TROJAN-72 | free-nodes
-    server: 188.253.12.99
-    port: 46424
-    type: trojan
-    password: 4f4d1167-ef14-4304-9bce-0740472503ef
-    sni: de.01.naiun.bilibili.com
-    skip-cert-verify: false
+  - name: 未知 SS-70 | free-nodes
+    server: 46.29.163.104
+    port: 24213
+    type: ss
+    cipher: aes-256-gcm
+    password: c5fcdf7829112cb4
   - name: 未知 TROJAN-73 | free-nodes
     server: 130.94.114.217
     port: 443
     type: trojan
     password: BhNAljna1sXjsY.Nqdl0ksXJ1VsGRqXz1V
-    sni: 130.94.114.217
     skip-cert-verify: false
   - name: 未知 TROJAN-74 | free-nodes
     server: 18.162.50.252
     port: 9149
     type: trojan
     password: BxceQaOe
-    sni: t.me%252Fripaojiedian
+    sni: t.me%2Fripaojiedian
     skip-cert-verify: false
   - name: 未知 TROJAN-75 | free-nodes
     server: 207.126.167.241
@@ -962,53 +946,74 @@ proxies:
     password: PoSQBShqwNV9wKX4WHxDoLxbvp4eQYnD8v
     skip-cert-verify: false
   - name: 未知 TROJAN-77 | free-nodes
+    server: 83.228.224.161
+    port: 42549
+    type: trojan
+    password: SoftNetConnect
+    sni: www.speedtest.net
+    skip-cert-verify: false
+  - name: 未知 TROJAN-78 | free-nodes
     server: 185.126.236.190
     port: 443
     type: trojan
     password: VGBzLm49=M_i02Az30tIeonkQw180t-edg
     sni: 185.126.236.190
     skip-cert-verify: false
-  - name: 未知 TROJAN-78 | free-nodes
+  - name: 未知 TROJAN-79 | free-nodes
+    server: 38.60.202.163
+    port: 443
+    type: trojan
+    password: ZfhGKkAmGl.hxRfIUI0LUU.MuK3hkQdxed
+    sni: 38.60.202.163
+    skip-cert-verify: false
+  - name: 未知 TROJAN-80 | free-nodes
+    server: 35.77.34.38
+    port: 53012
+    type: trojan
+    password: e0195c73018d597b1c2f0ea89d8676ae
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+  - name: 未知 TROJAN-81 | free-nodes
+    server: 43.198.206.201
+    port: 48738
+    type: trojan
+    password: e0195c73018d597b1c2f0ea89d8676ae
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+  - name: 未知 TROJAN-82 | free-nodes
     server: 185.137.157.59
     port: 443
     type: trojan
     password: fFj7MAGy1VlAWmB_gMBG_27oPYTSHvV6MX
     sni: www.lateralio.click
     skip-cert-verify: false
-  - name: 未知 TROJAN-79 | free-nodes
-    server: 3.8.238.251
-    port: 443
-    type: trojan
-    password: hF7uSJfeBPtSNXKtuYvTRNaBdGkkXHpKJfLRfbpaDWovomSL
-    sni: uk1.bw8848.org
-    skip-cert-verify: false
-    network: ws
-    ws-opts:
-      path: /uk1-uk1-gcjtze
-      headers:
-        Host: uk1.bw8848.org
-  - name: 未知 TROJAN-80 | free-nodes
-    server: 38.54.13.189
-    port: 443
-    type: trojan
-    password: lhvfOzkRQqNd9cLDwpryrAkFGgqzlZR9Fi
-    sni: 38.54.13.189
-    skip-cert-verify: false
-  - name: 未知 TROJAN-81 | free-nodes
-    server: 103.125.219.70
+  - name: 未知 TROJAN-83 | free-nodes
+    server: 103.125.216.169
     port: 443
     type: trojan
     password: s75Gtmy56sptTA39hmBH965YYx4ZgfQR_I
-    sni: 103.125.219.70
+    sni: 103.125.216.169
     skip-cert-verify: false
-  - name: 未知 TROJAN-82 | free-nodes
+  - name: 未知 TROJAN-84 | free-nodes
     server: 130.94.94.15
     port: 443
     type: trojan
     password: tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR
     sni: 130.94.94.15
     skip-cert-verify: false
-  - name: 未知 VMESS-378 | free-nodes
+  - name: 未知 TROJAN-85 | free-nodes
+    server: 3.126.148.235
+    port: 22222
+    type: trojan
+    password: telegram-id-privatevpns
+    skip-cert-verify: false
+  - name: 未知 TROJAN-86 | free-nodes
+    server: 52.58.146.145
+    port: 22222
+    type: trojan
+    password: telegram-id-privatevpns
+    skip-cert-verify: false
+  - name: 未知 VMESS-372 | free-nodes
     server: 160.250.247.70
     port: 49178
     type: vmess
@@ -1017,7 +1022,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 未知 VMESS-380 | free-nodes
+  - name: 未知 VMESS-374 | free-nodes
     server: 163.223.224.68
     port: 49515
     type: vmess
@@ -1030,7 +1035,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 未知 VMESS-383 | free-nodes
+  - name: 未知 VMESS-377 | free-nodes
     server: 186.244.208.78
     port: 30022
     type: vmess
@@ -1039,7 +1044,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 未知 VMESS-385 | free-nodes
+  - name: 未知 VMESS-379 | free-nodes
     server: 2.26.231.87
     port: 110
     type: vmess
@@ -1048,7 +1053,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 未知 VMESS-386 | free-nodes
+  - name: 未知 VMESS-381 | free-nodes
     server: 23.141.204.132
     port: 29633
     type: vmess
@@ -1057,7 +1062,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 未知 VMESS-388 | free-nodes
+  - name: 未知 VMESS-383 | free-nodes
     server: 43.167.162.191
     port: 25944
     type: vmess
@@ -1066,7 +1071,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 未知 VMESS-390 | free-nodes
+  - name: 未知 VMESS-385 | free-nodes
     server: 45.63.75.211
     port: 44855
     type: vmess
@@ -1078,7 +1083,7 @@ proxies:
     network: ws
     ws-opts:
       path: /5164f226
-  - name: 未知 VMESS-391 | free-nodes
+  - name: 未知 VMESS-386 | free-nodes
     server: 51.254.133.152
     port: 80
     type: vmess
@@ -1092,7 +1097,7 @@ proxies:
       path: /vmess
       headers:
         Host: fr5.niekotin.de
-  - name: 未知 VMESS-392 | free-nodes
+  - name: 未知 VMESS-387 | free-nodes
     server: 65.109.221.245
     port: 33366
     type: vmess
@@ -1101,7 +1106,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 未知 VMESS-394 | free-nodes
+  - name: 未知 VMESS-389 | free-nodes
     server: 69.84.182.49
     port: 80
     type: vmess
@@ -1115,7 +1120,7 @@ proxies:
       path: /
       headers:
         Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
-  - name: 未知 VMESS-395 | free-nodes
+  - name: 未知 VMESS-390 | free-nodes
     server: 8.211.149.30
     port: 443
     type: vmess
@@ -1129,16 +1134,16 @@ proxies:
       path: /ws/
       headers:
         Host: polartime.link
-  - name: 未知 VMESS-400 | free-nodes
+  - name: 未知 VMESS-396 | free-nodes
     server: 89.167.82.102
-    port: 8880
+    port: 4443
     type: vmess
     uuid: 48eabd37-500d-403f-8e8f-715d1e17bffd
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 未知 VMESS-405 | free-nodes
+  - name: 未知 VMESS-401 | free-nodes
     server: 96.47.230.5
     port: 54840
     type: vmess
@@ -1153,7 +1158,7 @@ proxies:
       path: /speedtest
       headers:
         Host: imafake.locker
-  - name: 未知 VMESS-407 | free-nodes
+  - name: 未知 VMESS-403 | free-nodes
     server: atiins.com.tr
     port: 443
     type: vmess
@@ -1163,7 +1168,7 @@ proxies:
     tls: true
     skip-cert-verify: false
     servername: atiins.com.tr
-  - name: 未知 VMESS-408 | free-nodes
+  - name: 未知 VMESS-405 | free-nodes
     server: myvpshosting.name.ng
     port: 80
     type: vmess
@@ -1178,7 +1183,7 @@ proxies:
       path: /
       headers:
         Host: myvpshosting.name.ng
-  - name: 未知 VMESS-411 | free-nodes
+  - name: 未知 VMESS-408 | free-nodes
     server: nlt.reata.ir
     port: 1020
     type: vmess
@@ -1187,7 +1192,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 未知 VMESS-413 | free-nodes
+  - name: 未知 VMESS-410 | free-nodes
     server: uk.vpnjantit.com
     port: 10000
     type: vmess
@@ -1201,13 +1206,13 @@ proxies:
       path: /vpnjantit
       headers:
         Host: uk.vpnjantit.com
-  - name: 未知 SS-420 | free-nodes
+  - name: 未知 SS-419 | free-nodes
     server: fast.com
     port: 443
     type: ss
     cipher: aes-128-gcm
     password: 6601fb90e9b3
-  - name: 🇺🇸 US HY2-425 | free-nodes
+  - name: 🇺🇸 US HY2-424 | free-nodes
     server: s554.okgfw.top
     port: 443
     type: hysteria2
@@ -1217,7 +1222,7 @@ proxies:
     skip-cert-verify: false
     alpn:
       - h3
-  - name: 🇬🇧 GB HY2-443 | free-nodes
+  - name: 🇬🇧 GB HY2-442 | free-nodes
     server: s148.ccgfw.top
     port: 443
     type: hysteria2
@@ -1227,7 +1232,7 @@ proxies:
     skip-cert-verify: false
     alpn:
       - h3
-  - name: 🇺🇸 US HY2-447 | free-nodes
+  - name: 🇺🇸 US HY2-446 | free-nodes
     server: s558.okgfw.top
     port: 443
     type: hysteria2
@@ -1237,7 +1242,7 @@ proxies:
     skip-cert-verify: false
     alpn:
       - h3
-  - name: 🇺🇸 US HY2-450 | free-nodes
+  - name: 🇺🇸 US HY2-449 | free-nodes
     server: s491.ccgfw.online
     port: 443
     type: hysteria2
@@ -1247,7 +1252,7 @@ proxies:
     skip-cert-verify: false
     alpn:
       - h3
-  - name: 未知 HY2-467 | free-nodes
+  - name: 未知 HY2-466 | free-nodes
     server: 160.25.74.91
     port: 443
     type: hysteria2
@@ -1257,7 +1262,7 @@ proxies:
     skip-cert-verify: false
     alpn:
       - h3
-  - name: 🇺🇸 US HY2-478 | free-nodes
+  - name: 🇺🇸 US HY2-477 | free-nodes
     server: s482.ccgfw.top
     port: 443
     type: hysteria2
@@ -1267,7 +1272,7 @@ proxies:
     skip-cert-verify: false
     alpn:
       - h3
-  - name: 🇺🇸 US HY2-487 | free-nodes
+  - name: 🇺🇸 US HY2-486 | free-nodes
     server: 23.166.40.27
     port: 443
     type: hysteria2
@@ -1277,7 +1282,7 @@ proxies:
     skip-cert-verify: false
     alpn:
       - h3
-  - name: 🇬🇧 GB HY2-510 | free-nodes
+  - name: 🇬🇧 GB HY2-509 | free-nodes
     server: s195.ccgfw.top
     port: 443
     type: hysteria2
@@ -1287,7 +1292,7 @@ proxies:
     skip-cert-verify: false
     alpn:
       - h3
-  - name: 🇺🇸 US HY2-513 | free-nodes
+  - name: 🇺🇸 US HY2-512 | free-nodes
     server: 185.106.96.231
     port: 443
     type: hysteria2
@@ -1297,7 +1302,7 @@ proxies:
     skip-cert-verify: false
     alpn:
       - h3
-  - name: 🇷🇺 RU HY2-515 | free-nodes
+  - name: 🇷🇺 RU HY2-514 | free-nodes
     server: 188.119.65.33
     port: 443
     type: hysteria2
@@ -1307,7 +1312,7 @@ proxies:
     skip-cert-verify: false
     alpn:
       - h3
-  - name: 🇺🇸 US HY2-519 | free-nodes
+  - name: 🇺🇸 US HY2-518 | free-nodes
     server: 198.12.124.74
     port: 443
     type: hysteria2
@@ -1317,7 +1322,7 @@ proxies:
     skip-cert-verify: false
     alpn:
       - h3
-  - name: 🇬🇧 GB HY2-521 | free-nodes
+  - name: 🇬🇧 GB HY2-520 | free-nodes
     server: 193.142.59.97
     port: 443
     type: hysteria2
@@ -1333,26 +1338,12 @@ proxies:
     type: ss
     cipher: aes-256-cfb
     password: amazonskr05
-  - name: 🇭🇰 香港3|@ripaojiedian
-    server: 35.77.34.38
-    port: 53012
-    type: trojan
-    password: e0195c73018d597b1c2f0ea89d8676ae
-    sni: www.nintendogames.net
-    skip-cert-verify: true
   - name: 🇯🇵 日本|@ripaojiedian
     server: 54.65.32.119
     port: 5408
     type: trojan
     password: BxceQaOe
     sni: t.me%252Fripaojiedian
-    skip-cert-verify: true
-  - name: 🇯🇵 日本2|@ripaojiedian
-    server: 43.198.206.201
-    port: 37973
-    type: trojan
-    password: e0195c73018d597b1c2f0ea89d8676ae
-    sni: www.nintendogames.net
     skip-cert-verify: true
   - name: 🇸🇬 新加坡2|@ripaojiedian
     server: 18.162.190.157
