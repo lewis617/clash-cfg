@@ -1190,51 +1190,58 @@ proxies:
     cipher: aes-256-cfb
     password: amazonskr05
   - name: 🇭🇰 香港3|@ripaojiedian
-    server: 57.183.13.23
+    server: 95.40.43.133
     port: 2008
     type: trojan
-    password: 2009158055b4d37156cee7082c50ffde
+    password: ba5b6f1d3a9da87096165da523fb4375
     sni: www.nintendogames.net
     skip-cert-verify: true
   - name: 🇭🇰 香港4|@ripaojiedian
-    server: 18.167.36.144
-    port: 11035
+    server: 43.199.31.72
+    port: 39414
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
   - name: 🇭🇰 香港5|@ripaojiedian
-    server: 43.199.34.99
-    port: 27167
+    server: 43.199.44.33
+    port: 29449
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
   - name: 🇯🇵 日本|@ripaojiedian
-    server: 18.179.204.16
-    port: 45691
+    server: 18.183.54.150
+    port: 10624
     type: trojan
     password: BxceQaOe
     sni: t.me%252Fripaojiedian
     skip-cert-verify: true
   - name: 🇯🇵 日本2|@ripaojiedian
-    server: 43.199.200.130
-    port: 5701
+    server: 16.163.95.104
+    port: 37973
     type: trojan
-    password: 2009158055b4d37156cee7082c50ffde
+    password: ba5b6f1d3a9da87096165da523fb4375
     sni: www.nintendogames.net
     skip-cert-verify: true
-  - name: 🇯🇵 日本3|@ripaojiedian
-    server: 18.163.125.35
-    port: 5701
+  - name: 🇸🇬 新加坡2|@ripaojiedian
+    server: 16.162.120.149
+    port: 6357
     type: trojan
-    password: 2009158055b4d37156cee7082c50ffde
+    password: ba5b6f1d3a9da87096165da523fb4375
     sni: www.nintendogames.net
     skip-cert-verify: true
-  - name: 🇺🇸 美国3|@ripaojiedian
-    server: 95.40.92.87
-    port: 11993
+  - name: 🇸🇬 新加坡3|@ripaojiedian
+    server: 18.166.60.29
+    port: 41421
     type: trojan
     password: BxceQaOe
-    sni: t.me%2Fripaojiedian
+    sni: t.me%252Fripaojiedian
+    skip-cert-verify: true
+  - name: 🇺🇸 美国2|@ripaojiedian
+    server: 57.183.13.23
+    port: 17005
+    type: trojan
+    password: ba5b6f1d3a9da87096165da523fb4375
+    sni: www.nintendogames.net
     skip-cert-verify: true
