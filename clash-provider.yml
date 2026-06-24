@@ -1009,10 +1009,11 @@ proxies:
     cipher: aes-256-gcm
     password: kSLjbrBc84
   - name: 未知 TROJAN-77 | free-nodes
-    server: 207.126.167.162
+    server: 207.126.167.241
     port: 443
     type: trojan
     password: GTCCjtvCtuy03-aV1mwF0OkG2q6yL+Fc5K
+    sni: 207.126.167.241
     skip-cert-verify: false
   - name: 未知 TROJAN-78 | free-nodes
     server: 45.61.52.243
@@ -1022,13 +1023,25 @@ proxies:
     sni: 45.61.52.243
     skip-cert-verify: false
   - name: 未知 TROJAN-79 | free-nodes
+    server: 37.156.44.6
+    port: 8443
+    type: trojan
+    password: SoftNetConnect
+    skip-cert-verify: false
+  - name: 未知 TROJAN-80 | free-nodes
+    server: 103.125.216.68
+    port: 443
+    type: trojan
+    password: T9qoEuuxUEa9Dk3KxnTWrs6J8ilng9sCIf
+    skip-cert-verify: false
+  - name: 未知 TROJAN-81 | free-nodes
     server: 185.126.236.190
     port: 443
     type: trojan
     password: VGBzLm49=M_i02Az30tIeonkQw180t-edg
     sni: 185.126.236.190
     skip-cert-verify: false
-  - name: 未知 TROJAN-80 | free-nodes
+  - name: 未知 TROJAN-82 | free-nodes
     server: 38.60.202.163
     port: 443
     type: trojan
@@ -1036,26 +1049,31 @@ proxies:
     sni: 38.60.202.163
     skip-cert-verify: false
   - name: 未知 TROJAN-83 | free-nodes
+    server: 185.137.157.145
+    port: 443
+    type: trojan
+    password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+    skip-cert-verify: false
+  - name: 未知 TROJAN-86 | free-nodes
     server: 185.137.157.250
     port: 443
     type: trojan
     password: n-S5Kuz58YgwljisuLEJltip2OWf1ourWz
     sni: fra250.clientfirewall.click
     skip-cert-verify: false
-  - name: 未知 TROJAN-84 | free-nodes
-    server: 130.94.94.15
-    port: 443
-    type: trojan
-    password: tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR
-    sni: 130.94.94.15
-    skip-cert-verify: false
-  - name: 未知 TROJAN-85 | free-nodes
-    server: 52.57.203.89
+  - name: 未知 TROJAN-87 | free-nodes
+    server: 13.36.118.76
     port: 22222
     type: trojan
     password: telegram-id-privatevpns
     skip-cert-verify: false
-  - name: 未知 VMESS-402 | free-nodes
+  - name: 未知 TROJAN-88 | free-nodes
+    server: 92.119.35.131
+    port: 443
+    type: trojan
+    password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh
+    skip-cert-verify: false
+  - name: 未知 VMESS-408 | free-nodes
     server: 107.173.27.219
     port: 6666
     type: vmess
@@ -1064,11 +1082,10 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-    servername: 107.173.27.219
     network: ws
     ws-opts:
       path: /youtube
-  - name: 未知 VMESS-407 | free-nodes
+  - name: 未知 VMESS-414 | free-nodes
     server: 163.223.224.68
     port: 49515
     type: vmess
@@ -1081,7 +1098,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 未知 VMESS-411 | free-nodes
+  - name: 未知 VMESS-417 | free-nodes
     server: 186.244.208.78
     port: 30022
     type: vmess
@@ -1090,7 +1107,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 未知 VMESS-416 | free-nodes
+  - name: 未知 VMESS-422 | free-nodes
     server: 2.26.231.87
     port: 110
     type: vmess
@@ -1099,7 +1116,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 未知 VMESS-417 | free-nodes
+  - name: 未知 VMESS-423 | free-nodes
     server: 23.141.204.132
     port: 29633
     type: vmess
@@ -1108,7 +1125,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 未知 VMESS-421 | free-nodes
+  - name: 未知 VMESS-427 | free-nodes
     server: 43.167.162.191
     port: 25944
     type: vmess
@@ -1117,7 +1134,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 未知 VMESS-423 | free-nodes
+  - name: 未知 VMESS-429 | free-nodes
     server: 45.63.75.211
     port: 44855
     type: vmess
@@ -1129,7 +1146,7 @@ proxies:
     network: ws
     ws-opts:
       path: /5164f226
-  - name: 未知 VMESS-424 | free-nodes
+  - name: 未知 VMESS-430 | free-nodes
     server: 51.254.133.152
     port: 80
     type: vmess
@@ -1143,7 +1160,7 @@ proxies:
       path: /vmess
       headers:
         Host: fr5.niekotin.de
-  - name: 未知 VMESS-425 | free-nodes
+  - name: 未知 VMESS-431 | free-nodes
     server: 65.109.221.245
     port: 33366
     type: vmess
@@ -1152,7 +1169,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 未知 VMESS-432 | free-nodes
+  - name: 未知 VMESS-437 | free-nodes
     server: 8.211.149.30
     port: 443
     type: vmess
@@ -1166,7 +1183,7 @@ proxies:
       path: /ws/
       headers:
         Host: polartime.link
-  - name: 未知 VMESS-439 | free-nodes
+  - name: 未知 VMESS-443 | free-nodes
     server: 89.167.82.102
     port: 8880
     type: vmess
@@ -1175,7 +1192,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 未知 VMESS-443 | free-nodes
+  - name: 未知 VMESS-447 | free-nodes
     server: 96.47.230.5
     port: 54840
     type: vmess
@@ -1190,7 +1207,7 @@ proxies:
       path: /speedtest
       headers:
         Host: imafake.locker
-  - name: 未知 VMESS-445 | free-nodes
+  - name: 未知 VMESS-449 | free-nodes
     server: atiins.com.tr
     port: 443
     type: vmess
@@ -1200,7 +1217,7 @@ proxies:
     tls: true
     skip-cert-verify: false
     servername: atiins.com.tr
-  - name: 未知 VMESS-448 | free-nodes
+  - name: 未知 VMESS-452 | free-nodes
     server: myvpshosting.name.ng
     port: 80
     type: vmess
@@ -1215,7 +1232,7 @@ proxies:
       path: /vmess
       headers:
         Host: myvpshosting.name.ng
-  - name: 未知 VMESS-451 | free-nodes
+  - name: 未知 VMESS-455 | free-nodes
     server: nlt.reata.ir
     port: 1020
     type: vmess
@@ -1224,25 +1241,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 未知 VMESS-453 | free-nodes
-    server: sinavip.cnavippanel.com
-    port: 1514
-    type: vmess
-    uuid: 0aca35ee-b845-45d7-9b52-379a2984378a
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 未知 VMESS-454 | free-nodes
-    server: sinavip3.cnavippanel.com
-    port: 1516
-    type: vmess
-    uuid: 0aca35ee-b845-45d7-9b52-379a2984378a
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: false
-  - name: 未知 VMESS-455 | free-nodes
+  - name: 未知 VMESS-457 | free-nodes
     server: uk.vpnjantit.com
     port: 10000
     type: vmess
@@ -1256,7 +1255,7 @@ proxies:
       path: /vpnjantit
       headers:
         Host: uk.vpnjantit.com
-  - name: 未知 VMESS-456 | free-nodes
+  - name: 未知 VMESS-458 | free-nodes
     server: vip3.sanaiehdasti.com
     port: 1546
     type: vmess
@@ -1265,7 +1264,7 @@ proxies:
     cipher: auto
     tls: false
     skip-cert-verify: false
-  - name: 未知 VMESS-458 | free-nodes
+  - name: 未知 VMESS-461 | free-nodes
     server: 62.60.151.41
     port: 57865
     type: vmess
@@ -1277,7 +1276,7 @@ proxies:
     network: ws
     ws-opts:
       path: /
-  - name: 未知 SS-466 | free-nodes
+  - name: 未知 SS-468 | free-nodes
     server: fast.com
     port: 443
     type: ss
