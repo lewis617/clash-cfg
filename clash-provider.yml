@@ -1190,23 +1190,30 @@ proxies:
     tls: false
     skip-cert-verify: false
   - name: 🇭🇰 香港4|@ripaojiedian
-    server: 18.166.59.96
-    port: 50116
+    server: 18.166.29.105
+    port: 3941
+    type: trojan
+    password: BxceQaOe
+    sni: t.me%2Fripaojiedian
+    skip-cert-verify: true
+  - name: 🇭🇰 香港5|@ripaojiedian
+    server: 18.163.56.230
+    port: 3941
     type: trojan
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
   - name: 🇯🇵 日本|@ripaojiedian
-    server: 52.196.252.9
-    port: 47656
+    server: 18.183.83.131
+    port: 18021
     type: trojan
     password: BxceQaOe
     sni: t.me%252Fripaojiedian
     skip-cert-verify: true
-  - name: 🇸🇬 新加坡3|@ripaojiedian
-    server: 18.162.53.161
-    port: 9149
+  - name: 🇺🇸 美国3|@ripaojiedian
+    server: 16.163.142.40
+    port: 22657
     type: trojan
     password: BxceQaOe
-    sni: t.me%252Fripaojiedian
+    sni: t.me%2Fripaojiedian
     skip-cert-verify: true
