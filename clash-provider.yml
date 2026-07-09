@@ -15,6 +15,162 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
+  - name: 未知 SS-06 | free-nodes
+    server: fast.com
+    port: 443
+    type: ss
+    cipher: aes-128-gcm
+    password: 6601fb90e9b3
+  - name: 🇭🇰 HK HY2-18 | free-nodes
+    server: s306.okgg.top
+    port: 443
+    type: hysteria2
+    password: 9794d18f-9280-3553-a7a5-a23da75aca76
+    auth: 9794d18f-9280-3553-a7a5-a23da75aca76
+    sni: u691611ub93696d0s298.wagahaha.xyz
+    skip-cert-verify: false
+    alpn:
+      - h3
+  - name: 未知 HY2-19 | free-nodes
+    server: s282.okgfw.top
+    port: 443
+    type: hysteria2
+    password: 9794d18f-9280-3553-a7a5-a23da75aca76
+    auth: 9794d18f-9280-3553-a7a5-a23da75aca76
+    sni: u691611u941327fds274.wagahaha.xyz
+    skip-cert-verify: false
+    alpn:
+      - h3
+  - name: 🇭🇰 HK HY2-32 | free-nodes
+    server: 2605:e440:15::12d
+    port: 443
+    type: hysteria2
+    password: 9794d18f-9280-3553-a7a5-a23da75aca76
+    auth: 9794d18f-9280-3553-a7a5-a23da75aca76
+    sni: u691611ub93696d0s298.wagahaha.xyz
+    skip-cert-verify: false
+    alpn:
+      - h3
+  - name: 未知 HY2-38 | free-nodes
+    server: 103.173.155.158
+    port: 443
+    type: hysteria2
+    password: 9794d18f-9280-3553-a7a5-a23da75aca76
+    auth: 9794d18f-9280-3553-a7a5-a23da75aca76
+    sni: u691611u2dd066f2s226.sspcccdn.xyz
+    skip-cert-verify: false
+    alpn:
+      - h3
+  - name: 未知 HY2-41 | free-nodes
+    server: 2400:e920:0:a::52
+    port: 443
+    type: hysteria2
+    password: 9794d18f-9280-3553-a7a5-a23da75aca76
+    auth: 9794d18f-9280-3553-a7a5-a23da75aca76
+    sni: u691611us788.csgfw.top
+    skip-cert-verify: false
+    alpn:
+      - h3
+  - name: 🇺🇸 US HY2-42 | free-nodes
+    server: s491.ccgfw.online
+    port: 443
+    type: hysteria2
+    password: 9794d18f-9280-3553-a7a5-a23da75aca76
+    auth: 9794d18f-9280-3553-a7a5-a23da75aca76
+    sni: u691611us491.ccgfw.online
+    skip-cert-verify: false
+    alpn:
+      - h3
+  - name: 未知 HY2-52 | free-nodes
+    server: 2605:e440:10::1:68
+    port: 443
+    type: hysteria2
+    password: 9794d18f-9280-3553-a7a5-a23da75aca76
+    auth: 9794d18f-9280-3553-a7a5-a23da75aca76
+    sni: u691611u941327fds274.wagahaha.xyz
+    skip-cert-verify: false
+    alpn:
+      - h3
+  - name: 未知 HY2-65 | free-nodes
+    server: 160.25.74.91
+    port: 443
+    type: hysteria2
+    password: 9794d18f-9280-3553-a7a5-a23da75aca76
+    auth: 9794d18f-9280-3553-a7a5-a23da75aca76
+    sni: u691611us785.csgfw.top
+    skip-cert-verify: false
+    alpn:
+      - h3
+  - name: 🇺🇸 US HY2-72 | free-nodes
+    server: 192.227.169.125
+    port: 443
+    type: hysteria2
+    password: 9794d18f-9280-3553-a7a5-a23da75aca76
+    auth: 9794d18f-9280-3553-a7a5-a23da75aca76
+    sni: u691611uc911b91fs478.sspcccdn.xyz
+    skip-cert-verify: false
+    alpn:
+      - h3
+  - name: 🇺🇸 US HY2-78 | free-nodes
+    server: 192.3.118.133
+    port: 443
+    type: hysteria2
+    password: 9794d18f-9280-3553-a7a5-a23da75aca76
+    auth: 9794d18f-9280-3553-a7a5-a23da75aca76
+    sni: u691611udb8727a3s2316.sspcccdn.xyz
+    skip-cert-verify: false
+    alpn:
+      - h3
+  - name: 🇺🇸 US HY2-82 | free-nodes
+    server: 23.166.40.27
+    port: 443
+    type: hysteria2
+    password: 9794d18f-9280-3553-a7a5-a23da75aca76
+    auth: 9794d18f-9280-3553-a7a5-a23da75aca76
+    sni: u691611u2e827823s79.sspcccdn.xyz
+    skip-cert-verify: false
+    alpn:
+      - h3
+  - name: 🇬🇧 GB HY2-85 | free-nodes
+    server: 2a13:29c0:fc75:90b0:df84:b8d4:d3aa:1
+    port: 443
+    type: hysteria2
+    password: 9794d18f-9280-3553-a7a5-a23da75aca76
+    auth: 9794d18f-9280-3553-a7a5-a23da75aca76
+    sni: u691611us1247.csgfw.top
+    skip-cert-verify: false
+    alpn:
+      - h3
+  - name: 🇺🇸 US HY2-102 | free-nodes
+    server: 185.106.96.231
+    port: 443
+    type: hysteria2
+    password: 9794d18f-9280-3553-a7a5-a23da75aca76
+    auth: 9794d18f-9280-3553-a7a5-a23da75aca76
+    sni: u691611us849.ccgfw.top
+    skip-cert-verify: false
+    alpn:
+      - h3
+  - name: 🇺🇸 US HY2-106 | free-nodes
+    server: 198.12.124.74
+    port: 443
+    type: hysteria2
+    password: 9794d18f-9280-3553-a7a5-a23da75aca76
+    auth: 9794d18f-9280-3553-a7a5-a23da75aca76
+    sni: u691611us737.csgfw.top
+    skip-cert-verify: false
+    alpn:
+      - h3
+  - name: 🇬🇧 GB HY2-116 | free-nodes
+    server: 193.142.59.97
+    port: 443
+    type: hysteria2
+    password: 9794d18f-9280-3553-a7a5-a23da75aca76
+    auth: 9794d18f-9280-3553-a7a5-a23da75aca76
+    sni: u691611us1244.csgfw.top
+    skip-cert-verify: false
+    alpn:
+      - h3
   - name: tg频道:@ripaojiedian
     server: 63.180.254.10
     port: 443
