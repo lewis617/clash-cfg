@@ -3,7 +3,6 @@ import fs from 'fs/promises';
 
 async function fetchClashSubscriptionLinks() {
   const sources = [
-    'https://raw.githubusercontent.com/clashfree/clashfree.github.io/refs/heads/main/README.md',
     'https://raw.githubusercontent.com/free-nodes/clashfree/refs/heads/main/README.md',
     'https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash',
   ];
