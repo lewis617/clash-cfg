@@ -72,26 +72,10 @@ async function getAllProxies() {
 
   console.log(`总共获取到 ${allProxies.length} 个代理`);
 
-  // 过滤代理
-  let filteredProxies = allProxies.filter(proxy => {
-    if (!proxy) return false;
-    // 过滤掉 cipher 包含 'ss' 或 'chacha20' 或 type 为 'vless' 的代理
-    if ((proxy.cipher && /ss|chacha20/i.test(proxy.cipher)) || proxy.type === 'vless') {
-      return false;
-    }
-    // 过滤掉 type 为 vmess 且没有 alterId 的节点
-    if (proxy.type === 'vmess' && (proxy.alterId === undefined || proxy.alterId === null)) {
-      return false;
-    }
-    return true;
-  });
-
-  console.log(`过滤后剩余 ${filteredProxies.length} 个代理`);
-
   // 按 server 去重
   const uniqueProxies = [];
   const seenServers = new Set();
-  for (const proxy of filteredProxies) {
+  for (const proxy of allProxies) {
     if (proxy.server && !seenServers.has(proxy.server)) {
       uniqueProxies.push(proxy);
       seenServers.add(proxy.server);
