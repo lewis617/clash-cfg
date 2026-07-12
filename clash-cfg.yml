@@ -12,19 +12,19 @@ proxies: []
 proxy-groups:
   - icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/AI.png
     include-all: true
-    interval: 300
+    interval: 3600
     lazy: true
     name: OPENAI
-    timeout: 1500
+    timeout: 10000
     type: url-test
     url: "https://api.openai.com/v1/models"
     expected-status: 401
   - icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Auto.png
     include-all: true
-    interval: 300
+    interval: 3600
     lazy: true
     name: AUTO
-    timeout: 1500
+    timeout: 10000
     type: url-test
     url: https://www.gstatic.com/generate_204
     expected-status: 204
