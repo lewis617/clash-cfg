@@ -33,11 +33,11 @@ jobs:
         if ! git diff --cached --quiet; then
           git commit -m "Update clash-provider.yml"
           git push
-          # Purge jsDelivr cache
-          curl https://purge.jsdelivr.net/gh/lewis617/clash-cfg@main/clash-cfg.yml
-          curl https://purge.jsdelivr.net/gh/lewis617/clash-cfg@main/clash-provider.yml
         else
           echo "No changes to commit."
         fi
+        # 无论是否有提交，都 purge jsDelivr 缓存，确保 CDN 与仓库一致
+        curl https://purge.jsdelivr.net/gh/lewis617/clash-cfg@main/clash-cfg.yml
+        curl https://purge.jsdelivr.net/gh/lewis617/clash-cfg@main/clash-provider.yml
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 使用 GitHub 提供的 token
