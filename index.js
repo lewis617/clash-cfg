@@ -47,16 +47,31 @@ async function fetchClashSubscriptionLinks() {
   return links;
 }
 
-async function fetchAndParseProxies(url) {
-  try {
-    const response = await fetch(url);
-    const text = await response.text();
-    const config = parse(text);
-    return config?.proxies || [];
-  } catch (error) {
-    console.error(`获取 or 解析 ${url} 时出错：`, error);
-    return [];
+async function fetchAndParseProxies(url, retries = 3) {
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    try {
+      const response = await fetch(url);
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}`);
+      }
+      const text = await response.text();
+      const config = parse(text);
+      const proxies = config?.proxies || [];
+      if (proxies.length === 0 && attempt < retries) {
+        console.warn(`第 ${attempt} 次获取 ${url} 代理为空，${attempt < retries ? '10秒后重试...' : '放弃'}`);
+        await new Promise(r => setTimeout(r, 10000));
+        continue;
+      }
+      return proxies;
+    } catch (error) {
+      console.error(`第 ${attempt} 次获取 ${url} 时出错：`, error.message);
+      if (attempt < retries) {
+        await new Promise(r => setTimeout(r, 10000));
+        continue;
+      }
+    }
   }
+  return [];
 }
 
 async function getAllProxies() {

@@ -1,9 +1,10 @@
 name: Update Clash YAML
 
 on:
-  # 每天 UTC 2:07 执行（主源 free-nodes/clashfree 约 UTC 0:30~1:00 更新，延迟 1 小时）
+  # 每天 UTC 6:00 / 18:00 执行（北京时间 14:00 / 02:00）
+  # 覆盖 clashfree 两个主更新窗口（约 UTC 4:00 / 17:52），留 CDN 缓冲
   schedule:
-    - cron: "7 2 * * *"
+    - cron: "0 6,18 * * *"
   # 手动触发
   workflow_dispatch:
   # push 触发
