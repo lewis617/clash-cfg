@@ -7,7 +7,6 @@ on:
     - cron: "0 6,18 * * *"
   # 手动触发
   workflow_dispatch:
-  # 定时触发（不设 push 触发，避免 amend+force-push 循环）
 
 jobs:
   update-clash-yml:
@@ -23,22 +22,23 @@ jobs:
       run: |
         npm install
         npm run start
+        # 备份生成的产物，切换分支后覆盖
+        cp clash-provider.yml /tmp/clash-provider.yml
 
-    - name: Commit and push changes
+    - name: Push to provider branch
       run: |
         git config --local user.name "GitHub Action"
         git config --local user.email "action@github.com"
+        # 清理工作区tracked文件的改动（如package-lock.json），避免切换分支冲突
+        git checkout -- .
+        # 切到 provider 分支（只存 clash-provider.yml 产物）
+        git checkout -B provider origin/provider
+        cp /tmp/clash-provider.yml clash-provider.yml
         git add clash-provider.yml
-        # 仅在有更改时提交
-        if ! git diff --cached --quiet; then
-          # 用 amend 覆盖同一条 commit，避免历史堆积
-          git commit --amend -m "Update clash-provider.yml"
-          git push --force
-        else
-          echo "No changes to commit."
-        fi
-        # 无论是否有提交，都 purge jsDelivr 缓存，确保 CDN 与仓库一致
-        curl https://purge.jsdelivr.net/gh/lewis617/clash-cfg@main/clash-cfg.yml
-        curl https://purge.jsdelivr.net/gh/lewis617/clash-cfg@main/clash-provider.yml
+        # 用 amend 覆盖同一条 commit，避免历史堆积
+        git commit --amend -m "Update clash-provider.yml"
+        git push --force origin provider
+        # purge jsDelivr 缓存
+        curl https://purge.jsdelivr.net/gh/lewis617/clash-cfg@provider/clash-provider.yml
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 使用 GitHub 提供的 token
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

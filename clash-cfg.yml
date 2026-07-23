@@ -40,7 +40,7 @@ proxy-providers:
     interval: 3600
     type: "http"
     path: "./clash-provider.yml"
-    url: "https://cdn.jsdelivr.net/gh/lewis617/clash-cfg@main/clash-provider.yml"
+    url: "https://cdn.jsdelivr.net/gh/lewis617/clash-cfg@provider/clash-provider.yml"
 
 tunnels:
 rule-providers:
