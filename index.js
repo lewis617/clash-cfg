@@ -5,6 +5,10 @@ async function fetchClashSubscriptionLinks() {
   const sources = [
     'https://raw.githubusercontent.com/free-nodes/clashfree/refs/heads/main/README.md',
     'https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash',
+    'https://raw.githubusercontent.com/YFTree/ClashNodes/main/Clash/0.yaml',
+    'https://raw.githubusercontent.com/YFTree/ClashNodes/main/Clash/1.yaml',
+    'https://raw.githubusercontent.com/YFTree/ClashNodes/main/Clash/3.yaml',
+    'https://raw.githubusercontent.com/YFTree/ClashNodes/main/Clash/4.yaml',
   ];
   
   let links = [];
