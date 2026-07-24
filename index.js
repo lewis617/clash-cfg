@@ -107,16 +107,10 @@ async function getAllProxies() {
 
 async function updateClashProviderYml(proxies) {
   try {
-    const content = await fs.readFile('clash-provider.yml', 'utf8');
-    const config = parse(content);
-    
-    // 更新 proxies
-    config.proxies = proxies;
-    
-    // 将更新后的配置写回文件
+    const config = { proxies };
     const updatedContent = stringify(config);
     await fs.writeFile('clash-provider.yml', updatedContent, 'utf8');
-    
+
     console.log('成功更新 clash-provider.yml');
   } catch (error) {
     console.error('更新 clash-provider.yml 时出错：', error);
