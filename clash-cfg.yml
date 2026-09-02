@@ -27,9 +27,12 @@ dns:
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
+  direct-nameserver:
+    - system
+    - 223.5.5.5
   fallback:
-    - https://dns.google/dns-query
-    - https://cloudflare-dns.com/dns-query
+    - 'https://dns.google/dns-query#proxy'
+    - 'https://cloudflare-dns.com/dns-query#proxy'
   proxy-server-nameserver:
     - https://doh.pub/dns-query
 proxies: []
