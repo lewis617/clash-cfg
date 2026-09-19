@@ -46,6 +46,15 @@ proxy-groups:
     type: url-test
     url: "https://api.openai.com/v1/models"
     expected-status: 401
+  - icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/GitHub.png
+    include-all: true
+    interval: 600
+    lazy: true
+    name: GITHUB
+    timeout: 10000
+    type: url-test
+    url: https://github.com/robots.txt
+    expected-status: 200
   - icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Auto.png
     include-all: true
     interval: 600
@@ -89,7 +98,7 @@ rules:
   - RULE-SET,custom-proxy,PROXY
   - RULE-SET,custom-direct,DIRECT
   
-  - GEOSITE,github,PROXY
+  - GEOSITE,github,GITHUB
   - GEOSITE,anthropic,OPENAI
   - GEOSITE,openai,OPENAI
   - GEOSITE,category-ads-all,REJECT
