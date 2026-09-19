@@ -37,15 +37,6 @@ dns:
     - https://doh.pub/dns-query
 proxies: []
 proxy-groups:
-  - icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/AI.png
-    include-all: true
-    interval: 600
-    lazy: true
-    name: OPENAI
-    timeout: 10000
-    type: url-test
-    url: "https://api.openai.com/v1/models"
-    expected-status: 401
   - icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/GitHub.png
     include-all: true
     interval: 600
@@ -99,8 +90,6 @@ rules:
   - RULE-SET,custom-direct,DIRECT
   
   - GEOSITE,github,GITHUB
-  - GEOSITE,anthropic,OPENAI
-  - GEOSITE,openai,OPENAI
   - GEOSITE,category-ads-all,REJECT
   - GEOSITE,gfw,PROXY
 
