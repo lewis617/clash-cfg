@@ -3,12 +3,17 @@ import fs from 'fs/promises';
 
 async function fetchClashSubscriptionLinks() {
   const sources = [
-    'https://raw.githubusercontent.com/free-nodes/clashfree/refs/heads/main/README.md',
-    'https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash',
-    'https://raw.githubusercontent.com/YFTree/ClashNodes/main/Clash/0.yaml',
-    'https://raw.githubusercontent.com/YFTree/ClashNodes/main/Clash/1.yaml',
-    'https://raw.githubusercontent.com/YFTree/ClashNodes/main/Clash/3.yaml',
-    'https://raw.githubusercontent.com/YFTree/ClashNodes/main/Clash/4.yaml',
+    // Sources measured alive from the home network on 2026-09-24 (alive/tested):
+    'https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta-2.yaml',           // 11/63
+    'https://raw.githubusercontent.com/Barabama/FreeNodes/feat/ai-crawler-v2/nodes/cfmem.yaml',       //  8/27
+    'https://raw.githubusercontent.com/ermaozi01/free_clash_vpn/main/subscribe/clash.yml',             //  6/10
+    'https://raw.githubusercontent.com/Barabama/FreeNodes/feat/ai-crawler-v2/nodes/clashstair.yaml',  //  3/46
+    'https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml',                          //  2/28
+    'https://raw.githubusercontent.com/Barabama/FreeNodes/feat/ai-crawler-v2/nodes/datiya.yaml',      //  1/14
+    'https://raw.githubusercontent.com/free-nodes/clashfree/refs/heads/main/README.md',               //  1/80 (daily file)
+    'https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash',                             //  1/14
+    // Dropped 2026-09-24, 0 alive in sampling: YFTree/ClashNodes (0/110, all yoyapai),
+    // mahdibland/ShadowsocksAggregator (0/80), anaer/Sub (0/80), Barabama main branch (1/170)
   ];
   
   let links = [];
