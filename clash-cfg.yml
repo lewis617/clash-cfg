@@ -7,34 +7,40 @@ allow-lan: true
 mode: rule
 external-controller: '0.0.0.0:9090'
 external-ui: './ui'
+ipv6: false
 dns:
   enable: true
   listen: 0.0.0.0:1053
   ipv6: false
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
-  fake-ip-filter-mode: blacklist
+  # whitelist 模式：只有下面列出的域名返回 fake-ip(198.18.x.x)，
+  # 其余域名一律返回真实 IP。这样 4a 只需要把 198.18.0.0/16 路由给本机，
+  # 直连流量完全不经本机（本机网口只有百兆）。
+  fake-ip-filter-mode: whitelist
   fake-ip-filter:
-    - '*.lan'
-    - '*.local'
-    - '+.msftconnecttest.com'
-    - '+.msftncsi.com'
-    - 'time.*.com'
-    - 'ntp.*.org'
-    - '*.home.arpa'
+    - 'geosite:gfw'
+    - 'geosite:github'
+    - 'rule-set:custom-proxy'
+    # 需要额外的域名进白名单时，用本地 file provider 扩展（不放进本仓库）：
+    # - 'rule-set:local-domains'
   default-nameserver:
     - 223.5.5.5
   nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
+  # 原来是 system，但 4a 的 dnsmasq 即将把上游指向本机 1053 端口，
+  # system 会绕回 4a → 4a 又转发给本机，形成解析环路。改用公共 DNS。
   direct-nameserver:
-    - system
     - 223.5.5.5
-  fallback:
-    - 'https://dns.google/dns-query#proxy'
-    - 'https://cloudflare-dns.com/dns-query#proxy'
+    - https://doh.pub/dns-query
   proxy-server-nameserver:
     - https://doh.pub/dns-query
+  # 内网域名直接问 4a，避免环路
+  nameserver-policy:
+    '+.lan': '192.168.1.1'
+    '+.local': '192.168.1.1'
+    '+.home.arpa': '192.168.1.1'
 proxies: []
 proxy-groups:
   - icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/GitHub.png
@@ -67,33 +73,37 @@ proxy-providers:
     interval: 3600
     type: "http"
     path: "./clash-provider.yml"
-    url: "https://cdn.jsdelivr.net/gh/lewis617/clash-cfg@provider/clash-provider.yml"
+    url: "https://gh-proxy.com/https://raw.githubusercontent.com/lewis617/clash-cfg/provider/clash-provider.yml"
 
 tunnels:
 rule-providers:
   custom-proxy:
     type: http
     behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/lewis617/clash-cfg@main/ruleset/custom-proxy.yml"
+    url: "https://gh-proxy.com/https://raw.githubusercontent.com/lewis617/clash-cfg/main/ruleset/custom-proxy.yml"
     path: ./ruleset/custom-proxy.yml
     interval: 86400
     format: yaml
   custom-direct:
     type: http
     behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/lewis617/clash-cfg@main/ruleset/custom-direct.yml"
+    url: "https://gh-proxy.com/https://raw.githubusercontent.com/lewis617/clash-cfg/main/ruleset/custom-direct.yml"
     path: ./ruleset/custom-direct.yml
     interval: 86400
     format: yaml
 rules:
+  - DOMAIN,cdn.jsdelivr.net,DIRECT
+  - DOMAIN,testingcf.jsdelivr.net,DIRECT
+  - DOMAIN-SUFFIX,gh-proxy.com,DIRECT
+  # 本地私有规则从这里进来，本仓库不存放（见 readme「本地私有层」）：
+  # - RULE-SET,local-rules,PROXY
   - RULE-SET,custom-proxy,PROXY
   - RULE-SET,custom-direct,DIRECT
-  
+
   - GEOSITE,github,GITHUB
   - GEOSITE,category-ads-all,REJECT
   - GEOSITE,gfw,PROXY
 
-  - SRC-IP-CIDR,192.168.28.2/32,DIRECT
   - IP-CIDR,127.0.0.0/8,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,DIRECT
