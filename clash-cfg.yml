@@ -46,11 +46,12 @@ dns:
     '+.local': '192.168.1.1'
     '+.home.arpa': '192.168.1.1'
 proxies: []
+# 这里刻意不用 lazy: true —— 那样只有组在最近一个 interval 内被用过才会跑健康检查，
+# 而 url-test 的选路结果又是带缓存的，结果就是可能长期挂在已经死掉的节点上。
 proxy-groups:
   - icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/GitHub.png
     include-all: true
-    interval: 600
-    lazy: true
+    interval: 300
     name: GITHUB
     timeout: 10000
     type: url-test
@@ -58,8 +59,7 @@ proxy-groups:
     expected-status: 200
   - icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Auto.png
     include-all: true
-    interval: 600
-    lazy: true
+    interval: 300
     name: AUTO
     timeout: 10000
     type: url-test
