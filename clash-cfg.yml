@@ -29,6 +29,9 @@ dns:
     - 'geosite:gfw'
     - 'geosite:github'
     - 'rule-set:custom-proxy'
+    # 富途/牛牛：不进白名单的话 DNS 会给真 IP，流量根本不过本机，
+    # 下面 rules 里的 GEOSITE,futu 写得再对也不会命中。
+    - 'geosite:futu'
     # 额外域名由本机私有层追加（overlay 的 dns.fake-ip-filter_append，不在本仓库）
   default-nameserver:
     - 223.5.5.5
@@ -170,6 +173,10 @@ rules:
   - GEOSITE,github,GITHUB
   - GEOSITE,category-ads-all,REJECT
   - GEOSITE,gfw,PROXY
+  # 富途/牛牛（futu*.com、futunn.com、futuhk*.com、moomoo*）。gfwlist 上游收了 30+
+  # 个富途域名，但本机 GeoSite.dat（2026-03-01）的 gfw 分类里还没有，geosite:futu
+  # 分类倒是有（12 条，最新上游是 21 条），所以显式写一条。
+  - GEOSITE,futu,PROXY
 
   - IP-CIDR,127.0.0.0/8,DIRECT
   - GEOIP,CN,DIRECT

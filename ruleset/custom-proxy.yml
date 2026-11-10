@@ -1,2 +1,8 @@
-payload:
-  - '+.frcapi.com'
+# 需要走代理的域名清单（behavior: domain）。
+# 加进来的域名会自动进入 fake-ip 白名单（配置里的 fake-ip-filter: rule-set:custom-proxy），
+# 不用再改 clash-cfg.yml。
+#
+# 原来的 `+.frcapi.com` 已于 2026-11-10 删除：该域名 NXDOMAIN，frcapi.futunn.com
+# 也不存在，GitHub 上唯一叫 frcapi 的是 FIRST Robotics 的代码，跟富途无关。
+# 富途本身改用内置分类 geosite:futu（见 clash-cfg.yml 的 rules 与 fake-ip-filter）。
+payload: []
