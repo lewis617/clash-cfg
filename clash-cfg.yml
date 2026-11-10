@@ -8,6 +8,11 @@ mode: rule
 external-controller: '0.0.0.0:9090'
 external-ui: './ui'
 ipv6: false
+# mihomo 自带的持久化：记住 select 组手选的节点、以及 fake-ip 映射，
+# 重载/重启后不会重置（否则每次热重载都要重新点一遍）。
+profile:
+  store-selected: true
+  store-fake-ip: true
 dns:
   enable: true
   listen: 0.0.0.0:1053
@@ -22,8 +27,7 @@ dns:
     - 'geosite:gfw'
     - 'geosite:github'
     - 'rule-set:custom-proxy'
-    # 需要额外的域名进白名单时，用本地 file provider 扩展（不放进本仓库）：
-    # - 'rule-set:local-domains'
+    # 私有域名不在本仓库：本机 overlay 会追加 'rule-set:local-domains'（见 readme「本地私有层」）
   default-nameserver:
     - 223.5.5.5
   nameserver:
@@ -95,8 +99,7 @@ rules:
   - DOMAIN,cdn.jsdelivr.net,DIRECT
   - DOMAIN,testingcf.jsdelivr.net,DIRECT
   - DOMAIN-SUFFIX,gh-proxy.com,DIRECT
-  # 本地私有规则从这里进来，本仓库不存放（见 readme「本地私有层」）：
-  # - RULE-SET,local-rules,PROXY
+  # 私有规则不在本仓库：本机 overlay 以 RULE-SET,local-rules,<target> 注入到最前面
   - RULE-SET,custom-proxy,PROXY
   - RULE-SET,custom-direct,DIRECT
 

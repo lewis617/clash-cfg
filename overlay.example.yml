@@ -5,9 +5,13 @@
 #                 --overlay ~/.config/mihomo/local/overlay.yml \
 #                 --out ~/.config/mihomo/config.yaml
 #
-# 合并只增不减：仓库模板里的内容一条都不会被删掉，除非你在 overlay 里显式覆盖同名的键。
+# 分层原则：能用 mihomo 自带机制就用自带机制。
+#   私有域名/规则的具体内容 → 交给原生 file provider（ruleset/local-*.yml），改完不用重新合并
+#   本文件只放「无法外置的声明」：proxy-groups（mihomo 只能写在 config 里）+ 对本地 provider 的引用
+#
+# 所以下面三个段落基本一次写好就不再动，日常只改 ruleset/local-*.yml。
 
-# 追加一个自己的分组（同名会整项覆盖仓库里的那个，新名字追加到末尾）
+# ① 自己的分组（mihomo 没有 include/merge，分组只能写在 config 里）
 proxy-groups:
   - name: MY-NODES
     type: url-test
@@ -18,23 +22,42 @@ proxy-groups:
     lazy: true
     expected-status: 204
 
-# 插到规则最前面（在最前才不会被后面的 GEOSITE,gfw / MATCH 抢先命中）
-rules_prepend:
-  - DOMAIN-SUFFIX,example.com,MY-NODES
-
-# 追加到规则末尾（注意：MATCH 之后就没有意义了）
-rules_append: []
-
-# 对象会递归合并。想让私有域名也走代理，除了加规则，
-# 还得把域名放进 fake-ip 白名单，否则 DNS 返回真实 IP，流量根本不会经过本机。
-dns:
-  fake-ip-filter_append:
-    - 'rule-set:MY-DOMAINS'
-
-# 追加一个本地 file provider（文件放在本机，不进仓库）
+# ② 声明本地 file provider（内容在你自己的文件里，不进仓库）
 rule-providers:
-  MY-DOMAINS:
+  local-domains:                 # 私有域名 → 同时决定 fake-ip 白名单和分流
     type: file
     behavior: domain
     format: yaml
     path: ./ruleset/local-domains.yml
+  local-rules:                   # 私有规则，可写任意规则类型
+    type: file
+    behavior: classical
+    format: yaml
+    path: ./ruleset/local-rules.yml
+
+# ③ 把本地 provider 接进规则链最前面（在最前才不会被后面的 GEOSITE,gfw / MATCH 抢先命中）
+#    classical 型引用时必须带 target，否则报 proxy [local-rules] not found
+rules_prepend:
+  - RULE-SET,local-rules,MY-NODES
+
+# ④ 私有域名要拿到 fake-ip，否则 DNS 返回真实 IP，流量根本不过 mihomo
+dns:
+  fake-ip-filter_append:
+    - 'rule-set:local-domains'
+
+# ---------------------------------------------------------------------------
+# 对应规则文件示例（放在 mihomo 配置目录下，路径与上面 path 一致）：
+#
+# ruleset/local-domains.yml          # behavior: domain
+#   payload:
+#     - '+.example.com'
+#
+# ruleset/local-rules.yml            # behavior: classical
+#   payload:
+#     - 'DOMAIN-SUFFIX,example.net,DIRECT'
+#     - 'GEOSITE,category-xxx,MY-NODES'
+#
+# 改完这两个文件不必重新合并，让 mihomo 重读即可：
+#   curl -X PUT http://127.0.0.1:9090/providers/rules/local-domains
+#   curl -X PUT http://127.0.0.1:9090/providers/rules/local-rules
+# ---------------------------------------------------------------------------
