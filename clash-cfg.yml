@@ -27,7 +27,7 @@ dns:
     - 'geosite:gfw'
     - 'geosite:github'
     - 'rule-set:custom-proxy'
-    # 私有域名不在本仓库：本机 overlay 会追加 'rule-set:local-domains'（见 readme「本地私有层」）
+    # 额外域名由本机私有层追加（overlay 的 dns.fake-ip-filter_append，不在本仓库）
   default-nameserver:
     - 223.5.5.5
   nameserver:

@@ -33,10 +33,14 @@ https://raw.githubusercontent.com/lewis617/clash-cfg/refs/heads/main/clash-cfg.y
 | 层 | 放什么 | 载体 |
 | --- | --- | --- |
 | ① 仓库模板 `clash-cfg.yml` | 公开的端口/DNS/分组/规则骨架 | 版本控制 |
-| ② 私有内容 | 私有域名清单、私有规则 | **mihomo 原生 `type: file` rule-provider**（`ruleset/local-*.yml`，不进仓库） |
-| ③ 私有声明 | 私有 `proxy-groups`、对本地 provider 的引用 | 本机 `overlay.yml`，用 `merge.js` 合成 |
+| ② 私有内容 | 私有规则、geosite 覆盖不到的自建域名 | **mihomo 原生 `type: file` rule-provider**（`ruleset/local-*.yml`，不进仓库）+ `GeoSite.dat` 里的公开清单 |
+| ③ 私有声明 | 私有 `proxy-groups`、对本地 provider / geosite 的引用 | 本机 `overlay.yml`，用 `merge.js` 合成 |
 
-之所以要第三层：`proxy-groups` **无法外置**（mihomo 没有 config include/merge，分组只能写在 config 里）。除了分组和几行引用，其余全部交给原生 provider，所以**日常加私有域名/规则根本不用重新合并**。
+之所以要第三层：`proxy-groups` **无法外置**（mihomo 没有 config include/merge，分组只能写在 config 里）。除了分组和几行引用，其余全部交给原生机制，所以**日常加私有域名/规则根本不用重新合并**。
+
+> **清单类优先用 `geosite:`**。mihomo 自带 `GeoSite.dat`（v2fly domain-list-community 的编译产物），`geosite:gfw` / `geosite:category-porn` 这样一行就顶几千条域名，还自动跟着版本更新。
+> 自己维护一份域名文件只在两种情况下值得：geosite 里没有的自建/冷门域名；或者需要一份 geosite 不覆盖的个性化清单。
+
 
 ```bash
 # 首次
@@ -62,14 +66,14 @@ node merge.js --base https://gh-proxy.com/https://raw.githubusercontent.com/lewi
 ### 私有内容：file provider
 
 ```yaml
-# ruleset/local-domains.yml   （behavior: domain）
-payload:
-  - '+.example.com'          # 进入 fake-ip 白名单，流量才会被路由到 mihomo
-
 # ruleset/local-rules.yml     （behavior: classical，可写任意规则类型）
 payload:
   - 'DOMAIN-SUFFIX,example.net,DIRECT'
   - 'GEOSITE,category-xxx,MY-NODES'
+
+# ruleset/local-domains.yml   （behavior: domain，只在 geosite 覆盖不到时才需要）
+payload:
+  - '+.my-nas.internal'      # 进入 fake-ip 白名单，流量才会被路由到 mihomo
 ```
 
 `type: file` 的 provider 改完不用重启：`PUT /providers/rules/<name>` 就会重新读盘（已验证返回 204 且立刻生效）。
@@ -88,7 +92,7 @@ payload:
 
 ### 两个必须记住的细节
 
-- **私有域名要同时进 fake-ip 白名单**：whitelist 模式下只有白名单里的域名拿到假地址（overlay 里那行 `dns.fake-ip-filter_append: 'rule-set:local-domains'`）。只加规则不加白名单，DNS 返回真实 IP，流量根本不过 mihomo。
+- **要代理的域名得先进 fake-ip 白名单**：whitelist 模式下只有白名单里的域名拿到假地址。用 `geosite:xxx` 或 `rule-set:xxx` 追加（`dns.fake-ip-filter_append`）。只加规则不加白名单，DNS 返回真实 IP，流量根本不过 mihomo——规则写得再对也不会命中。
 - `behavior: classical` 的 provider 在规则里引用时**必须带 target**：`RULE-SET,local-rules,MY-NODES`，不带会报 `proxy [local-rules] not found`。
 
 ## 更新线上配置时的注意事项
