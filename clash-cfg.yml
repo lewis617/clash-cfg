@@ -8,10 +8,12 @@ mode: rule
 external-controller: '0.0.0.0:9090'
 external-ui: './ui'
 ipv6: false
-# mihomo 自带的持久化：记住 select 组手选的节点、以及 fake-ip 映射，
-# 重载/重启后不会重置（否则每次热重载都要重新点一遍）。
+# mihomo 自带的持久化。store-selected 刻意关掉：
+# url-test 组只要「手选节点还活着」就直接用它，不比较延迟（urltest.go 的 fast()），
+# 加上持久化就等于把 url-test 退化成 select —— 手选的节点慢或半死不活时，
+# 组不会自己回到最快节点。需要固定某个节点时走 PROXY 这个 select 组。
 profile:
-  store-selected: true
+  store-selected: false
   store-fake-ip: true
 dns:
   enable: true
@@ -46,12 +48,22 @@ dns:
     '+.local': '192.168.1.1'
     '+.home.arpa': '192.168.1.1'
 proxies: []
-# 这里刻意不用 lazy: true —— 那样只有组在最近一个 interval 内被用过才会跑健康检查，
-# 而 url-test 的选路结果又是带缓存的，结果就是可能长期挂在已经死掉的节点上。
+# 关于 url-test 组的几个坑（都是实测 + 源码确认过的）：
+#
+# 1. 测速 URL 要尽量少、要轻。所有组注册的不同 URL 会在同一个体检队列里排队执行
+#    （并发上限硬编码为 10），节点数 × URL 数直接决定一轮体检的耗时。实测 228 个
+#    节点 × 3 个 URL 时一轮要 5~6 分钟，interval 设成多少都改变不了这个节奏。
+#    所以这里统一用 generate_204（返回 204、body 为空），别再加大页面。
+# 2. 别用 lazy: true。它只会传给「由 proxies 列表构造的 CompatibleProvider」，
+#    对 include-all 的组等于没写，写了反而误导。真正省资源的方法是减少 URL 数量。
+# 3. max-failed-times 配合 timeout 决定「多久才会主动补一次体检」：失败计数一旦
+#    距首次失败超过 timeout 就清零，而死节点恰恰是每次超时 timeout 才失败，
+#    门槛设高了（默认 5）很容易永远攒不满。设 2 让它更快掉头。
 proxy-groups:
   - icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/GitHub.png
     include-all: true
     interval: 300
+    max-failed-times: 2
     name: GITHUB
     timeout: 10000
     type: url-test
@@ -60,11 +72,14 @@ proxy-groups:
   - icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Auto.png
     include-all: true
     interval: 300
+    max-failed-times: 2
     name: AUTO
     timeout: 10000
     type: url-test
-    url: https://www.youtube.com
-    expected-status: 200
+    # 用 youtube 的 204 端点而不是首页：仍然验证「YouTube 通不通」，
+    # 但不再让 228 个节点各拉一次首页的 HEAD。
+    url: https://www.youtube.com/generate_204
+    expected-status: 204
   - icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure/IconSet/Color/Proxy.png
     name: PROXY
     type: select
