@@ -1,14 +1,20 @@
 # clash-cfg
 
-mihomo 配置模板 + 免费节点抓取脚本。抓取由 GitHub Actions 每天两次（UTC 6:00 / 18:00，北京 14:00 / 02:00）执行，产物推到 `provider` 分支。
+mihomo 配置模板。节点不再由本仓库抓取汇总：`clash-cfg.yml` 里直接声明了三个上游的 `proxy-providers`（都是固定链接），mihomo 自己按 `interval: 21600` 去拉。
 
-## 节点产物（`provider` 分支）
+**为什么去掉 GitHub Actions**（2026-11-10）：原来的做法是 Action 每 12 小时把几个上游源抓下来、按 `server` 去重、推到 `provider` 分支，mihomo 再拉那一份合成文件（经 jsDelivr / gh-proxy 镜像）。问题有两个：① 仓库 60 天无活动后 GitHub 会自动停用 scheduled workflow，一旦静默停掉，合成文件就永久卡在旧节点上，节点慢慢全死；② 多了一层要维护的产物（分支 + CDN 缓存 purge）。改成直连上游后，每个源各有自己的体检队列（并发各 10 条），一轮体检反而更快。
 
-```
-https://gh-proxy.com/https://raw.githubusercontent.com/lewis617/clash-cfg/provider/clash-provider.yml
-https://testingcf.jsdelivr.net/gh/lewis617/clash-cfg@provider/clash-provider.yml
-https://raw.githubusercontent.com/lewis617/clash-cfg/refs/heads/provider/clash-provider.yml
-```
+上游源（每个后面是 2026-11-10 的实测产出「节点数 → 体检存活」）：
+
+| provider | 链接 | 产出 |
+|---|---|---|
+| `ermaozi01` | `ermaozi01/free_clash_vpn/main/subscribe/clash.yml` | 22 → 12，最稳 |
+| `snakem982` | `snakem982/proxypool/main/source/clash-meta-2.yaml` | 62 → 10 |
+| `peasoft` | `peasoft/NoMoreWalls/master/list.yml` | 125 → 10，量大但多数是死的 |
+
+已被移除的源：Barabama/FreeNodes 的 cfmem / clashstair / datiya（`feat/ai-crawler-v2` 分支已删，全 404）、ripaojiedian/freenode（0 存活）、free-nodes/clashfree（**唯一没有固定链接的源**：文件按 `clashYYYYMMDD.yml` 每天换名，`sub.yml` 是 0 字节空文件，只能靠解析 README 取当天链接——为它单独养一个定时任务不值得，代价约 1 个可用节点）。
+
+如果以后要加源，直接往 `proxy-providers` 里加一段（`health-check` 块不能省，否则定时体检的 ticker 不会启动），组里的 `include-all: true` 会自动收进来。
 
 ## mihomo 配置（`main` 分支）
 

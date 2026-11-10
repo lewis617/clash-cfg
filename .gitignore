@@ -1,5 +1,4 @@
 node_modules/
-clash-provider.yml
 
 # 本机私有 overlay，永远不要提交（示例文件 overlay.example.yml 不受影响）
 overlay.yml
