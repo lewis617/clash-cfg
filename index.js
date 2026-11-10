@@ -3,17 +3,20 @@ import fs from 'fs/promises';
 
 async function fetchClashSubscriptionLinks() {
   const sources = [
-    // Sources measured alive from the home network on 2026-09-24 (alive/tested):
-    'https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta-2.yaml',           // 11/63
-    'https://raw.githubusercontent.com/Barabama/FreeNodes/feat/ai-crawler-v2/nodes/cfmem.yaml',       //  8/27
-    'https://raw.githubusercontent.com/ermaozi01/free_clash_vpn/main/subscribe/clash.yml',             //  6/10
-    'https://raw.githubusercontent.com/Barabama/FreeNodes/feat/ai-crawler-v2/nodes/clashstair.yaml',  //  3/46
-    'https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml',                          //  2/28
-    'https://raw.githubusercontent.com/Barabama/FreeNodes/feat/ai-crawler-v2/nodes/datiya.yaml',      //  1/14
-    'https://raw.githubusercontent.com/free-nodes/clashfree/refs/heads/main/README.md',               //  1/80 (daily file)
-    'https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash',                             //  1/14
-    // Dropped 2026-09-24, 0 alive in sampling: YFTree/ClashNodes (0/110, all yoyapai),
-    // mahdibland/ShadowsocksAggregator (0/80), anaer/Sub (0/80), Barabama main branch (1/170)
+    // 注释里的两个数字 = 2026-11-10 在本机实测的「进入清单的节点数 → 整轮体检中成功过的节点数」。
+    // 判据只看有没有产出：一个源都不留会掉几个可用节点，但清单越小，
+    // 一轮体检（节点数 × 测速 URL 数 ÷ 10 并发）越快 —— 所以零产出的源纯属拖累。
+    'https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta-2.yaml',           // 18 → 5 活
+    'https://raw.githubusercontent.com/ermaozi01/free_clash_vpn/main/subscribe/clash.yml',            // 19 → 15 活，最稳的源
+    'https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml',                          // 106 → 10 活，量大但大部分是死的
+    'https://raw.githubusercontent.com/free-nodes/clashfree/refs/heads/main/README.md',               // 43 → 2 活（README 里指向当天的 yml）
+    // 2026-11-10 移除：
+    //   Barabama/FreeNodes 的 cfmem / clashstair / datiya —— feat/ai-crawler-v2 分支已被删，
+    //     三个 URL 全 404（文件迁到了默认分支 main，但 main 的 clashnode.yaml 一次带进 461 个
+    //     新 server，会把一轮体检从 ~6 分钟拉到 ~15 分钟，且该仓库历史存活率约 1/170，不接回来）
+    //   ripaojiedian/freenode —— 15 个节点进清单，三轮体检 0 存活
+    // 2026-09-24 移除（采样 0 存活）：YFTree/ClashNodes (0/110, 全是 yoyapai)、
+    //   mahdibland/ShadowsocksAggregator (0/80)、anaer/Sub (0/80)、Barabama main 分支 (1/170)
   ];
   
   let links = [];
