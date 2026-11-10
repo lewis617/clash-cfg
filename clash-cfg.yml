@@ -89,6 +89,22 @@ proxy-groups:
 proxy-providers:
   clashfree:
     filter: null
+    # 这个 health-check 块必须存在，否则定时体检根本不会启动：
+    # provider 的 Initial() 里是 `if healthCheck.auto() { go process() }`，
+    # 而 auto() 等价于 interval != 0，NewHealthCheck 在 url 为空时会把 interval 置 0。
+    # 组通过 RegisterHealthCheckTask 注册自己的测速 URL 发生在 Initial() 之后，
+    # 那时 ticker 已经决定不启动了 —— 于是只有「拨号失败」才会触发一次性体检，
+    # 没人上网的一天里一次都不跑，回来一用就撞上昨天还活着的死节点。
+    # 配了这里之后 ticker 才真正起来，组的 interval 才有意义。
+    # lazy 必须显式写 false：parser.go 里 healthCheckSchema 的默认值就是 Lazy: true，
+    # 那样 ticker 虽然起来了，但只要 interval 内没人用这个 provider 就跳过体检——
+    # 无人值守的空闲白天照样一次都不跑。
+    health-check:
+      enable: true
+      lazy: false
+      url: https://www.youtube.com/generate_204
+      expected-status: 204
+      interval: 300
     interval: 3600
     type: "http"
     path: "./clash-provider.yml"
