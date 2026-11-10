@@ -1,0 +1,40 @@
+# 私有层示例：复制成你自己本地的 overlay.yml（不要提交进仓库）。
+#
+#   cp overlay.example.yml ~/.config/mihomo/local/overlay.yml
+#   node merge.js --base clash-cfg.yml \
+#                 --overlay ~/.config/mihomo/local/overlay.yml \
+#                 --out ~/.config/mihomo/config.yaml
+#
+# 合并只增不减：仓库模板里的内容一条都不会被删掉，除非你在 overlay 里显式覆盖同名的键。
+
+# 追加一个自己的分组（同名会整项覆盖仓库里的那个，新名字追加到末尾）
+proxy-groups:
+  - name: MY-NODES
+    type: url-test
+    include-all: true
+    url: https://www.gstatic.com/generate_204
+    interval: 600
+    timeout: 5000
+    lazy: true
+    expected-status: 204
+
+# 插到规则最前面（在最前才不会被后面的 GEOSITE,gfw / MATCH 抢先命中）
+rules_prepend:
+  - DOMAIN-SUFFIX,example.com,MY-NODES
+
+# 追加到规则末尾（注意：MATCH 之后就没有意义了）
+rules_append: []
+
+# 对象会递归合并。想让私有域名也走代理，除了加规则，
+# 还得把域名放进 fake-ip 白名单，否则 DNS 返回真实 IP，流量根本不会经过本机。
+dns:
+  fake-ip-filter_append:
+    - 'rule-set:MY-DOMAINS'
+
+# 追加一个本地 file provider（文件放在本机，不进仓库）
+rule-providers:
+  MY-DOMAINS:
+    type: file
+    behavior: domain
+    format: yaml
+    path: ./ruleset/local-domains.yml

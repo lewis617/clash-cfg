@@ -26,42 +26,63 @@ https://raw.githubusercontent.com/lewis617/clash-cfg/refs/heads/main/clash-cfg.y
 
 **注意**：`custom-proxy.yml` 里的域名会自动进入 fake-ip 白名单（配置里的 `fake-ip-filter: rule-set:custom-proxy`），也就是说**往这个文件里加域名，就等于让它走代理**，不需要再改 `clash-cfg.yml`。
 
-## 本地私有层（不放进本仓库）
+## 本地私有层（用 merge.js 叠加，不进仓库）
 
-这个仓库是公开的，所以**私有的分组和规则不放在这里**，由使用者在自己的机器上用 `type: file` 的 rule-provider 叠加：
+这个仓库是公开的，私有的分组和规则不能放进来。做法是：**仓库只提供模板**，本机放一份私有 overlay，用 `merge.js` 合成完整的 `config.yaml`。
 
-```yaml
-# 本机 ~/.config/mihomo/config.yaml
-rule-providers:
-  local-rules:                      # 私有规则（可含自定义分组规则）
-    type: file
-    behavior: classical
-    path: ./ruleset/local-rules.yml
-    format: yaml
-  local-domains:                    # 私有域名（自动进 fake-ip 白名单）
-    type: file
-    behavior: domain
-    path: ./ruleset/local-domains.yml
-    format: yaml
-
-dns:
-  fake-ip-filter-mode: whitelist
-  fake-ip-filter:
-    - 'geosite:gfw'
-    - 'geosite:github'
-    - 'rule-set:custom-proxy'
-    - 'rule-set:local-domains'      # 私有域名也拿假地址
-
-rules:
-  - RULE-SET,local-rules,PROXY      # 注意：classical 型必须带 target
-  - RULE-SET,custom-proxy,PROXY
-  # ... 本仓库的规则
+```bash
+npm install                                          # 只依赖 yaml
+cp overlay.example.yml ~/.config/mihomo/local/overlay.yml   # 然后按需改
+node merge.js --base clash-cfg.yml \
+              --overlay ~/.config/mihomo/local/overlay.yml \
+              --out ~/.config/mihomo/config.yaml
 ```
 
-`./ruleset/local-*.yml` 属于本机私有文件，不在版本控制里。
+`--base` 也可以直接给仓库地址，这样每次合并都顺手拿到上游更新：
 
-**私有的 `proxy-groups` 无法外置**——mihomo 没有 config include/merge 机制，分组只能写在 `config.yaml` 里。所以本机的 `config.yaml` 会比本仓库的 `clash-cfg.yml` 多出若干个分组，属预期，不要用整文件覆盖的方式同步。
+```bash
+node merge.js --base https://gh-proxy.com/https://raw.githubusercontent.com/lewis617/clash-cfg/main/clash-cfg.yml \
+              --overlay ~/.config/mihomo/local/overlay.yml \
+              --out ~/.config/mihomo/config.yaml
+```
+
+### overlay 的语义
+
+| 写法 | 含义 |
+| --- | --- |
+| `key: 值`、嵌套对象 | 递归覆盖同路径的值 |
+| `proxies` / `proxy-groups` / `proxy-providers` / `rule-providers` / `listeners` / `tunnels` | 按 `name` 合并：同名整项覆盖，新名字追加到末尾 |
+| `rules_prepend: [...]` | 插到 `rules` 最前面 |
+| `rules_append: [...]` | 接在 `rules` 末尾 |
+| 任意列表的 `xxx_append` / `xxx_prepend` | 在任意层级追加 / 前插，例如 `dns: { fake-ip-filter_append: [...] }` |
+
+合并**只增不减**：模板里的内容不会被删掉，除非 overlay 显式覆盖同名键。没被 overlay 触碰的段落（含注释）原样保留。
+
+### 私有域名要同时进 fake-ip 白名单
+
+whitelist 模式下只有白名单里的域名会拿到假地址。只加规则不加白名单，DNS 会返回真实 IP，流量根本不过本机：
+
+```yaml
+# overlay.yml
+dns:
+  fake-ip-filter_append:
+    - 'rule-set:MY-DOMAINS'
+rule-providers:
+  MY-DOMAINS:
+    type: file
+    behavior: domain
+    format: yaml
+    path: ./ruleset/local-domains.yml   # 本机私有文件
+```
+
+`behavior: classical` 的 provider 在规则里引用时**必须带 target**（`RULE-SET,local-rules,PROXY`），不带会报 `proxy [local-rules] not found`。
 
 ## 更新线上配置时的注意事项
 
-不要把 `clash-cfg.yml` 直接 `curl -o` 覆盖到 `~/.config/mihomo/config.yaml`。线上配置驱动着全屋翻墙（4a 上有一条 `198.18.0.0/16` 静态路由指向本机），而且包含本仓库没有的私有分组；覆盖前先备份，并确认 fake-ip 相关段落没被回退成旧版本。
+不要用 `curl -o` 把 `clash-cfg.yml` 直接覆盖到 `~/.config/mihomo/config.yaml`。线上配置驱动着全屋翻墙（路由器上有一条 `198.18.0.0/16` 静态路由指向 mihomo 所在机器），而且需要叠加私有 overlay。正确流程：
+
+1. `node merge.js ...` 合成新配置到临时文件
+2. `mihomo -t -d <配置目录> -f <临时文件>` 校验
+3. 备份旧的 `config.yaml`，再替换
+4. `curl -X PUT 'http://127.0.0.1:9090/configs?force=true' -d '{"path":"<配置文件>","payload":""}'` 热重载（返回 204，不断连接）
+
